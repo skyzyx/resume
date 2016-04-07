@@ -1,0 +1,315 @@
+---
+
+basics:
+  name: Ryan Parman
+  label: Software Engineer
+  picture: ""
+  email: jobs@ryanparman.com
+  website: http://ryanparman.com
+  summary: >
+    Ryan Parman is experienced at nearly every level of the web stack, from the frontend to the
+    backend, to the systems, servers, and ops. He is an engineer who is fiercely passionate about
+    the user experience and interaction of a product. He inherently understands that the customer
+    is the single most valuable asset an organization can have, and is driven by the unrelenting
+    pursuit of customer-driven focus, ideals and user experience.
+
+  location:
+    city: Santa Clara
+    countryCode: US
+    region: California
+
+  profiles: !!seq
+    - network: AngelList
+      url: https://angel.co/skyzyx
+      username: skyzyx
+
+    - network: Bitly
+      url: http://bitly.com/u/skyzyx
+      username: skyzyx
+
+    - network: Coinbase
+      url: https://coinbase.com/skyzyx
+      username: skyzyx
+
+    - network: Facebook
+      url: http://facebook.com/rparman
+      username: rparman
+
+    - network: GitHub
+      url: http://github.com/skyzyx
+      username: skyzyx
+
+    - network: Goodreads
+      url: http://goodreads.com/skyzyx
+      username: skyzyx
+
+    - network: HackerOne
+      url: https://hackerone.com/skyzyx
+      username: skyzyx
+
+    - network: Keybase
+      url: http://keybase.io/skyzyx
+      username: skyzyx
+
+    - network: Last.fm
+      url: http://last.fm/user/skyzyx
+      username: skyzyx
+
+    - network: Letterboxd
+      url: http://letterboxd.com/skyzyx/
+      username: skyzyx
+
+    - network: LinkedIn
+      url: http://linkedin.com/in/rparman
+      username: rparman
+
+    - network: trakt.tv
+      url: http://trakt.tv/user/skyzyx
+      username: skyzyx
+
+    - network: Twitter
+      url: http://twitter.com/skyzyx
+      username: skyzyx
+
+    - network: YouTube
+      url: http://youtube.com/skyzyx
+      username: skyzyx
+
+#-------------------------------------------------------------------------------
+
+work: !!seq
+  - company: WePay
+    position: Senior Software Engineer
+    website: https://www.wepay.com
+    startDate: "2014-04"
+    endDate: Present
+    summary: |
+      As a member of the API team, Ryan was involved in developing new API endpoints to help expand
+      WePay’s business and support its partners. In particular, he was instrumental in developing
+      WePay’s Multifactor-Authentication-as-a-Service offering. Ryan also continues to be heavily
+      involved in the security of WePay’s products, coordinating fixes with teams against other
+      priorities, and fixing the issues himself in many cases.
+
+      Ryan currently works as a member of the DevOps team, working to improve how WePay provisions
+      cloud infrastructure, deploys updates, manages security fixes, monitors applications and
+      infrastructure, and streamlines the process of planning, developing, deploying and maintaining
+      new micro-services throughout the company.
+
+      Ryan is also the resident Scrum Master (non-certified) for the DevOps team, and spends part of
+      his time acting in a Technical Program Manager (TPM) capacity.
+
+  - company: Amazon
+    position: Web Development Engineer II, Amazon Web Services
+    website: https://aws.amazon.com
+    startDate: "2010-03"
+    endDate: "2014-04"
+    summary: |
+      Ryan is the creator and visionary behind the AWS SDK for PHP — AWS's SDK for rapidly building
+      cloud-based web applications (launched September 2010). He invests heavily in supporting the
+      needs of developers by taking the time to listen and understand the needs of developers, and
+      is involved in PHP-related industry groups on behalf of AWS.
+
+      Ryan worked with the AWS Elastic Beanstalk team to provide PHP support for the platform
+      (launched March 2012). In addition to working with the PHP community to determine the
+      configuration for a PHP container that would fit the greatest number of developers, he
+      developed a rigorous internal test suite for testing containers which has been used as the
+      basis for testing by other language-specific teams. He also had early input on adding support
+      for git push deployments.
+
+      Ryan was heavily involved in the creation and development of the AWS SDK for PHP 2 — a
+      best-of-breed SDK (backed by Guzzle — a best-of-breed HTTP framework) that takes into account
+      the numerous changes in the PHP language and community since Tarzan/CloudFusion was first
+      written in 2005 (launched November 2012).
+
+      Ryan also works with the AWS Design team on the AWS Management Console, where he lends his
+      experience as a web developer and software engineer to bridge the gap between the design and
+      engineering disciplines in an effort to build a high-quality, robust, user-friendly console
+      for interacting with Amazon Web Services.
+
+  - company: CloudFusion (née Tarzan) — Open-Source Project
+    position: Creator and Developer
+    website: https://aws.amazon.com/awsforphp
+    startDate: "2005-01"
+    endDate: "2010-03"
+    summary: |
+      CloudFusion is a fast, powerful PHP toolkit for building awesome, cloud-based web applications
+      in a fraction of the time! Design decisions are made in the best interests of performance,
+      ease of use, and overall usability. Goals are to provide a high-performance developer toolkit
+      for leveraging Amazon's cloud infrastructure, to grow the community and, and to build useful
+      user-centric apps based on the toolkit.
+
+  - company: Rearden Commerce (now Deem)
+    position: Senior User Experience Developer
+    website: https://www.deem.com
+    startDate: "2008-07"
+    endDate: "2010-03"
+    summary: |
+      As a front-end engineer, Ryan was responsible for supporting the user experience team, Java
+      developers, and widget development teams. This involved prototyping new features, integration
+      of those new features into the code base, migrating JavaScript code from older frameworks to
+      YUI 2.x, and educating other teams on the value of high-quality front-end code — all while
+      placing a huge emphasis on writing front-end code with better performance, faster load times,
+      and improved accessibility across the board.
+
+  - company: Foleeo (later, WarpShare)
+    position: Co-Founder and Chief Information Officer
+    startDate: "2006-09"
+    endDate: "2010-03"
+    summary: |
+      WarpShare's business model was to support artists and copyright holders by building ways to
+      capture value from the piracy which was already happening, and introducing a then-innovative
+      business model around sponsorships. Over time, companies like Apple, Twitter, and Readability
+      came in with similar ideas. WarpShare officially shut down in 2013.
+
+  - company: SimplePie — Open-Source Project
+    position: Creator and Co-Developer
+    startDate: "2004-07"
+    endDate: "2009-10"
+    summary: |
+      Ryan is the creator, evangelist, and co-developer of the SimplePie project — a PHP library
+      that enables web developers to simply and easily integrate news feeds into their websites and
+      web applications.
+
+      After recruiting additional development resources in June 2005, Ryan began to shift from a
+      primarily development-focused role to a primarily people-focused role, where he currently
+      works to ensure that people are aware of, and can easily use SimplePie through support,
+      documentation, tutorials, plugins, and evangelism.
+
+  - company: Self-Employed
+    position: Consulting and development services
+    startDate: "2007"
+    endDate: "2009"
+    summary: |
+      As a freelance developer, Ryan leverages a deep understanding of best practices in front-end
+      development, layout and design, information architecture, usability, accessibility, and web
+      culture to provide value to clients. He provides guidance to people and teams about how to
+      maintain best practices after the project ends.
+
+  - company: Yahoo!
+    position: Front-end Web Developer (Contract), Yahoo! Messenger
+    startDate: "2007-11"
+    endDate: "2008-01"
+    summary: |
+      Ryan lead the front-end development of the Spring 2008 re-launch of the Yahoo! Messenger
+      website. He collaborated with a core team of developers to provide increased usability,
+      accessibility, organic search engine optimization (SEO), and simplified maintenance, resulting
+      in exceptionally tuned performance for 29 locales.
+
+      Ryan was involved in tuning the front-end stack for performance, where they employed
+      semantically valid HTML/CSS, caching, gzipping, image spriting, code minification, and reduced
+      HTTP requests, resulting in exceptional performance.
+
+  - company: Stryker
+    position: User Interface Developer (Contract)
+    startDate: "2005-05"
+    endDate: "2006-09"
+    summary: |
+      Ryan was a core member of the team tasked with re-building the company intranet site around
+      Oracle Portal. His time was spent writing and discussing functional and technical
+      documentation, conducting usability interviews, and creating a fresh UI that employed
+      user-centered design principles, web standards, and AJAX technologies.
+
+      Ryan was also a member of the Endora Marketing Team, which was geared towards spreading
+      information about the company's move to Oracle's ERP software. In that capacity, Ryan
+      maintained the Endora website, wrote numerous articles for the monthly newsletter, interviewed
+      project leads, and created fun little ERP-related polls to help drive interest in the project.
+
+      Ryan worked with the eBusiness team to improve maintenance and development for the UI of the
+      GlobalSource project. He also re-engineered the Stryker Endoscopy public site to follow modern
+      web standards, and built a PHP-based templating system for the site that significantly sped up
+      development.
+
+  - company: Digital Impact (now Acxiom Impact)
+    position: Production Specialist
+    startDate: "2004-03"
+    endDate: "2005-04"
+    summary: |
+      Ryan coordinated with Campaign Managers on email campaign integration, with responsibility for
+      email content and change requests, and ensuring that the content format was consistent with
+      client requirements. He performed the quality tracking and reporting of campaign
+      integration-related metrics, and consulted and troubleshot on text and HTML templates.
+
+      Ryan maintained HTML code guidelines, provided optimal design and processing, and provided
+      suggestions for strategic and process improvements. He also acted as syndication expert for
+      the internal RSS development team.
+
+      Ryan's client experience included Banana Republic, SBC (now AT&T), Hewlett Packard (HP), Sony
+      Style, Lexus, MAC Make-up.
+
+#-------------------------------------------------------------------------------
+
+education:
+  - institution: Silicon Valley College (now Carrington College, part of DeVry University)
+    area: Design and Visualization
+    studyType: Bachelor
+    startDate: "2001-09"
+    endDate: "2003-11"
+    gpa: "3.84"
+
+#-------------------------------------------------------------------------------
+
+publications: !!seq
+  - name: System and Methods for User Authentication across Multiple Domains (Provisional)
+    publisher: WePay, Inc.
+    releaseDate: "2015"
+    summary: >
+      A new approach is proposed that contemplates systems and methods to support verification of a
+      user’s authentication information across multiple websites/domains owned and/or operated by
+      different entities, which share users during a single session. When the user attempts to login
+      to a first website/domain, he/she is required to provide authentication information in
+      addition to user-id/password. An authentication platform is configured to generate and
+      communicate the additional authentication information to the user and verify the additional
+      authentication information the user provided to the first website/domain. When the user later
+      attempts to access a second/unrelated website/domain, the verified additional authentication
+      information is provided by the first website/domain to the second website/domain in the form
+      of a signed cookie. The second website/domain parses the cookie and provides the additional
+      authentication information to the authentication platform for verification without requiring
+      the user to input it again at the second website/domain.
+
+  - name: Hive-based Peer-to-Peer Network (WO/2008/033424)
+    publisher: Foleeo, Inc.
+    releaseDate: "2008-03-20"
+    website: http://google.com/patents/US8103870
+    summary: >
+      A collaborative data transferring process can combine segments from all known servers and
+      peer-to-peer (P2P) sources simultaneously, regardless of their native protocols. The process
+      uses variable data block size that can be dynamically selected according to sizes provided by
+      sources, e.g., according to the protocol of the source, and can generate hash values or
+      validation codes on the fly so that compliance with validation techniques (if any) of other
+      protocols is not required. The process may be classified as a P2P protocol, although it also
+      contains centralized elements. Machine language implementations and low syntax overhead allow
+      file exchanges over a homogeneous network with high throughput and low bandwidth consumption.
+
+#-------------------------------------------------------------------------------
+
+skills: !!seq
+  - name: PHP
+    level: Master
+    keywords:
+      - HTML
+      - CSS
+      - Javascript
+      - SDSDF
+      - zfvzdfvzdfvadsfv
+      - dfzbxdfgxfdhbdxfg
+      - xdfhbxfgbhxfgb
+
+#-------------------------------------------------------------------------------
+
+languages:
+  - language: English
+    fluency: Native speaker
+
+#-------------------------------------------------------------------------------
+
+interests:
+  - name: Wildlife
+    keywords:
+      - Ferrets
+      - Unicorns
+
+#-------------------------------------------------------------------------------
+
+references:
+  - name: Erlich Bachman
+    reference:
