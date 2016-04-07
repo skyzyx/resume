@@ -78,11 +78,11 @@ basics:
 #-------------------------------------------------------------------------------
 
 work: !!seq
-  - company: Perimeter of Wisdom, LLC
+  - company: Perimeter of Wisdom
     position: Co-Owner
     website: https://first-time-offender.com
     startDate: "2015-02"
-    endDate: Present
+    endDate: present
     summary: |
       Normal people living normal lives break laws all the time. Most Americans live their lives
       against the law, and don’t even know it.¹ You could get arrested for being in the wrong place
@@ -110,7 +110,7 @@ work: !!seq
     position: Senior Software Engineer
     website: https://www.wepay.com
     startDate: "2014-04"
-    endDate: Present
+    endDate: present
     summary: |
       As a member of the API team, Ryan was involved in developing new API endpoints to help expand
       WePay’s business and support its partners. In particular, he was instrumental in developing
@@ -127,7 +127,7 @@ work: !!seq
       his time acting in a Technical Program Manager (TPM) capacity.
 
   - company: Amazon
-    position: Web Development Engineer II, Amazon Web Services
+    position: Web Development Engineer II, AWS
     website: https://aws.amazon.com
     startDate: "2010-03"
     endDate: "2014-04"
@@ -154,7 +154,7 @@ work: !!seq
       engineering disciplines in an effort to build a high-quality, robust, user-friendly console
       for interacting with Amazon Web Services.
 
-  - company: CloudFusion (née Tarzan) — Open-Source Project
+  - company: CloudFusion
     position: Creator and Developer
     website: https://aws.amazon.com/awsforphp
     startDate: "2005-01"
@@ -166,7 +166,7 @@ work: !!seq
       for leveraging Amazon's cloud infrastructure, to grow the community and, and to build useful
       user-centric apps based on the toolkit.
 
-  - company: Rearden Commerce (now Deem)
+  - company: Rearden Commerce
     position: Senior User Experience Developer
     website: https://www.deem.com
     startDate: "2008-07"
@@ -179,18 +179,19 @@ work: !!seq
       placing a huge emphasis on writing front-end code with better performance, faster load times,
       and improved accessibility across the board.
 
-  - company: Foleeo (later, WarpShare)
+  - company: Foleeo
     position: Co-Founder and Chief Information Officer
     startDate: "2006-09"
     endDate: "2010-03"
     summary: |
-      WarpShare's business model was to support artists and copyright holders by building ways to
+      Foleeo's business model was to support artists and copyright holders by building ways to
       capture value from the piracy which was already happening, and introducing a then-innovative
       business model around sponsorships. Over time, companies like Apple, Twitter, and Readability
-      came in with similar ideas. WarpShare officially shut down in 2013.
+      came in with similar ideas. Foleeo officially shut down in 2013.
 
-  - company: SimplePie — Open-Source Project
+  - company: SimplePie
     position: Creator and Co-Developer
+    website: https://simplepie.org
     startDate: "2004-07"
     endDate: "2009-10"
     summary: |
@@ -215,6 +216,7 @@ work: !!seq
 
   - company: Yahoo!
     position: Front-end Web Developer (Contract), Yahoo! Messenger
+    website: https://messenger.yahoo.com
     startDate: "2007-11"
     endDate: "2008-01"
     summary: |
@@ -229,6 +231,7 @@ work: !!seq
 
   - company: Stryker
     position: User Interface Developer (Contract)
+    website: http://www.stryker.com
     startDate: "2005-05"
     endDate: "2006-09"
     summary: |
@@ -247,8 +250,9 @@ work: !!seq
       web standards, and built a PHP-based templating system for the site that significantly sped up
       development.
 
-  - company: Digital Impact (now Acxiom Impact)
+  - company: Digital Impact
     position: Production Specialist
+    website: http://www.acxiomimpact.com
     startDate: "2004-03"
     endDate: "2005-04"
     summary: |
@@ -276,7 +280,7 @@ education:
 
 #-------------------------------------------------------------------------------
 
-publications: !!seq
+patents: !!seq
   - name: System and Methods for User Authentication across Multiple Domains (Provisional)
     publisher: WePay, Inc.
     releaseDate: "2015"
@@ -340,4 +344,4 @@ interests:
 
 references:
   - name: Erlich Bachman
-    reference:
+    reference: ""
