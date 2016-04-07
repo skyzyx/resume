@@ -78,6 +78,34 @@ basics:
 #-------------------------------------------------------------------------------
 
 work: !!seq
+  - company: Perimeter of Wisdom, LLC
+    position: Co-Owner
+    website: https://first-time-offender.com
+    startDate: "2015-02"
+    endDate: Present
+    summary: |
+      Normal people living normal lives break laws all the time. Most Americans live their lives
+      against the law, and don’t even know it.¹ You could get arrested for being in the wrong place
+      at the wrong time, or even for accidentally doing something that you didn’t even know
+      was illegal.
+
+      We all make mistakes, but a stupid mistake shouldn't destroy your life. Unfortunately, the
+      Criminal Justice System isn’t designed to handle mistakes, and a normal person like you or I
+      could find ourselves in a legally-precarious situation purely by accident.
+
+      Perimeter of Wisdom, LLC specializes in educating people accused of, or arrested for, a crime
+      with our first book, “The First-Time Offender’s Guide to Freedom”. The author explains how
+      your Miranda rights *actually* work, the right type of lawyer to look at for your case, and
+      what the law can do to a friend or family member you've spoken to.
+
+      Through our PCR Consultants business, we provide relief to those in the
+      post-conviction/post-incarceration phase by helping them reduce their prison sentences with
+      the Bureau or Prisons and/or the amount of time they spend on probation.
+
+      After an unfortunate tour through the Criminal Justice System, it can be difficult to put your
+      life back together and your past behind you; it can be difficult to move onward and upward
+      with your life. Perimeter of Wisdom, LLC helps make that happen.
+
   - company: WePay
     position: Senior Software Engineer
     website: https://www.wepay.com
