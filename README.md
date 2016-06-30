@@ -4,9 +4,6 @@
 API design, distributed systems, micro-services, deployments, management of
 software lifecycles, and site reliability engineering.
 
-* <jobs@ryanparman.com>
-* (408) 310-7926
-
 ## Summary
 
 ### Professional Blurb
