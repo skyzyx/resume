@@ -1,4 +1,5 @@
 # Ryan Parman
+**End-to-End Software Engineer:** Front-end web engineering, web-tier engineering, API design, distributed systems, micro-services, deployments, management of software lifecycles, and site reliability engineering.
 
 ## Summary
 
