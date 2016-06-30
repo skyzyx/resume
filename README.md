@@ -1,10 +1,20 @@
 # Ryan Parman
 
+## Summary
+
+### Professional Blurb
+
+“Ryan Parman is experienced at nearly every level of the web stack, from the frontend to the backend, to the systems, servers, and ops. He is an engineer who is fiercely passionate about the user experience and interaction of a product. He inherently understands that the customer is the single most valuable asset an organization can have, and is driven by the unrelenting pursuit of customer-driven focus, ideals and user experience.”
+
+### If we were having coffee…
+
 I have been building things for the web since 1998. I’ve lived through the browser wars (both of them), I’ve worked on multiple high-profile projects, and have maintained server clusters that have had hundreds of millions of dollars flowing through them (figuratively, of course).
 
 I have experience with startups, not-so-startups, and Fortune 500s. I have lots of experience working with large teams, as well as across teams, to get projects completed.
 
-I have experience taking the long-view on things that people might not understand today. I understand that “perfect” is the enemy of “done”, but also that we “must not ship crap.” I understand that the minimum viable product of a motorcycle isn’t  the wheels or the chassis, but a tricycle.
+I have experience taking the long-view on things that people might not understand today. I understand that “perfect” is the enemy of “done”, but also that we “must not ship crap.” I understand that the “minimum viable product” version of a motorcycle isn’t the chrome wheels or a nice chassis, but a tricycle. I understand that it’s easy to ship something, but hard to maintain it. You need diligence, focus, patience, and lots of really good documentation to be successful.
+
+I believe that for any software that you write, documentation is worth 50% of your grade. If you have spectacular code, but you skip the documentation (or write really bad documentation), you get an _F_ . I also believe that your code doesn't function unless an automated test confirms it. I frequently ask myself, “What happens to the projects I own if I get hit by a bus? How screwed is my team?”
 
 I excel in teams that care about the customer or end-user, and want to make things better tomorrow than they are today. I excel in teams where I am given the latitude to make decisions, and work across teams to deliver the best possible customer experience. I excel in teams where merit and experience trump job titles.
 
