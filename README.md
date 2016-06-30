@@ -426,8 +426,7 @@ few of my favorites.
 
 ## Education 
 
-### [Carrington College California](http://carrington.edu/schools/san-jose-california/) 
-(née Silicon Valley College, now part of DeVry University) — San Jose, CA
+### [Carrington College California](http://carrington.edu/schools/san-jose-california/) (née Silicon Valley College) — San Jose, CA
 
 * Bachelor of Arts, Design and Visualization, November 2003. 3.84 GPA
 * Related Coursework: Web, graphic, multimedia, and publication design.
