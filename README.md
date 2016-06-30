@@ -1,16 +1,22 @@
 # Ryan Parman
-**End-to-End Software Engineer:** Front-end web engineering, web-tier engineering, API design, distributed systems, micro-services, deployments, management of software lifecycles, and site reliability engineering.
+
+**End-to-End Software Engineer: Front-end web engineering, web-tier engineering,
+API design, distributed systems, micro-services, deployments, management of
+software lifecycles, and site reliability engineering.
+
+* <jobs@ryanparman.com>
+* (408) 310-7926
 
 ## Summary
 
 ### Professional Blurb
 
 “Ryan Parman is experienced at nearly every level of the web stack, from the
-“frontend to the backend, to the systems, servers, and ops. He is an engineer
-“who is fiercely passionate about the user experience and interaction of a
-“product. He inherently understands that the customer is the single most
-“valuable asset an organization can have, and is driven by the unrelenting
-“pursuit of customer-driven focus, ideals and user experience.”
+frontend to the backend, to the systems, servers, and ops. He is an engineer
+who is fiercely passionate about the user experience and interaction of a
+product. He inherently understands that the customer is the single most
+valuable asset an organization can have, and is driven by the unrelenting
+pursuit of customer-driven focus, ideals and user experience.”
 
 ### If we were having coffee…
 
@@ -105,7 +111,7 @@ Let’s work together to create something amazing.
 * Unit/Integration/Functional Testing: PHPUnit, Selenium, Behat, Mink,
   PhantomJS, iOS Driver, Travis CI, RubyUnit
 
-* Environments: Python, Ruby, Node.js, HHVM, Docker
+* Environments: Python, Ruby, HHVM, Docker
 
 * Databases & Key-Value/Document stores: MySQL, Redis
 
@@ -118,10 +124,11 @@ Let’s work together to create something amazing.
 * Odds-and-ends: Organic search engine optimization, Apache Web Server
   configuration, Markdown, HTML5 Cross-Origin Resource Sharing (CORS)
 
-### Limited Experience, But Still Worth Mentioning (1–3)
+### Limited Experience, or Interesting Things I'm Starting to Dabble In (1–3)
 
-Persona/user research, Rails, Sass/Scss, Haml, DocBook, Memcache, Couchbase,
-Hashicorp Vault, Hashicorp Packer, Hashicorp Atlas, Hashicorp Terraform.
+Persona/user research, Sass/Scss, Haml, DocBook, Memcache, Couchbase, Kafka,
+Hashicorp tools (Vault, Packer, Atlas, Terraform), Golang, Swift, Node.js,
+OSSEC, Sensu, `rpmbuild`.
 
 ## Work Experience & Notable Projects
 
