@@ -4,6 +4,9 @@
 API design, distributed systems, micro-services, deployments, management of
 software lifecycles, and site reliability engineering.
 
+Most interested in deployments and infrastructure, building developer tooling,
+automating tasks that were previously manual, and managing development projects.
+
 ## Summary
 
 ### Professional Blurb
