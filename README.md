@@ -137,22 +137,16 @@ Freedom](https://first-time-offender.com) website, soup to nuts. Ryan also
 produced the eBook, authored by E. M. Baird.
 
 Ryan leveraged modern tools to build the front-end, including Bootstrap, LESS,
-JavaScript, Gulp.js, npm, Bower.
-
-Ryan built the back-end in PHP 5.6, using HHVM and Nginx, MySQL, Redis, Slim
-Framework, Monolog, Pimple, Twig, Guzzle, Doctrine, Phinx, and Symfony
-components.
-
-Ryan deployed the application using Ansible, and developed the application in a
-Vagrant environment running Ubuntu.
+JavaScript, Gulp.js, npm, Bower. Ryan built the back-end in PHP 5.6, using HHVM 
+and Nginx, MySQL, Redis, Slim Framework, Monolog, Pimple, Twig, Guzzle, Doctrine, 
+Phinx, and Symfony components. Ryan deployed the application using Ansible, and 
+developed the application in a Vagrant environment running Ubuntu.
 
 Ryan runs the unit, integration and functional tests using PHPUnit, Behat, Mink,
-and Selenium.
-
-Ryan leverages Amazon SES for sending email, Amazon S3 for static file storage,
-Stripe for payment processing, Linode for web hosting, MaxMind IP-based
-geolocation, and Google Books and Dropbox for ensuring that customers always
-have the latest errata fixes.
+and Selenium. Ryan leverages Amazon SES for sending email, Amazon S3 for static 
+file storage, Stripe for payment processing, Linode for web hosting, MaxMind 
+IP-based geolocation, and Google Books and Dropbox for ensuring that customers 
+always have the latest errata fixes.
 
 ### [WePay](http://wepay.com) — Redwood City, CA
 #### Senior Engineer (April 2014 – Present)
