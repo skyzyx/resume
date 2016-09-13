@@ -129,12 +129,6 @@ OSSEC, Sensu, `rpmbuild`.
 
 ## Work Experience & Notable Projects
 
-### Lucky Rocketship Underpants, LLC
-#### Owner (May 2016 – Present)
-
-Ryan has recently started a new company to provide business tools for 
-multi-level marketing (MLM) consultants.
-
 ### [Perimeter of Wisdom, LLC](https://first-time-offender.com)
 #### Co-Owner, CTO, and Producer of “The First-Time Offender’s Guide to Freedom” (February 2015 – Present)
 
