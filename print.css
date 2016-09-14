@@ -1,0 +1,44 @@
+h1, h2, h3 {
+  padding: 0.5em 0 0.2em 0;
+}
+
+h1 {
+  font-size: 28px;
+  line-height: 1.2em;
+}
+
+h2 {
+  font-size: 22px;
+  line-height: 1.3em;
+}
+
+h3 {
+  font-size: 14px;
+  line-height: 1.4em;
+}
+
+body {
+  font-size: 12px;
+}
+
+p {
+  margin: 0.5em 0;
+  padding: 0;
+}
+
+code {
+  border: none;
+}
+
+li {
+  line-height: 1.2em;
+}
+
+blockquote p {
+  line-height: 1.3em;
+}
+
+.page-break {
+  display: block;
+  page-break-before: always;
+}
