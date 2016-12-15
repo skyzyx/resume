@@ -56,7 +56,7 @@ Let’s work together to create something amazing.
 
 ### High Proficiency (7–10)
 
-* Operating Systems: macOS, CentOS 6.7 & 7.2
+* Operating Systems: macOS, CentOS 6.8 & 7.3
 
 * Standard User Experience Skillset: Human–Computer Interaction Design,
   Contingency Design
@@ -102,6 +102,8 @@ Let’s work together to create something amazing.
 
 ### Average Proficiency (4–6)
 
+* Operating Systems: Windows, Ubuntu Linux
+
 * Standard User Experience Skillset: Copywriting, Interface Design, Information
   Architecture, Product Marketing, Community Development
 
@@ -132,6 +134,16 @@ OSSEC, Sensu, `rpmbuild`.
 
 ## Work Experience & Notable Projects
 
+### [McGraw-Hill Education](http://www.mheducation.com)
+#### Staff Software Engineer (October 2016 – Present)
+
+(Just started recently. Will add a better description soon.)
+
+### Lucky Rocketship Underpants, LLC
+#### Owner (June 2016 – Present)
+
+Providing business tools for multi-level marketing (MLM) consultants.
+
 ### [Perimeter of Wisdom, LLC](https://first-time-offender.com)
 #### Co-Owner, CTO, and Producer of “The First-Time Offender’s Guide to Freedom” (February 2015 – Present)
 
@@ -152,7 +164,7 @@ IP-based geolocation, and Google Books and Dropbox for ensuring that customers
 always have the latest errata fixes.
 
 ### [WePay](http://wepay.com) — Redwood City, CA
-#### Senior Engineer (April 2014 – Present)
+#### Senior Engineer (April 2014 – September 2016)
 
 As a member of the API team, Ryan was involved in developing new API endpoints
 to help expand WePay’s business and support its partners. In particular, he was
