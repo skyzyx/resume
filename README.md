@@ -134,7 +134,7 @@ OSSEC, Sensu, `rpmbuild`.
 
 ## Work Experience & Notable Projects
 
-### [McGraw-Hill Education](http://www.mheducation.com)
+### [McGraw-Hill Education](http://www.mheducation.com) — Seattle, WA
 #### Staff Software Engineer (October 2016 – Present)
 
 (Just started recently. Will add a better description soon.)
@@ -145,7 +145,7 @@ OSSEC, Sensu, `rpmbuild`.
 Providing business tools for multi-level marketing (MLM) consultants.
 
 ### [Perimeter of Wisdom, LLC](https://first-time-offender.com)
-#### Co-Owner, CTO, and Producer of “The First-Time Offender’s Guide to Freedom” (February 2015 – Present)
+#### Co-Owner, CTO, Producer (February 2015 – Present)
 
 On the technical side, Ryan built the entire [The First-Time Offender’s Guide to 
 Freedom](https://first-time-offender.com) website, soup to nuts. Ryan also 
