@@ -87,7 +87,7 @@ Let’s work together to create something amazing.
   Google IAM.
 
 * Environments: PHP’s Zend Engine, Vagrant, Nginx configuration, PHP-FPM
-  configuration
+  configuration, Docker
 
 * Infrastructure & Deployment: Ansible
 
@@ -99,6 +99,8 @@ Let’s work together to create something amazing.
 
 * Services: Artifactory, JIRA, Confluence, GitHub Enterprise, Phabricator, Toran
   Proxy, Pingdom, New Relic, Papertrail, GitHub.com
+  
+* Hashicorp Packer, Atlas, Terraform
 
 ### Average Proficiency (4–6)
 
@@ -113,7 +115,7 @@ Let’s work together to create something amazing.
 * Unit/Integration/Functional Testing: PHPUnit, Selenium, Behat, Mink,
   PhantomJS, iOS Driver, Travis CI, RubyUnit
 
-* Environments: Python, Ruby, HHVM, Docker
+* Environments: Python, Ruby, HHVM
 
 * Databases & Key-Value/Document stores: MySQL, Redis
 
@@ -123,14 +125,15 @@ Let’s work together to create something amazing.
 
 * Services: BitBucket
 
+* Hashicorp Vault
+
 * Odds-and-ends: Organic search engine optimization, Apache Web Server
   configuration, Markdown, HTML5 Cross-Origin Resource Sharing (CORS)
 
 ### Limited Experience, or Interesting Things I'm Starting to Dabble In (1–3)
 
-Persona/user research, Sass/Scss, Haml, DocBook, Memcache, Couchbase, Kafka,
-Hashicorp tools (Vault, Packer, Atlas, Terraform), Golang, Swift, Node.js,
-OSSEC, Sensu, `rpmbuild`.
+Persona/user research, Sass/Scss, Haml, DocBook, Memcache, Couchbase,
+Golang, Swift, Node.js, OSSEC, Sensu, `rpmbuild`.
 
 ## Work Experience & Notable Projects
 
@@ -428,8 +431,8 @@ few of my favorites.
 
 - Voting Representative for AWS, [PHP Framework Interoperability Group](http://www.php-fig.org) (2012–2013)
 - Member, [RSS Advisory Board](http://www.rssboard.org) (2007 – 2009)
-- Patent, [“Hive-based Peer-to-Peer Network”](https://www.google.com/patents/WO2008033424A3) (WO/2008/033424)
-- Patent, “System and Methods for User Authentication across Multiple Domains” (Pending)
+- Patent, [“Hive-based Peer-to-Peer Network”](https://patents.google.com/patent/US8103870B2/en?inventor=Ryan+Parman) (US8103870B2)
+- Patent, [“System and Methods for User Authentication across Multiple Domains”](https://patents.google.com/patent/US20160241536A1/en?inventor=Ryan+Parman) (US15042104; Pending)
 - Student guest speaker for the 2004 Silicon Valley College graduation ceremony.
 
 ## Education 
