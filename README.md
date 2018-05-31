@@ -1,101 +1,126 @@
 # Ryan Parman
 
-**End-to-End Software Engineer:** Front-end web engineering, web-tier engineering,
-API design, distributed systems, micro-services, deployments, management of
-software lifecycles, and site reliability engineering.
+**End-to-End Software Engineer:** Front-end web engineering, web-tier engineering, API design, distributed systems, micro-services, deployments, management of software lifecycles, and site reliability engineering.
 
-Most interested in deployments and infrastructure, building developer tooling,
-automating tasks that were previously manual, and managing development projects.
+Most interested in deployments and infrastructure, building developer tooling, automating tasks that were previously manual, and managing development projects.
 
 ## Summary
 
 ### Professional Blurb
 
-“Ryan Parman is experienced at nearly every level of the web stack, from the
-frontend to the backend, to the systems, servers, and ops. He is an engineer
-who is fiercely passionate about the user experience and interaction of a
-product. He inherently understands that the customer is the single most
-valuable asset an organization can have, and is driven by the unrelenting
-pursuit of customer-driven focus, ideals and user experience.”
+“Ryan Parman is experienced at nearly every level of the web stack, and is both a [full-stack](https://medium.com/coderbyte/a-guide-to-becoming-a-full-stack-developer-in-2017-5c3c08a1600c) and [full cycle](https://medium.com/netflix-techblog/full-cycle-developers-at-netflix-a08c31f83249) engineer. He is fiercely passionate about the user experience and interaction of a product. He inherently understands that the customer is the single most valuable asset an organization can have, and is driven by the unrelenting pursuit of customer-driven focus, ideals and user experience.”
 
 ### If we were having coffee…
 
-I have been building things for the web since 1998. I’ve lived through the
-browser wars (both of them), I’ve worked on multiple high-profile projects, and
-have maintained server clusters that have had hundreds of millions of dollars
-flowing through them (figuratively, of course).
+I have been building things for the web since 1998. I’ve lived through the browser wars (both of them), I’ve worked on multiple high-profile projects, and have maintained server clusters that have had hundreds of millions of dollars flowing through them (figuratively, of course).
 
-I have experience with startups, not-so-startups, Fortune 500s, and heavily-used
-open-source projects. I have lots of experience working with large teams, as
-well as across teams, to get projects completed.
+I have experience with startups, not-so-startups, Fortune 500s, and heavily-used open-source projects. I have lots of experience working with large teams, as well as multi-team cooperation, to get projects completed.
 
-I have experience taking the long-view on things that people might not
-understand today. I understand that “perfect” is the enemy of “done”, but
-conversely that “we must not ship crap.” I understand that the “minimum viable
-product” version of a motorcycle isn’t the chrome wheels or a nice chassis, but
-a tricycle. I understand that it’s easy to ship something, but hard to maintain
-it. You need diligence, focus, patience, and lots of really good documentation
-to be successful.
+I have experience taking the long-view on things that people might not understand today. I understand that “perfect” is the enemy of “done”, but conversely that “we must not ship crap.” I understand that the “minimum viable product” version of a motorcycle isn’t the chrome wheels or a nice chassis, but a tricycle. I understand that it’s easy to ship something, but hard to maintain it. You need diligence, focus, patience, and lots of really good documentation to be successful.
 
-I believe that for any software that you write, documentation is worth 50% of
-your grade. If you have spectacular code, but you skip the documentation (or
-write really bad documentation), you get an _F_ . I also believe that your code
-doesn't function unless an automated test confirms it. I frequently ask myself,
-“What happens to the projects I own if I get hit by a bus? How screwed is my
-team?”
+I believe that for any software that you write, documentation is worth 50% of your grade. If you have spectacular code, but you skip the documentation (or write really bad documentation), you get an _F_ . I also believe that your code doesn't function unless an automated test confirms it. I frequently ask myself, “What happens to the projects I own if I get hit by a bus?” I work very hard to automate and document myself out of a job.
 
-I excel in teams that care about the customer or end-user, and want to make
-things better tomorrow than they are today. I excel in teams where I am given
-the latitude to make decisions, and work across teams to deliver the best
-possible customer experience. I excel in teams where merit and experience trump
-job titles.
+I excel in teams that care about the customer or end-user, and want to make things better tomorrow than they are today. I excel in teams where I am given the latitude to make decisions, and work across teams to deliver the best possible customer experience. I excel in teams where merit and experience trump job titles.
 
 Let’s work together to create something amazing.
 
 ## Technical Skills and Software
 
-### High Proficiency (7–10)
+Ratings as 1–5 stars.
 
-* Operating Systems: macOS, CentOS 6.8 & 7.3
+* `1` means that I have an interest in learning more and have done some initial dabbling.
+* `3` means that I am comfortable working in the environment and can find my way around.
+* `5` means that I could write a book on the topic.
+
+### Operating Systems
+
+| Skill | Skill Level |
+| ----- | ----------- |
+| Alpine Linux | ★★★★ |
+| Amazon Linux | ★★★★ |
+| CentOS 6 | ★★★ |
+| CentOS 7 | ★★★★ |
+| macOS | ★★★★★ |
+| Ubuntu | ★★★ |
+| Windows | ★★★ |
+
+Day-to-day, I use macOS for my personal computing. I use CentOS 7 for my development VM, and Alpine Linux for my containers. My EC2 servers run a custom-tuned Amazon Linux. I play with Ubuntu and Windows from time-to-time just to stay fresh. I have learned how to create APK (Alpine) and RPM (CentOS, Amazon Linux) packages and package repositories.
+
+### Programming Languages
+
+| Skill | Skill Level |
+| ----- | ----------- |
+| Bash | ★★★ |
+| CSS | ★★★★★ |
+| Go | ★ |
+| HTML | ★★★★★ |
+| JavaScript (Browser) | ★★★★ |
+| JavaScript (Node.js) | ★★ |
+| PHP | ★★★★★ |
+| Python | ★★★ |
+| Ruby | ★★★ |
+| SQL (MySQL) | ★★★ |
+| Swift | ★ |
+
+When building websites, my go-to backend language tends to be _Modern_ PHP (as opposed to the PHP you remember or have heard horror stories about). This includes tools like Composer, Packagist, PHPT, PHPDocumentor, Monolog, Symfony Framework Components, Slim Framework, Twig, Guzzle, cURL, SimpleXML, DOMDocument, iconv, mbstring, APC, Xdebug (cachegrind), SPL, magic methods, PHP-FIG PSR recommendations, and more!
+
+I've been writing HTML, CSS, and JavaScript since the late-90's, and can talk about how the ideas behind _CSS Flexbox_ are nearly 20 years old. This includes tools like HTML 5, XHTML 1, XML 1, CSS 3, YAML, SVG, DOM, JavaScript, JavaScript Events, JSON, Front-End Performance, jQuery, MVC design pattern, LESS, ESLint, Bootstrap, UglifyJS, progressive enhancement principles, mobile web, responsive design patterns, and more! Recently, I've worked with Geolocation, History API, Native Video (e.g., MP4/H.264/AAC, WebM/VP8/Vorbis), CSS Selectors, Media Queries, Data Attributes, and building custom icon fonts.
+
+I am interested in learning about React and Angular, but haven't made the jump yet. Client-side performance is a passion on mine, and there are trade-offs when using large client-side frameworks vs. server-side frameworks that do not have clear answers yet.
+
+### API Design
+
+| Skill | Skill Level |
+| ----- | ----------- |
+| GraphQL | ★★★ |
+| ReST | ★★★★ |
+
+I understand and design highly-scalable, distributed systems for running web applications and web services. Buzzwords are micro-services, service-oriented architecture (SOA). I have built or worked on a large number of ReST APIs including features such as Hypermedia/[HATEOAS](https://en.wikipedia.org/wiki/HATEOAS) integration, [Swagger](https://swagger.io)/Open API documentation, PUT vs. POST arguments, Content Negotiation, etc. I have built and maintained real [GraphQL](http://graphql.org) APIs (including handling the _N+1 problem_).
+
+### Developing + Deploying Cloud Applications
+
+| Skill | Skill Level | Purpose |
+| ----- | ----------- | ----- |
+| [Amazon CloudWatch](https://aws.amazon.com/cloudwatch/) | ★★★ | Infrastructure metrics. |
+| [Amazon CloudWatch Logs](http://docs.aws.amazon.com/AmazonCloudWatch/latest/logs/) | ★★★ | Log collection. |
+| [Amazon EC2](https://aws.amazon.com/ecs/) | ★★★★ | Cloud servers. |
+| [Amazon ECS](https://aws.amazon.com/ecs/) | ★★★★ | Container orchestration. |
+| [Ansible](https://www.ansible.com) | ★★★★ | Machine provisioning. |
+| [AWS Lambda](https://aws.amazon.com/lambda/) | ★★ | Event-driven cloud functions. |
+| [AWS Systems Manager Parameter Store](https://docs.aws.amazon.com/systems-manager/latest/userguide/systems-manager-paramstore.html) | ★★★★ | Secure secrets storage. |
+| [Datadog](https://www.datadoghq.com) | ★★★★ | Infrastructure metrics. |
+| [Docker](https://www.docker.com) | ★★★★ | Self-contained application runtime. |
+| [Docker Compose](https://docs.docker.com/compose/overview/) | ★★★★ | Scripted local development with Docker. |
+| [Google Compute Cloud](https://cloud.google.com/compute/) | ★★★ | Cloud servers. |
+| [Kubernetes](https://kubernetes.io) | ★ | Container orchestration. |
+| [New Relic](https://newrelic.com) | ★★★★★ | Application runtime metrics. |
+| [Nginx](https://www.nginx.com) | ★★★★ | Reverse proxy web server. |
+| [PHP-FPM](https://secure.php.net/manual/en/install.fpm.php) | ★★★★ | Application server. |
+| [Sumo Logic](https://www.sumologic.com) | ★★ | Log collection and processing. |
+| [Terraform](https://www.terraform.io) | ★★★★ | Infrastructure as code. |
+| [Turbot](https://turbot.com) | ★★★★ | Cloud service compliance guardrails. |
+| [Twistlock](https://www.twistlock.com) | ★★★★ | Container security scanning. |
+| [Vagrant](https://www.vagrantup.com) | ★★★★ | Shareable virtualized development environments. |
+| [Vault](https://www.vagrantup.com) | ★ | Secure secrets storage. |
+
+Having worked on the AWS SDK team for many years, I have a lot of experience using many of the older AWS services (pre-2014). Other services that are newer than that are described below. Most of my container orchestration experience is with Amazon ECS, as Kubernetes was a second-class citizen on AWS until early 2018. Dabbled in Kubernetes in a previous job, but did not have an opportunity to learn as much as I'd've liked.
+
+Also, some people don't know this, but there is a set of rules for when an AWS service is called _AWS whatever_ vs. _Amazon whatever_. Yes, I did apply those rules correctly in the list above.
+
+
+
 
 * Standard User Experience Skillset: Human–Computer Interaction Design,
   Contingency Design
 
-* Standard Front-End Engineering Toolbox: HTML 5, XHTML 1, XML 1, CSS 3, YAML,
-  SVG, DOM, JavaScript, JavaScript Events, JSON, Front-End Performance, jQuery,
-  MVC design pattern, LESS, ESLint, Bootstrap, UglifyJS, progressive enhancement
-  principles, responsive design patterns and more!
-
 * WCAG 2.0 and Section 508 web accessibility guidelines
-
-* HTML5 & CSS 3: Application Cache, Geolocation, History API, Native Video,
-  Selectors, Media Queries, Data Attributes, Building custom Icon Fonts, and
-  more!
 
 * Standard Software Engineering Toolbox: OOP fundamentals, dependency injection,
   polymorphism, performance, character encodings, Git, Linux, Makefiles, `yum`,
   `nano`, `grep`, `xargs`, `tee`, and other fundamentals, compiling software
   from source and maintaining in-house RPMs.
 
-* PHP Development Toolbox: Composer, Packagist, PHPT, PHPDocumentor, Monolog,
-  Symfony Framework Components, Slim Framework, Twig, Guzzle, AWS SDK for PHP,
-  cURL, SimpleXML, DOMDocument, iconv, mbstring, APC, Xdebug (cachegrind), SPL,
-  magic methods, PSR recommendations and more!
-
-* Cloud Computing Services: _Most_ of the individual AWS services (not much with
-  the more specialized/newer ones), Google Compute Engine, Google Storage,
-  Google IAM.
-
-* Environments: PHP’s Zend Engine, Vagrant, Nginx configuration, PHP-FPM
-  configuration, Docker
-
-* Infrastructure & Deployment: Ansible
-
 * Metadata Formats: RSS, Media RSS, Atom, Microformats
-
-* API & Scalable System Design: Understanding and designing highly-scalable,
-  distributed systems for running web applications and web services (e.g., cloud
-  computing). ReSTful web service API design
 
 * Services: Artifactory, JIRA, Confluence, GitHub Enterprise, Phabricator, Toran
   Proxy, Pingdom, New Relic, Papertrail, GitHub.com
@@ -103,8 +128,6 @@ Let’s work together to create something amazing.
 * Hashicorp Packer, Atlas, Terraform
 
 ### Average Proficiency (4–6)
-
-* Operating Systems: Windows, Ubuntu Linux
 
 * Standard User Experience Skillset: Copywriting, Interface Design, Information
   Architecture, Product Marketing, Community Development
@@ -133,7 +156,7 @@ Let’s work together to create something amazing.
 ### Limited Experience, or Interesting Things I'm Starting to Dabble In (1–3)
 
 Persona/user research, Sass/Scss, Haml, DocBook, Memcache, Couchbase,
-Golang, Swift, Node.js, OSSEC, Sensu, `rpmbuild`.
+Node.js, OSSEC, Sensu, `rpmbuild`.
 
 ## Work Experience & Notable Projects
 
