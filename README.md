@@ -1,22 +1,14 @@
 # Ryan Parman
 
-**End-to-End Software Engineer:** Front-end web engineering, web-tier engineering,
-API design, distributed systems, micro-services, deployments, management of
-software lifecycles, and site reliability engineering.
+**Over 20 years experience** across software development, site reliability engineering, and security.
 
-Most interested in deployments and infrastructure, building developer tooling,
-automating tasks that were previously manual, and managing development projects.
+Most interested in deployments and infrastructure, building developer tooling, automating tasks that were previously manual, and managing development projects.
 
 ## Summary
 
 ### Professional Blurb
 
-“Ryan Parman is experienced at nearly every level of the web stack, from the
-frontend to the backend, to the systems, servers, and ops. He is an engineer
-who is fiercely passionate about the user experience and interaction of a
-product. He inherently understands that the customer is the single most
-valuable asset an organization can have, and is driven by the unrelenting
-pursuit of customer-driven focus, ideals and user experience.”
+Ryan Parman is an engineering manager with over 20 years of experience across software development, site reliability engineering, and security. He is the creator of SimplePie and AWS SDK for PHP, patented multifactor-authentication-as-a-service at WePay, defined much of the CI/CD and SRE disciplines at McGraw-Hill Education, and came up with the idea of “serverless, event-driven, responsive functions in the cloud” while at Amazon Web Services in 2010. Ryan's aptly-named blog, Flailing Wildly, is where he writes about ideas longer than 280 characters. Ambivert. Curious. Not a coffee drinker.
 
 ### If we were having coffee…
 
@@ -41,8 +33,7 @@ I believe that for any software that you write, documentation is worth 50% of
 your grade. If you have spectacular code, but you skip the documentation (or
 write really bad documentation), you get an _F_ . I also believe that your code
 doesn't function unless an automated test confirms it. I frequently ask myself,
-“What happens to the projects I own if I get hit by a bus? How screwed is my
-team?”
+“What happens to the projects I own if I get hit by a bus?”
 
 I excel in teams that care about the customer or end-user, and want to make
 things better tomorrow than they are today. I excel in teams where I am given
@@ -56,7 +47,7 @@ Let’s work together to create something amazing.
 
 ### High Proficiency (7–10)
 
-* Operating Systems: macOS, CentOS 6.8 & 7.3
+* Operating Systems: macOS, CentOS, Amazon Linux
 
 * Standard User Experience Skillset: Human–Computer Interaction Design,
   Contingency Design
@@ -138,17 +129,30 @@ Golang, Swift, Node.js, OSSEC, Sensu, `rpmbuild`.
 ## Work Experience & Notable Projects
 
 ### [McGraw-Hill Education](http://www.mheducation.com) — Seattle, WA
-#### Staff Software Engineer (October 2016 – Present)
+#### Engineering Manager, Site Reliability (October 2018 – Present)
 
-(Just started recently. Will add a better description soon.)
+Owned, and was the key decision-maker for the development of company-wide, reliability-oriented projects such as:
 
-### Lucky Rocketship Underpants, LLC
-#### Owner (June 2016 – Present)
+* ECS-optimized Amazon Linux Base AMI for all Amazon ECS applications. Modified the version vended by AWS to meet Level-2 CIS Guidelines for both Amazon Linux and Docker. Underwent deep collaboration with security, operations, and various business units to ensure strict compliance with requirements. Achieved high levels of opt-in adoption, which gave security and operations orgs higher levels of confidence in the product development teams.
 
-Providing business tools for multi-level marketing (MLM) consultants.
+* Monitoring-as-Code which leverages Terraform and Python to streamline the process of generating and maintaining dashboards and monitors in Datadog and New Relic across a large, heterogeneous swath of applications. Trained development teams in adopting "full-cycle" development practices where the development team owns day-to-day operations of their services including deployments, support, and on-call rotations.
+
+* Formed a leadership group to develop a more rigorous process for developing, patching, vending, and maintaining re-usable Terraform modules that are used by large numbers of product development teams across the company. Standardized their development, contribution, and usage guidelines, adopted an Apache-style "incubator" for developing new modules, and adopted a process for shipping LTS-style packages of modules.
+
+* Took over engineering management responsibilities for the Site Reliability group in MHE's Seattle office. Worked to integrate our office better with the larger, developing SRE practice across all offices. Joined the SRE leadership group to help guide and participate in the development of better processes around reliability, which we then worked with product development teams to adopt and apply.
+
+#### Staff Software Engineer (October 2016 – October 2018)
+
+Ryan led the development of multiple tier-1 services as part of the educational content authoring pipeline, leveraging REST, GraphQL, API design, AWS, Amazon ECS, Docker, Terraform, ePubs, and security best practices. Led the technical direction of the projects, socialized them, documented them, and provided ongoing guidance around their design and use.
+
+* A member of the core team developing a newer approach to deploying applications, which leveraged continuous integration and continuous delivery. While many applications and processes were built around larger deployments occurring every few weeks, this team was charged with developing and defining newer processes which allowed deployments that were both more frequent, and more reliable.
+
+* Introduced a more hands-on monitoring style, which enables development teams to be more actively engaged in their own operations instead of relying exclusively on an external, third-party vendor used by other groups in the company. This enabled us to provide significantly-lower MTTR during incidents, and by digging into application-level metrics (instead of exclusively infrastructure-level metrics), we were better able to provide valuable data which addressed KPIs/SLOs for the kinds of experiences our customers were having.
+
+* A member of the core team that was migrating all new infrastructure to "Infrastructure-as-Code" tooling such as Terraform, Packer, etc. Identified patterns across applications, and began the effort to streamline infrastructure maintenance with shared, re-usable Terraform modules.
 
 ### [Perimeter of Wisdom, LLC](https://first-time-offender.com)
-#### Co-Owner, CTO, Producer (February 2015 – Present)
+#### Co-Owner, CTO, Producer (February 2015 – 2018)
 
 On the technical side, Ryan built the entire [The First-Time Offender’s Guide to 
 Freedom](https://first-time-offender.com) website, soup to nuts. Ryan also 
@@ -167,18 +171,11 @@ IP-based geolocation, and Google Books and Dropbox for ensuring that customers
 always have the latest errata fixes.
 
 ### [WePay](http://wepay.com) — Redwood City, CA
-#### Senior Engineer (April 2014 – September 2016)
+#### DevOps Engineer (April 2015 – September 2016)
 
-As a member of the API team, Ryan was involved in developing new API endpoints
-to help expand WePay’s business and support its partners. In particular, he was
-instrumental in developing WePay’s MFA-as-a-Service offering (patent pending).
-Ryan also continues to be heavily involved in the security of WePay’s products,
-coordinating fixes with teams against other priorities, and fixing the issues
-himself in many cases.
-
-Ryan currently works as a member of the DevOps team, working to improve how
-WePay provisions cloud infrastructure, deploys updates, manages security
-patches, monitors applications and infrastructure, and streamlines the process
+Ryan worked as a member of the DevOps team, working to improve how
+WePay provisioned cloud infrastructure, deployed updates, managed security
+patches, monitored applications and infrastructure, and streamlined the process
 of planning, developing, deploying and maintaining new micro-services throughout
 the company.
 
@@ -187,8 +184,17 @@ application’s software stack from PHP 5.4 to PHP 5.6. This required cross-team
 collaboration across all of the major engineering teams, QA, and replacing over
 200 servers across multiple environments with zero customer-facing downtime.
 
-Ryan is the owner and maintainer of multiple Tier 1 systems including
+Ryan was the owner and maintainer of multiple tier-1 systems including
 Artifactory, GitHub Enterprise, Toran Proxy and Phabricator.
+
+#### Senior API Engineer (April 2014 – April 2015)
+
+As a member of the API team, Ryan was involved in developing new API endpoints
+to help expand WePay’s business and support its partners. In particular, he was
+instrumental in developing WePay’s MFA-as-a-Service offering (patent pending).
+Ryan also continues to be heavily involved in the security of WePay’s products,
+coordinating fixes with teams against other priorities, and fixing the issues
+himself in many cases.
 
 ### [Amazon](http://aws.amazon.com) — Seattle, WA
 #### Web Development Engineer II, Amazon Web Services (March 2010 – April 2014)
