@@ -263,6 +263,10 @@ development team.
 Ryan's client experience included Banana Republic, SBC (now AT&T),
 Hewlett Packard (HP), Sony Style, Lexus, MAC Make-up.
 
+### Truncated
+
+More experience is available upon request.
+
 ## Recommendations 
 
 A full list of recommendations can be found on my [LinkedIn
