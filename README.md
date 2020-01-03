@@ -51,7 +51,7 @@ While my experience and personal technical interests are broad, the following li
 ### [McGraw-Hill Education](http://www.mheducation.com) — Seattle, WA
 #### Engineering Manager, Site Reliability (October 2018 – Present)
 
-Owned, and was the key decision-maker for the development of a [platform](https://youtu.be/dNow3SwtS8k) of core, company-wide, reliability-oriented projects. With our development teams moving toward [Full-Cycle Development](https://medium.com/netflix-techblog/full-cycle-developers-at-netflix-a08c31f83249), our SRE team focused on solving more macro-oriented problems which affected more than 75 decentralized engineering teams across the company. These projects have empowered greater self-service for engineering teams, enabling them to move faster without having to reinvent the wheel.
+Owned, and was the key decision-maker for the [development of a core platform](https://youtu.be/dNow3SwtS8k) of company-wide, reliability-oriented projects. With our development teams moving toward [Full-Cycle Development](https://medium.com/netflix-techblog/full-cycle-developers-at-netflix-a08c31f83249), our SRE team focused on solving more macro-oriented problems which affected more than 75 decentralized engineering teams across the company. These projects have empowered greater self-service for engineering teams, enabling them to move faster without having to reinvent the wheel.
 
 Many of the following projects got their start in my work as an application engineer for MHE, and carried over into this role.
 
