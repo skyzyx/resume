@@ -24,101 +24,48 @@ Let’s work together to create something amazing.
 
 ## Technical Skills and Software
 
-### High Proficiency (7–10)
+While my experience and personal technical interests are broad, the following list is focused more on my interest in DevTools, DevOps, and SRE roles. I would be happy to share additional experience for other areas upon request.
 
-* Operating Systems: macOS, CentOS, Amazon Linux
+(Proficiency scale: Low, Med, High, Expert)
 
-* Standard User Experience Skillset: Human–Computer Interaction Design,
-  Contingency Design
+* Operating Systems: macOS (Expert), CentOS (High), Amazon Linux (High), Amazon Linux 2 (High), Windows (Med), Ubuntu (Med).
 
-* Standard Front-End Engineering Toolbox: HTML 5, XHTML 1, XML 1, CSS 3, YAML,
-  SVG, DOM, JavaScript, JavaScript Events, JSON, Front-End Performance, jQuery,
-  MVC design pattern, LESS, ESLint, Bootstrap, UglifyJS, progressive enhancement
-  principles, responsive design patterns and more!
+* Standard Software Engineering Toolbox: OOP fundamentals, dependency injection, polymorphism, performance, character encodings, Git, Linux, Makefiles, `yum`, `brew`, and other fundamentals (High); memorized algorithms (Low); memorized Big-O  notation (Low).
 
-* WCAG 2.0 and Section 508 web accessibility guidelines
+* Programming Languages: _Modern_ PHP (Expert), Bash (High), Browser JavaScript (High), Node.js JavaScript (High), Golang (Med), Python (Med), Ruby (Low). Interested in learning Swift.
 
-* HTML5 & CSS 3: Application Cache, Geolocation, History API, Native Video,
-  Selectors, Media Queries, Data Attributes, Building custom Icon Fonts, and
-  more!
+* Cloud Computing: Google Cloud’s core infrastructure services (not current), AWS (current; EC2, RDS, S3, CloudFront, SQS, SNS, IAM, STS, CloudWatch Monitoring, CloudWatch Logs + Insights, Lambda, ECS-on-EC2, ECR, API Gateway, Auto-scaling, CloudTrail, Elastic Transcoder, ElastiCache, Route 53, ELB/ALB, ACM, SSM, Parameter Store), AWS SDKs + CLI, Docker.
 
-* Standard Software Engineering Toolbox: OOP fundamentals, dependency injection,
-  polymorphism, performance, character encodings, Git, Linux, Makefiles, `yum`,
-  `nano`, `grep`, `xargs`, `tee`, and other fundamentals, compiling software
-  from source and maintaining in-house RPMs.
+* Provisioning: Terraform (High), Terragrunt (Med), Packer (High), Ansible (Med).
 
-* PHP Development Toolbox: Composer, Packagist, PHPT, PHPDocumentor, Monolog,
-  Symfony Framework Components, Slim Framework, Twig, Guzzle, AWS SDK for PHP,
-  cURL, SimpleXML, DOMDocument, iconv, mbstring, APC, Xdebug (cachegrind), SPL,
-  magic methods, PSR recommendations and more!
+* API & Scalable System Design: Understanding and designing highly-scalable, distributed systems for running web applications and web services. ReST-like web service API design. GraphQL (and N+1) implementations. Understand the difference between a true SOA [micro-service vs a "distributed monolith"](https://www.microservices.com/talks/dont-build-a-distributed-monolith/).
 
-* Cloud Computing Services: _Most_ of the individual AWS services (not much with
-  the more specialized/newer ones), Google Compute Engine, Google Storage,
-  Google IAM.
-
-* Environments: PHP’s Zend Engine, Vagrant, Nginx configuration, PHP-FPM
-  configuration, Docker
-
-* Infrastructure & Deployment: Ansible
-
-* Metadata Formats: RSS, Media RSS, Atom, Microformats
-
-* API & Scalable System Design: Understanding and designing highly-scalable,
-  distributed systems for running web applications and web services (e.g., cloud
-  computing). ReSTful web service API design
-
-* Services: Artifactory, JIRA, Confluence, GitHub Enterprise, Phabricator, Toran
-  Proxy, Pingdom, New Relic, Papertrail, GitHub.com
+* Enterprise Services: Artifactory, JIRA, Confluence, GitHub Enterprise, GitHub.com, Phabricator, Pingdom, New Relic, Datadog,  Papertrail, Slack.
   
-* Hashicorp Packer, Atlas, Terraform
+* Databases & Key-Value/Document stores: MySQL (Med), Redis (High), PostgreSQL (Low), Memcache (Low)
 
-### Average Proficiency (4–6)
-
-* Operating Systems: Windows, Ubuntu Linux
-
-* Standard User Experience Skillset: Copywriting, Interface Design, Information
-  Architecture, Product Marketing, Community Development
-
-* Standard Software Engineering Toolbox: MacPorts, Homebrew, RubyGems, pip, npm,
-  apt-get, rake, ant, `lsof`, `htop`.
-
-* Unit/Integration/Functional Testing: PHPUnit, Selenium, Behat, Mink,
-  PhantomJS, iOS Driver, Travis CI, RubyUnit
-
-* Environments: Python, Ruby, HHVM
-
-* Databases & Key-Value/Document stores: MySQL, Redis
-
-* Metadata Formats: RDFa, Dublin Core, FOAF, CommonTag, OpenSearch, Swagger
-
-* Visual Design Tools: Photoshop, Illustrator, Fireworks, Pixelmator, Acorn
-
-* Services: BitBucket
-
-* Hashicorp Vault
-
-* Odds-and-ends: Organic search engine optimization, Apache Web Server
-  configuration, Markdown, HTML5 Cross-Origin Resource Sharing (CORS)
-
-### Limited Experience, or Interesting Things I'm Starting to Dabble In (1–3)
-
-Persona/user research, Sass/Scss, Haml, DocBook, Memcache, Couchbase,
-Golang, Swift, Node.js, OSSEC, Sensu, `rpmbuild`.
+* Metadata Formats: RDFa, Dublin Core, FOAF, CommonTag, OpenSearch, Swagger/OpenAPI, JSON Schema, JSON, YAML, TOML, XML.
 
 ## Work Experience & Notable Projects
 
 ### [McGraw-Hill Education](http://www.mheducation.com) — Seattle, WA
 #### Engineering Manager, Site Reliability (October 2018 – Present)
 
-Owned, and was the key decision-maker for the development of company-wide, reliability-oriented projects such as:
+Owned, and was the key decision-maker for the development of a "platform" of core, company-wide, reliability-oriented projects. With our development teams moving toward [Full-Cycle Development](https://medium.com/netflix-techblog/full-cycle-developers-at-netflix-a08c31f83249), our SRE team focused on solving more macro-oriented problems which affected more than 75 decentralized engineering teams across the company. These projects have empowered greater self-service for engineering teams, enabling them to move faster without having to reinvent the wheel.
 
-* ECS-optimized Amazon Linux Base AMI for all Amazon ECS applications. Modified the version vended by AWS to meet Level-2 CIS Guidelines for both Amazon Linux and Docker. Underwent deep collaboration with security, operations, and various business units to ensure strict compliance with requirements. Achieved high levels of opt-in adoption, which gave security and operations orgs higher levels of confidence in the product development teams.
+Many of the following projects got their start in my work as an application engineer for MHE, and carried over into this role.
 
-* Monitoring-as-Code which leverages Terraform and Python to streamline the process of generating and maintaining dashboards and monitors in Datadog and New Relic across a large, heterogeneous swath of applications. Trained development teams in adopting "full-cycle" development practices where the development team owns day-to-day operations of their services including deployments, support, and on-call rotations.
+* **ECS-optimized Amazon Linux Base AMI** for all Amazon ECS applications. Modified the version vended by AWS to meet Level-2 CIS Guidelines for both Amazon Linux and Docker. Underwent deep collaboration with security, operations, and various business units to ensure strict compliance with requirements. Achieved high levels of opt-in adoption, which gave security and operations orgs higher levels of confidence in the product development teams.
 
-* Formed a leadership group to develop a more rigorous process for developing, patching, vending, and maintaining re-usable Terraform modules that are used by large numbers of product development teams across the company. Standardized their development, contribution, and usage guidelines, adopted an Apache-style "incubator" for developing new modules, and adopted a process for shipping LTS-style packages of modules.
+* **Prism** which is an "executive dashboard" enabling significantly improved visibility into the security and operational configurations of our AWS accounts (several dozen). Enables visibility to Engineering Managers, Directors, VPs, and the CTO, while also providing clear instructions to app engineers about why the configuration is incorrect and what needs to be done to resolve the issue.
 
-* Took over engineering management responsibilities for the Site Reliability group in MHE's Seattle office. Worked to integrate our office better with the larger, developing SRE practice across all offices. Joined the SRE leadership group to help guide and participate in the development of better processes around reliability, which we then worked with product development teams to adopt and apply.
+* **Monitoring-as-Code** which leverages Terraform and Python to streamline the process of generating and maintaining dashboards and monitors in Datadog and New Relic across a large, heterogeneous swath of applications. Trained development teams in adopting "full-cycle" development practices where the development team owns day-to-day operations of their services including deployments, support, and on-call rotations.
+
+* Formed a leadership group to develop a more rigorous process for developing, patching, vending, and maintaining re-usable **Terraform modules** that are used by large numbers of product development teams across the company. Standardized their development, contribution, and usage guidelines, adopted an Apache-style "incubator" for developing new modules, and adopted a process for shipping LTS-style packages of modules. 
+
+* Took over engineering management responsibilities for the **Site Reliability** group in MHE's Seattle office. Worked to integrate our office better with the larger, developing SRE practice across all offices. Joined the SRE leadership group to help guide and participate in the development of better processes around reliability, which we then worked with product development teams to adopt and apply.
+
+* Rebooted our Seattle SRE **interview process**, with a much higher focus on identifying high-quality engineers with a 70/30 split between software engineering (Dev) and systems engineering (Ops), and who were more _leaders_ than not. Integrated many ideas and _leadership principles_ from my time working at AWS. The previous approach was simply to re-brand IT and System Operations as "DevOps" despite having no "Dev" experience to speak of. Adopted a more integrated, [SRE-style](https://landing.google.com/sre/interview/ben-treynor/) of working alongside development teams, and (mostly) ended the practice of dev teams "tossing things over the fence" to some Ops team in the parts of the org that the Seattle SRE team supported.
 
 #### Staff Software Engineer (October 2016 – October 2018)
 
