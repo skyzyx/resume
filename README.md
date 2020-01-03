@@ -1,45 +1,24 @@
 # Ryan Parman
 
-**Over 20 years experience** across software development, site reliability engineering, and security.
+**Cloud-native engineer with a focus on reliability, scalability, and security for the modern web.**
 
-Most interested in deployments and infrastructure, building developer tooling, automating tasks that were previously manual, and managing development projects.
+With over 20 years experience across software development, site reliability engineering, and security, Ryan enjoys a blend of strategic and tactical problem-solving, from macro to micro scale. Most interested in deployments and infrastructure, developer tooling, automation, discovering better ways to solve problems, and managing development teams/projects.
 
 ## Summary
 
 ### Professional Blurb
 
-Ryan Parman is an engineering manager with over 20 years of experience across software development, site reliability engineering, and security. He is the creator of SimplePie and AWS SDK for PHP, patented multifactor-authentication-as-a-service at WePay, defined much of the CI/CD and SRE disciplines at McGraw-Hill Education, and came up with the idea of “serverless, event-driven, responsive functions in the cloud” while at Amazon Web Services in 2010. Ryan's aptly-named blog, Flailing Wildly, is where he writes about ideas longer than 280 characters. Ambivert. Curious. Not a coffee drinker.
+Ryan Parman is a cloud-native engineer with a focus on reliability, scalability, and security for the modern web. As an engineering problem-solver with over 20 years of experience across software development, site reliability engineering, and security, he understands how to listen, learn, adapt, and improve. He was a founding member of the AWS SDK team; patented multifactor-authentication-as-a-service at WePay; helped define the CI, CD, and SRE disciplines at McGraw-Hill Education; came up with the idea of “serverless, event-driven, responsive functions in the cloud” while at Amazon Web Services in 2010 (AWS Lambda); and much, much more. Ryan's aptly-named blog, Flailing Wildly, is where he writes about ideas longer than 280 characters. Ambivert. Curious. Not a coffee drinker.
 
 ### If we were having coffee…
 
-I have been building things for the web since 1998. I’ve lived through the
-browser wars (both of them), I’ve worked on multiple high-profile projects, and
-have maintained server clusters that have had hundreds of millions of dollars
-flowing through them (figuratively, of course).
+I have been building things for the web since 1998. I’ve lived through the browser wars (both of them), I’ve worked on multiple high-profile projects, and have maintained server clusters powering hundreds of millions of dollars-worth of transactions. I have experience with startups, not-so-startups, Fortune 500s, and heavily-used open-source projects. I have lots of experience working across large (sometimes distributed) teams, to get projects completed.
 
-I have experience with startups, not-so-startups, Fortune 500s, and heavily-used
-open-source projects. I have lots of experience working with large teams, as
-well as across teams, to get projects completed.
+I have experience taking the long-view on things that people might not understand today. I understand that “perfect” is the enemy of “done”, but conversely that “we must not ship crap.” I understand that the “minimum viable product” version of a motorcycle isn’t the chrome wheels or a nice chassis, but a tricycle. I understand that it’s easy to ship something, but hard to maintain it. You need diligence, focus, patience, and lots of really good documentation to be successful.
 
-I have experience taking the long-view on things that people might not
-understand today. I understand that “perfect” is the enemy of “done”, but
-conversely that “we must not ship crap.” I understand that the “minimum viable
-product” version of a motorcycle isn’t the chrome wheels or a nice chassis, but
-a tricycle. I understand that it’s easy to ship something, but hard to maintain
-it. You need diligence, focus, patience, and lots of really good documentation
-to be successful.
+I understand that we all rise and fall together, so I place emphasis on tearing down walls between departments or divisions so that we can work better together. My experience spans across UX, development, operations, security, and documentation — as an individual contributor, an engineering manager, and a technical/thought leader.
 
-I believe that for any software that you write, documentation is worth 50% of
-your grade. If you have spectacular code, but you skip the documentation (or
-write really bad documentation), you get an _F_ . I also believe that your code
-doesn't function unless an automated test confirms it. I frequently ask myself,
-“What happens to the projects I own if I get hit by a bus?”
-
-I excel in teams that care about the customer or end-user, and want to make
-things better tomorrow than they are today. I excel in teams where I am given
-the latitude to make decisions, and work across teams to deliver the best
-possible customer experience. I excel in teams where merit and experience trump
-job titles.
+I excel in teams that care about the customer or end-user, and want to make things better tomorrow than they are today. I excel in teams where I am given the latitude to make decisions, and work across teams to deliver the best possible customer experience. I excel in teams where merit and experience outweigh job titles.
 
 Let’s work together to create something amazing.
 
