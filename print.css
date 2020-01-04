@@ -1,41 +1,66 @@
-h1, h2, h3 {
-  padding: 0.5em 0 0.2em 0;
+html {
+  font-size:100%;
+  text-size-adjust:100%;
+}
+
+body {
+  font-size: 14px;
+  line-height: 1.3rem;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  color: #000;
+}
+
+a, a:hover, a:link, a:visited {
+  color: #357edd;
+  text-decoration: underline;
+}
+
+p {
+  display: block;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0.5rem 0;
+}
+
+h1, h2, h3, h4 {
+    padding: 1em 0 .2em;
+    margin: 0;
+    text-rendering: optimizeLegibility;
 }
 
 h1 {
-  font-size: 28px;
+  font-size: 20px;
   line-height: 1.2em;
 }
 
 h2 {
-  font-size: 22px;
+  font-size: 18px;
   line-height: 1.3em;
 }
 
 h3 {
-  font-size: 14px;
+  font-size: 16px;
   line-height: 1.4em;
 }
 
-body {
-  font-size: 12px;
+h4 {
+  font-size: 14px;
+  line-height: 1.5em;
 }
 
-p {
-  margin: 0.5em 0;
-  padding: 0;
+h3 + h4 {
+  padding-top: 0;
+  margin-top: 0;
 }
 
-code {
-  border: none;
-}
-
-li {
-  line-height: 1.2em;
+blockquote {
+  padding: 0.3rem 1rem;
+  margin: 0;
+  font-size: 14px;
 }
 
 blockquote p {
-  line-height: 1.3em;
+  margin-bottom: 0;
 }
 
 .page-break {

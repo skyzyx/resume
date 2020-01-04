@@ -3,8 +3,7 @@
 # Pandoc must be available on the path.
 pandoc \
     -r markdown \
-    -w html5 \
-    --smart \
+    -w html5+smart \
     --output=body.html \
     README.md
 

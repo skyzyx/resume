@@ -18,9 +18,9 @@ I have experience taking the long-view on things that people might not understan
 
 I understand that we all rise and fall together, so I place emphasis on tearing down walls between departments or divisions so that we can work better together. My experience spans across UX, development, operations, security, and documentation — as an individual contributor, an engineering manager, and a technical/thought leader.
 
-I excel in teams that care about the customer or end-user, and want to make things better tomorrow than they are today. I excel in teams where I am given the latitude to make decisions, and work across teams to deliver the best possible customer experience. I excel in teams where merit and experience outweigh job titles.
+I excel in teams that care about the customer or end-user, and want to make things better tomorrow than they are today. I excel in teams where I am given the latitude to make decisions, and work across teams to deliver the best possible customer experience. Let’s work together to create something amazing!
 
-Let’s work together to create something amazing.
+<div class="page-break"></div>
 
 ## Technical Skills and Software
 
@@ -28,28 +28,30 @@ While my experience and personal technical interests are broad, the following li
 
 (Proficiency scale: Low, Med, High, Expert)
 
-* Operating Systems: macOS (Expert), CentOS (High), Amazon Linux (High), Amazon Linux 2 (High), Windows (Med), Ubuntu (Med).
+* **Operating Systems:** macOS (Expert), CentOS (High), Amazon Linux (High), Amazon Linux 2 (High), Windows (Med), Ubuntu (Med).
 
-* Standard Software Engineering Toolbox: OOP fundamentals, dependency injection, polymorphism, performance, character encodings, Git, Linux, Makefiles, `yum`, `brew`, and other fundamentals (High); memorized algorithms (Low); memorized Big-O  notation (Low).
+* **Standard Software Engineering Toolbox:** OOP fundamentals, dependency injection, polymorphism, performance, character encodings, Git, Linux, Makefiles, `yum`, `brew`, and other fundamentals (High); memorized algorithms (Low); memorized Big-O  notation (Low).
 
-* Programming Languages: _Modern_ PHP (Expert), Bash (High), Browser JavaScript (High), Node.js JavaScript (High), Golang (Med), Python (Med), Ruby (Low). Interested in learning Swift.
+* **Programming Languages:** _Modern_ PHP (Expert), Bash (High), Browser JavaScript (High), Node.js JavaScript (High), Golang (Med), Python (Med), Ruby (Low). Interested in learning Swift.
 
-* Cloud Computing: Google Cloud’s core infrastructure services (not current), AWS (current; EC2, RDS, S3, CloudFront, SQS, SNS, IAM, STS, CloudWatch Monitoring, CloudWatch Logs + Insights, Lambda, ECS-on-EC2, ECR, API Gateway, Auto-scaling, CloudTrail, Elastic Transcoder, ElastiCache, Route 53, ELB/ALB, ACM, SSM, Parameter Store), AWS SDKs + CLI, Docker.
+* **Cloud Computing:** Google Cloud’s core infrastructure services (not current), AWS (current; EC2, RDS, S3, CloudFront, SQS, SNS, IAM, STS, CloudWatch Monitoring, CloudWatch Logs + Insights, Lambda, ECS-on-EC2, ECR, API Gateway, Auto-scaling, CloudTrail, Elastic Transcoder, ElastiCache, Route 53, ELB/ALB, ACM, SSM, Parameter Store), AWS SDKs + CLI, Docker.
 
-* Provisioning: Terraform (High), Terragrunt (Med), Packer (High), Ansible (Med).
+* **Provisioning:** Terraform (High), Terragrunt (Med), Packer (High), Ansible (Med).
 
-* API & Scalable System Design: Understanding and designing highly-scalable, distributed systems for running web applications and web services. ReST-like web service API design. GraphQL (and N+1) implementations. Understand the difference between a true SOA [micro-service vs a "distributed monolith"](https://www.microservices.com/talks/dont-build-a-distributed-monolith/).
+* **API & Scalable System Design:** Understanding and designing highly-scalable, distributed systems for running web applications and web services. ReST-like web service API design. GraphQL (and N+1) implementations. Understand the difference between a true SOA [micro-service vs a "distributed monolith"](https://www.microservices.com/talks/dont-build-a-distributed-monolith/).
 
-* Enterprise Services: Artifactory, JIRA, Confluence, GitHub Enterprise, GitHub.com, Phabricator, Pingdom, New Relic, Datadog,  Papertrail, Slack.
+* **Enterprise Services:** Artifactory, JIRA, Confluence, GitHub Enterprise, GitHub.com, Phabricator, Pingdom, New Relic, Datadog,  Papertrail, Slack.
   
-* Databases & Key-Value/Document stores: MySQL (Med), Redis (High), PostgreSQL (Low), Memcache (Low)
+* **Databases & Key-Value/Document stores:** MySQL (Med), Redis (High), PostgreSQL (Low), Memcache (Low)
 
-* Metadata Formats: RDFa, Dublin Core, FOAF, CommonTag, OpenSearch, Swagger/OpenAPI, JSON Schema, JSON, YAML, TOML, XML.
+* **Metadata Formats:** RDFa, Dublin Core, FOAF, CommonTag, OpenSearch, Swagger/OpenAPI, JSON Schema, JSON, YAML, TOML, XML.
+
+<div class="page-break"></div>
 
 ## Work Experience & Notable Projects
 
 ### [McGraw-Hill Education](http://www.mheducation.com) — Seattle, WA
-#### Engineering Manager, Site Reliability (October 2018 – Present)
+#### Engineering Manager, Site Reliability (October 2018—Present)
 
 Owned, and was the key decision-maker for the [development of a core platform](https://youtu.be/dNow3SwtS8k) of company-wide, reliability-oriented projects. With our development teams moving toward [Full-Cycle Development](https://medium.com/netflix-techblog/full-cycle-developers-at-netflix-a08c31f83249), our SRE team focused on solving more macro-oriented problems which affected more than 75 decentralized engineering teams across the company. These projects have empowered greater self-service for engineering teams, enabling them to move faster without having to reinvent the wheel.
 
@@ -67,7 +69,7 @@ Many of the following projects got their start in my work as an application engi
 
 * Rebooted our Seattle SRE **interview process**, with a much higher focus on identifying high-quality engineers with a 70/30 split between software engineering (Dev) and systems engineering (Ops), and who were more _leaders_ than not. Integrated many ideas and _leadership principles_ from my time working at AWS. The previous approach was simply to re-brand IT and System Operations as "DevOps" despite having no "Dev" experience to speak of. Adopted a more integrated, [SRE-style](https://landing.google.com/sre/interview/ben-treynor/) of working alongside development teams, and (mostly) ended the practice of dev teams "tossing things over the fence" to some Ops team in the parts of the org that the Seattle SRE team supported.
 
-#### Staff Software Engineer (October 2016 – October 2018)
+#### Staff Software Engineer (October 2016—October 2018)
 
 Ryan led the development of multiple tier-1 services as part of the educational content authoring pipeline, leveraging REST, GraphQL, API design, AWS, Amazon ECS, Docker, Terraform, ePubs, and security best practices. Led the technical direction of the projects, socialized them, documented them, and provided ongoing guidance around their design and use.
 
@@ -78,298 +80,168 @@ Ryan led the development of multiple tier-1 services as part of the educational 
 * A member of the core team that was migrating all new infrastructure to "Infrastructure-as-Code" tooling such as Terraform, Packer, etc. Identified patterns across applications, and began the effort to streamline infrastructure maintenance with shared, re-usable Terraform modules.
 
 ### [Perimeter of Wisdom, LLC](https://first-time-offender.com)
-#### Co-Owner, CTO, Producer (February 2015 – 2018)
+#### Co-Owner, CTO, Producer (February 2015—2018)
 
-On the technical side, Ryan built the entire [The First-Time Offender’s Guide to 
-Freedom](https://first-time-offender.com) website, soup to nuts. Ryan also 
-produced the eBook, authored by E. M. Baird.
+On the technical side, Ryan built the entire [The First-Time Offender’s Guide to Freedom](https://first-time-offender.com) website, soup to nuts. Ryan also produced the eBook, authored by E. M. Baird.
 
-Ryan leveraged modern tools to build the front-end, including Bootstrap, LESS,
-JavaScript, Gulp.js, npm, Bower. Ryan built the back-end in PHP 5.6, using HHVM 
-and Nginx, MySQL, Redis, Slim Framework, Monolog, Pimple, Twig, Guzzle, Doctrine, 
-Phinx, and Symfony components. Ryan deployed the application using Ansible, and 
-developed the application in a Vagrant environment running Ubuntu.
+* Leveraged modern tools to build the front-end, including Bootstrap, LESS, JavaScript, Gulp.js, npm, Bower. Ryan built the back-end in PHP 5.6, using HHVM and Nginx, MySQL, Redis, Slim Framework, Monolog, Pimple, Twig, Guzzle, Doctrine, Phinx, and Symfony components. Ryan deployed the application using Ansible, and developed the application in a Vagrant environment running Ubuntu.
 
-Ryan runs the unit, integration and functional tests using PHPUnit, Behat, Mink,
-and Selenium. Ryan leverages Amazon SES for sending email, Amazon S3 for static 
-file storage, Stripe for payment processing, Linode for web hosting, MaxMind 
-IP-based geolocation, and Google Books and Dropbox for ensuring that customers 
-always have the latest errata fixes.
+* Runs the unit, integration and functional tests using PHPUnit, Behat, Mink, and Selenium. Ryan leverages Amazon SES for sending email, Amazon S3 for static file storage, Stripe for payment processing, Linode for web hosting, MaxMind IP-based geolocation, and Google Books and Dropbox for ensuring that customers always have the latest errata fixes.
+
+<div class="page-break"></div>
 
 ### [WePay](http://wepay.com) — Redwood City, CA
-#### DevOps Engineer (April 2015 – September 2016)
+#### DevOps Engineer (April 2015—September 2016)
 
-Ryan worked as a member of the DevOps team, working to improve how
-WePay provisioned cloud infrastructure, deployed updates, managed security
-patches, monitored applications and infrastructure, and streamlined the process
-of planning, developing, deploying and maintaining new micro-services throughout
-the company.
+* Improved how WePay provisioned cloud infrastructure, deployed updates, managed security patches, monitored applications and infrastructure, and streamlined the process of planning, developing, deploying and maintaining new micro-services throughout the company.
 
-Ryan started and led a year-long, cross-company effort to upgrade the monolithic
-application’s software stack from PHP 5.4 to PHP 5.6. This required cross-team
-collaboration across all of the major engineering teams, QA, and replacing over
-200 servers across multiple environments with zero customer-facing downtime.
+* Led the cross-company effort to upgrade the monolithic application’s software stack from PHP 5.4 to PHP 5.6. This required cross-team collaboration across all of the major engineering teams, QA, and replacing over 200 servers across multiple environments with zero customer-facing downtime.
 
-Ryan was the owner and maintainer of multiple tier-1 systems including
-Artifactory, GitHub Enterprise, Toran Proxy and Phabricator.
+* Maintainer of multiple tier-1 systems including Artifactory, GitHub Enterprise, Toran Proxy and Phabricator.
 
-#### Senior API Engineer (April 2014 – April 2015)
+#### Senior API Engineer (April 2014—April 2015)
 
-As a member of the API team, Ryan was involved in developing new API endpoints
-to help expand WePay’s business and support its partners. In particular, he was
-instrumental in developing WePay’s MFA-as-a-Service offering (patent pending).
-Ryan also continues to be heavily involved in the security of WePay’s products,
-coordinating fixes with teams against other priorities, and fixing the issues
-himself in many cases.
+* Developed new API endpoints to help expand WePay’s business and support its partners.
+
+* Was instrumental in designing/developing WePay’s MFA-as-a-Service offering ([“System and Methods for User Authentication across Multiple Domains”](https://patents.google.com/patent/US20160241536A1/en?inventor=Ryan+Parman) (US15042104; Pending)).
+
+* Heavily involved in the security of WePay’s products, coordinating fixes with teams against other priorities, and fixing the issues himself in many cases.
 
 ### [Amazon](http://aws.amazon.com) — Seattle, WA
-#### Web Development Engineer II, Amazon Web Services (March 2010 – April 2014)
+#### Web Development Engineer II, Amazon Web Services (March 2010—April 2014)
 
-Ryan is the creator and visionary behind the [AWS SDK for
-PHP](https://github.com/amazonwebservices/aws-sdk-for-php) — AWS's SDK
-for rapidly building cloud-based web applications (launched September
-2010). He invests heavily in supporting the needs of developers by
-taking the time to listen and understand the needs of developers, and is
-involved in PHP-related industry groups on behalf of AWS.
+* Adapted CloudFusion into the [AWS SDK for PHP](https://github.com/amazonwebservices/aws-sdk-for-php) — AWS's SDK for rapidly building cloud-based web applications (launched September 2010). Invested heavily in supporting the needs of developers by taking the time to listen and understand the needs of developers, and is involved in PHP-related industry groups on behalf of AWS.
 
-Ryan worked with the [AWS Elastic
-Beanstalk](http://aws.amazon.com/elasticbeanstalk/) team to provide PHP
-support for the platform (launched March 2012). In addition to working
-with the PHP community to determine the configuration for a PHP
-container that would fit the greatest number of developers, he developed
-a rigorous internal test suite for testing containers which has been
-used as the basis for testing by other language-specific teams. He also
-had early input on adding support for `git push` deployments.
+* Worked with the [AWS Elastic Beanstalk](http://aws.amazon.com/elasticbeanstalk/) team to provide PHP support for the platform (launched March 2012). In addition to working with the PHP community to determine the configuration for a PHP container that would fit the greatest number of developers, he developed a rigorous internal test suite for testing containers which has been used as the basis for testing by other language-specific teams. He also had early input on adding support for `git push` deployments.
 
-Ryan was heavily involved in the creation and development of the [AWS
-SDK for PHP 2](https://github.com/aws/aws-sdk-php) — a best-of-breed SDK
-(backed by [Guzzle](http://guzzlephp.org) — a best-of-breed HTTP
-framework) that takes into account the numerous changes in the PHP
-language and community since Tarzan/CloudFusion was first written in
-2005 (launched November 2012).
+* Heavily involved in the creation and development of the [AWS SDK for PHP 2](https://github.com/aws/aws-sdk-php), which takes into account the numerous changes in the PHP language and community since Tarzan/CloudFusion was first written in 2005 (launched November 2012).
 
-Ryan also works with the AWS Design team on the [AWS Management
-Console](https://console.aws.amazon.com), where he lends his experience
-as a web developer and software engineer to bridge the gap between the
-design and engineering disciplines in an effort to build a high-quality,
-robust, user-friendly console for interacting with Amazon Web Services.
+* Worked with the AWS Design team on the [AWS Management Console](https://console.aws.amazon.com), where he lends his experience as a web developer and software engineer to bridge the gap between the design and engineering disciplines in an effort to build a high-quality, robust, user-friendly console for interacting with Amazon Web Services.
 
 ### [CloudFusion](http://getcloudfusion.com) (née Tarzan) — Open-Source Project
-#### Creator and Developer (Early 2005 – March 2010)
+#### Creator and Developer (Early 2005—March 2010)
 
-CloudFusion is a fast, powerful PHP toolkit for building awesome,
-cloud-based web applications in a fraction of the time! Design decisions
-are made in the best interests of performance, ease of use, and overall
-usability. Goals are to provide a high-performance developer toolkit for
-leveraging Amazon's cloud infrastructure, to grow the community and, and
-to build useful user-centric apps based on the toolkit.
+* CloudFusion is a fast, powerful PHP toolkit for building awesome, cloud-based web applications in a fraction of the time! Design decisions are made in the best interests of performance, ease of use, and overall usability. Goals are to provide a high-performance developer toolkit for leveraging Amazon's cloud infrastructure, to grow the community and, and to build useful user-centric apps based on the toolkit.
 
 ### [Rearden Commerce](http://reardencommerce.com) — Foster City, CA
-#### Senior User Experience Developer (July 2008 – March 2010)
+#### Senior User Experience Developer (July 2008—March 2010)
 
-As a front-end engineer, Ryan was responsible for supporting the user
-experience team, Java developers, and widget development teams. This
-involved prototyping new features, integration of those new features
-into the code base, migrating JavaScript code from older frameworks to
-YUI 2.x, and educating other teams on the value of high-quality
-front-end code — all while placing a huge emphasis on writing front-end
-code with better performance, faster load times, and improved
-accessibility across the board.
+* Supported the user experience team, Java developers, and widget development teams. This involved prototyping new features, integration of those new features, migrating JavaScript code from older frameworks to YUI, and educating other teams on the value of high-quality front-end code — all while placing a huge emphasis on writing front-end
+code with better performance, faster load times, and improved accessibility across the board.
 
 ### [WarpShare](http://warpshare.com) — Morgan Hill, CA
-#### Co-Founder and Chief Information Officer (September 2006 – March 2010)
+#### Co-Founder and Chief Information Officer (September 2006—March 2010)
 
-WarpShare's mission is to support artists by eradicating digital media
-piracy in a manner consistent with a free and open future. With a
-next-generation file transfer protocol, socially-aware service, and a
-solution that turns traditional, television, and online advertising on
-its head, WarpShare is poised to be the first to provide the content
-industry with a successful, internet-native business model for the 21st
-century.
+WarpShare was working to bridge the gap between digital piracy and the economics of the RIAA/MPAA industry groups.
+
+* We developed a P2P protocol that was more efficient than BitTorrent called CleerPeer ([“Hive-based Peer-to-Peer Network”](https://patents.google.com/patent/US8103870B2/en?inventor=Ryan+Parman) (US8103870B2)).
+
+* We designed and began development on a [social network focused around digital media](https://www.flickr.com/photos/skyzyx/4256296410/in/album-72157623164675526/), and "gamification" around tagging and improving content (over automated data sources).
+
+* We attempted a business model where users could support/sponsor content by interacting with advertising that designed to be a <u>part of</u> the media experience, instead of <u>interrupting</u> your media experience (similar to Apple's iAd platform, which came later). We likened this to people who looked forward to seeing the latest "I'm a Mac" ad that was popular at the time.
+
+* By interacting/engaging with the content-targeted advertising, advertisers would _sponsor_ the download, paying the 99¢ per song that we would hold in escrow (this was similar to, but not the same as, the failed business model for [Readability](https://en.wikipedia.org/wiki/Readability_(service)), which came later). One of the key differences between WarpShare and Readability's business model was that although both services were designed to collect money on behalf of the copyright owner, Readability intended to keep any forfeiture due to the lack of a deal, WarpShare's plan (not vetted by a lawyer) was to give the money away to charity.
+
+* Failed because: team was too small; team lacked the required expertise in advertising; funding dried up as the US entered the _credit crisis_ from 2007–2009; tried to do too much up-front; early mistakes spending money on _starting a company_ instead of developing a consumer product.
 
 ### [SimplePie](http://simplepie.org) — Open-Source Project
-#### Creator and Co-Developer (July 2004 – October 2009), contributor (ongoing)
+#### Creator and Co-Developer (July 2004—October 2009), contributor (ongoing)
 
-Ryan is the creator, evangelist, and co-developer of the SimplePie
-project — a PHP library that enables web developers to simply and easily
-integrate news feeds into their websites and web applications.
+* Ryan is the creator, evangelist, and co-developer of the SimplePie project — a PHP library that enables web developers to simply and easily integrate news feeds into their websites and web applications.
 
-After recruiting additional development resources in June 2005, Ryan
-began to shift from a primarily development-focused role to a primarily
-people-focused role, where he currently works to ensure that people are
-aware of, and can easily use SimplePie through support, documentation,
-tutorials, plugins, and evangelism.
+* After recruiting additional development resources in June 2005, Ryan began to shift from a primarily development-focused role to a primarily people-focused role, where he currently works to ensure that people are aware of, and can easily use SimplePie through support, documentation, tutorials, plugins, and evangelism.
 
 ### [Self-Employed](http://ryanparman.com/design/)
-#### Consulting and development services (2007 – 2009)
+#### Consulting and development services (2007—2009)
 
-As a freelance developer, Ryan leverages a deep understanding of best
-practices in front-end development, layout and design, information
-architecture, usability, accessibility, and web culture to provide value
-to clients. He provides guidance to people and teams about how to
-maintain best practices after the project ends.
+* As a freelance developer, Ryan leverages a deep understanding of best practices in front-end development, layout and design, information architecture, usability, accessibility, and web culture to provide value to clients. He provides guidance to people and teams about how to maintain best practices after the project ends.
 
 ### [Yahoo!](http://messenger.yahoo.com) — Sunnyvale, CA
-#### Front-end Developer (Contract), Yahoo! Messenger (November 2007 – January 2008)
+#### Front-end Developer (Contract), Yahoo! Messenger (November 2007—January 2008)
 
-Ryan lead the front-end development of the Spring 2008 re-launch of the
-Yahoo! Messenger website. He collaborated with a core team of developers
-to provide increased usability, accessibility, organic search engine
-optimization (SEO), and simplified maintenance, resulting in
-exceptionally tuned performance for 29 locales.
+* Ryan lead the front-end development of the Spring 2008 re-launch of the Yahoo! Messenger website. He collaborated with a core team of developers to provide increased usability, accessibility, organic search engine optimization (SEO), and simplified maintenance, resulting in exceptionally tuned performance for 29 locales.
 
-Ryan was involved in tuning the front-end stack for performance, where
-they employed semantically valid HTML/CSS, caching, gzipping, image
-spriting, code minification, and reduced HTTP requests, resulting in
-exceptional performance.
+* Ryan was involved in tuning the front-end stack for performance, where they employed semantically valid HTML/CSS, caching, gzipping, image spriting, code minification, and reduced HTTP requests, resulting in exceptional performance.
+
+<div class="page-break"></div>
 
 ### [Stryker](http://stryker.com) — San Jose, CA
-#### User Interface Developer (May 2005 – September 2006)
+#### User Interface Developer (May 2005—September 2006)
 
-Ryan was a core member of the team tasked with re-building the company
-intranet site around Oracle Portal. His time was spent writing and
-discussing functional and technical documentation, conducting usability
-interviews, and creating a fresh UI that employed user-centered design
-principles, web standards, and AJAX technologies.
+* Ryan was a core member of the team tasked with re-building the company intranet site around Oracle Portal. His time was spent writing and discussing functional and technical documentation, conducting usability interviews, and creating a fresh UI that employed user-centered design principles, web standards, and AJAX technologies.
 
-Ryan was also a member of the Endora Marketing Team, which was geared
-towards spreading information about the company's move to Oracle's ERP
-software. In that capacity, Ryan maintained the Endora website, wrote
-numerous articles for the monthly newsletter, interviewed project leads,
-and created fun little ERP-related polls to help drive interest in the
-project.
+* Ryan was also a member of the Endora Marketing Team, which was geared towards spreading information about the company's move to Oracle's ERP software. In that capacity, Ryan maintained the Endora website, wrote numerous articles for the monthly newsletter, interviewed project leads, and created fun little ERP-related polls to help drive interest in the project.
 
-Ryan worked with the eBusiness team to improve maintenance and
-development for the UI of the GlobalSource project. He also
-re-engineered the Stryker Endoscopy public site to follow modern web
-standards, and built a PHP-based templating system for the site that
-significantly sped up development.
+* Ryan worked with the eBusiness team to improve maintenance and development for the UI of the GlobalSource project. He also re-engineered the Stryker Endoscopy public site to follow modern web standards, and built a PHP-based templating system for the site that significantly sped up development.
 
 ### [Digital Impact](http://acxiom.com/digital-impact/) — San Mateo, CA
-#### Production Specialist (March 2004 – April 2005)
+#### Production Specialist (March 2004—April 2005)
 
-Ryan coordinated with Campaign Managers on email campaign integration,
-with responsibility for email content and change requests, and ensuring
-that the content format was consistent with client requirements. He
-performed the quality tracking and reporting of campaign
-integration-related metrics, and consulted and troubleshot on text and
-HTML templates.
+* Ryan coordinated with Campaign Managers on email campaign integration, with responsibility for email content and change requests, and ensuring that the content format was consistent with client requirements. He performed the quality tracking and reporting of campaign integration-related metrics, and consulted and troubleshot on text and HTML templates.
 
-Ryan maintained HTML code guidelines, provided optimal design and
-processing, and provided suggestions for strategic and process
-improvements. He also acted as syndication expert for the internal RSS
-development team.
+* Ryan maintained HTML code guidelines, provided optimal design and processing, and provided suggestions for strategic and process improvements. He also acted as syndication expert for the internal RSS development team.
 
-Ryan's client experience included Banana Republic, SBC (now AT&T),
-Hewlett Packard (HP), Sony Style, Lexus, MAC Make-up.
+* Ryan's client experience included Banana Republic, SBC (now AT&T), Hewlett Packard (HP), Sony Style, Lexus, MAC Make-up.
 
 ### Truncated
 
-More experience is available upon request.
+Earlier experience is available upon request.
+
+<div class="page-break"></div>
 
 ## Recommendations 
 
-A full list of recommendations can be found on my [LinkedIn
-profile](http://www.linkedin.com/profile/view?id=5004230). Here are a
-few of my favorites.
+A full list of recommendations can be found on my [LinkedIn profile](http://www.linkedin.com/in/rparman). Here are a few of my favorites.
 
-### Will Merydith — Sr. Program Manager, Azure, Microsoft
+### [Will Curran](https://www.linkedin.com/in/wscurran/)
+#### Head of Developer Metrics and Insights, Google Cloud Platform
 
-> “Ryan is one of the most customer focused individuals I have worked
-> with. He takes great pride in his work and is constantly evaluating
-> how to improve the end user experience. He backs his opinions with
-> customer feedback and data, and I often relied on Ryan to help me
-> deliver a better experience to user, in a short period of time.”
+> “Ryan is one of the most customer focused individuals I have worked with. He takes great pride in his work and is constantly evaluating how to improve the end user experience. He backs his opinions with customer feedback and data, and I often relied on Ryan to help me deliver a better experience to user, in a short period of time.”
 
-### Brendan Dixon — Software Development Manager, AWS Website, Amazon Web Services
+### [Brendan Dixon](https://www.linkedin.com/in/brendandixon/)
+#### Software Development Manager, formerly Amazon Web Services, Microsoft
 
-> “What I appreciate about Ryan is his obsession to detail and
-> customers. Ryan refuses to let business politics to ever interfere
-> with doing what is best for customers. He invests himself to discover
-> the best solutions and then make them available. I wholly trust Ryan's
-> evaluation of front-end engineers and Information Architecture. Ryan
-> would make a solid contribution to any team requiring solid front-end
-> skills blended with a deep customer concern.”
+> “What I appreciate about Ryan is his obsession to detail and customers. Ryan refuses to let business politics to ever interfere with doing what is best for customers. He invests himself to discover the best solutions and then make them available. I wholly trust Ryan's evaluation of front-end engineers and Information Architecture. Ryan would make a solid contribution to any team requiring solid front-end skills blended with a deep customer concern.”
 
-### Brian Thompson — Web Developer, Amazon
+### [Brian Thompson](https://www.linkedin.com/in/bsthompson2012/)
+#### Business Intelligence Development Lead
 
-> “Ryan has sort of become my informal mentor regarding my web
-> development role within Amazon. He's passionate about what he does,
-> he's extremely talented and his "can-do" approach to projects makes
-> him valuable on any team he becomes a part of. Perhaps even more
-> importantly than his direct contributions to a given role however is
-> his steady presence in stress, the ability to absorb (and apply) new
-> information and technology quickly and and unquestioned desire to see
-> those around him succeed. I pride myself in my profession and look up
-> to Ryan as a mentor, a colleague and a friend. Ryan Parman is an
-> outstanding, well-rounded and positive leader who inspires confidence
-> in those who appeal to him for technical help or simply solid advice.
-> I hope Amazon never loses him for greener pastures.”
+> “Ryan has sort of become my informal mentor regarding my web development role within Amazon. He's passionate about what he does, he's extremely talented and his "can-do" approach to projects makes him valuable on any team he becomes a part of. Perhaps even more importantly than his direct contributions to a given role however is his steady presence in stress, the ability to absorb (and apply) new information and technology quickly and and unquestioned desire to see those around him succeed. I pride myself in my profession and look up to Ryan as a mentor, a colleague and a friend. Ryan Parman is an outstanding, well-rounded and positive leader who inspires confidence in those who appeal to him for technical help or simply solid advice. I hope Amazon never loses him for greener pastures.”
 
-### Kevin Barrack — Senior Interaction Designer, Rearden Commerce
+### [Chuck Mortimore](https://www.linkedin.com/in/cmort/)
+#### Head of Security Products at Visa
 
-> “Ryan is suspiciously clever. How can he know so much? How can he have
-> such good ideas? We may never know the answers to these questions. He
-> is very approachable and has a warm sense of humor. Have you offered
-> Ryan a job yet? No? Then you are a fool.”
+> “Ryan gets it done. Usually you don't even have to ask… it just gets done.”
 
-### Adrien Cahen — Front-End Software Engineer, Yahoo!, Twitter, Cask
+### [Adrien Cahen](https://www.linkedin.com/in/gaarf/)
+#### Full-stack Javascript Engineer, Airbnb, formerly Yahoo!, Twitter
 
-> “Ryan is a rock star. Through his work on SimplePie, he has a healthy
-> understanding of PHP and server-side concerns. He is extremely
-> proficient in all aspects of modern web development \[...\]. He is
-> aware and respectful of standards-body recommendations, but he knows
-> that in the end, user satisfaction (as opposed to developer comfort)
-> is most important. \[...\] \[Ryan managed\] to go above and beyond the
-> call of duty by proposing and implementing creative solutions to the
-> hurdles that appeared along the way.”
+> “Ryan is a rock star. Through his work on SimplePie, he has a healthy understanding of PHP and server-side concerns. He is extremely proficient in all aspects of modern web development \[...\]. He is aware and respectful of standards-body recommendations, but he knows that in the end, user satisfaction (as opposed to developer comfort) is most important. \[...\] \[Ryan managed\] to go above and beyond the call of duty by proposing and implementing creative solutions to the hurdles that appeared along the way.”
 
-### Scott Emmons — Java Performance Lead, Rearden Commerce
+### [Brian Emmett](https://www.linkedin.com/in/bemmett/)
+#### Software Engineering Manager, Google, formerly Apple, Netflix
 
-> “Ryan is one of those rare developers who not only wants a functional
-> product, but wants it to perform well, be scalable, and use best of
-> breed technology. Sometimes these goals mean ignoring the status quo
-> and pushing the boundaries of the box — this is a good thing and
-> ultimately keeps the technology moving forward and getting better
-> across many aspects of engineering.”
+> “What has always impressed me about Ryan was his internal motivation for continual improvement. Whether it's creating software in his spare time or researching and implementing bleeding-edge UI techniques, I've always admired his drive. Coupled with a rich technical acumen and superior interpersonal skills, it was always a pleasure to work with him \[...\].”
 
-### Brian Emmett — Operations Algorithms Manager, Netflix
+### [Matthew Clower](https://www.linkedin.com/in/matthewclower/)
+#### Chief Software Architect, WePay
 
-> “What has always impressed me about Ryan was his internal motivation
-> for continual improvement. Whether it's creating software in his spare
-> time or researching and implementing bleeding-edge UI techniques, I've
-> always admired his drive. Coupled with a rich technical acumen and
-> superior interpersonal skills, it was always a pleasure to work with
-> him \[...\].”
+> “Ryan has both an excellent technical perspective and the drive to fight for the common user. He has a very wide understanding of development's, web services', and online communities' concepts and finds the best way to accomplish the tasks at hand. The caliber of his work is a rarity among his field and he pulls knowledge and services from the most applicable sources while interfacing quickly, effectively, and concurrently with design, development, strategic, marketing, and executive teams.”
 
-### Amelia Catalano — Senior User Experience Engineer, Rearden Commerce
+### [Vada Dean](https://www.linkedin.com/in/vadadean/)
+#### Principal at Dean & Associates
 
-> “I had the pleasure of working with Ryan at Rearden Commerce, where I
-> witnessed first-hand his tenacious work ethic and excellent project
-> management skills. Ryan is an accomplished and tremendously talented
-> web developer dedicated to innovation and web standards. He stands out
-> among the rest as an Open Source guru who excels in both front-end and
-> middle-tier technologies, and I believe he is one of the best
-> developers I have had the chance to work with.”
+> “Ryan is one of those rare people capable of tapping deep creative, technical, and operational proficiency. Capable of solving difficult problems while marshalling external/internal resources to deliver high quality results within budget and on-time. SimplePie provides a good example of Ryan’s abilities. He cast the vision, recruited a partner, provided significant chunks of code, and evangelized the project across the Net.”
 
-### Matthew Clower — Architect, WePay
-
-> “Ryan has both an excellent technical perspective and the drive to
-> fight for the common user. He has a very wide understanding of
-> development's, web services', and online communities' concepts and
-> finds the best way to accomplish the tasks at hand. The caliber of his
-> work is a rarity among his field and he pulls knowledge and services
-> from the most applicable sources while interfacing quickly,
-> effectively, and concurrently with design, development, strategic,
-> marketing, and executive teams.”
+<div class="page-break"></div>
 
 ## Groups & Accomplishments 
 
-- Voting Representative for AWS, [PHP Framework Interoperability Group](http://www.php-fig.org) (2012–2013)
-- Member, [RSS Advisory Board](http://www.rssboard.org) (2007 – 2009)
-- Patent, [“Hive-based Peer-to-Peer Network”](https://patents.google.com/patent/US8103870B2/en?inventor=Ryan+Parman) (US8103870B2)
-- Patent, [“System and Methods for User Authentication across Multiple Domains”](https://patents.google.com/patent/US20160241536A1/en?inventor=Ryan+Parman) (US15042104; Pending)
-- Student guest speaker for the 2004 Silicon Valley College graduation ceremony.
+* Voting Representative for AWS, [PHP Framework Interoperability Group](http://www.php-fig.org) (2012–2013)
+* Member, [RSS Advisory Board](http://www.rssboard.org) (2007—2009)
+* Patent, [“Hive-based Peer-to-Peer Network”](https://patents.google.com/patent/US8103870B2/en?inventor=Ryan+Parman) (US8103870B2)
+* Patent, [“System and Methods for User Authentication across Multiple Domains”](https://patents.google.com/patent/US20160241536A1/en?inventor=Ryan+Parman) (US15042104; Pending)
+* Student guest speaker for the 2004 Silicon Valley College graduation ceremony.
 
 ## Education 
 
