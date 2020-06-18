@@ -51,7 +51,11 @@ While my experience and personal technical interests are broad, the following li
 ## Work Experience & Notable Projects
 
 ### [McGraw-Hill Education](http://www.mheducation.com) — Seattle, WA
-#### Engineering Manager, Site Reliability (October 2018—Present)
+#### Principal Software and Site Reliability Engineer (June 2020—Present)
+
+Continuing the work I led as an engineering manager, but with a renewed technical focus — part strategic, part tactical.
+
+#### Engineering Manager, Site Reliability (October 2018—June 2020)
 
 Owned, and was the key decision-maker for the [development of a core platform](https://youtu.be/dNow3SwtS8k) of company-wide, reliability-oriented projects. With our development teams moving toward [Full-Cycle Development](https://medium.com/netflix-techblog/full-cycle-developers-at-netflix-a08c31f83249), our SRE team focused on solving more macro-oriented problems which affected more than 75 decentralized engineering teams across the company. These projects have empowered greater self-service for engineering teams, enabling them to move faster without having to reinvent the wheel.
 
