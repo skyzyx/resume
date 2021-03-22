@@ -51,9 +51,11 @@ While my experience and personal technical interests are broad, the following li
 ## Work Experience & Notable Projects
 
 ### [McGraw-Hill Education](http://www.mheducation.com) — Seattle, WA
-#### Principal Software and Site Reliability Engineer (June 2020—Present)
+#### Principal SRE and Cloud Engineer (June 2020—Present)
 
 Continuing the work I led as an engineering manager, but with a renewed technical focus — part strategic, part tactical.
+
+(This includes Base AMIs for EC2, Prism, Monitoring-as-Code, and re-usable Terraform Modules.)
 
 #### Engineering Manager, Site Reliability (October 2018—June 2020)
 
