@@ -233,6 +233,18 @@ Earlier experience from before I graduated college is available upon request.
 
 A full list of recommendations can be found on my [LinkedIn profile](http://www.linkedin.com/in/rparman). Here are a few of my favorites.
 
+<!-- 
+### [Miroslav Ladan](https://www.linkedin.com/in/miroslav-ladan/)
+#### Sr. Director of Software Engineering, McGraw Hill
+
+> Ryan, you are […] what I call “renaissance engineer”, the kind whose interests extend beyond their role and who want to understand and be involved in every part of the engineering spectrum. You challenge my thinking on an ongoing basis, you inform my strategies and you craft solutions that can be used beyond the [team] field of responsibility. […]
+>
+> You don’t pull solutions out of your back pocket, but you look at data and let data inform your decisions. […] Also, you've shown flexibility and changed direction when needed. You and I mostly agree [about a topic]. You have demonstrated willingness to help in such cases.
+>
+> As grateful as I am for the previous year, I am even more excited about the year to come. You have a great foundation to build on. […] I'd like you to be in the business of making others motivated to continue learning and do great work. I'd like you to continue coaching and mentoring and leading from behind. 2020 will present a lot of opportunities for your growth in this regard.
+
+-->
+
 ### [Will Curran](https://www.linkedin.com/in/wscurran/)
 #### Head of Developer Metrics and Insights, Google Cloud Platform
 
