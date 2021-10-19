@@ -1,61 +1,88 @@
 # Ryan Parman
 
-**Cloud-native engineer with a focus on reliability, scalability, and security for the modern web.**
+**Cloud-native engineering leader with a focus on reliability, scalability, and security for the modern web.**
 
-With over 20 years experience across software development, site reliability engineering, and security, Ryan enjoys a blend of strategic and tactical problem-solving, from macro to micro scale. Most interested in deployments and infrastructure, developer tooling, automation, discovering better ways to solve problems, and managing development teams/projects.
+Hi there 👋
+
+Currently: Principal Engineer leading the CloudOps and Engineering team at McGraw Hill.
+
+Ryan has a passion for working on lower-level projects and pipelines which help make the lives of engineers easier, then making those projects usable and understandable to people. Some recent examples:
+
+* Base disk OS images used in tens-of-thousands of nodes — both VMs and containers.
+* Shifting monitoring and alerting left into reusable code used by hundreds of teams.
+* Shifting infrastructure left with reusable Terraform modules created as building blocks that can be mixed and matched.
+* Custom cybersecurity tools for scanning and reporting — including tracking the cert expirations on tens-of-thousands of endpoints on ±7,500 root domains and auto-alerting the teams not using Amazon Cert Manager or Let’s Encrypt when certs are within a few weeks of expiring.
+* Using off-the-shelf software like Artifactory, GitHub Enterprise, GitHub Actions, Circle CI, Jenkins, and more.
+* Using highly-customized vendor-provided software like AWS Control Tower.
 
 ## Summary
 
 ### Professional Blurb
 
-Ryan Parman is a cloud-native engineer with a focus on reliability, scalability, and security for the modern web. As an engineering problem-solver with over 20 years of experience across software development, site reliability engineering, and security, he understands how to listen, learn, adapt, and improve. He was a founding member of the AWS SDK team; patented multifactor-authentication-as-a-service at WePay; helped define the CI, CD, and SRE disciplines at McGraw-Hill Education; came up with the idea of “serverless, event-driven, responsive functions in the cloud” while at Amazon Web Services in 2010 (AWS Lambda); and much, much more. Ryan's aptly-named blog, Flailing Wildly, is where he writes about ideas longer than 280 characters. Ambivert. Curious. Not a coffee drinker.
+Ryan Parman is a cloud-native engineering leader with a focus on reliability, scalability, and security for the modern web. As an engineering problem-solver with over 20 years of experience across software development, site reliability engineering, and cybersecurity, he understands how to listen, learn, adapt, and improve. He was a founding member of the AWS SDK team; patented multifactor-authentication-as-a-service at WePay; helped define the CI, CD, and SRE disciplines at McGraw Hill; came up with the idea of “serverless, event-driven, responsive functions in the cloud” while at Amazon Web Services in 2010 (AWS Lambda); and much, much more.
 
 ### If we were having coffee…
 
 I have been building things for the web since 1998. I’ve lived through the browser wars (both of them), I’ve worked on multiple high-profile projects, and have maintained server clusters powering hundreds of millions of dollars-worth of transactions. I have experience with startups, not-so-startups, Fortune 500s, and heavily-used open-source projects. I have lots of experience working across large (sometimes distributed) teams, to get projects completed.
 
-I have experience taking the long-view on things that people might not understand today. I understand that “perfect” is the enemy of “done”, but conversely that “[we must not ship crap](https://randsinrepose.com/archives/the-culture-chart/).” I understand that the “minimum viable product” version of a motorcycle isn’t the chrome wheels or a nice chassis, but a tricycle. I understand that it’s easy to ship something, but hard to maintain it. You need diligence, focus, patience, and lots of really good documentation to be successful.
+I have experience taking the long-view on things that people might not understand today. I understand that “perfect” is the enemy of “done”, but conversely that “[we must not ship crap](https://randsinrepose.com/archives/the-culture-chart/).” I understand that the “minimum viable product” version of a motorcycle isn’t the chrome wheels or a nice chassis, but a tricycle (e.g., minimum _usable_ product). I understand that it’s easy to ship something, but hard to maintain it. You need diligence, focus, patience, and lots of really good cross-training and documentation to be successful.
 
-I understand that we all rise and fall together, so I place emphasis on tearing down walls between departments or divisions so that we can work better together. My experience spans across UX, development, operations, security, and documentation — as an individual contributor, an engineering manager, and a technical/thought leader.
+I understand that we all rise and fall together, so I place emphasis on tearing down walls between departments or divisions so that we can work better together. My experience spans across UX, development, operations, cybersecurity, and documentation — as an individual contributor, an engineering manager, and a technical/thought leader. I excel in teams that care about the customer or end-user, and want to make things better tomorrow than they are today. I excel in teams where I am given the latitude to make decisions and work across teams to deliver the best possible customer experience. Let’s work together to create something amazing!
 
-I excel in teams that care about the customer or end-user, and want to make things better tomorrow than they are today. I excel in teams where I am given the latitude to make decisions, and work across teams to deliver the best possible customer experience. Let’s work together to create something amazing!
+As I’ve learned more and more about managing humans over the years — some from people, and some from books — much of my personal leadership style is inspired by these two excellent books: [Managing Humans](https://managinghumans.com/pitch.html) by Michael Lopp (aka _Rands_), and [Trillion Dollar Coach](https://www.trilliondollarcoach.com) by Eric Schmidt, Jonathan Rosenberg, and Alan Eagle from Google. I regularly repeat a few mantras that my teams get sick and tired of hearing me repeat over and over again, but I believe they are fundamental truths to being successful engineers:
+
+  * About automation, “Let the robots do what the robots are good at, so that humans can focus on doing the things that humans are good at.”
+
+  * About people who are frustrating, “You can’t change anybody else but yourself. Expecting other people to change just because you want them to is a recipe for perpetual disappointment. But you can choose to change how you look at this person/situation.”
+
+  * About most things, “There are things that matter, and there are things that really, really don’t. Focus on the things that actually matter, and stop wasting your time and energy on the things that don’t.”
 
 <div class="page-break"></div>
 
 ## Technical Skills and Software
 
-While my experience and personal technical interests are broad, the following list is focused more on my interest in DevTools, DevOps, and SRE roles. I would be happy to share additional experience for other areas upon request.
+While my experience and personal technical interests are broad, the following list is focused more on my interest in DevTools, DevOps, and SRE roles. I would be happy to share additional experience for other areas upon request. 
 
-(Proficiency scale: Low, Med, High, Expert)
+> **NOTE:** I've seen so many résumés over the years as an interviewer that list a whole bunch of skills as though they are all equal. In truth, they almost never are, so I've tried to do better by adding an approximate proficiency level (scale: Low, Med, High, Expert), as well as a directional arrow. An up-arrow (`↑`) means I'm actively working with them and my proficiency is likely to go **up** over time. A down-arrow (`↓`) means it's been a while since I've worked with it, and my proficiency is likely to go **down** over time unless I get a good refresher course. _No arrow_ suggests that I simply maintain my knowledge where it is.
 
-* **Operating Systems:** macOS (Expert), CentOS (High), Amazon Linux (High), Amazon Linux 2 (High), Windows (Med), Ubuntu (Med).
+* **Operating Systems:** [macOS](https://www.apple.com/macos/) (Expert: ↑), [CentOS Linux](https://www.centos.org) (High: ↑), [Amazon Linux](https://aws.amazon.com/amazon-linux-2/) (High: ↑), [Alpine Linux](https://www.alpinelinux.org) (High: ↑), [Windows](https://www.microsoft.com/en-us/windows/) (Med), [Ubuntu Linux](https://ubuntu.com) (Med).
 
-* **Standard Software Engineering Toolbox:** OOP fundamentals, dependency injection, polymorphism, performance, character encodings, Git, Linux, Makefiles, `yum`, `brew`, and other fundamentals (High); memorized algorithms (Low); memorized Big-O  notation (Low).
+* **Standard Software Engineering Toolbox:** OOP fundamentals, dependency injection, polymorphism, performance, character encodings, [Git](https://git-scm.com), Linux, Makefiles, `yum`, `brew`, and other fundamentals (High: ↑); memorized algorithms (Low); memorized Big-O notation (Low; I never learned it formally, and the _notation itself_ has always been a lower priority than learning to _do the work_ of being more efficient).
 
-* **Programming Languages:** _Modern_ PHP (Expert), Bash (High), Browser JavaScript (High), Node.js JavaScript (High), Golang (Med), Python (Med), Ruby (Low). Interested in learning Swift.
+* **Programming Languages:** _Modern_ [PHP](https://www.php.net) (Expert: ↓) (not the bad old PHP that everyone hates), [Bash](https://www.gnu.org/software/bash/) (High: ↑), Browser [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript) (Medium: ↓), [Node.js](https://nodejs.org) JavaScript (Medium: ↓), [Golang](https://go.dev) (High: ↑), [Python](https://www.python.org) (High: ↑), [Ruby](https://www.ruby-lang.org) (Low: ↓). Interested in learning [Swift](https://swift.org) and [Rust](https://www.rust-lang.org), but am just scratching the surface.
 
-* **Cloud Computing:** Google Cloud’s core infrastructure services (not current), AWS (current; EC2, RDS, S3, CloudFront, SQS, SNS, IAM, STS, CloudWatch Monitoring, CloudWatch Logs + Insights, Lambda, ECS-on-EC2, ECR, API Gateway, Auto-scaling, CloudTrail, Elastic Transcoder, ElastiCache, Route 53, ELB/ALB, ACM, SSM, Parameter Store), AWS SDKs + CLI, Docker.
+* **Cloud Computing:** [Google Cloud](https://cloud.google.com)’s core infrastructure services (Med: ↓), [AWS](https://aws.amazon.com) (EC2, RDS, S3, CloudFront, SQS, SNS, IAM, STS, CloudWatch Monitoring, CloudWatch Logs + Insights, Lambda, ECS-on-EC2, ECR, API Gateway, Auto-scaling, CloudTrail, Elastic Transcoder, ElastiCache, Route 53, ELB/ALB, ACM, SSM, Parameter Store) (mostly High/Expert: ↑), [AWS SDKs + CLI](https://aws.amazon.com/tools/) (High: ↑), [Docker](https://www.docker.com) (High: ↑).
 
-* **Provisioning:** Terraform (High), Terragrunt (Med), Packer (High), Ansible (Med).
+* **Provisioning:** [Terraform](https://www.terraform.io) (Expert: ↑), [Terragrunt](https://terragrunt.gruntwork.io) (Med/High: ↑), [Packer](https://www.packer.io) (High: ↑), [Ansible](https://www.ansible.com), [Vagrant](https://www.vagrantup.com) (Med: ↓).
 
-* **API & Scalable System Design:** Understanding and designing highly-scalable, distributed systems for running web applications and web services. ReST-like web service API design. GraphQL (and N+1) implementations. Understand the difference between a true SOA [micro-service vs a "distributed monolith"](https://www.microservices.com/talks/dont-build-a-distributed-monolith/).
+* **API & Scalable System Design:** Understanding and designing highly-scalable, distributed systems for running web applications and web services (High: ↑). ~~REST~~ JSON-over-HTTP web service API design (High). _True_ [Representational State Transfer and an architectural style for Distributed Hypermedia Systems](https://www.ics.uci.edu/~fielding/pubs/dissertation/rest_arch_style.htm) (REST, HATEOAS) (Med/High: ↑). [GraphQL](https://graphql.org) (and N+1) implementations (Med/High: ↑). Understand the difference between a true service-oriented-architecture (SOA) [micro-service vs a "distributed monolith"](https://www.microservices.com/talks/dont-build-a-distributed-monolith/) (High: ↑). [OpenAPI](https://spec.openapis.org/oas/latest.html#introduction) (née Swagger) (Med: ↑). [JSON Schema](https://json-schema.org) (High: ↑).
 
-* **Enterprise Services:** Artifactory, JIRA, Confluence, GitHub Enterprise, GitHub.com, Phabricator, Pingdom, New Relic, Datadog,  Papertrail, Slack.
+* **Enterprise Services:** [Artifactory](https://jfrog.com/artifactory/) (Expert: ↑), [Jira](https://www.atlassian.com/software/jira) (High: ↑), [Confluence](https://www.atlassian.com/software/confluence) (High: ↑), [GitHub Enterprise](https://github.com/enterprise) (High: ↑), [GitHub](https://github.com) (High: ↑), [Pingdom](https://www.pingdom.com) (Med: ↓), [New Relic](https://newrelic.com) (Med: ↑), [Datadog](https://www.datadoghq.com) (Med: ↓), [Papertrail](https://www.papertrail.com) (Med: ↓), [Slack](https://slack.com) (High: ↑), [PagerDuty](https://www.pagerduty.com) (High: ↑).
   
-* **Databases & Key-Value/Document stores:** MySQL (Med), Redis (High), PostgreSQL (Low), Memcache (Low)
+* **Databases & Key-Value/Document stores:** [MySQL](https://www.mysql.com) (Med: ↑), [Redis](https://redis.io) (High: ↓), [PostgreSQL](https://www.postgresql.org) (Low: ↑), [Memcache](https://memcached.org) (Low: ↓).
 
-* **Metadata Formats:** RDFa, Dublin Core, FOAF, CommonTag, OpenSearch, Swagger/OpenAPI, JSON Schema, JSON, YAML, TOML, XML.
+* **Metadata and Config Formats:** [RDFa](https://rdfa.info), [Dublin Core](https://dublincore.org), [FOAF](http://www.foaf-project.org), [OpenSearch](https://en.wikipedia.org/wiki/OpenSearch), [JSON-LD](https://json-ld.org), [Microformats](http://microformats.org), [RSS](https://www.rssboard.org/rss-specification), [Atom (RFC 4287)](https://datatracker.ietf.org/doc/html/rfc4287), [JSON](https://www.ecma-international.org/publications-and-standards/standards/ecma-404/), [YAML](https://yaml.org), [TOML](https://toml.io), [XML](https://www.w3.org/TR/xml/), [HCL](https://github.com/hashicorp/hcl/blob/main/hclsyntax/spec.md).
 
 <div class="page-break"></div>
 
 ## Work Experience & Notable Projects
 
-### [McGraw-Hill Education](http://www.mheducation.com) — Seattle, WA
+### [McGraw Hill](https://www.crunchbase.com/organization/mcgraw-hill-education) (née McGraw-Hill Education) — Remote (since COVID), previously Seattle, WA
 #### Principal SRE and Cloud Engineer (June 2020—Present)
 
 Continuing the work I led as an engineering manager, but with a renewed technical focus — part strategic, part tactical.
 
-(This includes Base AMIs for EC2, Prism, Monitoring-as-Code, and re-usable Terraform Modules.)
+* Migrated into a more strategic role around the projects where I had started as the creator, initiator, primary developer — planning the path of the products and how they wove into the larger tapestry of our highly-heterogenous application ecosystem which had grown by way of acquisition over the years.
+
+* My team and I partnered with McGraw Hill Enterprise Architecture and [AWS Professional Services](https://aws.amazon.com/professional-services/) to deploy [AWS Control Tower](http://aws.amazon.com/controltower/) and [AWS SSO](https://aws.amazon.com/single-sign-on/). We saw dramatic cost savings by switching from a previous third-party AWS orchestration service that I won't mention here.
+
+* Collaborated on the [Guardrails](https://docs.aws.amazon.com/controltower/latest/userguide/mandatory-guardrails.html) (mandatory + custom) deployed across all AWS account _organizational units_ (OUs). These were written as CloudFormation YAML, Python, and Bash scripts. In such a large complex, project, it's easy for the code to become obtuse and difficult to trace. Worked with my team to make sure we understood the fine details of the implementation, then implemented Lambda functions and CI code to read certain changes in Git commits to master/main and generate README/Confluence documentation with directed graphs and charts generated from DOT documents, to make the workflows and details easier to understand visually.
+
+* Products that I had personally pioneered (ECS-optimized Base AMI, Prism, Monitoring-as-Code, Terraform modules) became core pieces of our “reliability platform” alongside off-the-shelf software/services such as [AWS Control Tower](https://aws.amazon.com/controltower/), [Artifactory](https://jfrog.com/artifactory/), [GitHub Enterprise](https://github.com/enterprise), [GitHub Actions](https://github.com/features/actions), [Circle CI Enterprise](https://circleci.com/enterprise/), [Jenkins](https://www.jenkins.io), and more.
+
+* Worked to streamline the developer experience by moving all disparate Amazon ECR Docker image repositories into Artifactory. Worked to reduce the time to build VMs and Docker images by identifying the common software people were manually installing, and began packaging them as pre-compiled `.rpm`, `.deb`, and `.apk` (Alpine Linux) packages that could be installed from Artifactory through the system’s built-in package management system. Faster builds with better reliability and reduction of the [“left-pad” problem](https://web.archive.org/web/20210824233536/https://www.davidhaney.io/npm-left-pad-have-we-forgotten-how-to-program/).
+
+* Took over the entire Base AMI program (ECS-optimized, General Purpose Linux, General Purpose Windows Server, and _derivative_ AMIs for things like Artifactory and GitHub Actions). Took what we'd learned about [Packer](https://www.packer.io), [CIS Benchmarks](https://www.cisecurity.org), security patching, and the needs of a particular AMI’s audience to develop a single build pipeline which brought the best ideas from each AMI together — automatic dev builds with unit/integration testing on Git commit, production builds with complete package indexing on Git tag, pre-installing and pre-configuring agents for metrics and cybersecurity, automated security analysis scanning, making the Base AMIs available to all ±150 AWS accounts, rotating the hosts to use the new AMI with zero downtime.
 
 #### Engineering Manager, Site Reliability (October 2018—June 2020)
 
@@ -79,16 +106,18 @@ Many of the following projects got their start in my work as an application engi
 
 Ryan led the development of multiple tier-1 services as part of the educational content authoring pipeline, leveraging REST, GraphQL, API design, AWS, Amazon ECS, Docker, Terraform, ePubs, and security best practices. Led the technical direction of the projects, socialized them, documented them, and provided ongoing guidance around their design and use.
 
-* A member of the core team developing a newer approach to deploying applications, which leveraged continuous integration and continuous delivery. While many applications and processes were built around larger deployments occurring every few weeks, this team was charged with developing and defining newer processes which allowed deployments that were both more frequent, and more reliable.
+* Lead the development of the authoring component of [McGraw Hill’s SmartBook 2.0 product](https://www.mheducation.com/news-media/press-releases/mcgraw-hill-connect-unveils-smartbook.html), and the internal system which indexes authored content, builds ePubs, and encodes images/video for McGraw Hill’s ePub CDN.
+
+* Member of the core team developing a newer approach to deploying applications, which leveraged continuous integration and continuous delivery. While many applications and processes were built around larger deployments occurring every few weeks, this team was charged with developing and dog-fooding newer processes which allowed deployments that were both more frequent and more reliable.
 
 * Introduced a more hands-on monitoring style, which enables development teams to be more actively engaged in their own operations instead of relying exclusively on an external, third-party vendor used by other groups in the company. This enabled us to provide significantly-lower MTTR during incidents, and by digging into application-level metrics (instead of exclusively infrastructure-level metrics), we were better able to provide valuable data which addressed KPIs/SLOs for the kinds of experiences our customers were having.
 
 * A member of the core team that was migrating all new infrastructure to "Infrastructure-as-Code" tooling such as Terraform, Packer, etc. Identified patterns across applications, and began the effort to streamline infrastructure maintenance with shared, re-usable Terraform modules.
 
-### [Perimeter of Wisdom, LLC](https://first-time-offender.com)
+### Perimeter of Wisdom, LLC
 #### Co-Owner, CTO, Producer (February 2015—2018)
 
-On the technical side, Ryan built the entire [The First-Time Offender’s Guide to Freedom](https://first-time-offender.com) website, soup to nuts. Ryan also produced the eBook, authored by E. M. Baird.
+On the technical side, Ryan built the entire “The First-Time Offender’s Guide to Freedom” website, soup to nuts. Ryan also performed all of the production work on the eBook, authored by E. M. Baird.
 
 * Leveraged modern tools to build the front-end, including Bootstrap, LESS, JavaScript, Gulp.js, npm, Bower. Ryan built the back-end in PHP 5.6, using HHVM and Nginx, MySQL, Redis, Slim Framework, Monolog, Pimple, Twig, Guzzle, Doctrine, Phinx, and Symfony components. Ryan deployed the application using Ansible, and developed the application in a Vagrant environment running Ubuntu.
 
@@ -96,7 +125,7 @@ On the technical side, Ryan built the entire [The First-Time Offender’s Guide 
 
 <div class="page-break"></div>
 
-### [WePay](http://wepay.com) — Redwood City, CA
+### [WePay](https://www.crunchbase.com/organization/wepay) — Redwood City, CA
 #### DevOps Engineer (April 2015—September 2016)
 
 * Improved how WePay provisioned cloud infrastructure, deployed updates, managed security patches, monitored applications and infrastructure, and streamlined the process of planning, developing, deploying and maintaining new micro-services throughout the company.
@@ -113,7 +142,7 @@ On the technical side, Ryan built the entire [The First-Time Offender’s Guide 
 
 * Heavily involved in the security of WePay’s products, coordinating fixes with teams against other priorities, and fixing the issues himself in many cases.
 
-### [Amazon](http://aws.amazon.com) — Seattle, WA
+### [Amazon](https://www.crunchbase.com/organization/amazon-web-services) — Seattle, WA
 #### Web Development Engineer II, Amazon Web Services (March 2010—April 2014)
 
 * Adapted CloudFusion into the [AWS SDK for PHP](https://github.com/amazonwebservices/aws-sdk-for-php) — AWS's SDK for rapidly building cloud-based web applications (launched September 2010). Invested heavily in supporting the needs of developers by taking the time to listen and understand the needs of developers, and is involved in PHP-related industry groups on behalf of AWS.
@@ -124,18 +153,19 @@ On the technical side, Ryan built the entire [The First-Time Offender’s Guide 
 
 * Worked with the AWS Design team on the [AWS Management Console](https://console.aws.amazon.com), where he lends his experience as a web developer and software engineer to bridge the gap between the design and engineering disciplines in an effort to build a high-quality, robust, user-friendly console for interacting with Amazon Web Services.
 
-### [CloudFusion](http://getcloudfusion.com) (née Tarzan) — Open-Source Project
+### CloudFusion (née Tarzan) — Open-Source Project
 #### Creator and Developer (Early 2005—March 2010)
 
 * CloudFusion is a fast, powerful PHP toolkit for building awesome, cloud-based web applications in a fraction of the time! Design decisions are made in the best interests of performance, ease of use, and overall usability. Goals are to provide a high-performance developer toolkit for leveraging Amazon's cloud infrastructure, to grow the community and, and to build useful user-centric apps based on the toolkit.
 
-### [Rearden Commerce](http://reardencommerce.com) — Foster City, CA
+* Amazon Web Services hired me to fork this project in 2010. It became the AWS SDK for PHP.
+
+### Rearden Commerce (now [Deem](https://www.crunchbase.com/organization/deem)) — Foster City, CA
 #### Senior User Experience Developer (July 2008—March 2010)
 
-* Supported the user experience team, Java developers, and widget development teams. This involved prototyping new features, integration of those new features, migrating JavaScript code from older frameworks to YUI, and educating other teams on the value of high-quality front-end code — all while placing a huge emphasis on writing front-end
-code with better performance, faster load times, and improved accessibility across the board.
+* Supported the user experience team, Java developers, and widget development teams. This involved prototyping new features, integration of those new features, migrating JavaScript code from older frameworks to YUI, and educating other teams on the value of high-quality front-end code — all while placing a huge emphasis on writing front-end code with better performance, faster load times, and improved accessibility across the board.
 
-### [WarpShare](http://warpshare.com) — Morgan Hill, CA
+### [WarpShare](https://www.crunchbase.com/organization/warpshare) — Morgan Hill, CA
 #### Co-Founder and Chief Information Officer (September 2006—March 2010)
 
 WarpShare was working to bridge the gap between digital piracy and the economics of the RIAA/MPAA industry groups.
@@ -157,12 +187,16 @@ WarpShare was working to bridge the gap between digital piracy and the economics
 
 * After recruiting additional development resources in June 2005, Ryan began to shift from a primarily development-focused role to a primarily people-focused role, where he currently works to ensure that people are aware of, and can easily use SimplePie through support, documentation, tutorials, plugins, and evangelism.
 
-### [Self-Employed](http://ryanparman.com/design/)
+* SimplePie was integrated into WordPress, Drupal, MODx, and several other large projects written in PHP. If you've ever used WordPress since 2006, you've used SimplePie with or without knowing it.
+
+### [Self-Employed](https://ryanparman.com/design/)
 #### Consulting and development services (2007—2009)
 
 * As a freelance developer, Ryan leverages a deep understanding of best practices in front-end development, layout and design, information architecture, usability, accessibility, and web culture to provide value to clients. He provides guidance to people and teams about how to maintain best practices after the project ends.
 
-### [Yahoo!](http://messenger.yahoo.com) — Sunnyvale, CA
+* Took on various gigs to stay afloat when WarpShare was broke during the credit crisis.
+
+### [Yahoo!](https://www.crunchbase.com/organization/yahoo) — Sunnyvale, CA
 #### Front-end Developer (Contract), Yahoo! Messenger (November 2007—January 2008)
 
 * Ryan lead the front-end development of the Spring 2008 re-launch of the Yahoo! Messenger website. He collaborated with a core team of developers to provide increased usability, accessibility, organic search engine optimization (SEO), and simplified maintenance, resulting in exceptionally tuned performance for 29 locales.
@@ -171,16 +205,16 @@ WarpShare was working to bridge the gap between digital piracy and the economics
 
 <div class="page-break"></div>
 
-### [Stryker](http://stryker.com) — San Jose, CA
+### [Stryker](https://www.crunchbase.com/organization/stryker) — San Jose, CA
 #### User Interface Developer (May 2005—September 2006)
 
-* Ryan was a core member of the team tasked with re-building the company intranet site around Oracle Portal. His time was spent writing and discussing functional and technical documentation, conducting usability interviews, and creating a fresh UI that employed user-centered design principles, web standards, and AJAX technologies.
+* Ryan was a core member of the team tasked with re-building the company intranet site around Oracle Portal. His time was spent writing and discussing functional and technical documentation, conducting usability interviews, and creating a fresh UI that employed user-centered design principles, web standards, and fancy new AJAX tech.
 
 * Ryan was also a member of the Endora Marketing Team, which was geared towards spreading information about the company's move to Oracle's ERP software. In that capacity, Ryan maintained the Endora website, wrote numerous articles for the monthly newsletter, interviewed project leads, and created fun little ERP-related polls to help drive interest in the project.
 
 * Ryan worked with the eBusiness team to improve maintenance and development for the UI of the GlobalSource project. He also re-engineered the Stryker Endoscopy public site to follow modern web standards, and built a PHP-based templating system for the site that significantly sped up development.
 
-### [Digital Impact](http://acxiom.com/digital-impact/) — San Mateo, CA
+### [Digital Impact](https://www.crunchbase.com/organization/digital-impact-2) — San Mateo, CA
 #### Production Specialist (March 2004—April 2005)
 
 * Ryan coordinated with Campaign Managers on email campaign integration, with responsibility for email content and change requests, and ensuring that the content format was consistent with client requirements. He performed the quality tracking and reporting of campaign integration-related metrics, and consulted and troubleshot on text and HTML templates.
@@ -191,7 +225,7 @@ WarpShare was working to bridge the gap between digital piracy and the economics
 
 ### Truncated
 
-Earlier experience is available upon request.
+Earlier experience from before I graduated college is available upon request.
 
 <div class="page-break"></div>
 
