@@ -4,7 +4,7 @@
 
 Hi there 👋
 
-Currently: Principal Engineer leading the CloudOps and Engineering team at McGraw Hill.
+**Currently:** Principal Software, Security, and Cloud Engineer leading the CloudOps and Engineering team at McGraw Hill.
 
 Ryan has a passion for working on lower-level projects and pipelines which help make the lives of engineers easier, then making those projects usable and understandable to people. Some recent examples:
 
@@ -14,6 +14,7 @@ Ryan has a passion for working on lower-level projects and pipelines which help 
 * Custom cybersecurity tools for scanning and reporting — including tracking the cert expirations on tens-of-thousands of endpoints on ±7,500 root domains and auto-alerting the teams not using Amazon Cert Manager or Let’s Encrypt when certs are within a few weeks of expiring.
 * Using off-the-shelf software like Artifactory, GitHub Enterprise, GitHub Actions, Circle CI, Jenkins, and more.
 * Using highly-customized vendor-provided software like AWS Control Tower.
+* Auto-rotating secrets with a _Token Vending Machine_.
 
 ## Summary
 
@@ -70,19 +71,31 @@ While my experience and personal technical interests are broad, the following li
 ### [McGraw Hill](https://www.crunchbase.com/organization/mcgraw-hill-education) (née McGraw-Hill Education) — Remote (since COVID), previously Seattle, WA
 #### Principal SRE and Cloud Engineer (June 2020—Present)
 
-Continuing the work I led as an engineering manager, but with a renewed technical focus — part strategic, part tactical.
+Continuing the work I led as an engineering manager, I migrated into a more strategic role around the projects where I had started as the creator, initiator, primary developer — planning the path of the products and how they wove into the larger tapestry of our highly-heterogenous application ecosystem which had grown by way of acquisition over the years. With no longer having direct reports, I was able to focus on _technical leadership_ without the responsibility of _human management_.
 
-* Migrated into a more strategic role around the projects where I had started as the creator, initiator, primary developer — planning the path of the products and how they wove into the larger tapestry of our highly-heterogenous application ecosystem which had grown by way of acquisition over the years.
+* **Documentation:** Prolific documentarian. Documentation is worth 50% of your grade.
 
-* My team and I partnered with McGraw Hill Enterprise Architecture and [AWS Professional Services](https://aws.amazon.com/professional-services/) to deploy [AWS Control Tower](http://aws.amazon.com/controltower/) and [AWS SSO](https://aws.amazon.com/single-sign-on/). We saw dramatic cost savings by switching from a previous third-party AWS orchestration service that I won't mention here.
+* **Reliability Platform:** Products that I had personally pioneered (ECS-optimized Base AMI, Prism, Monitoring-as-Code, Terraform modules) became core pieces of our “reliability platform” alongside off-the-shelf software/services such as [AWS Control Tower](https://aws.amazon.com/controltower/), [Artifactory](https://jfrog.com/artifactory/), [GitHub Enterprise](https://github.com/enterprise), [GitHub Actions](https://github.com/features/actions), [Circle CI Enterprise](https://circleci.com/enterprise/), [Jenkins](https://www.jenkins.io), and more.
 
-* Collaborated on the [Guardrails](https://docs.aws.amazon.com/controltower/latest/userguide/mandatory-guardrails.html) (mandatory + custom) deployed across all AWS account _organizational units_ (OUs). These were written as CloudFormation YAML, Python, and Bash scripts. In such a large complex, project, it's easy for the code to become obtuse and difficult to trace. Worked with my team to make sure we understood the fine details of the implementation, then implemented Lambda functions and CI code to read certain changes in Git commits to master/main and generate README/Confluence documentation with directed graphs and charts generated from DOT documents, to make the workflows and details easier to understand visually.
+* **Control Tower:** My team and I partnered with McGraw Hill Enterprise Architecture and [AWS Professional Services](https://aws.amazon.com/professional-services/) to deploy [AWS Control Tower](http://aws.amazon.com/controltower/) and [AWS SSO](https://aws.amazon.com/single-sign-on/). Dramatically lowered costs and increased control over account guardrails. Enabled automated provisioning of new accounts (i.e., "the Account Factory"), and developed smoke tests as a post-provisioning validation step.
 
-* Products that I had personally pioneered (ECS-optimized Base AMI, Prism, Monitoring-as-Code, Terraform modules) became core pieces of our “reliability platform” alongside off-the-shelf software/services such as [AWS Control Tower](https://aws.amazon.com/controltower/), [Artifactory](https://jfrog.com/artifactory/), [GitHub Enterprise](https://github.com/enterprise), [GitHub Actions](https://github.com/features/actions), [Circle CI Enterprise](https://circleci.com/enterprise/), [Jenkins](https://www.jenkins.io), and more.
+* **Clarity in Complexity:** Collaborated on the [Guardrails](https://docs.aws.amazon.com/controltower/latest/userguide/mandatory-guardrails.html) (mandatory + custom) deployed across all AWS account _organizational units_ (OUs). These were written as CloudFormation YAML, Python, and Bash scripts. In such a large complex, project, it's easy for the code to become obtuse and difficult to trace. Worked with my team to make sure we understood the fine details of the implementation, then implemented Lambda functions and CI code to read certain changes in Git commits to master/main and generate README/Confluence documentation with directed graphs and charts generated from DOT documents, to make the workflows and details easier to understand visually.
 
-* Worked to streamline the developer experience by moving all disparate Amazon ECR Docker image repositories into Artifactory. Worked to reduce the time to build VMs and Docker images by identifying the common software people were manually installing, and began packaging them as pre-compiled `.rpm`, `.deb`, and `.apk` (Alpine Linux) packages that could be installed from Artifactory through the system’s built-in package management system. Faster builds with better reliability and reduction of the [“left-pad” problem](https://web.archive.org/web/20210824233536/https://www.davidhaney.io/npm-left-pad-have-we-forgotten-how-to-program/).
+* **Base AMI program** (ECS-optimized, General Purpose Linux, General Purpose Windows Server, and _derivative_ AMIs for things like Artifactory and GitHub Actions). Took what we'd learned about [Packer](https://www.packer.io), [CIS Benchmarks](https://www.cisecurity.org), security patching, and the needs of a particular AMI’s audience to develop a single build pipeline which brought the best ideas from each AMI together — automatic dev builds with unit/integration testing on Git commit, production builds with complete package indexing on Git tag, pre-installing and pre-configuring agents for metrics and cybersecurity, automated security analysis scanning, making the Base AMIs available to all ±150 AWS accounts, rotating the hosts to use the new AMI with zero downtime. Adopted EC2 ImageBuilder in the process.
 
-* Took over the entire Base AMI program (ECS-optimized, General Purpose Linux, General Purpose Windows Server, and _derivative_ AMIs for things like Artifactory and GitHub Actions). Took what we'd learned about [Packer](https://www.packer.io), [CIS Benchmarks](https://www.cisecurity.org), security patching, and the needs of a particular AMI’s audience to develop a single build pipeline which brought the best ideas from each AMI together — automatic dev builds with unit/integration testing on Git commit, production builds with complete package indexing on Git tag, pre-installing and pre-configuring agents for metrics and cybersecurity, automated security analysis scanning, making the Base AMIs available to all ±150 AWS accounts, rotating the hosts to use the new AMI with zero downtime.
+* **Streamlining:** Combined elements of Terraform, Monitoring-as-Code, Base AMIs, and our custom security tooling to empower application teams to bring a Docker image with a small amount of configuration and deploy it to one of our Amazon ECS clusters with best practices, infrastructure monitoring, and operational tooling built-in, lowering overall costs.
+
+* **Preventative automation:** Scanned Route 53 and other DNS providers to obtain a mapping of our 1000s of active websites. Leveraged highly-concurrent, scalable bots to fetch certificate data from each endpoint. Enabling faster rotation for expiring datacenter certs by knowing both WHICH certs and WHERE they were installed. Verified the required DNS records for self-rotating Amazon Cert Manager certs.
+
+* **Prism:** Developed custom security and operational tooling where off-the-shelf tools wouldn't give us what we needed. Solution involved highly concurrent and dynamically-scalable nodes that would scan the AWS APIs to understand the current posture of ±150 AWS accounts. Made the data transparent to ALL engineers, enabling teams to be involved in improving their infrastructure stacks.
+
+* **Automation for Artifactory:** Rebuilt our Artifactory cluster with a “cattle, not pets” approach. Dedicated Base AMI, rotated monthly. Migrated artifacts from NFS to S3. Rewrote configuration in Terraform instead of by-hand. Moved service-user management into Terraform. This automation reduced the amount of human error in the process, and improved our security posture.
+
+* **Docker Image + Custom Packages:** Worked to streamline the developer experience by moving all disparate Amazon ECR Docker image repositories into Artifactory. Worked to reduce the time to build VMs and Docker images by identifying the common software people were manually installing, and began packaging them as pre-compiled `.rpm`, `.deb`, and `.apk` (Alpine Linux) packages that could be installed from Artifactory through the system’s built-in package management system. Faster builds with better reliability and reduction of the [“left-pad” problem](https://web.archive.org/web/20210824233536/https://www.davidhaney.io/npm-left-pad-have-we-forgotten-how-to-program/).
+
+* **Token Vending Machine:** Built a Token Vending Machine to enable continuous token/password rotation for our engineering teams. “Push button, receive token.” Solution leveraged Secrets Manager, Lambda, KMS, IAM policies, and some custom CLI software written in Go. First integration was for service-users (robots) in Artifactory.
+
+* **Training and Education:** Worked to develop the SysAdmin "button pushers" on my teams into more well-rounded software engineers who could automate more reliabily. Continued to push to _raise the bar_ in the quality of our team. When SysAdmins left the company, worked to hire _true_ SREs to fill their spots.
 
 #### Engineering Manager, Site Reliability (October 2018—June 2020)
 
@@ -289,6 +302,7 @@ A full list of recommendations can be found on my [LinkedIn profile](http://www.
 
 ## Groups & Accomplishments 
 
+* Editor/Producer/Publisher for the book “Federal Probation Bible, 2022–2023 Edition” written by E.M. Baird. (ISBN: `9780578992693`)
 * Voting Representative for AWS, [PHP Framework Interoperability Group](http://www.php-fig.org) (2012–2013)
 * Member, [RSS Advisory Board](http://www.rssboard.org) (2007—2009)
 * Patent, [“Hive-based Peer-to-Peer Network”](https://patents.google.com/patent/US8103870B2/en?inventor=Ryan+Parman) (US8103870B2)
