@@ -40,11 +40,9 @@ As I’ve learned more and more about managing humans over the years — some fr
 
   * About most things, “There are things that matter, and there are things that really, really don’t. Focus on the things that actually matter, and stop wasting your time and energy on the things that don’t.”
 
-<div class="page-break"></div>
-
 ## Technical Skills and Software
 
-While my experience and personal technical interests are broad, the following list is focused more on my interest in DevTools, DevOps, and SRE roles. I would be happy to share additional experience for other areas upon request. 
+While my experience and personal technical interests are broad, the following list is focused more on my interest in DevTools, DevOps, and SRE roles. I would be happy to share additional experience for other areas upon request.
 
 > **NOTE:** I've seen so many résumés over the years as an interviewer that list a whole bunch of skills as though they are all equal. In truth, they almost never are, so I've tried to do better by adding an approximate proficiency level (scale: Low, Med, High, Expert), as well as a directional arrow. An up-arrow (`↑`) means I'm actively working with them and my proficiency is likely to go **up** over time. A down-arrow (`↓`) means it's been a while since I've worked with it, and my proficiency is likely to go **down** over time unless I get a good refresher course. _No arrow_ suggests that I simply maintain my knowledge where it is.
 
@@ -61,7 +59,7 @@ While my experience and personal technical interests are broad, the following li
 * **API & Scalable System Design:** Understanding and designing highly-scalable, distributed systems for running web applications and web services (High: ↑). ~~REST~~ JSON-over-HTTP web service API design (High). _True_ [Representational State Transfer and an architectural style for Distributed Hypermedia Systems](https://www.ics.uci.edu/~fielding/pubs/dissertation/rest_arch_style.htm) (REST, HATEOAS) (Med/High: ↑). [GraphQL](https://graphql.org) (and N+1) implementations (Med/High: ↑). Understand the difference between a true service-oriented-architecture (SOA) [micro-service vs a "distributed monolith"](https://www.microservices.com/talks/dont-build-a-distributed-monolith/) (High: ↑). [OpenAPI](https://spec.openapis.org/oas/latest.html#introduction) (née Swagger) (Med: ↑). [JSON Schema](https://json-schema.org) (High: ↑).
 
 * **Enterprise Services:** [Artifactory](https://jfrog.com/artifactory/) (Expert: ↑), [Jira](https://www.atlassian.com/software/jira) (High: ↑), [Confluence](https://www.atlassian.com/software/confluence) (High: ↑), [GitHub Enterprise](https://github.com/enterprise) (High: ↑), [GitHub](https://github.com) (High: ↑), [Pingdom](https://www.pingdom.com) (Med: ↓), [New Relic](https://newrelic.com) (Med: ↑), [Datadog](https://www.datadoghq.com) (Med: ↓), [Papertrail](https://www.papertrail.com) (Med: ↓), [Slack](https://slack.com) (High: ↑), [PagerDuty](https://www.pagerduty.com) (High: ↑).
-  
+
 * **Databases & Key-Value/Document stores:** [MySQL](https://www.mysql.com) (Med: ↑), [Redis](https://redis.io) (High: ↓), [PostgreSQL](https://www.postgresql.org) (Low: ↑), [Memcache](https://memcached.org) (Low: ↓).
 
 * **Metadata and Config Formats:** [RDFa](https://rdfa.info), [Dublin Core](https://dublincore.org), [FOAF](http://www.foaf-project.org), [OpenSearch](https://en.wikipedia.org/wiki/OpenSearch), [JSON-LD](https://json-ld.org), [Microformats](http://microformats.org), [RSS](https://www.rssboard.org/rss-specification), [Atom (RFC 4287)](https://datatracker.ietf.org/doc/html/rfc4287), [JSON](https://www.ecma-international.org/publications-and-standards/standards/ecma-404/), [YAML](https://yaml.org), [TOML](https://toml.io), [XML](https://www.w3.org/TR/xml/), [HCL](https://github.com/hashicorp/hcl/blob/main/hclsyntax/spec.md).
@@ -111,7 +109,7 @@ Many of the following projects got their start in my work as an application engi
 
 * **Monitoring-as-Code** which leverages Terraform and Python to streamline the process of generating and maintaining dashboards and monitors in Datadog and New Relic across a large, heterogeneous swath of applications. Trained development teams in adopting "full-cycle" development practices where the development team owns day-to-day operations of their services including deployments, support, and on-call rotations.
 
-* Formed a leadership group to develop a more rigorous process for developing, patching, vending, and maintaining re-usable **Terraform modules** that are used by large numbers of product development teams across the company. Standardized their development, contribution, and usage guidelines, adopted an Apache-style "incubator" for developing new modules, and adopted a process for shipping LTS-style packages of modules. 
+* Formed a leadership group to develop a more rigorous process for developing, patching, vending, and maintaining re-usable **Terraform modules** that are used by large numbers of product development teams across the company. Standardized their development, contribution, and usage guidelines, adopted an Apache-style "incubator" for developing new modules, and adopted a process for shipping LTS-style packages of modules.
 
 * Took over engineering management responsibilities for the **Site Reliability** group in MHE's Seattle office. Worked to integrate our office better with the larger, developing SRE practice across all offices. Joined the SRE leadership group to help guide and participate in the development of better processes around reliability, which we then worked with product development teams to adopt and apply.
 
@@ -137,8 +135,6 @@ On the technical side, Ryan built the entire “The First-Time Offender’s Guid
 * Leveraged modern tools to build the front-end, including Bootstrap, LESS, JavaScript, Gulp.js, npm, Bower. Ryan built the back-end in PHP 5.6, using HHVM and Nginx, MySQL, Redis, Slim Framework, Monolog, Pimple, Twig, Guzzle, Doctrine, Phinx, and Symfony components. Ryan deployed the application using Ansible, and developed the application in a Vagrant environment running Ubuntu.
 
 * Runs the unit, integration and functional tests using PHPUnit, Behat, Mink, and Selenium. Ryan leverages Amazon SES for sending email, Amazon S3 for static file storage, Stripe for payment processing, Linode for web hosting, MaxMind IP-based geolocation, and Google Books and Dropbox for ensuring that customers always have the latest errata fixes.
-
-<div class="page-break"></div>
 
 ### [WePay](https://www.crunchbase.com/organization/wepay) — Redwood City, CA
 #### DevOps Engineer (April 2015—September 2016)
@@ -218,8 +214,6 @@ WarpShare was working to bridge the gap between digital piracy and the economics
 
 * Ryan was involved in tuning the front-end stack for performance, where they employed semantically valid HTML/CSS, caching, gzipping, image spriting, code minification, and reduced HTTP requests, resulting in exceptional performance.
 
-<div class="page-break"></div>
-
 ### [Stryker](https://www.crunchbase.com/organization/stryker) — San Jose, CA
 #### User Interface Developer (May 2005—September 2006)
 
@@ -242,13 +236,11 @@ WarpShare was working to bridge the gap between digital piracy and the economics
 
 Earlier experience from before I graduated college is available upon request.
 
-<div class="page-break"></div>
-
-## Recommendations 
+## Recommendations
 
 A full list of recommendations can be found on my [LinkedIn profile](http://www.linkedin.com/in/rparman). Here are a few of my favorites.
 
-<!-- 
+<!--
 ### [Miroslav Ladan](https://www.linkedin.com/in/miroslav-ladan/)
 #### Sr. Director of Software Engineering, McGraw Hill
 
@@ -300,9 +292,7 @@ A full list of recommendations can be found on my [LinkedIn profile](http://www.
 
 > “Ryan is one of those rare people capable of tapping deep creative, technical, and operational proficiency. Capable of solving difficult problems while marshalling external/internal resources to deliver high quality results within budget and on-time. SimplePie provides a good example of Ryan’s abilities. He cast the vision, recruited a partner, provided significant chunks of code, and evangelized the project across the Net.”
 
-<div class="page-break"></div>
-
-## Groups & Accomplishments 
+## Groups & Accomplishments
 
 * Editor/Producer/Publisher for the book “Federal Probation Bible, 2022–2023 Edition” written by E.M. Baird. (ISBN: `9780578992693`)
 * Voting Representative for AWS, [PHP Framework Interoperability Group](http://www.php-fig.org) (2012–2013)
@@ -311,7 +301,7 @@ A full list of recommendations can be found on my [LinkedIn profile](http://www.
 * Patent, [“System and Methods for User Authentication across Multiple Domains”](https://patents.google.com/patent/US20160241536A1/en?inventor=Ryan+Parman) (US15042104; Pending)
 * Student guest speaker for the 2004 Silicon Valley College graduation ceremony.
 
-## Education 
+## Education
 
 ### [Carrington College California](http://carrington.edu/schools/san-jose-california/) (née Silicon Valley College) — San Jose, CA
 

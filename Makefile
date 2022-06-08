@@ -10,7 +10,7 @@ all:
 build:
 	pandoc -r gfm -w docx --output=ryanparman-resume.docx README.md
 	pandoc -r gfm -w html5+smart --output=body.html README.md
-	python ./process.py
+	python3 ./process.py
 
 .PHONY: serve
 serve:
