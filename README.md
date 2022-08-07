@@ -164,6 +164,24 @@ On the technical side, Ryan built the entire “The First-Time Offender’s Guid
 
 * Worked with the AWS Design team on the [AWS Management Console](https://console.aws.amazon.com), where he lends his experience as a web developer and software engineer to bridge the gap between the design and engineering disciplines in an effort to build a high-quality, robust, user-friendly console for interacting with Amazon Web Services.
 
+**Less technical, more cultural achievements:**
+
+* Successfully pushed for an SDK for both web browsers and Node.js.
+* Successfully pushed for AWS development blogs and Twitter accounts, which was previously _prohibited_.
+* Successfully pushed for publishing AWS SDKs on GitHub, which was previously _prohibited_.
+* Successfully pushed for open-sourcing SDKs with the Apache 2.0 license instead of the (non-OSS) Amazon Standard License, which was previously _prohibited_.
+* Successfully pushed for the development of non-secret SDK improvements to happen in the open, which was previously _prohibited_.
+* Successfully pushed for the ability for AWS employees to answer questions on StackOverflow, which was previously _prohibited_.
+* Successfully pushed for the underlying AWS service models to be exposed to end-users, the same service models that the SDKs were built from, which was previously _prohibited_.
+* Successfully pushed for https://github.com/awslabs to exist as a place for _unofficial_ AWS projects.
+* Invented the idea of "waiter" functions that are now commonplace in the AWS SDKs and AWS CLI.
+* Sucessfully got the Console, SDK, and Development Tools teams to stop using the same sets of AWS root credentials across the entire organization.
+* Spent 3 years pitching the idea behind AWS Lambda to anyone at AWS who would listen. AWS Lambda launched 6 months after I left.
+* Led one of the first teams to provide reusable UI building blocks for creating AWS service consoles. This was in the Bootstrap-like era of AWS Consoles.
+* Unsuccessfully pushed for a drag-and-drop UI that could enable end-users to more easily write CloudFormation templates.
+* Unsuccessfully pushed for more complex "sample apps" to be written that would show best practices for using SDKs and AWS services, instead of the unhelpful "hello world" ones that shipped for many years.
+* Unsuccessfully pushed for better consistency across AWS service APIs and service-specific AWS consoles.
+
 ### CloudFusion (née Tarzan) — Open-Source Project
 #### Creator and Developer (Early 2005—March 2010)
 
@@ -179,17 +197,23 @@ On the technical side, Ryan built the entire “The First-Time Offender’s Guid
 ### [WarpShare](https://www.crunchbase.com/organization/warpshare) — Morgan Hill, CA
 #### Co-Founder and Chief Information Officer (September 2006—March 2010)
 
-WarpShare was working to bridge the gap between digital piracy and the economics of the RIAA/MPAA industry groups.
+WarpShare was working to bridge the gap between digital piracy and the economics of the RIAA/MPAA industry groups. Our desire was to support musical artists and copyright holders by finding ways to earn value from piracy. We knew that piracy could never be stopped, and we saw the MPAA and RIAA failing in their attempts to prevent piracy.
 
-* We developed a P2P protocol that was more efficient than BitTorrent called CleerPeer ([“Hive-based Peer-to-Peer Network”](https://patents.google.com/patent/US8103870B2/en?inventor=Ryan+Parman) (US8103870B2)).
+Some things that happened later that either proved our premises true or false:
 
-* We designed and began development on a [social network focused around digital media](https://www.flickr.com/photos/skyzyx/4256296410/in/album-72157623164675526/), and "gamification" around tagging and improving content (over automated data sources).
+* We developed a P2P protocol that was more efficient than BitTorrent called CleerPeer ([“Hive-based Peer-to-Peer Network”](https://patents.google.com/patent/US8103870B2/en?inventor=Ryan+Parman) (US8103870B2)). BitTorrent Pro solved many of the performance/efficiency issues in the original BitTorrent protocol that we had solved with our new protocol. [BitTorrent Inc.](https://www.crunchbase.com/organization/bittorrent) is still struggling to monetize the protocol.
 
-* We attempted a business model where users could support/sponsor content by interacting with advertising that designed to be a <u>part of</u> the media experience, instead of <u>interrupting</u> your media experience (similar to Apple's iAd platform, which came later). We likened this to people who looked forward to seeing the latest "I'm a Mac" ad that was popular at the time.
+* [IPFS](https://ipfs.tech) is a technology that empowers P2P-based delivery of digital content. This is the realization of one of the ideas we had for our next-gen transfer protocol.
 
-* By interacting/engaging with the content-targeted advertising, advertisers would _sponsor_ the download, paying the 99¢ per song that we would hold in escrow (this was similar to, but not the same as, the failed business model for [Readability](https://en.wikipedia.org/wiki/Readability_(service)), which came later). One of the key differences between WarpShare and Readability's business model was that although both services were designed to collect money on behalf of the copyright owner, Readability intended to keep any forfeiture due to the lack of a deal, WarpShare's plan (not vetted by a lawyer) was to give the money away to charity.
+* We were looking into ML-powered content identification, which has has proven "successful" by the companies who employ it (e.g., YouTube).
 
-* Failed because: team was too small; team lacked the required expertise in advertising; funding dried up as the US entered the _credit crisis_ from 2007–2009; tried to do too much up-front; early mistakes spending money on _starting a company_ instead of developing a consumer product.
+* We designed and began development on a [social network focused around digital media](https://www.flickr.com/photos/skyzyx/4256296410/in/album-72157623164675526/), and "gamification" around tagging and improving content (over automated data sources). People love keeping track of music, movies, and TV shows, discovering more things like it, and sharing with friends (e.g., GetGlue (acquired by Yahoo), Letterboxd, IMDb, Trakt.tv, Plex).
+
+* We attempted a business model where users and companies could support/sponsor content by interacting with advertising that designed to be a <u>part of</u> the media experience, instead of <u>interrupting</u> your media experience in the way that was popular at the time, and that YouTube _still_ does with their pre-roll/mid-roll advertisements. Apple attempted many of the very same ideas we had about advertising with their "iAd" service, which tried to turn advertising into more of an "experience". Apple failed. Conversely, _sponsorships_ were a relatively new idea at the time, but has grown on to significant success on Facebook, Instagram, TokTok, and other services with "influencers".
+
+* By interacting/engaging with the content-targeted advertising, advertisers would _sponsor_ the download, paying the 99¢ per song that we would hold in escrow (this was similar to, but not the same as, the failed business model for [Readability](https://en.wikipedia.org/wiki/Readability_(service)), which came later). One of the key differences between WarpShare and Readability's business model was that although both services were designed to collect money on behalf of the copyright owner, Readability intended to keep any forfeiture due to the lack of a deal, WarpShare's plan (not vetted by a lawyer) was to give the money away to charity. Regardless, there was a public backlash to Readability’s model, and they shut down after a few years.
+
+* Failed because: team was too small; team lacked the required expertise in advertising; team lacked the required expertise in machine learning; funding dried up as the US entered the _credit crisis_ from 2007–2009; tried to do too much up-front; early mistakes spending money on _starting a company_ instead of developing a consumer product.
 
 ### [SimplePie](http://simplepie.org) — Open-Source Project
 #### Creator and Co-Developer (July 2004—October 2009), contributor (ongoing)
