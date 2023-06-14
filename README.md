@@ -4,7 +4,7 @@
 
 Hi there 👋
 
-**Currently:** Principal Software, Security, and Cloud Engineer leading the CloudOps and Engineering team at McGraw Hill.
+**Currently:** Principal Cloud and Platform Engineer leading the Cloud team at McGraw Hill.
 
 Ryan has a passion for working on lower-level projects and pipelines which help make the lives of engineers easier, then making those projects usable and understandable to people. Some recent examples:
 
@@ -69,7 +69,7 @@ While my experience and personal technical interests are broad, the following li
 ## Work Experience & Notable Projects
 
 ### [McGraw Hill](https://www.crunchbase.com/organization/mcgraw-hill-education) (née McGraw-Hill Education) — Remote (since COVID), previously Seattle, WA
-#### Principal SRE and Cloud Engineer (June 2020—Present)
+#### Principal Cloud and Platform Engineer (June 2020—Present)
 
 Continuing the work I led as an engineering manager, I migrated into a more strategic role around the projects where I had started as the creator, initiator, primary developer — planning the path of the products and how they wove into the larger tapestry of our highly-heterogenous application ecosystem which had grown by way of acquisition over the years. With no longer having direct reports, I was able to focus on _technical leadership_ without the responsibility of _human management_.
 
