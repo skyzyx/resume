@@ -67,3 +67,59 @@ blockquote p {
   display: block;
   page-break-before: always;
 }
+
+details[open] {
+  margin: 0;
+  padding: 0;
+}
+
+details[open] br {
+  display: none;
+}
+
+details[open] summary {
+  display: none;
+  margin: 0;
+  padding: 0;
+}
+
+#truncated {
+  display: none;
+}
+
+div.tip {
+  background-color: rgb(255, 243, 205);
+  border: 1px solid rgb(255, 230, 156);
+  border-width: 1px 1px 1px 10px;
+  border-radius: 3px;
+  padding: 0.5em 1em;
+  margin: 1em 0;
+  color: rgb(102, 77, 3);
+}
+
+div.note {
+  background-color: rgb(207, 244, 252);
+  border: 1px solid rgb(158, 234, 249);
+  border-width: 1px 1px 1px 10px;
+  border-radius: 3px;
+  padding: 0.5em 1em;
+  margin: 1em 0;
+  color: rgb(5, 81, 96);
+}
+
+div.title {
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+div.tip div.title {
+  ::before {
+    content: "💡";
+  }
+}
+
+div.note div.title {
+  ::before {
+    content: "📓";
+  }
+}

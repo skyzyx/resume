@@ -1,0 +1,14 @@
+// This is the file that is read by markdownlint-cli.
+// This is our editable copy, which overrides the base copy.
+{
+  // This is the base copy. Any changes to this file will be overwritten.
+  "extends": ".markdownlint.base.jsonc",
+  // MD044
+  "proper-names": {
+    // Add strings to this array for words that should be spelled a particular way.
+    "names": [
+      "Ryan",
+      "Parman"
+    ]
+  }
+}
