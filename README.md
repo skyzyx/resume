@@ -6,6 +6,9 @@ Hi there 👋
 
 **Currently:** Enterprise Architect, Cloud Center of Excellence at McGraw Hill.
 
+* <https://github.com/skyzyx>
+* <https://www.linkedin.com/in/rparman/>
+
 > [!TIP]
 > My résumé is written with the intention of giving you a comprehensive understanding of my background, experience, how I think, and what it's like to work with me. This means that it's longer than other résumés. If you'd like a shorter version of my résumé, please ask.
 
