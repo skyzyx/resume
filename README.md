@@ -8,9 +8,10 @@ Hi there 👋
 
 * <https://github.com/skyzyx>
 * <https://www.linkedin.com/in/rparman/>
+* [Shorter version of this résumé](https://github.com/skyzyx/resume/raw/master/ryanparman-resume-short.pdf) (PDF download)
 
 > [!TIP]
-> My résumé is written with the intention of giving you a comprehensive understanding of my background, experience, how I think, and what it's like to work with me. This means that it's longer than other résumés. If you'd like a shorter version of my résumé, please ask.
+> I have a lot of experience. My résumé is written with the intention of giving you a comprehensive understanding of my background, experience, how I think, and what it's like to work with me. This means that it's longer than other résumés. You can also get a [shorter version of my résumé](https://github.com/skyzyx/resume/raw/master/ryanparman-resume-short.pdf).
 
 ## Summary
 
