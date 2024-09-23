@@ -384,7 +384,7 @@ A full list of recommendations can be found on my [LinkedIn profile](http://www.
 
 ## Education
 
-### [Carrington College California](http://carrington.edu/schools/san-jose-california/) (née Silicon Valley College) — San Jose, CA
+### Silicon Valley College (now [Carrington College](http://carrington.edu/schools/san-jose-california/)) — San Jose, CA
 
 #### Bachelor of Arts, Design and Visualization (November 2003)
 
