@@ -81,7 +81,7 @@ While my experience and personal technical interests are broad, the following li
 
 #### Owner (January 2024—Present)
 
-Northwood Labs is an incubator for security and reliability tooling.
+Northwood Labs is an incubator for security and reliability tooling. (Presently a _side-hustle_, not a full-time gig.)
 
 It is a tiny company based in Colorado who thinks that software engineering, site reliability, operations, and cybersecurity are all parts of the same whole. We want to empower teams to build quality software and reliable services, teach where there are knowledge gaps, and make it possible for every user to have access to the best in security.
 
@@ -89,7 +89,7 @@ Historically, most of the tools built to address these areas have done a poor jo
 
 ### [McGraw Hill](https://www.crunchbase.com/organization/mcgraw-hill-education) (née McGraw-Hill Education) — Remote (since COVID), previously Seattle, WA
 
-#### Enterprise Architect, Cloud Center of Excellence (January 2024—Present)
+#### Enterprise Architect, Cloud Center of Excellence (January 2024—October 2024)
 
 Moved into a position that touched the technical direction for the entire organization. Worked closely with the other members of the _Cloud Center of Excellence_, Reliability Engineering, Cybersecurity, Networking, and AppDev Engineers to ensure that we avoided “Ivory Tower Syndrome” and focused on real-world, actionable feedback and direction.
 
