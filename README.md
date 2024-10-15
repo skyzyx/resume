@@ -8,6 +8,7 @@ Hi there 👋
 
 * <https://github.com/skyzyx>
 * <https://www.linkedin.com/in/rparman/>
+* <https://stackoverflow.com/users/228514/ryan-parman>
 * [Shorter version of this résumé](https://github.com/skyzyx/resume/raw/master/ryanparman-resume-short.pdf) (PDF download)
 
 > [!TIP]
