@@ -323,6 +323,34 @@ Some things that happened later that either proved our premises true or false:
 
 A full list of recommendations can be found on my [LinkedIn profile](http://www.linkedin.com/in/rparman). Here are a few of my favorites.
 
+### [Chinmay Tripathi](https://www.linkedin.com/in/chinmaytripathi/)
+
+#### Sr. Director of Engineering, McGraw Hill
+
+> I had the pleasure of working with Ryan and managing him directly, and I can confidently say he’s one of the most talented and adaptable engineers I’ve come across. His technical skills are truly impressive. Whether it’s tackling complex challenges, designing smart solutions, or digging into the details of a project, Ryan consistently delivers top-notch results.
+>
+> What really makes Ryan stand out isn’t just his technical abilities, but how easily he collaborates with others, mentors his teammates, and handles problems with a calm, practical approach. He brings a unique mix of creativity, precision, and strategic thinking that helps him approach every project with efficiency and finesse.
+>
+> In every project we worked on together, Ryan showed a knack for thinking outside the box while still staying grounded in solid engineering practices. His strong work ethic, passion for innovation, and constant drive to push the envelope make him an invaluable team member.
+>
+> I can’t recommend Ryan highly enough for any role that needs top-tier engineering talent and leadership. Any company would be lucky to have him!
+
+### [Stephanie Lignelli (Curatola), CISSP](https://www.linkedin.com/in/stephanie-lignelli/)
+
+#### Senior Cybersecurity Engineer, McGraw Hill
+
+> I had the pleasure of working with Ryan at McGraw Hill, where he demonstrated exceptional skills in ensuring the reliability, scalability, and efficiency of our IT infrastructure in the AWS cloud. I highly recommend him as he has a deep understanding of Security and has a proactive approach to identifying potential issues before they impact the user experience, this has been invaluable to the team.
+
+### [Kevin Mesiab](https://www.linkedin.com/in/kmesiab/)
+
+#### Lead Full Stack Engineer, McGraw-Hill
+
+> Ryan is an exceptionally talented engineer and an influential leader. He is one of those rare software professionals with an insatiable drive to invent, not just write code.
+>
+> I’ve seen Ryan do everything from introducing countless proofs of concept that push organizations toward early adoption, driving industry competitiveness, to mentoring junior engineers on the simplest development tasks.
+>
+> If you’re reading this because you’re considering him for your organization, stop reading and hire him immediately.
+
 ### [Miroslav Ladan](https://www.linkedin.com/in/miroslav-ladan/)
 
 #### Sr. Director of Software Engineering, McGraw Hill
@@ -345,18 +373,6 @@ A full list of recommendations can be found on my [LinkedIn profile](http://www.
 
 > “What I appreciate about Ryan is his obsession to detail and customers. Ryan refuses to let business politics to ever interfere with doing what is best for customers. He invests himself to discover the best solutions and then make them available. I wholly trust Ryan's evaluation of front-end engineers and Information Architecture. Ryan would make a solid contribution to any team requiring solid front-end skills blended with a deep customer concern.”
 
-### [Brian Thompson](https://www.linkedin.com/in/bsthompson2012/)
-
-#### Business Intelligence Development Lead
-
-> “Ryan has sort of become my informal mentor regarding my web development role within Amazon. He's passionate about what he does, he's extremely talented and his "can-do" approach to projects makes him valuable on any team he becomes a part of. Perhaps even more importantly than his direct contributions to a given role however is his steady presence in stress, the ability to absorb (and apply) new information and technology quickly and and unquestioned desire to see those around him succeed. I pride myself in my profession and look up to Ryan as a mentor, a colleague and a friend. Ryan Parman is an outstanding, well-rounded and positive leader who inspires confidence in those who appeal to him for technical help or simply solid advice. I hope Amazon never loses him for greener pastures.”
-
-### [Chuck Mortimore](https://www.linkedin.com/in/cmort/)
-
-#### Head of Security Products at Visa
-
-> “Ryan gets it done. Usually you don't even have to ask… it just gets done.”
-
 ### [Adrien Cahen](https://www.linkedin.com/in/gaarf/)
 
 #### Full-stack Javascript Engineer, Airbnb, formerly Yahoo!, Twitter
@@ -368,12 +384,6 @@ A full list of recommendations can be found on my [LinkedIn profile](http://www.
 #### Software Engineering Manager, Google, formerly Apple, Netflix
 
 > “What has always impressed me about Ryan was his internal motivation for continual improvement. Whether it's creating software in his spare time or researching and implementing bleeding-edge UI techniques, I've always admired his drive. Coupled with a rich technical acumen and superior interpersonal skills, it was always a pleasure to work with him \[...\].”
-
-### [Vada Dean](https://www.linkedin.com/in/vadadean/)
-
-#### Principal at Dean &amp; Associates
-
-> “Ryan is one of those rare people capable of tapping deep creative, technical, and operational proficiency. Capable of solving difficult problems while marshalling external/internal resources to deliver high quality results within budget and on-time. SimplePie provides a good example of Ryan’s abilities. He cast the vision, recruited a partner, provided significant chunks of code, and evangelized the project across the Net.”
 
 ## Groups & Accomplishments
 
