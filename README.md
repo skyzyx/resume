@@ -18,32 +18,9 @@ Hi there 👋
 
 Ryan Parman is a cloud-native engineering leader with a focus on reliability, scalability, and security for the modern web. As an engineering problem-solver with over 25 years of experience across technical leadership, software development, site reliability engineering, and cybersecurity, he understands how to listen, learn, adapt, and improve.
 
+Ryan cares about doing the best work that he's capable of, building things he can be proud of, and elevating the people around him.
+
 He was a founding member of the AWS SDK team; patented multifactor-authentication-as-a-service at WePay; helped define the CI, CD, and SRE disciplines at McGraw Hill; came up with the idea of “serverless, event-driven, responsive functions in the cloud” while at Amazon Web Services in 2010 (AWS Lambda); and much, much more.
-
-<details>
-<summary>More…</summary><br>
-
-Ryan has been building things for the web since 1998. He’s lived through the browser wars (both of them), has worked on multiple high-profile projects, and has maintained server clusters powering hundreds of millions of dollars-worth of transactions. He has experience with early-stage startups, <abbr title="small and medium-sized businesses" style="cursor: pointer">SMBs</abbr>, Fortune 500s, and heavily-used open-source projects. He has lots of experience working across large distributed teams to get projects completed.
-
-* Has experience taking the long-view on things that people might not understand today, but that will matter in the future. This might mean being misunderstood for long periods of time.
-
-* Understands that “perfect” is the enemy of “done”, but conversely that “[we must not ship crap](https://randsinrepose.com/archives/the-culture-chart/).”
-
-* Understands that the “minimum _usable_ product” of a motorcycle isn’t the chrome wheels or a nice chassis, but a tricycle.
-
-* When it comes to software, there is _no such thing_ as “if it ain't broke, don‘t fix it.” Software that is not maintained falls into bit-rot, and becomes more expensive to fix later than if you'd simply maintained it as you went along.
-
-* We all rise and fall together. Ryan places emphasis on tearing down walls between departments or divisions so that we can work better together. His experience spans across UX, development, operations, and cybersecurity — as an individual contributor, an engineering manager, and a technical/thought leader.
-
-* He excels in teams that care about the customer or end-user, and wants to make things better tomorrow than they are today. He excels in teams where he is given the latitude to make decisions and work across teams to deliver the best possible customer experience.
-
-* About automation: “Let the robots do what the robots are good at, so that humans can focus on doing the things that humans are good at.”
-
-* About people who are frustrating to work with: “You can’t change anybody else but yourself. Expecting other people to change just because you want them to is a recipe for perpetual disappointment. But you can choose to change how you look at this person/situation.”
-
-* About most things: “There are things that matter, and there are things that really, really don’t. Focus on the things that actually matter, and stop wasting your time and energy on the things that don’t.”
-
-</details>
 
 ## Technical Skills and Software
 
@@ -74,8 +51,6 @@ While my experience and personal technical interests are broad, the following li
 
 * **Metadata and Config Formats:** [RDFa](https://rdfa.info), [Dublin Core](https://dublincore.org), [FOAF](http://www.foaf-project.org), [OpenSearch](https://en.wikipedia.org/wiki/OpenSearch), [JSON-LD](https://json-ld.org), [Microformats](http://microformats.org), [RSS](https://www.rssboard.org/rss-specification), [Atom (RFC 4287)](https://datatracker.ietf.org/doc/html/rfc4287), [JSON](https://www.ecma-international.org/publications-and-standards/standards/ecma-404/), [YAML](https://yaml.org), [TOML](https://toml.io), [XML](https://www.w3.org/TR/xml/), [HCL](https://github.com/hashicorp/hcl/blob/main/hclsyntax/spec.md), [Schema.org](https://schema.org), [Open Graph](https://ogp.me).
 
-<div class="page-break"></div>
-
 ## Work Experience & Notable Projects
 
 ### [Northwood Labs](https://github.com/northwood-labs) — Colorado
@@ -88,7 +63,7 @@ It is a tiny company based in Colorado who thinks that software engineering, sit
 
 Historically, most of the tools built to address these areas have done a poor job of integrating across all relevant disciplines, and can also cost a small fortune in order to help teams ensure their products and services are well-built, reliable, and secure.
 
-### [McGraw Hill](https://www.crunchbase.com/organization/mcgraw-hill-education) (née McGraw-Hill Education) — Remote (since COVID), previously Seattle, WA
+### [McGraw Hill](https://www.crunchbase.com/organization/mcgraw-hill-education) — Remote (since COVID), previously Seattle, WA
 
 #### Enterprise Architect, Cloud Center of Excellence (January 2024—October 2024)
 
@@ -100,8 +75,6 @@ Moved into a position that touched the technical direction for the entire organi
 
 * **Cross-Cloud Collaboration:** Began working alongside my peers focusing on Microsoft Azure and Oracle Cloud Infrastructure clouds. Developed my understanding of our cloud fabric which allowed high-performance networking across clouds. Worked to identify opportunities for bringing the security and guardrails that we'd developed for AWS to the other clouds, as well as train my peers on effective use of Terraform for cloud management.
 
-* **Shifting Cloud Practices Left:** Began an ambitious, multi-year project with a high-level intention of giving us cross-cloud visibility, reporting and scoring of our cloud accounts against a list of best practices, making that data visible to everyone in the company — namely engineers performing development, and pushing that data left with the goal of getting it into developer's IDEs. This would help prevent bad practices from being used in the first place, help engineers identify where bad practices have been used in the past, and educate developers on how to build more secure and operationally-excellent software. Allows us to also view trends and changes over time to understand if we’re getting better or worse across our hundreds of cloud accounts.
-
 #### Principal Cloud and Platform Engineer (June 2020—January 2024)
 
 Continuing the work I led as an engineering manager, I migrated into a more strategic role around the projects where I had started as the creator, initiator, primary developer — planning the path of the products and how they wove into the larger tapestry of our highly-heterogenous application ecosystem which had grown by way of acquisition over the years. With no longer having direct reports, I was able to focus on _technical leadership_ without the responsibility of _human management_.
@@ -112,7 +85,7 @@ Continuing the work I led as an engineering manager, I migrated into a more stra
 
 * **Control Tower:** Partnered with McGraw Hill Enterprise Architecture and [AWS Professional Services](https://aws.amazon.com/professional-services/) to deploy [AWS Control Tower](http://aws.amazon.com/controltower/) and [AWS Identity Center](https://aws.amazon.com/iam/identity-center/). Lowered costs and increased control over account guardrails. Enabled automated provisioning of new accounts, and developed smoke tests as a post-provisioning validation step.
 
-* **Clarity in Complexity:** Collaborated on the [Guardrails](https://docs.aws.amazon.com/controltower/latest/userguide/mandatory-guardrails.html) (mandatory + custom) deployed across all AWS account _organizational units_ (OUs). These were written as CloudFormation YAML, Python, and Bash scripts. In such a large complex, project, it's easy for the code to become obtuse and difficult to trace. Worked with my team to make sure we understood the fine details of the implementation, then implemented Lambda functions and CI code to read certain changes in Git commits to master/main and generate README/Confluence documentation with directed graphs and charts generated from DOT documents, to make the workflows and details easier to understand visually.
+* **Clarity in Complexity:** Collaborated on the deployment of mandatory and custom guardrails across all AWS account organizational units (OUs), utilizing CloudFormation YAML, Python, and Bash scripts. In a large and complex project, ensured clarity and traceability of code. Worked with the team to understand implementation details thoroughly, then developed Lambda functions and CI code to track changes in Git commits to master/main. Created README and Confluence documentation with directed graphs and charts from DOT documents to visually simplify workflows and implementation details.
 
 * **Base AMI program** Took what we'd learned about [Packer](https://www.packer.io), [CIS Benchmarks](https://www.cisecurity.org), security patching, and the needs of a particular AMI’s audience to develop a single build pipeline which brought the best ideas together — automatic dev builds with unit/integration testing on Git commit, production builds with complete package indexing on Git tag, pre-installing and pre-configuring agents for metrics and cybersecurity, automated security analysis scanning, making the Base AMIs available to all ±200 AWS accounts, rotating the hosts to use the new AMI with zero downtime. Adopted EC2 ImageBuilder and automated AMI rotations in the process.
 
