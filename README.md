@@ -11,6 +11,7 @@ Hi there 👋
 **Most-Recently:** Enterprise Architect, Cloud Center of Excellence at McGraw Hill.
 
 * [Web version of this résumé](https://github.com/skyzyx/resume/blob/master/README.md)
+* [Microsoft Word version of this résumé]()
 * [Short version of this résumé](https://github.com/skyzyx/resume/raw/master/ryanparman-resume-short.pdf) (PDF download)
 * [GitHub](https://github.com/skyzyx) • [LinkedIn](https://www.linkedin.com/in/rparman/) • [Stack Overflow](https://stackoverflow.com/users/228514/ryan-parman)
 
@@ -86,7 +87,7 @@ Assumed a role influencing the technical direction of the entire organization. C
 
 * **Cross-Cloud Collaboration:** Collaborated with peers focusing on Microsoft Azure and Oracle Cloud Infrastructure. Deepened understanding of our cloud fabric to enable high-performance networking across multiple clouds. Identified opportunities to extend the security measures and guardrails developed for AWS to other cloud platforms. Trained peers on the effective use of Terraform for cloud management.
 
-<div class="page-break"></div>
+<div class="cv page-break"></div>
 
 #### Principal Cloud and Platform Engineer (June 2020—January 2024)
 

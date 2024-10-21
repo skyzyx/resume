@@ -24,6 +24,8 @@ The source Markdown (`README.md`) is _always_ the most up-to-date. It contains s
 
 1. One version (`resume.html`) will display the long-form "CV" style résumé. Specific styles are defined in `cv.css`.
 
+    * all `<details>` blocks are expanded by default.
+
 1. Second version (`resume-short.html`) will display the shorter-form "American" style résumé. Specific styles are defined in `short.css`. This version omits:
 
     * any jobs started more than 10 years ago
