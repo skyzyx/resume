@@ -10,17 +10,12 @@ Hi there 👋
 
 **Most-Recently:** Enterprise Architect, Cloud Center of Excellence at McGraw Hill.
 
-* [Web version of this résumé](https://github.com/skyzyx/resume/blob/master/README.md)
-* [Microsoft Word version of this résumé]()
-* [Short version of this résumé](https://github.com/skyzyx/resume/raw/master/ryanparman-resume-short.pdf) (PDF download)
-* [GitHub](https://github.com/skyzyx) • [LinkedIn](https://www.linkedin.com/in/rparman/) • [Stack Overflow](https://stackoverflow.com/users/228514/ryan-parman)
-
-<div class="cv">
+[GitHub](https://github.com/skyzyx) • [LinkedIn](https://www.linkedin.com/in/rparman/) • [Stack Overflow](https://stackoverflow.com/users/228514/ryan-parman)
 
 > [!TIP]
-> I have a lot of experience. My résumé is written with the intention of giving you a comprehensive understanding of my background, experience, how I think, and what it's like to work with me. This means that it's longer than other résumés. You can also get a [shorter version of my résumé](https://github.com/skyzyx/resume/raw/master/ryanparman-resume-short.pdf) or view [LinkedIn](https://www.linkedin.com/in/rparman/).
-
-</div>
+> The long-form "CV-style" version of my résumé is written with the intention of giving you a **comprehensive** understanding of my background, experience, how I think, and what it's like to work with me. This means that it's longer than other résumés. This is available as [Web](https://github.com/skyzyx/resume/blob/master/README.md), [PDF](https://github.com/skyzyx/resume/raw/master/ryanparman-cv.pdf), [Word](https://github.com/skyzyx/resume/raw/master/ryanparman-cv.docx), and a lightly-truncated version on [LinkedIn](https://www.linkedin.com/in/rparman/).
+>
+> There is also a shorter-form résumé that omits many of these details and focuses primarily on technical skills and only 10 years of work experience. It is much shorter as a result. This version is available as a [PDF](https://github.com/skyzyx/resume/raw/master/ryanparman-resume-short.pdf).
 
 ## Summary
 
@@ -123,7 +118,7 @@ Transitioned from Engineering Manager to a strategic technical leadership role, 
 
 Owned and served as the key decision-maker in [development of a core platform](https://youtu.be/dNow3SwtS8k) for company-wide, reliability-focused projects. As development teams transitioned to [Full-Cycle Development](https://netflixtechblog.com/full-cycle-developers-at-netflix-a08c31f83249), led the Site Reliability Engineering (SRE) team in addressing macro-oriented problems affecting over 75 decentralized, heterogeneous engineering teams across the company. These initiatives empowered greater self-service for engineering teams, enabling them to move faster without reinventing the wheel.
 
-Many of the following projects got their start in my work as an application engineer for McGraw Hill, and carried over into this role.
+* **Managing humans:** Managed a team of four — one full-time and three contractors. Unfortunately, the team was spread thinly, and I _also_ had to pick-up several hands-on engineering tasks to keep up with our workload. Ultimately, I was pulled back into engineering in my subsequent role because there was a greater need for me there.
 
 * **ECS-optimized Amazon Linux Base AMI:** Customized the AWS-provided AMIs to comply with Level-2 CIS Guidelines for both Amazon Linux and Docker. Collaborated closely with cybersecurity, operations, and various business units to ensure compliance. Achieved high levels of opt-in adoption, enhancing confidence among cybersecurity and operations organizations in the product development teams.
 
