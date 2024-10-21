@@ -1,18 +1,25 @@
 # Ryan Parman
 
+<div class="web">
+
 Hi there 👋
+
+</div>
 
 **Cloud-native engineering leader with a focus on reliability, scalability, and security for the modern web.**
 
-**Currently:** Enterprise Architect, Cloud Center of Excellence at McGraw Hill.
+**Most-Recently:** Enterprise Architect, Cloud Center of Excellence at McGraw Hill.
 
-* <https://github.com/skyzyx>
-* <https://www.linkedin.com/in/rparman/>
-* <https://stackoverflow.com/users/228514/ryan-parman>
-* [Shorter version of this résumé](https://github.com/skyzyx/resume/raw/master/ryanparman-resume-short.pdf) (PDF download)
+* [Web version of this résumé](https://github.com/skyzyx/resume/blob/master/README.md)
+* [Short version of this résumé](https://github.com/skyzyx/resume/raw/master/ryanparman-resume-short.pdf) (PDF download)
+* [GitHub](https://github.com/skyzyx) • [LinkedIn](https://www.linkedin.com/in/rparman/) • [Stack Overflow](https://stackoverflow.com/users/228514/ryan-parman)
+
+<div class="cv">
 
 > [!TIP]
-> I have a lot of experience. My résumé is written with the intention of giving you a comprehensive understanding of my background, experience, how I think, and what it's like to work with me. This means that it's longer than other résumés. You can also get a [shorter version of my résumé](https://github.com/skyzyx/resume/raw/master/ryanparman-resume-short.pdf).
+> I have a lot of experience. My résumé is written with the intention of giving you a comprehensive understanding of my background, experience, how I think, and what it's like to work with me. This means that it's longer than other résumés. You can also get a [shorter version of my résumé](https://github.com/skyzyx/resume/raw/master/ryanparman-resume-short.pdf) or view [LinkedIn](https://www.linkedin.com/in/rparman/).
+
+</div>
 
 ## Summary
 
@@ -78,6 +85,8 @@ Assumed a role influencing the technical direction of the entire organization. C
 * **AWS Organizations and Control Tower:** Continued to be involved in the oversight and direction of our AWS stack, security, guardrails, and more.
 
 * **Cross-Cloud Collaboration:** Collaborated with peers focusing on Microsoft Azure and Oracle Cloud Infrastructure. Deepened understanding of our cloud fabric to enable high-performance networking across multiple clouds. Identified opportunities to extend the security measures and guardrails developed for AWS to other cloud platforms. Trained peers on the effective use of Terraform for cloud management.
+
+<div class="page-break"></div>
 
 #### Principal Cloud and Platform Engineer (June 2020—January 2024)
 
@@ -171,6 +180,14 @@ Developed the entire website for “The First-Time Offender’s Guide to Freedom
 
 ### Truncated
 
+<!-- <div class="short">
+
+> [!NOTE]
+> Experience greater than 10 years ago is available upon request: Amazon Web Services, Rearden Commerce (Deem), Yahoo!, WarpShare, Stryker, Digital Impact (Acxiom Digital)
+
+</div> -->
+
+<div class="cv">
 <details>
 <summary>See postions held 10+ years ago…</summary>
 
@@ -219,7 +236,11 @@ Developed the entire website for “The First-Time Offender’s Guide to Freedom
 
 #### Senior User Experience Developer (July 2008—March 2010)
 
-* Supported the _User Experience_ team, Java developers, and widget development teams by prototyping new features and integrating them into existing systems. Migrated JavaScript code from older frameworks to the [Yahoo! User Interface Library](https://en.wikipedia.org/wiki/YUI_Library) (YUI), enhancing codebase maintainability. Educated teams on the value of high-quality front-end code, placing a strong emphasis on writing code with better performance, faster load times, and improved accessibility across all projects.
+* Supported the _User Experience_ team, Java developers, and widget development teams by prototyping new features and integrating them into existing systems.
+
+* Migrated JavaScript code from older frameworks to the [Yahoo! User Interface Library](https://en.wikipedia.org/wiki/YUI_Library) (YUI), enhancing codebase maintainability.
+
+* Educated teams on the value of high-quality front-end code, placing a strong emphasis on writing code with better performance, faster load times, and improved accessibility across all projects.
 
 ### [WarpShare](https://www.crunchbase.com/organization/warpshare) — Morgan Hill, CA
 
@@ -240,6 +261,8 @@ Some things which happened later that either proved our premises true or false:
 * Pioneered an innovative business model (c. 2008) enabling users and brands to support and sponsor content through interactive advertising integrated into the media experience (e.g., content-targeted advertising, a smarter version of _sponsorships_).
 
   * Designed ads to be _part of the content_, avoiding _interruptions_ common with pre-roll and mid-roll ads used by platforms like YouTube at the time. (Apple pursued similar advertising concepts with their [iAd service](https://en.wikipedia.org/wiki/IAd) (2010), aiming to transform advertising into an experiential medium.)
+
+  <div class="cv page-break"></div>
 
   * Brands sponsored downloads by paying 99¢ per song, held in escrow for the benefit of copyright owners (or donated to charity) in exchange for social engagement, offering an ethical approach to digital content monetization via “piracy”. (For end-users, it is similar to _sponsorships_ of today.)
 
@@ -285,7 +308,7 @@ Some things which happened later that either proved our premises true or false:
 
 * Worked with the eBusiness team to improve maintenance and development for the UI of the GlobalSource project. He also re-engineered the Stryker Endoscopy public site to follow modern web standards, and built a PHP-based templating system for the site that significantly sped up development.
 
-### [Digital Impact](https://www.crunchbase.com/organization/digital-impact-2) — San Mateo, CA
+### [Digital Impact](https://www.crunchbase.com/organization/digital-impact-2) (now part of [Axciom](https://www.crunchbase.com/organization/acxiom-digital-inc)) — San Mateo, CA
 
 #### Production Specialist (March 2004—April 2005)
 
@@ -299,8 +322,17 @@ Some things which happened later that either proved our premises true or false:
 > Earlier experience from before I graduated college is available upon request.
 
 </details>
+</div>
 
 ## Recommendations
+
+<!-- <div class="short">
+
+A full list of recommendations can be found on my [LinkedIn profile](http://www.linkedin.com/in/rparman).
+
+</div> -->
+
+<div class="cv">
 
 A full list of recommendations can be found on my [LinkedIn profile](http://www.linkedin.com/in/rparman). Here are a few of my favorites.
 
@@ -365,6 +397,8 @@ A full list of recommendations can be found on my [LinkedIn profile](http://www.
 #### Software Engineering Manager, Google, formerly Apple, Netflix
 
 > “What has always impressed me about Ryan was his internal motivation for continual improvement. Whether it's creating software in his spare time or researching and implementing bleeding-edge UI techniques, I've always admired his drive. Coupled with a rich technical acumen and superior interpersonal skills, it was always a pleasure to work with him \[...\].”
+
+</div>
 
 ## Groups & Accomplishments
 

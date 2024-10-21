@@ -1,0 +1,13 @@
+.short {
+  display: none;
+}
+
+.short.page-break {
+  display: none;
+  break-before: auto !important;
+  page-break-before: auto !important;
+}
+
+.web {
+  display: none;
+}

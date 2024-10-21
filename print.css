@@ -65,6 +65,7 @@ blockquote p {
 
 .page-break {
   display: block;
+  break-before: always;
   page-break-before: always;
 }
 
@@ -114,12 +115,12 @@ div.title {
 
 div.tip div.title {
   ::before {
-    content: "💡";
+    content: "💡 ";
   }
 }
 
 div.note div.title {
   ::before {
-    content: "📓";
+    content: "📓 ";
   }
 }
