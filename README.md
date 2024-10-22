@@ -13,9 +13,9 @@ Hi there 👋
 [GitHub](https://github.com/skyzyx) • [LinkedIn](https://www.linkedin.com/in/rparman/) • [Stack Overflow](https://stackoverflow.com/users/228514/ryan-parman)
 
 > [!TIP]
-> The long-form "CV-style" version of my résumé is written with the intention of giving you a **comprehensive** understanding of my background, experience, how I think, and what it's like to work with me. This means that it's longer than other résumés. This is available as [Web](https://github.com/skyzyx/resume/blob/master/README.md), [PDF](https://github.com/skyzyx/resume/raw/master/ryanparman-cv.pdf), [Word](https://github.com/skyzyx/resume/raw/master/ryanparman-cv.docx), and a lightly-truncated version on [LinkedIn](https://www.linkedin.com/in/rparman/).
+> Long-form "CV-style" version of my résumé: [Web](https://github.com/skyzyx/resume/blob/master/README.md), [PDF](https://github.com/skyzyx/resume/raw/master/ryanparman-cv.pdf), [Word](https://github.com/skyzyx/resume/raw/master/ryanparman-cv.docx), and a lightly-truncated version on [LinkedIn](https://www.linkedin.com/in/rparman/).
 >
-> There is also a shorter-form résumé that omits many of these details and focuses primarily on technical skills and only 10 years of work experience. It is much shorter as a result. This version is available as a [PDF](https://github.com/skyzyx/resume/raw/master/ryanparman-resume-short.pdf).
+> Shorter-form résumé omits recommendations and has only 10 years of work experience: [PDF](https://github.com/skyzyx/resume/raw/master/ryanparman-resume-short.pdf).
 
 ## Summary
 
@@ -82,8 +82,6 @@ Assumed a role influencing the technical direction of the entire organization. C
 
 * **Cross-Cloud Collaboration:** Collaborated with peers focusing on Microsoft Azure and Oracle Cloud Infrastructure. Deepened understanding of our cloud fabric to enable high-performance networking across multiple clouds. Identified opportunities to extend the security measures and guardrails developed for AWS to other cloud platforms. Trained peers on the effective use of Terraform for cloud management.
 
-<div class="cv page-break"></div>
-
 #### Principal Cloud and Platform Engineer (June 2020—January 2024)
 
 Transitioned from Engineering Manager to a strategic technical leadership role, focusing on projects I'd initiated. Planned the product roadmap for those projects and integrated solutions into our highly heterogeneous application ecosystem. By stepping away from direct personnel management, I was able to concentrate on providing technical leadership.
@@ -132,7 +130,7 @@ Owned and served as the key decision-maker in [development of a core platform](h
 
 * Revamped the Seattle SRE **interview process** to prioritize the recruitment of high-quality engineers with a 70/30 focus on software engineering (Dev) and systems operations (Ops), emphasizing strong leadership qualities. Integrated numerous ideas and leadership principles from experience at AWS to enhance the recruitment strategy.
 
-* Implemented a more collaborative [SRE-style](https://landing.google.com/sre/interview/ben-treynor/) approach by closely integrating with development teams, effectively minimizing the practice of siloed hand-offs to operations teams. This initiative enhanced cooperation and efficiency within the areas supported by the Seattle SRE team.
+* Implemented a more collaborative [SRE-style](https://sre.google/in-conversation/) approach by closely integrating with development teams, effectively minimizing the practice of siloed hand-offs to operations teams. This initiative enhanced cooperation and efficiency within the areas supported by the Seattle SRE team.
 
 #### Staff Software Engineer (October 2016—October 2018)
 
@@ -152,9 +150,11 @@ Led the development of multiple Tier-1 services within the educational content a
 
 Developed the entire website for “The First-Time Offender’s Guide to Freedom,” managing all technical aspects from inception to deployment. Also performed all production work on the eBook authored by E. M. Baird.
 
-* Utilized then-modern front-end technologies — including Bootstrap, LESS, JavaScript, Gulp.js, npm, and Bower — to build the website's front end. Developed the back end using PHP 5.6 with HHVM and Nginx, integrating MySQL, Redis, Slim Framework, Monolog, Pimple, Twig, Guzzle, Doctrine, Phinx, and Symfony components. Deployed the application using Ansible and developed within a Vagrant environment running Ubuntu.
+* Utilized then-modern front-end technologies — including [Bootstrap](https://getbootstrap.com), [LESS](https://lesscss.org), JavaScript, [Gulp.js](https://gulpjs.com), npm, and [Bower](https://bower.io) — to build the website's front end. Developed the back end using PHP 5.6 with [HHVM](https://hhvm.com) and [Nginx](https://nginx.org/en/), integrating MySQL, [Redis](http://redis.io), [Slim Framework](https://www.slimframework.com), [Monolog](https://seldaek.github.io/monolog/), [Pimple](https://github.com/silexphp/Pimple), [Twig](https://twig.symfony.com), [Guzzle](https://github.com/guzzle), [Doctrine](https://www.doctrine-project.org), [Phinx](https://phinx.org), and [Symfony components](https://symfony.com/components). Deployed the application using [Ansible](https://www.ansible.com) and developed within a [Vagrant](https://www.vagrantup.com) environment running Ubuntu.
 
-* Conducted unit, integration, and functional testing using PHPUnit, Behat, Mink, and Selenium. Leveraged Amazon SES for email delivery, Amazon S3 for static file storage, Stripe for payment processing, Linode for web hosting, and MaxMind for IP-based geolocation. Integrated Google Books and Dropbox to ensure customers always had access to the latest errata fixes.
+* Conducted unit, integration, and functional testing using [PHPUnit](https://phpunit.de), [Behat](https://behat.org), [Mink](https://mink.behat.org), and [Selenium](https://www.selenium.dev). Leveraged Amazon SES for email delivery, Amazon S3 for static file storage, Stripe for payment processing, Linode for web hosting, and MaxMind for IP-based geolocation. Integrated Google Books and Dropbox to ensure customers always had access to the latest errata fixes.
+
+<div class="page-break"></div>
 
 ### [WePay](https://www.crunchbase.com/organization/wepay) — Redwood City, CA
 
@@ -164,13 +164,13 @@ Developed the entire website for “The First-Time Offender’s Guide to Freedom
 
 * Led a cross-company initiative to upgrade the monolithic application's software stack from PHP 5.4 to PHP 5.6. Facilitated cross-team collaboration among all major engineering teams and QA departments. Managed the replacement of over 200 servers across multiple environments, achieving zero customer-facing downtime.
 
-* Maintainer of multiple tier-1 systems including Artifactory, GitHub Enterprise, Toran Proxy, and Phabricator.
+* Maintainer of multiple tier-1 systems including Artifactory, GitHub Enterprise, and [Phabricator](https://www.phacility.com/phabricator/).
 
 #### Senior API Engineer (April 2014—April 2015)
 
 * Developed new API endpoints to help expand WePay’s business and support its partners.
 
-* Was instrumental in designing/developing WePay’s MFA-as-a-Service offering ([“System and Methods for User Authentication across Multiple Domains”](https://patents.google.com/patent/US20160241536A1/en?inventor=Ryan+Parman) (US15042104; Pending)).
+* Was instrumental in designing/developing WePay’s MFA-as-a-Service offering. (U.S. Patent filing US15042104 [“System and Methods for User Authentication across Multiple Domains”](https://patents.google.com/patent/US20160241536A1/en?inventor=Ryan+Parman).)
 
 * Enhanced the security of WePay's products by coordinating fixes with cross-functional teams while managing competing priorities. Personally resolved numerous issues to ensure product integrity and protect customer data.
 
@@ -238,6 +238,8 @@ Developed the entire website for “The First-Time Offender’s Guide to Freedom
 
 * Educated teams on the value of high-quality front-end code, placing a strong emphasis on writing code with better performance, faster load times, and improved accessibility across all projects.
 
+<div class="page-break"></div>
+
 ### [WarpShare](https://www.crunchbase.com/organization/warpshare) — Morgan Hill, CA
 
 #### Co-Founder and Chief Information Officer (September 2006—March 2010)
@@ -246,7 +248,7 @@ WarpShare worked to bridge the gap between digital piracy and the economic model
 
 Some things which happened later that either proved our premises true or false:
 
-* Developed CleerPeer, an efficient peer-to-peer (P2P) protocol known as the "Hive-based Peer-to-Peer Network" ([US Patent US8103870B2](https://patents.google.com/patent/US8103870B2/en?inventor=Ryan+Parman)), which improved upon the performance and efficiency of existing protocols like BitTorrent. Addressed and solved multiple performance and efficiency issues present in the original BitTorrent protocol. Some of these enhancements were later reflected in BitTorrent Pro. [BitTorrent Inc.](https://www.crunchbase.com/organization/bittorrent) is still struggling to monetize the protocol.
+* Developed CleerPeer, an efficient peer-to-peer (P2P) protocol, which improved upon the performance and efficiency of existing protocols like BitTorrent. Addressed and solved multiple performance and efficiency issues present in the original [BitTorrent protocol](https://www.bittorrent.org/beps/bep_0000.html). (U.S. Patent filing US8103870B2 [“Hive-based Peer-to-Peer Network”](https://patents.google.com/patent/US8103870B2/en?inventor=Ryan+Parman).)
 
 * Contributed to early concepts in peer-to-peer (P2P) digital content delivery with CleerPeer (c. 2007). These ideas have since been realized in technologies like [IPFS](https://ipfs.tech), which empowers P2P-based distribution of digital content.
 
@@ -257,8 +259,6 @@ Some things which happened later that either proved our premises true or false:
 * Pioneered an innovative business model (c. 2008) enabling users and brands to support and sponsor content through interactive advertising integrated into the media experience (e.g., content-targeted advertising, a smarter version of _sponsorships_).
 
   * Designed ads to be _part of the content_, avoiding _interruptions_ common with pre-roll and mid-roll ads used by platforms like YouTube at the time. (Apple pursued similar advertising concepts with their [iAd service](https://en.wikipedia.org/wiki/IAd) (2010), aiming to transform advertising into an experiential medium.)
-
-  <div class="cv page-break"></div>
 
   * Brands sponsored downloads by paying 99¢ per song, held in escrow for the benefit of copyright owners (or donated to charity) in exchange for social engagement, offering an ethical approach to digital content monetization via “piracy”. (For end-users, it is similar to _sponsorships_ of today.)
 
@@ -277,14 +277,6 @@ Some things which happened later that either proved our premises true or false:
 * After recruiting additional development resources in June 2005, Ryan began to shift from a primarily development-focused role to a primarily people-focused role, where he currently works to ensure that people are aware of, and can easily use SimplePie through support, documentation, tutorials, plugins, and evangelism.
 
 * SimplePie was integrated into WordPress, Drupal, MODx, and several other large projects written in PHP. If you've ever used WordPress since 2006, you've used SimplePie with or without knowing it.
-
-### [Self-Employed](https://ryanparman.com/design/)
-
-#### Consulting and development services (2007—2009)
-
-* As a freelance developer, Ryan leverages a deep understanding of best practices in front-end development, layout and design, information architecture, usability, accessibility, and web culture to provide value to clients. He provides guidance to people and teams about how to maintain best practices after the project ends.
-
-* Took on various gigs to stay afloat when WarpShare was broke during the credit crisis.
 
 ### [Yahoo!](https://www.crunchbase.com/organization/yahoo) — Sunnyvale, CA
 
@@ -314,9 +306,6 @@ Some things which happened later that either proved our premises true or false:
 
 * Client experience included Banana Republic, SBC (now AT&T), Hewlett Packard (HP), Sony Style, Lexus, MAC Make-up.
 
-> [!NOTE]
-> Earlier experience from before I graduated college is available upon request.
-
 </details>
 </div>
 
@@ -341,8 +330,6 @@ A full list of recommendations can be found on my [LinkedIn profile](http://www.
 > What really makes Ryan stand out isn’t just his technical abilities, but how easily he collaborates with others, mentors his teammates, and handles problems with a calm, practical approach. He brings a unique mix of creativity, precision, and strategic thinking that helps him approach every project with efficiency and finesse.
 >
 > In every project we worked on together, Ryan showed a knack for thinking outside the box while still staying grounded in solid engineering practices. His strong work ethic, passion for innovation, and constant drive to push the envelope make him an invaluable team member.
->
-> I can’t recommend Ryan highly enough for any role that needs top-tier engineering talent and leadership. Any company would be lucky to have him!
 
 ### [Stephanie Lignelli (Curatola), CISSP](https://www.linkedin.com/in/stephanie-lignelli/)
 
@@ -357,8 +344,6 @@ A full list of recommendations can be found on my [LinkedIn profile](http://www.
 > Ryan is an exceptionally talented engineer and an influential leader. He is one of those rare software professionals with an insatiable drive to invent, not just write code.
 >
 > I’ve seen Ryan do everything from introducing countless proofs of concept that push organizations toward early adoption, driving industry competitiveness, to mentoring junior engineers on the simplest development tasks.
->
-> If you’re reading this because you’re considering him for your organization, stop reading and hire him immediately.
 
 ### [Miroslav Ladan](https://www.linkedin.com/in/miroslav-ladan/)
 
@@ -368,7 +353,7 @@ A full list of recommendations can be found on my [LinkedIn profile](http://www.
 >
 > You don’t pull solutions out of your back pocket, but you look at data and let data inform your decisions. […] Also, you've shown flexibility and changed direction when needed. You and I mostly agree [about a topic]. You have demonstrated willingness to help in such cases.
 >
-> As grateful as I am for the previous year, I am even more excited about the year to come. You have a great foundation to build on. […] I'd like you to be in the business of making others motivated to continue learning and do great work. I'd like you to continue coaching and mentoring and leading from behind. 2020 will present a lot of opportunities for your growth in this regard.
+> As grateful as I am for the previous year, I am even more excited about the year to come. You have a great foundation to build on. […] I'd like you to be in the business of making others motivated to continue learning and do great work.
 
 ### [Will Curran](https://www.linkedin.com/in/wscurran/)
 
@@ -398,12 +383,9 @@ A full list of recommendations can be found on my [LinkedIn profile](http://www.
 
 ## Groups & Accomplishments
 
-* Editor, Producer, and Publisher for the book _[Federal Probation Bible](https://federalprobationbible.com), 2022–2023 Edition_ written by E.M. Baird. (ISBN: `978-0-578-99269-3` (Paperback))
 * Voting Representative for AWS, [PHP Framework Interoperability Group](http://www.php-fig.org) (2012–2013)
-* Member, [RSS Advisory Board](http://www.rssboard.org) (2007—2009)
-* Patent, [“Hive-based Peer-to-Peer Network”](https://patents.google.com/patent/US8103870B2/en?inventor=Ryan+Parman) (US8103870B2)
-* Patent, [“System and Methods for User Authentication across Multiple Domains”](https://patents.google.com/patent/US20160241536A1/en?inventor=Ryan+Parman) (US15042104; Pending)
-* Student guest speaker for the 2004 Silicon Valley College graduation ceremony.
+* U.S. Patent filing, [“Hive-based Peer-to-Peer Network”](https://patents.google.com/patent/US8103870B2/en?inventor=Ryan+Parman) (US8103870B2)
+* U.S. Patent filing, [“System and Methods for User Authentication across Multiple Domains”](https://patents.google.com/patent/US20160241536A1/en?inventor=Ryan+Parman) (US15042104)
 
 ## Education
 
@@ -412,4 +394,3 @@ A full list of recommendations can be found on my [LinkedIn profile](http://www.
 #### Bachelor of Arts, Design and Visualization (November 2003)
 
 * GPA: 3.84
-* Web, graphic, multimedia, and publication design.

@@ -16,3 +16,19 @@ build:
 .PHONY: serve
 serve:
 	php -S 0.0.0.0:4000 -t .
+
+.PHONY: pdf
+pdf:
+	"/Applications/Google Chrome.app/Contents/MacOS/Google Chrome" \
+		--headless \
+		--virtual-time-budget=5000 \
+		--no-pdf-header-footer \
+		--print-to-pdf="./ryanparman-cv.pdf" \
+		http://0.0.0.0:4000/resume.html
+
+	"/Applications/Google Chrome.app/Contents/MacOS/Google Chrome" \
+		--headless \
+		--virtual-time-budget=5000 \
+		--no-pdf-header-footer \
+		--print-to-pdf="./ryanparman-resume-short.pdf" \
+		http://0.0.0.0:4000/resume-short.html

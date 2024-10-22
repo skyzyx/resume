@@ -1,3 +1,15 @@
+@media print{
+  @page {
+    margin: 2%;
+    size: letter;
+  }
+
+  body {
+    margin: auto 1.1cm;
+    zoom: .8;
+  }
+}
+
 html {
   font-size:100%;
   text-size-adjust:100%;
@@ -19,32 +31,49 @@ p {
   display: block;
   box-sizing: border-box;
   margin: 0;
-  padding: 0.5rem 0;
+  padding: 0.4rem 0;
+}
+
+ul {
+  display: block;
+  list-style-type: disc;
+  margin-block-start: 0;
+  margin-block-end: 1em;
+  margin-inline-start: 0;
+  margin-inline-end: 0;
+  padding-inline-start: 2em;
+  unicode-bidi: isolate;
+}
+
+li {
+  display: list-item;
+  text-align: -webkit-match-parent;
+  unicode-bidi: isolate;
 }
 
 h1, h2, h3, h4 {
-    padding: 1em 0 .2em;
-    margin: 0;
-    text-rendering: optimizeLegibility;
+  padding: .5em 0 .2em;
+  margin: 0;
+  text-rendering: optimizeLegibility;
 }
 
 h1 {
-  font-size: 20px;
+  font-size: 1.8em;
   line-height: 1.2em;
 }
 
 h2 {
-  font-size: 18px;
+  font-size: 1.5em;
   line-height: 1.3em;
 }
 
 h3 {
-  font-size: 16px;
+  font-size: 1.3em;
   line-height: 1.4em;
 }
 
 h4 {
-  font-size: 14px;
+  font-size: 1.1em;
   line-height: 1.5em;
 }
 
