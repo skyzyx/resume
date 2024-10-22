@@ -2,8 +2,10 @@
 
 ## Prerequisites
 
+* `brew install php`
 * Modern Python 3.x
 * Pandoc
+* Google Chrome
 
 ## Notes
 
@@ -16,25 +18,14 @@ The source Markdown (`README.md`) is _always_ the most up-to-date. It contains s
 
 ## Steps
 
-1. Build the HTML from the Markdown.
+1. Run the local web server.
 
     ```bash
-    make build
+    make serve
     ```
 
-1. One version (`resume.html`) will display the long-form "CV" style résumé. Specific styles are defined in `cv.css`.
+1. Generate the Microsoft Word, HTML, and PDF versions from the Markdown.
 
-    * all `<details>` blocks are expanded by default.
-
-1. Second version (`resume-short.html`) will display the shorter-form "American" style résumé. Specific styles are defined in `short.css`. This version omits:
-
-    * any jobs started more than 10 years ago
-    * highlighted LinkedIn recommendations
-    * generally speaking, everything else should be the same
-
-1. Load each HTML file in a Chromium-based browser. (There's something weird going on with Safari's print rendering.)
-
-1. Print using the system's print dialog (not the Chromium one).
-
-    * Scale-down to 80%
-    * Save each as PDF, overwriting the old version
+    ```bash
+    make build pdf
+    ```
