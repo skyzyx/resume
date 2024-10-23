@@ -2,10 +2,11 @@
 
 ## Prerequisites
 
-* `brew install php`
 * Modern Python 3.x
 * Pandoc
 * Google Chrome
+* `brew install php`
+* `brew install exiftool`
 
 ## Notes
 
