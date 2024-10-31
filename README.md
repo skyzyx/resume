@@ -10,12 +10,7 @@ Hi there 👋
 
 **Most-Recently:** Enterprise Architect, Cloud Center of Excellence at McGraw Hill.
 
-[GitHub](https://github.com/skyzyx) • [LinkedIn](https://www.linkedin.com/in/rparman/) • [Stack Overflow](https://stackoverflow.com/users/228514/ryan-parman)
-
-> [!TIP]
-> Long-form "CV-style" version of my résumé: [Web](https://github.com/skyzyx/resume/blob/master/README.md), [PDF](https://github.com/skyzyx/resume/raw/master/ryanparman-cv.pdf), [Word](https://github.com/skyzyx/resume/raw/master/ryanparman-cv.docx), and a lightly-truncated version on [LinkedIn](https://www.linkedin.com/in/rparman/).
->
-> Shorter-form résumé omits recommendations and has only 10 years of work experience: [PDF](https://github.com/skyzyx/resume/raw/master/ryanparman-resume-short.pdf).
+[GitHub (personal)](https://github.com/skyzyx) • [GitHub (side project)](https://github.com/northwood-labs/) • [LinkedIn](https://www.linkedin.com/in/rparman/) • [Stack Overflow](https://stackoverflow.com/users/228514/ryan-parman) • [Web résumé](https://github.com/skyzyx/resume/blob/master/README.md) • [PDF résumé](https://github.com/skyzyx/resume/raw/master/ryanparman-cv.pdf) • [Word résumé](https://github.com/skyzyx/resume/raw/master/ryanparman-cv.docx)
 
 ## Summary
 
@@ -60,73 +55,87 @@ While my experience and personal technical interests are broad, the following li
 
 ## Work Experience & Notable Projects
 
-### [Northwood Labs](https://github.com/northwood-labs) — Colorado
+### [Northwood Labs](https://github.com/northwood-labs) — Side Project
 
 #### Owner (January 2024—Present)
 
-Northwood Labs is an incubator for security and reliability tooling. (Presently a _side-hustle_, not a full-time gig.)
+* Northwood Labs is an incubator for some open-source and passive-income projects.
 
-It is a tiny company based in Colorado who thinks that software engineering, site reliability, operations, and cybersecurity are all parts of the same whole. We want to empower teams to build quality software and reliable services, teach where there are knowledge gaps, and make it possible for every user to have access to the best in security.
+* **Custom Linux Packages:** Currently building a [repository of custom Linux packages](https://github.com/northwood-labs/package-building/wiki) for the matrix of Alpine Linux, Amazon Linux, and Ubuntu Linux across `x86_64` and `arm64` architectures, that can be added as a standard repository definition and installed via the system's package manager.
 
-Historically, most of the tools built to address these areas have done a poor job of integrating across all relevant disciplines, and can also cost a small fortune in order to help teams ensure their products and services are well-built, reliable, and secure.
+* **CSP Evaluator:** Currently building a [parser and evaluator for Content Security Policy (CSP) directives](https://github.com/northwood-labs/csp-parser) in Go.
+
+* **Terraform Provider:** Built a Go library of functionality which (I believe) should have been built-in to Terraform/OpenTofu, then wrapped it in a [custom Provider](https://github.com/northwood-labs/terraform-provider-corefunc). Having this functionality exposed as Go code, [Data Sources](https://developer.hashicorp.com/terraform/language/data-sources), and [Provider-defined Functions](https://developer.hashicorp.com/terraform/plugin/framework/functions), makes it easier to write integration tests with [Terratest](https://terratest.gruntwork.io), ensuring with identical implementations.
+
+* **Multi-Platform Docker:** Built a [downloader for GitHub release assets](https://github.com/northwood-labs/download-asset) which helps streamline the ability for a Dockerfile to pull the correct build of a release for the right OS/Arch. Simplifies building multi-platform images.
+
+* **AWS Organization Security:** AWS has a pattern for multi-account organizations which they call “hub and spoke.” Built a [library + CLI tool](https://github.com/northwood-labs/assume-spoke-role) which simplifies the process of traversing the hub-and-spoke in order to execute a command on the spoke account using the same methodology an any automated process would.
+
+* **AWS Session Manager:** The terminal is the right tool for shell sessions. Built a [TUI](https://en.wikipedia.org/wiki/Text-based_user_interface) for [simplifying the ability to connect to an SSM-enabled EC2 instance](https://github.com/northwood-labs/ssm-shell) using your Terminal.
+
+* **Configuration for `tflint`:** Built a [tool for generating up-to-date configurations for AWS/GCP/Azure](https://github.com/northwood-labs/tflint-config-generator) for use with [tflint](https://github.com/terraform-linters/tflint). The `tflint` software helps identify security and best-practice errors in Terraform/OpenTofu code.
 
 ### [McGraw Hill](https://www.crunchbase.com/organization/mcgraw-hill-education) — Remote (since COVID), previously Seattle, WA
 
 #### Enterprise Architect, Cloud Center of Excellence (January 2024—October 2024)
 
-Assumed a role influencing the technical direction of the entire organization. Collaborated closely with members of the Cloud Center of Excellence, Reliability Engineering, Cybersecurity, Networking, and Application Development teams to prevent “Ivory Tower Syndrome.” Ensured a focus on real-world, actionable feedback and provided strategic direction aligned with practical needs.
+* Assumed a role influencing the technical direction of the entire organization.
 
-* **Documentation and Training:** Continued to ensure that people could continue to learn about new topics without requiring any specific human to become a bottleneck.
+* Prevented “Ivory Tower Syndrome” by collaborating closely with members of the Cloud Center of Excellence, Reliability Engineering, Cybersecurity, Networking, and Application Development teams.
 
-* **AWS Organizations and Control Tower:** Continued to be involved in the oversight and direction of our AWS stack, security, guardrails, and more.
+* Ensured a focus on real-world, actionable feedback and provided strategic direction aligned with practical needs.
 
-* **Cross-Cloud Collaboration:** Collaborated with peers focusing on Microsoft Azure and Oracle Cloud Infrastructure. Deepened understanding of our cloud fabric to enable high-performance networking across multiple clouds. Identified opportunities to extend the security measures and guardrails developed for AWS to other cloud platforms. Trained peers on the effective use of Terraform for cloud management.
+* Continued to be involved in the oversight and direction of our AWS stack, security, guardrails, and more.
+
+* Collaborated with peers focusing on Microsoft Azure and Oracle Cloud Infrastructure.
+
+* Deepened understanding of our cloud fabric to enable high-performance networking across multiple clouds.
+
+* Identified opportunities to extend the security measures and guardrails developed for AWS to other cloud platforms.
+
+* Trained peers on the effective use of Terraform for cloud management.
 
 #### Principal Cloud and Platform Engineer (June 2020—January 2024)
 
-Transitioned from Engineering Manager to a strategic technical leadership role, focusing on projects I'd initiated. Planned the product roadmap for those projects and integrated solutions into our highly heterogeneous application ecosystem. By stepping away from direct personnel management, I was able to concentrate on providing technical leadership.
+* Transitioned from Engineering Manager to a strategic technical leadership role, focusing on projects I'd initiated. By stepping away from direct personnel management, I was able to concentrate on providing technical leadership.
 
 * **Documentation:** Prolific documentarian. Documentation is worth 50% of your grade.
 
-* **Reliability Platform:** Products that I had personally pioneered (ECS-optimized Base AMI, Prism, Monitoring-as-Code, Terraform modules) became core pieces of our “reliability platform” alongside off-the-shelf software/services such as [AWS Control Tower](https://aws.amazon.com/controltower/), [Artifactory](https://jfrog.com/artifactory/), [GitHub Enterprise](https://github.com/enterprise), [GitHub Actions](https://github.com/features/actions), [Circle CI Enterprise](https://circleci.com/enterprise/), [Jenkins](https://www.jenkins.io), and more.
+* **Reliability Platform:** Either directly or collaboratively designed and maintained [AWS Control Tower](https://aws.amazon.com/controltower/), [Artifactory](https://jfrog.com/artifactory/), [GitHub Enterprise](https://github.com/enterprise), [GitHub Actions](https://github.com/features/actions), [Circle CI Enterprise](https://circleci.com/enterprise/), [Jenkins](https://www.jenkins.io), and more.
 
-* **Control Tower:** Partnered with McGraw Hill Enterprise Architecture and [AWS Professional Services](https://aws.amazon.com/professional-services/) to deploy [AWS Control Tower](http://aws.amazon.com/controltower/) and [AWS Identity Center](https://aws.amazon.com/iam/identity-center/). Lowered costs and increased control over account guardrails. Enabled automated provisioning of new accounts, and developed smoke tests as a post-provisioning validation step.
+* **AWS Control Tower:** Partnered with McGraw Hill Enterprise Architecture and [AWS Professional Services](https://aws.amazon.com/professional-services/) to deploy [AWS Control Tower](http://aws.amazon.com/controltower/) and [AWS Identity Center](https://aws.amazon.com/iam/identity-center/). Lowered costs and increased control over account guardrails. Enabled automated provisioning of new accounts, and developed smoke tests as a post-provisioning validation step.
 
-* **Clarity in Complexity:** Collaborated on the deployment of guardrails across all AWS organizational units (OUs). Ensured clarity and traceability of code in a large and complex project. Worked with the team to understand implementation details thoroughly, then developed Lambda functions and CI code to track changes in Git commits to master/main. Created README and Confluence documentation with directed graphs and charts from DOT documents to visually simplify workflows and implementation details.
-
-* **Base AMI program:** Leveraged insights from [Packer](https://www.packer.io), [CIS Benchmarks](https://www.cisecurity.org), security patching, and the specific needs of internal AMI customers to develop a unified build pipeline integrating best practices. Implemented automatic development builds with unit and integration testing triggered on Git commits, and production builds with comprehensive package indexing on Git tags. Pre-installed and pre-configured agents for metrics and cybersecurity, incorporated automated security analysis scanning, and made Base AMIs available to all ± 200 AWS accounts. Achieved zero downtime across the organization by seamlessly rotating hosts to use the new AMIs. Adopted EC2 Image Builder and automated AMI rotations in the process.
+* **Base AMI program:** Leveraged insights from [Packer](https://www.packer.io), [CIS Benchmarks](https://www.cisecurity.org), security patching, and the specific needs of internal AMI customers to develop a unified build pipeline integrating best practices. Achieved zero downtime across the organization by automating the seamless rotation of hosts to use the new AMIs. Automated rollbacks for failed nodes.
 
 * **Streamlining:** Integrated Terraform, Monitoring-as-Code, Base AMIs, and custom security tooling to empower application teams. Enabled deployment of Docker images with minimal configuration to Amazon ECS clusters, incorporating best practices, infrastructure monitoring, and operational tooling. Reduced overall costs by streamlining deployment processes.
 
-* **Preventative automation:** Conducted comprehensive scans of Route 53 and other DNS providers to obtain a mapping of thousands of active websites. Developed and leveraged highly concurrent, scalable bots to fetch certificate data from each endpoint. Enabled faster rotation of expiring datacenter certificates by identifying both the certificates and their installation locations. Verified required DNS records for self-rotating _Amazon Certificate Manager_ certificates.
-
-* **Prism:** Developed custom security and operational tooling where off-the-shelf tools wouldn't give us what we needed. Solution involved highly concurrent and dynamically-scalable nodes that would scan the AWS APIs to understand the current posture of ±200 AWS accounts. Made the data transparent to ALL engineers, enabling teams to be involved in improving their infrastructure stacks.
+* **Preventative automation:** Conducted comprehensive scans of Route 53 and other DNS providers to obtain a mapping of thousands of active websites owned by McGraw Hill. Enabled faster rotation of expiring datacenter certificates by identifying both the certificates and their installation locations. Verified required DNS records for self-rotating _Amazon Certificate Manager_ certificates.
 
 * **Self-hosted GitHub Actions runners:** Implemented Amazon EKS to deploy self-hosted runners for GitHub Actions within our GitHub Enterprise environment. Developed hourly smoke tests to validate the GitHub Actions runner environment and the imported actions for internal developers. Enhanced visibility and provided working examples to effectively leverage actions, improving overall developer efficiency.
 
-* **Automation for Artifactory:** Rebuilt our Artifactory cluster with a “cattle, not pets” approach. Dedicated Base AMI, rotated monthly. Migrated artifacts from NFS to S3, which significantly lowered costs. Rewrote configurations using Terraform to eliminate manual configurations. Moved service-user management into Terraform. This automation reduced human error, improved security posture, and increased consistency, leading to a better developer experience.
+* **Automation for Artifactory:** Rebuilt our Artifactory cluster with a “cattle, not pets” approach. Migrated artifacts from NFS to S3, which significantly lowered costs. Rewrote configurations using Terraform to eliminate manual configurations. Moved service-user management into Terraform. This automation reduced human error, improved security posture, and increased consistency, leading to a better developer experience.
 
-* **Custom Packages:** Streamlined the developer experience by consolidating all disparate Amazon ECR Docker image repositories into Artifactory. Reduced build times for virtual machines and Docker images by identifying commonly installed software and packaging them as pre-compiled `.rpm`, `.deb`, and `.apk` (Alpine Linux) packages. Enabled installation via the system's built-in package management system using Artifactory, resulting in faster, more reliable builds and mitigating issues like the [“left-pad” problem](https://web.archive.org/web/20210824233536/https://www.davidhaney.io/npm-left-pad-have-we-forgotten-how-to-program/).
+* **Token Vending Machine:** Enable continuous token and password rotation for our engineering teams, providing a "push-button, receive-token" solution. Leveraged AWS Secrets Manager, Lambda, KMS, IAM policies, and custom CLI software written in Go. Implemented the initial integration for service accounts in Artifactory.
 
-* **Token Vending Machine:** Developed a Token Vending Machine to enable continuous token and password rotation for our engineering teams, providing a "push-button, receive-token" solution. Leveraged AWS Secrets Manager, Lambda, KMS, IAM policies, and custom CLI software written in Go. Implemented the initial integration for service accounts in Artifactory.
-
-* **ARM64 Adoption:** Anticipated the significance of ARM64 architecture following Apple's announcement of ARM64-based Apple silicon Macs in November 2020. Proactively addressed dependencies on Intel `x86_64` by updating custom package build pipelines for ARM64 compatibility. Implemented ARM64 runners for GitHub Actions and established ARM64 parity in Artifactory for remote repositories. Authored tutorials and hands-on documentation for utilizing Docker BuildKit to produce multi-platform container images. Prepared the organization for the adoption of AWS Graviton (ARM64) CPUs for cost optimization, ensuring all components were in place for seamless integration. This initiative also resolved issues faced by multi-platform development teams using both Intel Macs and Apple silicon Macs.
+* **ARM64 Adoption:** Proactively addressed dependencies on Intel `x86_64` by updating build pipelines for ARM64 compatibility. Implemented ARM64 runners for GitHub Actions and established ARM64 parity in Artifactory for remote repositories. Authored tutorials and hands-on documentation for utilizing Docker BuildKit to produce multi-platform container images. Prepared the organization for the adoption of AWS Graviton (ARM64) CPUs for cost optimization, ensuring all components were in place for seamless integration.
 
 #### Engineering Manager, Site Reliability (October 2018—June 2020)
 
-Owned and served as the key decision-maker in [development of a core platform](https://youtu.be/dNow3SwtS8k) for company-wide, reliability-focused projects. As development teams transitioned to [Full-Cycle Development](https://netflixtechblog.com/full-cycle-developers-at-netflix-a08c31f83249), led the Site Reliability Engineering (SRE) team in addressing macro-oriented problems affecting over 75 decentralized, heterogeneous engineering teams across the company. These initiatives empowered greater self-service for engineering teams, enabling them to move faster without reinventing the wheel.
+* Owned and served as the key decision-maker in development of a core platform for company-wide, reliability-focused projects.
+
+* As development teams transitioned to [Full-Cycle Development](https://netflixtechblog.com/full-cycle-developers-at-netflix-a08c31f83249), led the Site Reliability Engineering (SRE) team in addressing macro-oriented problems affecting over 75 decentralized, heterogeneous engineering teams across the company. These initiatives empowered greater self-service for engineering teams, enabling them to move faster without reinventing the wheel.
 
 * **Managing humans:** Managed a team of four — one full-time and three contractors. Unfortunately, the team was spread thinly, and I _also_ had to pick-up several hands-on engineering tasks to keep up with our workload. Ultimately, I was pulled back into engineering in my subsequent role because there was a greater need for me there.
 
 * **ECS-optimized Amazon Linux Base AMI:** Customized the AWS-provided AMIs to comply with Level-2 CIS Guidelines for both Amazon Linux and Docker. Collaborated closely with cybersecurity, operations, and various business units to ensure compliance. Achieved high levels of opt-in adoption, enhancing confidence among cybersecurity and operations organizations in the product development teams.
 
-* **Prism:** Developed an executive dashboard that significantly enhanced visibility into the security and operational configurations of our hundreds of AWS accounts. Provided access to Engineering Managers, Directors, VPs, and the CTO, while supplying clear instructions to application engineers on identifying configuration issues and steps for resolution.
+* **Prism:** Developed custom security and operational tooling where off-the-shelf tools wouldn't give us what we needed, to understand the current posture of ±200 AWS accounts. Made the data transparent to ALL engineers, enabling teams to be involved in improving their infrastructure stacks.
 
-* **Monitoring-as-Code:** Leveraged Terraform and Python to streamline the generation and maintenance of dashboards and monitors in Datadog and New Relic across a large, heterogeneous range of applications. Trained development teams to adopt full-cycle development practices, enabling them to own day-to-day operations of their services, including deployments, support, and on-call rotations.
+* **Monitoring-as-Code:** Leveraged Terraform and Go to streamline the generation and ongoing maintenance of dashboards and monitors in Datadog and New Relic across a large, heterogeneous range of applications.
 
-* Formed and led a leadership group to establish a rigorous process for developing, patching, distributing, and maintaining reusable **Terraform modules** utilized by numerous product development teams across the company. Standardized development, contribution, and usage guidelines, adopted an Apache-style "incubator" model for new module development, and implemented a process for releasing Long-Term Support (LTS) sets of modules.
+* Formed and led a leadership group to establish a rigorous process for developing, patching, distributing, and maintaining reusable **Terraform modules** utilized by numerous product development teams across the company.
 
-* Assumed engineering management responsibilities for the Site Reliability Engineering (SRE) group in McGraw Hill’s Seattle office. Led initiatives to better integrate our office with the expanding SRE practice across all U.S. locations. Joined the SRE leadership group to guide and participate in developing improved reliability processes, collaborating with product development teams to adopt and implement these practices.
+* Assumed engineering management responsibilities for the Site Reliability Engineering (SRE) group in McGraw Hill’s Seattle office. Led initiatives to better integrate our office and practices with the expanding SRE practice across all U.S. offices. Joined the SRE leadership group to guide and participate in developing improved reliability processes, collaborating with product development teams to adopt and implement these practices.
 
 * Revamped the Seattle SRE **interview process** to prioritize the recruitment of high-quality engineers with a 70/30 focus on software engineering (Dev) and systems operations (Ops), emphasizing strong leadership qualities. Integrated numerous ideas and leadership principles from experience at AWS to enhance the recruitment strategy.
 
@@ -134,7 +143,9 @@ Owned and served as the key decision-maker in [development of a core platform](h
 
 #### Staff Software Engineer (October 2016—October 2018)
 
-Led the development of multiple Tier-1 services within the educational content authoring pipeline, leveraging technologies such as REST, GraphQL, API design, Amazon ECS, Docker, Terraform, ePubs, and security best practices. Provided the technical direction of these projects, promoted their adoption across the organization, provided comprehensive documentation, and offered ongoing guidance on adoption.
+* Led the development of multiple Tier-1 services within the educational content authoring pipeline, leveraging technologies such as REST, GraphQL, API design, Amazon ECS, Docker, Terraform, ePubs, and security best practices.
+
+* Provided the technical direction of these projects, promoted their adoption across the organization, provided comprehensive documentation, and offered ongoing guidance on adoption.
 
 * Lead the development of the authoring component of [McGraw Hill’s SmartBook 2.0 product](https://www.mheducation.com/news-media/press-releases/mcgraw-hill-connect-unveils-smartbook.html), and the internal system which indexes authored content, builds ePubs, and encodes images/video for McGraw Hill’s ePub CDN.
 
@@ -148,21 +159,27 @@ Led the development of multiple Tier-1 services within the educational content a
 
 #### Co-Owner, CTO, Producer (February 2015—2018)
 
-Developed the entire website for “The First-Time Offender’s Guide to Freedom,” managing all technical aspects from inception to deployment. Also performed all production work on the eBook authored by E. M. Baird.
+* Developed the entire website for “The First-Time Offender’s Guide to Freedom,” managing all technical aspects from inception to deployment. Also performed all production work on the eBook authored by E. M. Baird.
 
-* Utilized then-modern front-end technologies — including [Bootstrap](https://getbootstrap.com), [LESS](https://lesscss.org), JavaScript, [Gulp.js](https://gulpjs.com), npm, and [Bower](https://bower.io) — to build the website's front end. Developed the back end using PHP 5.6 with [HHVM](https://hhvm.com) and [Nginx](https://nginx.org/en/), integrating MySQL, [Redis](http://redis.io), [Slim Framework](https://www.slimframework.com), [Monolog](https://seldaek.github.io/monolog/), [Pimple](https://github.com/silexphp/Pimple), [Twig](https://twig.symfony.com), [Guzzle](https://github.com/guzzle), [Doctrine](https://www.doctrine-project.org), [Phinx](https://phinx.org), and [Symfony components](https://symfony.com/components). Deployed the application using [Ansible](https://www.ansible.com) and developed within a [Vagrant](https://www.vagrantup.com) environment running Ubuntu.
+* Utilized then-modern front-end technologies — including [Bootstrap](https://getbootstrap.com), [LESS](https://lesscss.org), JavaScript, [Gulp.js](https://gulpjs.com), npm, and [Bower](https://bower.io) — to build the website's front end.
+
+* Developed the back end using PHP 5.6 with [HHVM](https://hhvm.com) and [Nginx](https://nginx.org/en/), integrating MySQL, [Redis](http://redis.io), [Slim Framework](https://www.slimframework.com), [Monolog](https://seldaek.github.io/monolog/), [Pimple](https://github.com/silexphp/Pimple), [Twig](https://twig.symfony.com), [Guzzle](https://github.com/guzzle), [Doctrine](https://www.doctrine-project.org), [Phinx](https://phinx.org), and [Symfony components](https://symfony.com/components).
+
+* Deployed the application using [Ansible](https://www.ansible.com) and developed within a [Vagrant](https://www.vagrantup.com) environment running Ubuntu.
 
 * Conducted unit, integration, and functional testing using [PHPUnit](https://phpunit.de), [Behat](https://behat.org), [Mink](https://mink.behat.org), and [Selenium](https://www.selenium.dev). Leveraged Amazon SES for email delivery, Amazon S3 for static file storage, Stripe for payment processing, Linode for web hosting, and MaxMind for IP-based geolocation. Integrated Google Books and Dropbox to ensure customers always had access to the latest errata fixes.
-
-<div class="page-break"></div>
 
 ### [WePay](https://www.crunchbase.com/organization/wepay) — Redwood City, CA
 
 #### DevOps Engineer (April 2015—September 2016)
 
-* Enhanced WePay's cloud infrastructure provisioning by optimizing update deployment processes and managing security patches. Improved application and infrastructure monitoring. Streamlined the planning, development, deployment, and maintenance of new microservices throughout the company.
+* Enhanced WePay's cloud infrastructure provisioning by optimizing update deployment processes and managing security patches. Improved application and infrastructure monitoring.
 
-* Led a cross-company initiative to upgrade the monolithic application's software stack from PHP 5.4 to PHP 5.6. Facilitated cross-team collaboration among all major engineering teams and QA departments. Managed the replacement of over 200 servers across multiple environments, achieving zero customer-facing downtime.
+* Streamlined the planning, development, deployment, and maintenance of new microservices throughout the company.
+
+* Led a cross-company initiative to upgrade the monolithic application's software stack from PHP 5.4 to PHP 5.6. Facilitated cross-team collaboration among all major engineering teams and QA departments.
+
+* Managed the replacement of over 200 servers across multiple environments, achieving zero customer-facing downtime.
 
 * Maintainer of multiple tier-1 systems including Artifactory, GitHub Enterprise, and [Phabricator](https://www.phacility.com/phabricator/).
 
@@ -193,38 +210,40 @@ Developed the entire website for “The First-Time Offender’s Guide to Freedom
 
 * Hired by Amazon to work on the [AWS SDK for PHP](https://github.com/amazonwebservices/aws-sdk-for-php) after they hard-forked my open-source CloudFusion project. Invested heavily in supporting developers by actively listening to their needs, engaging with the community, and representing AWS in PHP-related industry groups.
 
-* Collaborated with the [AWS Elastic Beanstalk](http://aws.amazon.com/elasticbeanstalk/) team to provide PHP support for the platform, which launched in March 2012. Worked closely with the PHP community to determine a PHP container configuration that would accommodate the needs of the broadest range of developers. Developed a rigorous internal test suite for testing containers, which became the foundation for testing by other language-specific teams. Contributed early input on adding support for git push deployments.
+* Collaborated with the [AWS Elastic Beanstalk](http://aws.amazon.com/elasticbeanstalk/) team to provide PHP support for the platform, which launched in March 2012. Worked closely with the PHP community to determine a PHP environment that would accommodate the needs of the broadest range of developers.
+
+* Developed a rigorous internal test suite for testing Elastic Beanstalk environments, which became the foundation for testing by other language-specific teams. Contributed early input on adding support for `git push` deployments.
 
 * Played a key role in the creation and development of the [AWS SDK for PHP v2](https://github.com/aws/aws-sdk-php), incorporating significant changes in the PHP language and community since CloudFusion was first written in 2005. Contributed to the successful launch of the new SDK in November 2012.
 
 * Collaborated with the AWS Design team on the [AWS Management Console](https://console.aws.amazon.com), leveraging experience as a web developer and software engineer to bridge the gap between design and engineering disciplines. Contributed to building a high-quality, robust, and user-friendly console for interacting with Amazon Web Services.
 
-<details>
-<summary>Less technical, more cultural achievements…</summary><br>
+* Came up with the idea for what would eventually become AWS Lambda in 2010. Spent 3 years pitching the idea to anyone inside of AWS who would listen, before meeting with the eventual manager of the AWS Lambda team.
 
-* Successfully pushed for an SDK for both web browsers and Node.js.
-* Successfully pushed for AWS development blogs and Twitter accounts, which were previously _prohibited_.
-* Successfully pushed for publishing AWS SDKs on GitHub, which was previously _prohibited_.
-* Successfully pushed for open-sourcing SDKs with the Apache 2.0 license instead of the (non-OSS) Amazon Standard License, which was previously _prohibited_.
-* Successfully pushed for the development of non-secret SDK improvements to happen in the open, which was previously _prohibited_.
-* Successfully pushed for the ability for AWS employees to answer questions on StackOverflow, which was previously _prohibited_.
-* Successfully pushed for the underlying AWS service models to be exposed to end-users, the same service models that the SDKs were built from, which was previously _prohibited_.
-* Successfully pushed for <https://github.com/awslabs> to exist as a place for _unofficial_ AWS projects.
-* Invented the idea of "waiter" functions that are now commonplace in the AWS SDKs and AWS CLI.
-* Sucessfully got the Console, SDK, and Development Tools teams to stop using the same sets of AWS root credentials across the entire organization.
-* Spent 3 years pitching the idea behind AWS Lambda to anyone at AWS who would listen. AWS Lambda launched 6 months after leaving.
+* Spending much of my time focusing on Amazon’s _Customer Obsession_ leadership principle, I successfully pushed for meeting developers _where they already are_, and being better stewards of our community:
+
+  * an SDK for both web browsers and Node.js
+  * publishing AWS SDKs on GitHub; open-sourcing SDKs with the Apache 2.0 license
+  * development of non-secret SDK improvements to happen in the open
+  * the underlying AWS service models became exposed to end-users
+  * the creation of <https://github.com/awslabs> to exist as a place for _unofficial_ AWS projects
+  * "waiter" functions that are now commonplace in the AWS SDKs and AWS CLI
+  * AWS development blogs and Twitter accounts
+  * the ability for AWS employees to answer questions on StackOverflow
+
+* Improved internal security by successfully getting the Console, SDK, and Development Tools teams to stop using the same set of AWS root credentials across the entire department.
+
 * Led one of the first teams to provide reusable UI building blocks for creating AWS service consoles. This was in the Bootstrap-like era of AWS Consoles.
-* Unsuccessfully pushed for a drag-and-drop UI that could enable end-users to more easily write CloudFormation templates.
-* Unsuccessfully pushed for more complex "sample apps" to be written that would show best practices for using SDKs and AWS services, instead of the unhelpful "hello world" ones that shipped for many years.
-* Unsuccessfully pushed for better consistency across AWS service APIs and service-specific AWS consoles.
-
-</details>
 
 ### CloudFusion (née Tarzan) — Open-Source Project
 
 #### Creator and Developer (Early 2005—March 2010)
 
-* Developed CloudFusion, a fast and powerful PHP toolkit for rapidly building cloud-based web applications. Prioritized design decisions that enhanced performance, ease of use, and overall usability. Aimed to provide a high-performance developer toolkit for leveraging Amazon's cloud infrastructure, fostering community growth, and building useful, user-centric applications based on the toolkit.
+* Developed CloudFusion, a fast and powerful PHP toolkit for rapidly building cloud-based web applications.
+
+* Prioritized design decisions that enhanced performance, ease of use, and overall usability.
+
+* Aimed to provide a high-performance developer toolkit for leveraging Amazon's cloud infrastructure, fostering community growth, and building useful, user-centric applications based on the toolkit.
 
 * Amazon Web Services hired me and hard-forked this project in 2010. It became the AWS SDK for PHP.
 
@@ -238,15 +257,15 @@ Developed the entire website for “The First-Time Offender’s Guide to Freedom
 
 * Educated teams on the value of high-quality front-end code, placing a strong emphasis on writing code with better performance, faster load times, and improved accessibility across all projects.
 
-<div class="page-break"></div>
-
 ### [WarpShare](https://www.crunchbase.com/organization/warpshare) — Morgan Hill, CA
 
 #### Co-Founder and Chief Information Officer (September 2006—March 2010)
 
-WarpShare worked to bridge the gap between digital piracy and the economic models of RIAA and MPAA industry groups. Aimed to support musical artists and copyright holders by exploring innovative ways to derive value _from_ piracy. Recognized that piracy could not be entirely eliminated and analyzed the shortcomings of traditional anti-piracy efforts by the MPAA and RIAA.
+* WarpShare worked to bridge the gap between digital piracy and the economic models of RIAA and MPAA industry groups.
 
-Some things which happened later that either proved our premises true or false:
+* Aimed to support musical artists and copyright holders by exploring innovative ways to derive value _from_ piracy.
+
+* Recognized that piracy could not be entirely eliminated and analyzed the shortcomings of traditional anti-piracy efforts by the MPAA and RIAA.
 
 * Developed CleerPeer, an efficient peer-to-peer (P2P) protocol, which improved upon the performance and efficiency of existing protocols like BitTorrent. Addressed and solved multiple performance and efficiency issues present in the original [BitTorrent protocol](https://www.bittorrent.org/beps/bep_0000.html). (U.S. Patent filing US8103870B2 [“Hive-based Peer-to-Peer Network”](https://patents.google.com/patent/US8103870B2/en?inventor=Ryan+Parman).)
 
@@ -270,9 +289,11 @@ Some things which happened later that either proved our premises true or false:
 
 ### [SimplePie](http://simplepie.org) — Open-Source Project
 
-#### Creator and Co-Developer (July 2004—October 2009), contributor (ongoing)
+#### Creator and Co-Developer (July 2004—October 2009)
 
 * Ryan is the creator, evangelist, and co-developer of the SimplePie project — a PHP library that enables web developers to simply and easily integrate news feeds into their websites and web applications.
+
+<div class="page-break"></div>
 
 * After recruiting additional development resources in June 2005, Ryan began to shift from a primarily development-focused role to a primarily people-focused role, where he currently works to ensure that people are aware of, and can easily use SimplePie through support, documentation, tutorials, plugins, and evangelism.
 
@@ -288,7 +309,7 @@ Some things which happened later that either proved our premises true or false:
 
 ### [Stryker](https://www.crunchbase.com/organization/stryker) — San Jose, CA
 
-#### User Interface Developer (Contract; May 2005—September 2006)
+#### User Interface Developer (Contract) (May 2005—September 2006)
 
 * Core member of the team tasked with re-building the company intranet site around Oracle Portal. His time was spent writing and discussing functional and technical documentation, conducting usability interviews, and creating a fresh UI that employed user-centered design principles, web standards, and fancy new AJAX tech.
 
@@ -311,75 +332,7 @@ Some things which happened later that either proved our premises true or false:
 
 ## Recommendations
 
-<!-- <div class="short">
-
 A full list of recommendations can be found on my [LinkedIn profile](http://www.linkedin.com/in/rparman).
-
-</div> -->
-
-<div class="cv">
-
-A full list of recommendations can be found on my [LinkedIn profile](http://www.linkedin.com/in/rparman). Here are a few of my favorites.
-
-### [Chinmay Tripathi](https://www.linkedin.com/in/chinmaytripathi/)
-
-#### Sr. Director of Engineering, McGraw Hill
-
-> I had the pleasure of working with Ryan and managing him directly, and I can confidently say he’s one of the most talented and adaptable engineers I’ve come across. His technical skills are truly impressive. Whether it’s tackling complex challenges, designing smart solutions, or digging into the details of a project, Ryan consistently delivers top-notch results.
->
-> What really makes Ryan stand out isn’t just his technical abilities, but how easily he collaborates with others, mentors his teammates, and handles problems with a calm, practical approach. He brings a unique mix of creativity, precision, and strategic thinking that helps him approach every project with efficiency and finesse.
->
-> In every project we worked on together, Ryan showed a knack for thinking outside the box while still staying grounded in solid engineering practices. His strong work ethic, passion for innovation, and constant drive to push the envelope make him an invaluable team member.
-
-### [Stephanie Lignelli (Curatola), CISSP](https://www.linkedin.com/in/stephanie-lignelli/)
-
-#### Senior Cybersecurity Engineer, McGraw Hill
-
-> I had the pleasure of working with Ryan at McGraw Hill, where he demonstrated exceptional skills in ensuring the reliability, scalability, and efficiency of our IT infrastructure in the AWS cloud. I highly recommend him as he has a deep understanding of Security and has a proactive approach to identifying potential issues before they impact the user experience, this has been invaluable to the team.
-
-### [Kevin Mesiab](https://www.linkedin.com/in/kmesiab/)
-
-#### Lead Full Stack Engineer, McGraw-Hill
-
-> Ryan is an exceptionally talented engineer and an influential leader. He is one of those rare software professionals with an insatiable drive to invent, not just write code.
->
-> I’ve seen Ryan do everything from introducing countless proofs of concept that push organizations toward early adoption, driving industry competitiveness, to mentoring junior engineers on the simplest development tasks.
-
-### [Miroslav Ladan](https://www.linkedin.com/in/miroslav-ladan/)
-
-#### Sr. Director of Software Engineering, McGraw Hill
-
-> Ryan, you are […] what I call “renaissance engineer”, the kind whose interests extend beyond their role and who want to understand and be involved in every part of the engineering spectrum. You challenge my thinking on an ongoing basis, you inform my strategies and you craft solutions that can be used beyond the [team’s] field of responsibility. […]
->
-> You don’t pull solutions out of your back pocket, but you look at data and let data inform your decisions. […] Also, you've shown flexibility and changed direction when needed. You and I mostly agree [about a topic]. You have demonstrated willingness to help in such cases.
->
-> As grateful as I am for the previous year, I am even more excited about the year to come. You have a great foundation to build on. […] I'd like you to be in the business of making others motivated to continue learning and do great work.
-
-### [Will Curran](https://www.linkedin.com/in/wscurran/)
-
-#### Head of Developer Metrics and Insights, Google Cloud Platform
-
-> “Ryan is one of the most customer focused individuals I have worked with. He takes great pride in his work and is constantly evaluating how to improve the end user experience. He backs his opinions with customer feedback and data, and I often relied on Ryan to help me deliver a better experience to user, in a short period of time.”
-
-### [Brendan Dixon](https://www.linkedin.com/in/brendandixon/)
-
-#### Software Development Manager, formerly Amazon Web Services, Microsoft
-
-> “What I appreciate about Ryan is his obsession to detail and customers. Ryan refuses to let business politics to ever interfere with doing what is best for customers. He invests himself to discover the best solutions and then make them available. I wholly trust Ryan's evaluation of front-end engineers and Information Architecture. Ryan would make a solid contribution to any team requiring solid front-end skills blended with a deep customer concern.”
-
-### [Adrien Cahen](https://www.linkedin.com/in/gaarf/)
-
-#### Full-stack Javascript Engineer, Airbnb, formerly Yahoo!, Twitter
-
-> “Ryan is a rock star. Through his work on SimplePie, he has a healthy understanding of PHP and server-side concerns. He is extremely proficient in all aspects of modern web development \[...\]. He is aware and respectful of standards-body recommendations, but he knows that in the end, user satisfaction (as opposed to developer comfort) is most important. \[...\] \[Ryan managed\] to go above and beyond the call of duty by proposing and implementing creative solutions to the hurdles that appeared along the way.”
-
-### [Brian Emmett](https://www.linkedin.com/in/bemmett/)
-
-#### Software Engineering Manager, Google, formerly Apple, Netflix
-
-> “What has always impressed me about Ryan was his internal motivation for continual improvement. Whether it's creating software in his spare time or researching and implementing bleeding-edge UI techniques, I've always admired his drive. Coupled with a rich technical acumen and superior interpersonal skills, it was always a pleasure to work with him \[...\].”
-
-</div>
 
 ## Groups & Accomplishments
 
