@@ -1,9 +1,10 @@
+{{ define "document" -}}
 <!DOCTYPE html>
 <html>
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>CV-style Résumé</title>
+  <title></title>
   <link rel="stylesheet" href="screen.css" media="screen">
   <link rel="stylesheet" href="print.css" media="print">
   <link rel="stylesheet" href="cv.css">
@@ -11,9 +12,10 @@
 <body>
 <div id="content">
 
-@@BODY@@
+{{ block "content" . }}TODO{{ end }}
 
 </div>
 <script src="script.js" defer></script>
 </body>
 </html>
+{{ end -}}
