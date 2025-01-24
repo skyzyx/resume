@@ -1,29 +1,3 @@
-# Ryan Parman
-
-<div class="web">
-
-Hi there 👋
-
-</div>
-
-**Cloud-native engineering leader with a focus on reliability, scalability, and security for the modern web.**
-
-**Most-Recently:** Enterprise Architect, Cloud Center of Excellence at McGraw Hill.
-
-[GitHub (personal)](https://github.com/skyzyx) • [GitHub (side project)](https://github.com/northwood-labs/) • [LinkedIn](https://www.linkedin.com/in/rparman/) • [Stack Overflow](https://stackoverflow.com/users/228514/ryan-parman) • [Web résumé](https://github.com/skyzyx/resume/blob/master/README.md) • [PDF résumé](https://github.com/skyzyx/resume/raw/master/ryanparman-cv.pdf) • [Word résumé](https://github.com/skyzyx/resume/raw/master/ryanparman-cv.docx)
-
-## Summary
-
-Ryan Parman is a cloud-native engineering leader with over 25 years of experience, who specializes in technical leadership, software development, site reliability engineering, and cybersecurity for the modern web. A seasoned problem-solver who excels at listening, learning, adapting, and driving continuous improvement. Committed to delivering exceptional work, building impactful solutions, and elevating team performance. Thrives in environments which empower innovation and becoming a force-multiplier.
-
-Key accomplishments include:
-
-* Founding member of the AWS SDK team.
-* Patented multi-factor authentication as a service at WePay.
-* Instrumental in defining CI, CD, and SRE disciplines at McGraw Hill.
-* Conceived the idea of serverless, event-driven, responsive functions in the cloud at Amazon Web Services in 2010 (AWS Lambda).
-* Contributed significantly to numerous other high-impact projects.
-
 ## Technical Skills and Software
 
 While my experience and personal technical interests are broad, the following list is focused more on my interest in DevTools, DevOps, and SRE roles. I would be happy to share additional experience for other areas upon request.
@@ -329,21 +303,3 @@ While my experience and personal technical interests are broad, the following li
 
 </details>
 </div>
-
-## Recommendations
-
-A full list of recommendations can be found on my [LinkedIn profile](http://www.linkedin.com/in/rparman).
-
-## Groups & Accomplishments
-
-* Voting Representative for AWS, [PHP Framework Interoperability Group](http://www.php-fig.org) (2012–2013)
-* U.S. Patent filing, [“Hive-based Peer-to-Peer Network”](https://patents.google.com/patent/US8103870B2/en?inventor=Ryan+Parman) (US8103870B2)
-* U.S. Patent filing, [“System and Methods for User Authentication across Multiple Domains”](https://patents.google.com/patent/US20160241536A1/en?inventor=Ryan+Parman) (US15042104)
-
-## Education
-
-### Silicon Valley College (now [Carrington College](http://carrington.edu/schools/san-jose-california/)) — San Jose, CA
-
-#### Bachelor of Arts, Design and Visualization (November 2003)
-
-* GPA: 3.84

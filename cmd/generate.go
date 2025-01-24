@@ -3,11 +3,11 @@ package cmd
 import (
 	"embed"
 	"fmt"
+	"html/template"
 	"os"
 	"path/filepath"
 	"regexp"
 	"strings"
-	"text/template"
 	"time"
 
 	"github.com/charmbracelet/log"
@@ -15,7 +15,14 @@ import (
 	"github.com/spf13/cobra"
 )
 
-// generateCmd represents the generate command
+type TemplateVars struct {
+    IsEverything bool
+    IsSDE       bool
+    IsSRE       bool
+    IsCloud     bool
+    IsTPM       bool
+}
+
 var (
 	jobRoles = []string{"everything", "sde", "sre", "cloud", "tpm"}
 
@@ -30,10 +37,11 @@ var (
 		TimeFormat:      time.Kitchen,
 	})
 
-	// funcMap = template.FuncMap{
-	// 	"join": strings.Join,
-	// }
+	funcMap = template.FuncMap{
+		"join": strings.Join,
+	}
 
+    // generateCmd represents the generate command
 	generateCmd = &cobra.Command{
 		Use:   "generate",
 		Short: "Performs the generation step, producing multiple formats.",
@@ -54,15 +62,32 @@ var (
 
 			pattern := filepath.Join("templates", "*.gohtml")
 
-			templates, err := template.ParseFS(embeds, pattern)
+			templates, err := template.New("").Funcs(funcMap).ParseFS(embeds, pattern)
 			if err != nil {
 				logger.Fatal(fmt.Errorf("error parsing templates: %w", err))
 			}
 
-			err = templates.Execute(os.Stdout, nil)
-			if err != nil {
-				logger.Fatal(fmt.Errorf("error executing templates: %w", err))
-			}
+            for _, role := range fRoles {
+                var vars TemplateVars
+
+                switch role {
+                case "everything":
+                    vars.IsEverything = true
+                case "sde":
+                    vars.IsSDE = true
+                case "sre":
+                    vars.IsSRE = true
+                case "cloud":
+                    vars.IsCloud = true
+                case "tpm":
+                    vars.IsTPM = true
+                }
+
+                err = templates.ExecuteTemplate(os.Stdout, "frame.gohtml", vars)
+                if err != nil {
+                    logger.Fatal(fmt.Errorf("error executing templates: %w", err))
+                }
+            }
 		},
 	}
 )
@@ -72,45 +97,3 @@ func init() {
 
 	generateCmd.Flags().StringArrayVarP(&fRoles, "roles", "r", jobRoles, "Versions (roles) of the résumé to generate.")
 }
-
-// -----------------------------------------------------------------------------
-
-// 	masterTmpl, err := template.New("master").Funcs(funcs).Parse(master)
-// 	if err != nil {
-// 		log.Fatal(err)
-// 	}
-
-// 	overlayTmpl, err := template.Must(masterTmpl.Clone()).Parse(overlay)
-// 	if err != nil {
-// 		log.Fatal(err)
-// 	}
-
-// 	if err := masterTmpl.Execute(os.Stdout, guardians); err != nil {
-// 		log.Fatal(err)
-// 	}
-
-// 	if err := overlayTmpl.Execute(os.Stdout, guardians); err != nil {
-// 		log.Fatal(err)
-// 	}
-
-// -----------------------------------------------------------------------------
-
-// // T0.tmpl is a plain template file that just invokes T1.
-// {"T0.tmpl", `T0 invokes T1: ({{template "T1"}})`},
-// // T1.tmpl defines a template, T1 that invokes T2.
-// {"T1.tmpl", `{{define "T1"}}T1 invokes T2: ({{template "T2"}}){{end}}`},
-// // T2.tmpl defines a template T2.
-// {"T2.tmpl", `{{define "T2"}}This is T2{{end}}`},
-
-// pattern is the glob pattern used to find all the template files.
-// pattern := filepath.Join(dir, "*.tmpl")
-
-// // Here starts the example proper.
-// // T0.tmpl is the first name matched, so it becomes the starting template,
-// // the value returned by ParseGlob.
-// tmpl := template.Must(template.ParseGlob(pattern))
-
-// err := tmpl.Execute(os.Stdout, nil)
-// if err != nil {
-// 	log.Fatalf("template execution: %s", err)
-// }
