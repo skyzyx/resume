@@ -2,18 +2,18 @@
 
 **Cloud-native engineering leader with a focus on reliability, scalability, and security for the modern web.**
 
-**Most-Recently:** Principal Engineer, Cloud Center of Excellence at McGraw Hill.
-
-[GitHub (personal)](https://github.com/skyzyx) • [GitHub (side project)](https://github.com/northwood-labs/) • [LinkedIn](https://www.linkedin.com/in/rparman/) • [Stack Overflow](https://stackoverflow.com/users/228514/ryan-parman) • [Web résumé](https://github.com/skyzyx/resume/blob/master/README.md)
+**Links:** [GitHub (personal)] • [GitHub (side project)] • [LinkedIn] • [Stack Overflow] • [Role-targeted résumés](https://github.com/skyzyx/resume/blob/master/resumes/) \
+**Format:** [Web](https://github.com/skyzyx/resume/blob/master/resumes/ryanparman-tpm.md) • [PDF](https://github.com/skyzyx/resume/blob/master/resumes/ryanparman-tpm.pdf) • [Word](https://github.com/skyzyx/resume/blob/master/resumes/ryanparman-tpm.docx) • [OpenDocument](https://github.com/skyzyx/resume/blob/master/resumes/ryanparman-tpm.odt) • [Raw Markdown](https://github.com/skyzyx/resume/raw/master/resumes/ryanparman-tpm.md)
 
 ## Summary
 
-Ryan Parman is a cloud-native engineering leader with over 25 years of experience, who specializes in technical leadership, software development, site reliability engineering, and cybersecurity for the modern web. A seasoned problem-solver who excels at listening, learning, adapting, and driving continuous improvement. Committed to delivering exceptional work, building impactful solutions, and elevating team performance.
+Ryan Parman is a seasoned problem-solver who excels at listening, adapting, and driving continuous improvement. Committed to delivering exceptional work, building impactful solutions, and elevating team performance.
 
-> [!NOTE]
-> Looking to pivot from a technical leadership role into a product/program management role, Ryan is seeking opportunities to leverage his technical acumen, leadership skills, and passion for shipping impactful projects successfully.
+Looking to pivot from a technical leadership role into a product/program management role, Ryan is seeking opportunities to leverage his technical acumen, leadership skills, and passion for shipping impactful projects successfully.
 
 ## Work Experience
+
+Older roles are truncated for brevity. If interested, details can be found [on GitHub](https://github.com/skyzyx/resume/blob/master/ryanparman-previously.md).
 
 ### [McGraw Hill] — Remote (since COVID), previously Seattle, WA
 
@@ -24,8 +24,6 @@ Ryan Parman is a cloud-native engineering leader with over 25 years of experienc
 * Continued to be involved in the oversight and direction of our AWS stack, security, guardrails, and more.
 
 * Identified opportunities to extend the security measures and guardrails developed for AWS to other cloud platforms.
-
-* **TPM/PM skills:** cross-collaboration across dozens of engineering teams and hundreds of services, organization of complex projects, project management, product development, product roadmap management, prolific documentation
 
 #### Principal Cloud and Platform Engineer (June 2020—January 2024)
 
@@ -41,8 +39,6 @@ Ryan Parman is a cloud-native engineering leader with over 25 years of experienc
 
 * Proactively added support for lower-cost ARM64 CPUs, opening the door for ~$450k/year in cost savings.
 
-* **TPM/PM skills:** [Jira], [Confluence], cross-collaboration across dozens of engineering teams and hundreds of services, organization of complex projects, project management, product development, product roadmap management, prolific documentation.
-
 #### Engineering Manager, Site Reliability (October 2018—June 2020)
 
 * Managed a team of four, while working to level-up the team's technical skills and leadership capabilities. Conducted regular 1:1s, performance reviews, and career development discussions.
@@ -54,12 +50,6 @@ Ryan Parman is a cloud-native engineering leader with over 25 years of experienc
 * Owned and served as the key decision-maker in development of a core platform for company-wide, reliability-focused projects.
 
 * Formed and led a leadership group to establish a process maintaining reusable Terraform modules which could be composed together according to a service’s needs.
-
-* Led initiatives to better integrate our Seattle office with the expanding SRE practice across all U.S. offices.
-
-* Implemented a more collaborative approach by closely integrating with development teams, and minimizing the practice of siloed hand-offs to operations teams.
-
-* **TPM/PM skills:** [Jira], [Confluence], cross-collaboration with ~10 engineering teams and ~20–25 services, project management, documentation.
 
 #### Staff Software Engineer (October 2016—October 2018)
 
@@ -75,8 +65,6 @@ Ryan Parman is a cloud-native engineering leader with over 25 years of experienc
 
 * Served as a core resource in adopting _Infrastructure-as-Code_ (IaC) tools such as [Terraform] and [Packer].
 
-* **TPM/PM skills:** [Confluence], [Jira], coordination with downstream services, project management, documentation.
-
 ### [WePay] — Redwood City, CA
 
 #### DevOps Engineer (April 2015—September 2016)
@@ -86,8 +74,6 @@ Ryan Parman is a cloud-native engineering leader with over 25 years of experienc
 * Initiated a program to automate the creation of base server images for our cloud servers. They allowed new servers to boot and begin serving traffic ~75% faster.
 
 * Began investigating ways to implement _configuration-as-code_ for our cloud infrastructure.
-
-* **TPM/PM skills:** [Jira], [Confluence], cross-collaboration, project management, prolific documentation.
 
 #### Senior API Engineer (April 2014—April 2015)
 
@@ -99,8 +85,6 @@ Ryan Parman is a cloud-native engineering leader with over 25 years of experienc
 
 * Developed new API endpoints to help expand WePay’s business and support its partners.
 
-* **TPM/PM skills:** [Jira], [Confluence], cross-collaboration, project management, prolific documentation.
-
 ### [Amazon Web Services] — Seattle, WA
 
 #### Web Development Engineer II (March 2010—April 2014)
@@ -109,16 +93,11 @@ Ryan Parman is a cloud-native engineering leader with over 25 years of experienc
 
 * Collaborated with the [AWS Elastic Beanstalk] team to provide PHP support for the platform, which launched in March 2012.
 
-* Played a key role in the creation and development of the [AWS SDK for PHP v2], incorporating significant changes in the PHP language and community since CloudFusion was first written in 2005.
+* Played a key role in the creation and development of the [AWS SDK for PHP] v2, incorporating significant changes in the PHP language and community since CloudFusion was first written in 2005.
 
 * Collaborated with the AWS Design team on the [AWS Management Console], to build a robust and user-friendly console. Led one of the first teams to provide reusable UI building blocks at AWS.
 
-* Focusing on Amazon’s _Customer Obsession_ leadership principle, I successfully pushed for being better stewards of our community. Included increased transparency, better communication, and improved tooling for developers.
-
-* **TPM/PM skills:** [Jira], collaboration, project management, product development, product roadmap management, prolific documentation.
-
-> [!NOTE]
-> Older roles are truncated for brevity. If interested, details can be found [on GitHub](https://github.com/skyzyx/resume/blob/master/ryanparman-previously.md).
+* Focusing on Amazon’s _Customer Obsession_ leadership principle, I successfully pushed for being better stewards of our community. Included increased transparency, better communication, and improved tooling for developers. [[Examples](#)]
 
 ## Examples of Technical Documentation
 
@@ -135,32 +114,30 @@ Much of my other work is published inside of corporate Confluence/wikis. Here ar
 
 See a [selective list of recommendations](https://github.com/skyzyx/resume/blob/master/selected-recommendations.md) from co-workers and peers.
 
+## Keywords and Skills
+
+This list is not exhaustive, but is targeted toward the skills most relevant to <abbr title="Project Manager">PM</abbr>, <abbr title="Technical Program Manager">TPM</abbr>, and <abbr title="Product Manager">Product</abbr> roles.
+
+[Confluence], [Jira], building platforms, collaboration, coordination with downstream services, cross-collaboration (dozens of teams, hundreds of services), organization of complex projects, product development, product roadmap management, project documentation, project management, technical documentation.
+
 ## Groups and Accomplishments
 
-* Founded [Northwood Labs], a software consultancy (2024–present).
-* Co-founded _Perimeter of Wisdom_, a vanity book publisher for a single author (2015–2018). _Defunct_.
-* Co-founded [WarpShare] (née _Foleeo, Inc._), a peer-to-peer file sharing network (2006–2011). _Defunct_.
 * U.S. patent filing, [“System and Methods for User Authentication across Multiple Domains”][US15042104] (US15042104) (2016)
 * U.S. patent filing, [“Hive-based Peer-to-Peer Network”][US8103870B2] (US8103870B2) (2007)
 * Voting representative for AWS, [PHP Framework Interoperability Group][PHP-FIG] (2012–2013)
-* Member of the RSS Advisory Board (2009).
 
 ## Education
 
-### Silicon Valley College (now [Carrington College]) — San Jose, CA
+Obtained a **Bachelor of Arts** degree in _Design and Visualization_ from _Silicon Valley College_ (now [Carrington College]) in San Jose, CA.
 
-#### Bachelor of Arts, Design and Visualization (November 2003)
-
-* GPA: 3.84
+Graduated in _November 2003_ with a **3.84** GPA.
 
 [Alpine Linux]: https://alpinelinux.org
 [Amazon ACM]: https://aws.amazon.com/certificate-manager/
 [Amazon CloudFront]: https://aws.amazon.com/cloudfront/
 [Amazon EC2]: https://aws.amazon.com/ec2/
 [Amazon ECS]: https://aws.amazon.com/ecs/
-[Amazon Linux 1]: https://aws.amazon.com/amazon-linux-ami/
-[Amazon Linux 2]: https://aws.amazon.com/amazon-linux-2/
-[Amazon Linux 2023]: https://aws.amazon.com/linux/amazon-linux-2023/
+[Amazon Linux]: https://aws.amazon.com/linux/
 [Amazon Route 53]: https://aws.amazon.com/route53/
 [Amazon S3]: https://aws.amazon.com/s3/
 [Amazon Web Services]: https://www.crunchbase.com/organization/amazon-web-services
@@ -174,15 +151,15 @@ See a [selective list of recommendations](https://github.com/skyzyx/resume/blob/
 [AWS Management Console]: https://console.aws.amazon.com
 [AWS Professional Services]: https://aws.amazon.com/professional-services/
 [AWS RDS Aurora]: https://aws.amazon.com/rds/aurora/
-[AWS SDK for PHP v2]: https://github.com/aws/aws-sdk-php
-[AWS SDK for PHP]: https://github.com/amazonwebservices/aws-sdk-for-php
+[AWS SDK for PHP]: https://aws.amazon.com/sdk-for-php/
 [AWS SDKs]: https://aws.amazon.com/developer/tools/
 [AWS Secrets Manager]: https://aws.amazon.com/secrets-manager/
+[AWS Well-Architected]: https://aws.amazon.com/architecture/well-architected/
 [AWS]: https://aws.amazon.com
 [Bash]: https://www.gnu.org/software/bash/
 [Carrington College]: http://carrington.edu/schools/san-jose-california/
-[CentOS Linux]: https://en.wikipedia.org/wiki/CentOS
-[Circle CI Enterprise]: https://circleci.com/enterprise/
+[CentOS]: https://en.wikipedia.org/wiki/CentOS
+[CircleCI]: https://circleci.com/enterprise/
 [CIS]: https://www.cisecurity.org
 [Confluence]: https://www.atlassian.com/software/confluence
 [Docker]: https://www.docker.com
@@ -191,6 +168,8 @@ See a [selective list of recommendations](https://github.com/skyzyx/resume/blob/
 [ffmpeg]: https://ffmpeg.org
 [GCP]: https://cloud.google.com
 [Git]: https://git-scm.com
+[GitHub (personal)]: https://github.com/skyzyx
+[GitHub (side project)]: https://github.com/northwood-labs/
 [GitHub Actions]: https://github.com/features/actions
 [GitHub Enterprise]: https://github.com/enterprise
 [Go]: https://go.dev
@@ -199,6 +178,7 @@ See a [selective list of recommendations](https://github.com/skyzyx/resume/blob/
 [Jira]: https://www.atlassian.com/software/jira
 [JWT]: https://jwt.io
 [kubectl]: https://github.com/kubernetes/kubectl
+[LinkedIn]: https://www.linkedin.com/in/rparman/
 [McGraw Hill]: https://www.crunchbase.com/organization/mcgraw-hill-education
 [NFS]: https://en.wikipedia.org/wiki/Network_File_System
 [Nginx]: https://www.nginx.com
@@ -212,9 +192,11 @@ See a [selective list of recommendations](https://github.com/skyzyx/resume/blob/
 [SB2]: https://www.mheducation.com/news-media/press-releases/mcgraw-hill-connect-unveils-smartbook.html
 [SLO]: https://sre.google/sre-book/service-level-objectives/
 [SRE]: https://sre.google/in-conversation/
+[Stack Overflow]: https://stackoverflow.com/users/228514/ryan-parman
 [Subversion]: https://subversion.apache.org
 [Terraform]: https://www.terraform.io
-[Ubuntu Linux]: https://ubuntu.com
+[twelve-factor applications]: https://12factor.net
+[Ubuntu]: https://ubuntu.com
 [US15042104]: https://patents.google.com/patent/US20160241536A1/en?inventor=Ryan+Parman
 [US8103870B2]: https://patents.google.com/patent/US8103870B2/en?inventor=Ryan+Parman
 [Vagrant]: https://www.vagrantup.com

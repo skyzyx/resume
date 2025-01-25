@@ -2,15 +2,16 @@
 
 **Cloud-native engineering leader with a focus on reliability, scalability, and security for the modern web.**
 
-**Most-Recently:** Principal Engineer, Cloud Center of Excellence at McGraw Hill.
-
-[GitHub (personal)](https://github.com/skyzyx) • [GitHub (side project)](https://github.com/northwood-labs/) • [LinkedIn](https://www.linkedin.com/in/rparman/) • [Stack Overflow](https://stackoverflow.com/users/228514/ryan-parman) • [Web résumé](https://github.com/skyzyx/resume/blob/master/README.md)
+**Links:** [GitHub (personal)] • [GitHub (side project)] • [LinkedIn] • [Stack Overflow] • [Role-targeted résumés](https://github.com/skyzyx/resume/blob/master/resumes/) \
+**Format:** [Web](https://github.com/skyzyx/resume/blob/master/resumes/ryanparman-cloud-devops-sre.md) • [PDF](https://github.com/skyzyx/resume/blob/master/resumes/ryanparman-cloud-devops-sre.pdf) • [Word](https://github.com/skyzyx/resume/blob/master/resumes/ryanparman-cloud-devops-sre.docx) • [OpenDocument](https://github.com/skyzyx/resume/blob/master/resumes/ryanparman-cloud-devops-sre.odt) • [Raw Markdown](https://github.com/skyzyx/resume/raw/master/resumes/ryanparman-cloud-devops-sre.md)
 
 ## Summary
 
-Ryan Parman is a cloud-native engineering leader with over 25 years of experience, who specializes in technical leadership, software development, site reliability engineering, and cybersecurity for the modern web. A seasoned problem-solver who excels at listening, learning, adapting, and driving continuous improvement. Committed to delivering exceptional work, building impactful solutions, and elevating team performance.
+Ryan Parman is a cloud-native engineering leader with over 25 years of experience, who specializes in technical leadership, software development, site reliability engineering, and cybersecurity for the modern web. A seasoned problem-solver who excels at listening, adapting, and driving continuous improvement. Committed to delivering exceptional work, building impactful solutions, and elevating team performance.
 
 ## Work Experience
+
+Older roles are truncated for brevity. If interested, details can be found [on GitHub](https://github.com/skyzyx/resume/blob/master/ryanparman-previously.md).
 
 ### [McGraw Hill] — Remote (since COVID), previously Seattle, WA
 
@@ -22,25 +23,25 @@ Ryan Parman is a cloud-native engineering leader with over 25 years of experienc
 
 * Identified opportunities to extend the security measures and guardrails developed for AWS to other cloud platforms.
 
-* **DevOps/Cloud skills:** [Go], [Python], [Bash], [Artifactory], [Terraform], [Docker], [GitHub Enterprise], [GitHub Actions], [CentOS Linux], [Amazon Linux 2], [Amazon Linux 2023], [Alpine Linux], [Ubuntu Linux], [AWS], [AWS Identity Center], [AWS Control Tower], [AWS Lambda], [AWS Secrets Manager], [Amazon EC2], [Amazon ECS], [Amazon S3], [AWS RDS Aurora], [kubectl], multi-platform development, operational reliability, cloud configuration security
-
 #### Principal Cloud and Platform Engineer (June 2020—January 2024)
 
 * Transitioned from Engineering Manager to a strategic technical leadership role.
 
-* Either directly or collaboratively designed and maintained [AWS Control Tower], [Artifactory], [GitHub Enterprise], [GitHub Actions], [Circle CI Enterprise], [Jenkins], and more.
+* Either directly or collaboratively designed and maintained [AWS Control Tower], [Artifactory], [GitHub Enterprise], [GitHub Actions], [CircleCI], [Jenkins], and more.
 
 * Partnered with McGraw Hill Enterprise Architecture and [AWS Professional Services] to deploy [AWS Control Tower] and [AWS Identity Center]. Lowered costs and increased control over account guardrails.
 
-* Managed the program for building and maintaining base AMIs for all of McGraw Hill. Leveraged insights from the [Center of Internet Security][CIS], security patching, and the specific needs of internal customers to develop a unified build pipeline integrating best practices.* Using [AWS SDKs], conducted comprehensive scans of Route 53 to obtain a mapping of thousands of active websites owned by McGraw Hill. Focused on identifying and remediating misconfigurations, rotating certificates, and more.
+* Managed the program for building and maintaining base AMIs for all of McGraw Hill. Leveraged insights from the [Center of Internet Security][CIS], security patching, and the specific needs of internal customers to develop a unified build pipeline integrating best practices.
+
+* Using [AWS SDKs], conducted comprehensive scans of Route 53 to obtain a mapping of thousands of active websites owned by McGraw Hill. Focused on identifying and remediating misconfigurations, rotating certificates, and more.
 
 * Co-implemented self-hosted runners for GitHub Actions. Focused on the Linux runtime environment.
 
-* Rebuilt our [Artifactory] cluster with a “cattle, not pets” approach. Ran the project from inception to completion, including the majority of development. Worked across dozens of teams and hundreds of services to complete the project.* Enabled continuous token and password rotation for our engineering teams by building a _Token Vending Machine_, providing a "push-button, receive-token" solution.
+* Rebuilt our [Artifactory] cluster with a “cattle, not pets” approach. Ran the project from inception to completion, including the majority of development. Worked across dozens of teams and hundreds of services to complete the project.
+
+* Enabled continuous token and password rotation for our engineering teams by building a _Token Vending Machine_, providing a "push-button, receive-token" solution.
 
 * Proactively added support for lower-cost ARM64 CPUs, opening the door for ~$450k/year in cost savings.
-
-* **DevOps/Cloud skills:** [Alpine Linux], [Amazon ACM], [Amazon EC2], [Amazon ECS], [Amazon Linux 2], [Amazon Linux 2023], [Amazon Route 53], [Amazon S3], [ARM64], [Artifactory], [AWS Control Tower], [AWS Identity Center], [AWS Lambda], [AWS RDS Aurora], [AWS SDKs], [AWS Secrets Manager], [AWS], [Bash], [CentOS Linux], [Circle CI Enterprise], [CIS], [Docker], [EC2 Image Builder], [GitHub Actions], [GitHub Enterprise], [Go], [kubectl], [Packer], [Python], [Terraform], [Ubuntu Linux].
 
 #### Engineering Manager, Site Reliability (October 2018—June 2020)
 
@@ -54,17 +55,11 @@ Ryan Parman is a cloud-native engineering leader with over 25 years of experienc
 
 * Formed and led a leadership group to establish a process maintaining reusable Terraform modules which could be composed together according to a service’s needs.
 
-* Led initiatives to better integrate our Seattle office with the expanding SRE practice across all U.S. offices.
-
-* Implemented a more collaborative approach by closely integrating with development teams, and minimizing the practice of siloed hand-offs to operations teams.
-
 * Customized the Amazon Linux AMIs to comply with Level-2 [CIS] Guidelines for both Amazon Linux and [Docker]. Collaborated closely with cybersecurity, operations, and various business units to ensure compliance.
 
 * Developed custom security and operational tooling where off-the-shelf tools wouldn't give us what we needed, to understand the current posture of ±200 AWS accounts.
 
 * Reduced the time to deploy a new service from dozens of weeks to a single meeting by implementing a _Monitoring-as-Code_ methodology, and defining broad-use [Service Level Objectives][SLO] (SLOs).
-
-* **DevOps/Cloud skills:** [Alpine Linux], [Amazon ACM], [Amazon EC2], [Amazon ECS], [Amazon Linux 2], [Amazon Route 53], [Amazon S3], [AWS Lambda], [AWS RDS Aurora], [AWS SDKs], [AWS], [Bash], [Circle CI Enterprise], [CIS], [Docker], [GitHub Enterprise], [Packer], [Python], [Go], [Terraform].
 
 #### Staff Software Engineer (October 2016—October 2018)
 
@@ -80,8 +75,6 @@ Ryan Parman is a cloud-native engineering leader with over 25 years of experienc
 
 * Served as a core resource in adopting _Infrastructure-as-Code_ (IaC) tools such as [Terraform] and [Packer].
 
-* **DevOps/Cloud skills:** [Alpine Linux], [Amazon ACM], [Amazon CloudFront], [Amazon EC2], [Amazon ECS], [Amazon Linux 1], [Amazon Route 53], [Amazon S3], [AWS RDS Aurora], [AWS], [Bash], [Circle CI Enterprise], [Docker], [GitHub Enterprise], [Packer], [Terraform].
-
 ### [WePay] — Redwood City, CA
 
 #### DevOps Engineer (April 2015—September 2016)
@@ -91,8 +84,6 @@ Ryan Parman is a cloud-native engineering leader with over 25 years of experienc
 * Initiated a program to automate the creation of base server images for our cloud servers. They allowed new servers to boot and begin serving traffic ~75% faster.
 
 * Began investigating ways to implement _configuration-as-code_ for our cloud infrastructure.
-
-* **Technology skills:** [PHP], [Python], [Vagrant], [CentOS Linux], [Google Cloud Platform][GCP], [Redis], [Network File System (NFS)][NFS], [Docker], [JWT], [WordPress], [Nginx], [Ansible], [Terraform], TLS, documentation.
 
 #### Senior API Engineer (April 2014—April 2015)
 
@@ -104,8 +95,6 @@ Ryan Parman is a cloud-native engineering leader with over 25 years of experienc
 
 * Developed new API endpoints to help expand WePay’s business and support its partners.
 
-* **Technology skills:** [PHP], [Vagrant], [CentOS Linux], [Network File System (NFS)][NFS], [Docker], [JWT], [WordPress], TLS, SSO, scalability, performance, security, API design, API testing, API versioning
-
 ### [Amazon Web Services] — Seattle, WA
 
 #### Web Development Engineer II (March 2010—April 2014)
@@ -114,25 +103,11 @@ Ryan Parman is a cloud-native engineering leader with over 25 years of experienc
 
 * Collaborated with the [AWS Elastic Beanstalk] team to provide PHP support for the platform, which launched in March 2012.
 
-* Played a key role in the creation and development of the [AWS SDK for PHP v2], incorporating significant changes in the PHP language and community since CloudFusion was first written in 2005.
+* Played a key role in the creation and development of the [AWS SDK for PHP] v2, incorporating significant changes in the PHP language and community since CloudFusion was first written in 2005.
 
 * Collaborated with the AWS Design team on the [AWS Management Console], to build a robust and user-friendly console. Led one of the first teams to provide reusable UI building blocks at AWS.
 
-* Focusing on Amazon’s _Customer Obsession_ leadership principle, I successfully pushed for being better stewards of our community:
-
-  * an SDK for both web browsers and Node.js
-  * publishing AWS SDKs on GitHub; open-sourcing SDKs with the Apache 2.0 license
-  * development of non-secret SDK improvements to happen in the open
-  * the underlying AWS service models became exposed to end-users
-  * the creation of <https://github.com/awslabs> to exist as a place for _unofficial_ AWS projects
-  * "waiter" functions that are now commonplace in the AWS SDKs and AWS CLI
-  * AWS development blogs and Twitter accounts
-  * the ability for AWS employees to answer questions on StackOverflow
-
-* **Technology skills:** [PHP], [Git], [Subversion], [XSLT], [AWS SDKs], [AWS Elastic Beanstalk], API modeling, code generation.
-
-> [!NOTE]
-> Older roles are truncated for brevity. If interested, details can be found [on GitHub](https://github.com/skyzyx/resume/blob/master/ryanparman-previously.md).
+* Focusing on Amazon’s _Customer Obsession_ leadership principle, I successfully pushed for being better stewards of our community. Included increased transparency, better communication, and improved tooling for developers. [[Examples](#)]
 
 ## Projects
 
@@ -158,32 +133,30 @@ Proof that I can code, call APIs, interact with SDKs, and build user-facing soft
 
 See a [selective list of recommendations](https://github.com/skyzyx/resume/blob/master/selected-recommendations.md) from co-workers and peers.
 
+## Keywords and Skills
+
+This list is not exhaustive, but is targeted toward the skills most relevant to Cloud Engineering, DevOps, and Site Reliability Engineering roles.
+
+TLS and cipher suites, [ARM64], [AWS Control Tower], [AWS Elastic Beanstalk], [AWS Identity Center], [AWS Lambda], [AWS RDS Aurora], [AWS SDKs], [AWS Secrets Manager], [AWS Well-Architected], [Alpine Linux], [Amazon ACM], [Amazon CloudFront], [Amazon EC2], [Amazon ECS], [Amazon Linux], [Amazon Route 53], [Amazon S3], [Ansible], [Artifactory], [Bash], [CIS], [CentOS], [CentOS], [Docker], [EC2 Image Builder], [GCP], [GitHub Actions], [GitHub Enterprise], [Go], [Nginx], [PHP] (modern), [Packer], [Python], [Redis], [Terraform], [Ubuntu], [kubectl], automation, cloud configuration security, multi-platform development, operational reliability, performance, scalability.
+
 ## Groups and Accomplishments
 
-* Founded [Northwood Labs], a software consultancy (2024–present).
-* Co-founded _Perimeter of Wisdom_, a vanity book publisher for a single author (2015–2018). _Defunct_.
-* Co-founded [WarpShare] (née _Foleeo, Inc._), a peer-to-peer file sharing network (2006–2011). _Defunct_.
 * U.S. patent filing, [“System and Methods for User Authentication across Multiple Domains”][US15042104] (US15042104) (2016)
 * U.S. patent filing, [“Hive-based Peer-to-Peer Network”][US8103870B2] (US8103870B2) (2007)
 * Voting representative for AWS, [PHP Framework Interoperability Group][PHP-FIG] (2012–2013)
-* Member of the RSS Advisory Board (2009).
 
 ## Education
 
-### Silicon Valley College (now [Carrington College]) — San Jose, CA
+Obtained a **Bachelor of Arts** degree in _Design and Visualization_ from _Silicon Valley College_ (now [Carrington College]) in San Jose, CA.
 
-#### Bachelor of Arts, Design and Visualization (November 2003)
-
-* GPA: 3.84
+Graduated in _November 2003_ with a **3.84** GPA.
 
 [Alpine Linux]: https://alpinelinux.org
 [Amazon ACM]: https://aws.amazon.com/certificate-manager/
 [Amazon CloudFront]: https://aws.amazon.com/cloudfront/
 [Amazon EC2]: https://aws.amazon.com/ec2/
 [Amazon ECS]: https://aws.amazon.com/ecs/
-[Amazon Linux 1]: https://aws.amazon.com/amazon-linux-ami/
-[Amazon Linux 2]: https://aws.amazon.com/amazon-linux-2/
-[Amazon Linux 2023]: https://aws.amazon.com/linux/amazon-linux-2023/
+[Amazon Linux]: https://aws.amazon.com/linux/
 [Amazon Route 53]: https://aws.amazon.com/route53/
 [Amazon S3]: https://aws.amazon.com/s3/
 [Amazon Web Services]: https://www.crunchbase.com/organization/amazon-web-services
@@ -197,15 +170,15 @@ See a [selective list of recommendations](https://github.com/skyzyx/resume/blob/
 [AWS Management Console]: https://console.aws.amazon.com
 [AWS Professional Services]: https://aws.amazon.com/professional-services/
 [AWS RDS Aurora]: https://aws.amazon.com/rds/aurora/
-[AWS SDK for PHP v2]: https://github.com/aws/aws-sdk-php
-[AWS SDK for PHP]: https://github.com/amazonwebservices/aws-sdk-for-php
+[AWS SDK for PHP]: https://aws.amazon.com/sdk-for-php/
 [AWS SDKs]: https://aws.amazon.com/developer/tools/
 [AWS Secrets Manager]: https://aws.amazon.com/secrets-manager/
+[AWS Well-Architected]: https://aws.amazon.com/architecture/well-architected/
 [AWS]: https://aws.amazon.com
 [Bash]: https://www.gnu.org/software/bash/
 [Carrington College]: http://carrington.edu/schools/san-jose-california/
-[CentOS Linux]: https://en.wikipedia.org/wiki/CentOS
-[Circle CI Enterprise]: https://circleci.com/enterprise/
+[CentOS]: https://en.wikipedia.org/wiki/CentOS
+[CircleCI]: https://circleci.com/enterprise/
 [CIS]: https://www.cisecurity.org
 [Confluence]: https://www.atlassian.com/software/confluence
 [Docker]: https://www.docker.com
@@ -214,6 +187,8 @@ See a [selective list of recommendations](https://github.com/skyzyx/resume/blob/
 [ffmpeg]: https://ffmpeg.org
 [GCP]: https://cloud.google.com
 [Git]: https://git-scm.com
+[GitHub (personal)]: https://github.com/skyzyx
+[GitHub (side project)]: https://github.com/northwood-labs/
 [GitHub Actions]: https://github.com/features/actions
 [GitHub Enterprise]: https://github.com/enterprise
 [Go]: https://go.dev
@@ -222,6 +197,7 @@ See a [selective list of recommendations](https://github.com/skyzyx/resume/blob/
 [Jira]: https://www.atlassian.com/software/jira
 [JWT]: https://jwt.io
 [kubectl]: https://github.com/kubernetes/kubectl
+[LinkedIn]: https://www.linkedin.com/in/rparman/
 [McGraw Hill]: https://www.crunchbase.com/organization/mcgraw-hill-education
 [NFS]: https://en.wikipedia.org/wiki/Network_File_System
 [Nginx]: https://www.nginx.com
@@ -235,9 +211,11 @@ See a [selective list of recommendations](https://github.com/skyzyx/resume/blob/
 [SB2]: https://www.mheducation.com/news-media/press-releases/mcgraw-hill-connect-unveils-smartbook.html
 [SLO]: https://sre.google/sre-book/service-level-objectives/
 [SRE]: https://sre.google/in-conversation/
+[Stack Overflow]: https://stackoverflow.com/users/228514/ryan-parman
 [Subversion]: https://subversion.apache.org
 [Terraform]: https://www.terraform.io
-[Ubuntu Linux]: https://ubuntu.com
+[twelve-factor applications]: https://12factor.net
+[Ubuntu]: https://ubuntu.com
 [US15042104]: https://patents.google.com/patent/US20160241536A1/en?inventor=Ryan+Parman
 [US8103870B2]: https://patents.google.com/patent/US8103870B2/en?inventor=Ryan+Parman
 [Vagrant]: https://www.vagrantup.com

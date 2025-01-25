@@ -1,3 +1,9 @@
 {{ define "links" -}}
-[GitHub (personal)](https://github.com/skyzyx) • [GitHub (side project)](https://github.com/northwood-labs/) • [LinkedIn](https://www.linkedin.com/in/rparman/) • [Stack Overflow](https://stackoverflow.com/users/228514/ryan-parman) • [Web résumé](https://github.com/skyzyx/resume/blob/master/README.md)
+**Links:** [GitHub (personal)] • [GitHub (side project)] • [LinkedIn] • [Stack Overflow] • [Role-targeted résumés]({{ .ResumeDir }}) \
+**Format:** [Web]({{ .Resume }}.md) • [PDF]({{ .Resume }}.pdf) • [Word]({{ .Resume }}.docx) • [OpenDocument]({{ .Resume }}.odt) • [Raw Markdown]({{ .ResumeRaw }}.md)
+
+{{ if .IsATS -}}
+**IMPORTANT:** This copy of my résumé is optimized for ATS (Applicant Tracking System) compatibility. Follow one of the links above for one that is intended for interviewers.
+
+{{- end -}}
 {{- end }}

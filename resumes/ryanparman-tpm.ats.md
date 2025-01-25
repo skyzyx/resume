@@ -3,11 +3,15 @@
 **Cloud-native engineering leader with a focus on reliability, scalability, and security for the modern web.**
 
 **Links:** [GitHub (personal)] • [GitHub (side project)] • [LinkedIn] • [Stack Overflow] • [Role-targeted résumés](https://github.com/skyzyx/resume/blob/master/resumes/) \
-**Format:** [Web](https://github.com/skyzyx/resume/blob/master/resumes/ryanparman-general-cv.md) • [PDF](https://github.com/skyzyx/resume/blob/master/resumes/ryanparman-general-cv.pdf) • [Word](https://github.com/skyzyx/resume/blob/master/resumes/ryanparman-general-cv.docx) • [OpenDocument](https://github.com/skyzyx/resume/blob/master/resumes/ryanparman-general-cv.odt) • [Raw Markdown](https://github.com/skyzyx/resume/raw/master/resumes/ryanparman-general-cv.md)
+**Format:** [Web](https://github.com/skyzyx/resume/blob/master/resumes/ryanparman-tpm.md) • [PDF](https://github.com/skyzyx/resume/blob/master/resumes/ryanparman-tpm.pdf) • [Word](https://github.com/skyzyx/resume/blob/master/resumes/ryanparman-tpm.docx) • [OpenDocument](https://github.com/skyzyx/resume/blob/master/resumes/ryanparman-tpm.odt) • [Raw Markdown](https://github.com/skyzyx/resume/raw/master/resumes/ryanparman-tpm.md)
+
+**IMPORTANT:** This copy of my résumé is optimized for ATS (Applicant Tracking System) compatibility. Follow one of the links above for one that is intended for interviewers.
 
 ## Summary
 
-Ryan Parman is a cloud-native engineering leader with over 25 years of experience, who specializes in technical leadership, software development, site reliability engineering, and cybersecurity for the modern web. A seasoned problem-solver who excels at listening, adapting, and driving continuous improvement. Committed to delivering exceptional work, building impactful solutions, and elevating team performance.
+Ryan Parman is a seasoned problem-solver who excels at listening, adapting, and driving continuous improvement. Committed to delivering exceptional work, building impactful solutions, and elevating team performance.
+
+Looking to pivot from a technical leadership role into a product/program management role, Ryan is seeking opportunities to leverage his technical acumen, leadership skills, and passion for shipping impactful projects successfully.
 
 ## Work Experience
 
@@ -29,19 +33,11 @@ Older roles are truncated for brevity. If interested, details can be found [on G
 
 * Prolific documentarian. Documentation is worth 50% of your grade.
 
-* Either directly or collaboratively designed and maintained [AWS Control Tower], [Artifactory], [GitHub Enterprise], [GitHub Actions], [CircleCI], [Jenkins], and more.
-
 * Partnered with McGraw Hill Enterprise Architecture and [AWS Professional Services] to deploy [AWS Control Tower] and [AWS Identity Center]. Lowered costs and increased control over account guardrails.
 
-* Managed the program for building and maintaining base AMIs for all of McGraw Hill. Leveraged insights from the [Center of Internet Security][CIS], security patching, and the specific needs of internal customers to develop a unified build pipeline integrating best practices.
-
-* Using [AWS SDKs], conducted comprehensive scans of Route 53 to obtain a mapping of thousands of active websites owned by McGraw Hill. Focused on identifying and remediating misconfigurations, rotating certificates, and more.
-
-* Co-implemented self-hosted runners for GitHub Actions. Focused on the Linux runtime environment.
+* Managed the program for building and maintaining base AMIs for all of McGraw Hill.
 
 * Rebuilt our [Artifactory] cluster with a “cattle, not pets” approach. Ran the project from inception to completion, including the majority of development. Worked across dozens of teams and hundreds of services to complete the project.
-
-* Enabled continuous token and password rotation for our engineering teams by building a _Token Vending Machine_, providing a "push-button, receive-token" solution.
 
 * Proactively added support for lower-cost ARM64 CPUs, opening the door for ~$450k/year in cost savings.
 
@@ -56,12 +52,6 @@ Older roles are truncated for brevity. If interested, details can be found [on G
 * Owned and served as the key decision-maker in development of a core platform for company-wide, reliability-focused projects.
 
 * Formed and led a leadership group to establish a process maintaining reusable Terraform modules which could be composed together according to a service’s needs.
-
-* Customized the Amazon Linux AMIs to comply with Level-2 [CIS] Guidelines for both Amazon Linux and [Docker]. Collaborated closely with cybersecurity, operations, and various business units to ensure compliance.
-
-* Developed custom security and operational tooling where off-the-shelf tools wouldn't give us what we needed, to understand the current posture of ±200 AWS accounts.
-
-* Reduced the time to deploy a new service from dozens of weeks to a single meeting by implementing a _Monitoring-as-Code_ methodology, and defining broad-use [Service Level Objectives][SLO] (SLOs).
 
 #### Staff Software Engineer (October 2016—October 2018)
 
@@ -111,25 +101,16 @@ Older roles are truncated for brevity. If interested, details can be found [on G
 
 * Focusing on Amazon’s _Customer Obsession_ leadership principle, I successfully pushed for being better stewards of our community. Included increased transparency, better communication, and improved tooling for developers. [[Examples](#)]
 
-## Projects
+## Examples of Technical Documentation
 
-Proof that I can code, call APIs, interact with SDKs, and build user-facing software. I have live-coding anxiety, so live-coding interviews will always present me at my worst, not my best.
+Much of my other work is published inside of corporate Confluence/wikis. Here are some examples of my public-facing documentation:
 
-* **DevSec Tools:** Building a [website](https://github.com/northwood-labs/devsec-ui), [CLI tool, and Go library](https://github.com/northwood-labs/devsec-tools) for helping developers identify potential web security configuration issues (in-progress).
-
-* **Custom Linux Packages:** Building a [repository of custom Linux packages](https://github.com/northwood-labs/package-building/wiki) (in-progress).
-
-* **CSP Evaluator:** Building a [parser and evaluator for Content Security Policy (CSP) directives](https://github.com/northwood-labs/csp-parser) in Go (in-progress).
-
-* **Terraform Provider:** Built a [custom provider](https://github.com/northwood-labs/terraform-provider-corefunc) which provides a set of utility functions for use in Terraform/OpenTofu.
-
-* **Multi-Platform Docker:** Built a [downloader for GitHub release assets](https://github.com/northwood-labs/download-asset) which simplifies building multi-platform images.
-
-* **AWS Organization Security:** Built a [library + CLI tool](https://github.com/northwood-labs/assume-spoke-role) which simplifies the AWS pattern for multi-account organizations which they call “hub and spoke.”
-
-* **AWS Session Manager:** The terminal is the right tool for shell sessions. Built a [TUI](https://en.wikipedia.org/wiki/Text-based_user_interface) for [simplifying connections to SSM-enabled EC2 instances](https://github.com/northwood-labs/ssm-shell) using your Terminal.
-
-* **Configuration for `tflint`:** Built a [tool for generating up-to-date configurations for AWS/GCP/Azure](https://github.com/northwood-labs/tflint-config-generator) for use with [tflint](https://github.com/terraform-linters/tflint).
+* [Setting up macOS for development](https://github.com/northwood-labs/macos-for-development/wiki)
+* [Local AWS Lambda environments (with Go)](https://github.com/northwood-labs/local-lambda-environments-with-go)
+* [Local development environment (devsec-tools)](https://github.com/northwood-labs/devsec-tools/blob/main/docs/localdev.md)
+* [Configuring DataGrip for Valkey (devsec-tools)](https://github.com/northwood-labs/devsec-tools/blob/main/docs/configuring-datagrip-for-valkey.md)
+* Diagrams of Artifactory [infrastructure](https://whimsical.com/artifactory-infrastructure-diagram-5MbWJd8BJfMbRWhfZwtHhQ) and [software](https://whimsical.com/artifactory-software-configuration-and-data-flow-QWZnvbv4SXTX2qkmKGZAqp) configuration.
+* Diagram of a [secrets-rotation system](https://whimsical.com/tokengen-infrastructure-diagram-and-data-flow-5ZphqPDP826AaPZHKxCKSr).
 
 ## Recommendations
 
@@ -137,15 +118,9 @@ See a [selective list of recommendations](https://github.com/skyzyx/resume/blob/
 
 ## Keywords and Skills
 
-* **Languages:** [Bash], [Go], [PHP] (modern), [Python].
+This list is not exhaustive, but is targeted toward the skills most relevant to <abbr title="Project Manager">PM</abbr>, <abbr title="Technical Program Manager">TPM</abbr>, and <abbr title="Product Manager">Product</abbr> roles.
 
-* **Linuxes:** [Alpine Linux], [Amazon Linux], [CentOS], [Ubuntu].
-
-* **Cloud/DevOps/SRE:** TLS and cipher suites, [ARM64], [AWS Control Tower], [AWS Elastic Beanstalk], [AWS Identity Center], [AWS Lambda], [AWS RDS Aurora], [AWS SDKs], [AWS Secrets Manager], [AWS Well-Architected], [Amazon ACM], [Amazon CloudFront], [Amazon EC2], [Amazon ECS], [Amazon Route 53], [Amazon S3], [Ansible], [Artifactory], [CIS], [CentOS], [Docker], [EC2 Image Builder], [GCP], [GitHub Actions], [GitHub Enterprise], [Nginx], [Packer], [Redis], [Terraform], [kubectl], automation, cloud configuration security, multi-platform development, operational reliability, performance, scalability.
-
-* **SDE/SWE/DevTools:** API design, API versioning, CLI tools, [CircleCI], [Docker], [GitHub Actions], [Git], [GraphQL], [JWT], [NFS], [REST], [Redis], [Subversion], [Vagrant], [WordPress], [XSLT], [ffmpeg], [twelve-factor applications], automation, building platforms, code generation, defensive cybersecurity, multi-platform development, performance, scalability, software library design, software testing, technical documentation.
-
-* **PM/TPM:** [Confluence], [Jira], building platforms, collaboration, coordination with downstream services, cross-collaboration (dozens of teams, hundreds of services), organization of complex projects, product development, product roadmap management, project documentation, project management, technical documentation.
+[Confluence], [Jira], building platforms, collaboration, coordination with downstream services, cross-collaboration (dozens of teams, hundreds of services), organization of complex projects, product development, product roadmap management, project documentation, project management, technical documentation.
 
 ## Groups and Accomplishments
 

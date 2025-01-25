@@ -7,17 +7,4 @@
 
 * Identified opportunities to extend the security measures and guardrails developed for AWS to other cloud platforms.
 
-{{ if .IsAll -}}
-* **Skills:** [Go], [Python], [Bash], [Artifactory], [Terraform], [Docker], [GitHub Enterprise], [GitHub Actions], [CentOS Linux], [Amazon Linux 2], [Amazon Linux 2023], [Alpine Linux], [Ubuntu Linux], [AWS], [AWS Identity Center], [AWS Control Tower], [AWS Lambda], [AWS Secrets Manager], [Amazon EC2], [Amazon ECS], [Amazon S3], [AWS RDS Aurora], [kubectl], multi-platform development, operational reliability, cloud configuration security, cross-collaboration across dozens of engineering teams and hundreds of services, organization of complex projects, project management, product development, product roadmap management, prolific documentation
-
-{{- else if .IsSDE -}}
-* **SDE/SWE skills:** [Go], [Python], [Bash], [Docker], [GitHub Actions], multi-platform development
-
-{{- else if or .IsSRE .IsCloud -}}
-* **DevOps/Cloud skills:** [Go], [Python], [Bash], [Artifactory], [Terraform], [Docker], [GitHub Enterprise], [GitHub Actions], [CentOS Linux], [Amazon Linux 2], [Amazon Linux 2023], [Alpine Linux], [Ubuntu Linux], [AWS], [AWS Identity Center], [AWS Control Tower], [AWS Lambda], [AWS Secrets Manager], [Amazon EC2], [Amazon ECS], [Amazon S3], [AWS RDS Aurora], [kubectl], multi-platform development, operational reliability, cloud configuration security
-
-{{- else if .IsTPM -}}
-* **TPM/PM skills:** cross-collaboration across dozens of engineering teams and hundreds of services, organization of complex projects, project management, product development, product roadmap management, prolific documentation
-
-{{- end -}}
-{{- end -}}
+{{- end }}

@@ -3,7 +3,9 @@
 **Cloud-native engineering leader with a focus on reliability, scalability, and security for the modern web.**
 
 **Links:** [GitHub (personal)] • [GitHub (side project)] • [LinkedIn] • [Stack Overflow] • [Role-targeted résumés](https://github.com/skyzyx/resume/blob/master/resumes/) \
-**Format:** [Web](https://github.com/skyzyx/resume/blob/master/resumes/ryanparman-general-cv.md) • [PDF](https://github.com/skyzyx/resume/blob/master/resumes/ryanparman-general-cv.pdf) • [Word](https://github.com/skyzyx/resume/blob/master/resumes/ryanparman-general-cv.docx) • [OpenDocument](https://github.com/skyzyx/resume/blob/master/resumes/ryanparman-general-cv.odt) • [Raw Markdown](https://github.com/skyzyx/resume/raw/master/resumes/ryanparman-general-cv.md)
+**Format:** [Web](https://github.com/skyzyx/resume/blob/master/resumes/ryanparman-cloud-devops-sre.md) • [PDF](https://github.com/skyzyx/resume/blob/master/resumes/ryanparman-cloud-devops-sre.pdf) • [Word](https://github.com/skyzyx/resume/blob/master/resumes/ryanparman-cloud-devops-sre.docx) • [OpenDocument](https://github.com/skyzyx/resume/blob/master/resumes/ryanparman-cloud-devops-sre.odt) • [Raw Markdown](https://github.com/skyzyx/resume/raw/master/resumes/ryanparman-cloud-devops-sre.md)
+
+**IMPORTANT:** This copy of my résumé is optimized for ATS (Applicant Tracking System) compatibility. Follow one of the links above for one that is intended for interviewers.
 
 ## Summary
 
@@ -26,8 +28,6 @@ Older roles are truncated for brevity. If interested, details can be found [on G
 #### Principal Cloud and Platform Engineer (June 2020—January 2024)
 
 * Transitioned from Engineering Manager to a strategic technical leadership role.
-
-* Prolific documentarian. Documentation is worth 50% of your grade.
 
 * Either directly or collaboratively designed and maintained [AWS Control Tower], [Artifactory], [GitHub Enterprise], [GitHub Actions], [CircleCI], [Jenkins], and more.
 
@@ -137,15 +137,9 @@ See a [selective list of recommendations](https://github.com/skyzyx/resume/blob/
 
 ## Keywords and Skills
 
-* **Languages:** [Bash], [Go], [PHP] (modern), [Python].
+This list is not exhaustive, but is targeted toward the skills most relevant to Cloud Engineering, DevOps, and Site Reliability Engineering roles.
 
-* **Linuxes:** [Alpine Linux], [Amazon Linux], [CentOS], [Ubuntu].
-
-* **Cloud/DevOps/SRE:** TLS and cipher suites, [ARM64], [AWS Control Tower], [AWS Elastic Beanstalk], [AWS Identity Center], [AWS Lambda], [AWS RDS Aurora], [AWS SDKs], [AWS Secrets Manager], [AWS Well-Architected], [Amazon ACM], [Amazon CloudFront], [Amazon EC2], [Amazon ECS], [Amazon Route 53], [Amazon S3], [Ansible], [Artifactory], [CIS], [CentOS], [Docker], [EC2 Image Builder], [GCP], [GitHub Actions], [GitHub Enterprise], [Nginx], [Packer], [Redis], [Terraform], [kubectl], automation, cloud configuration security, multi-platform development, operational reliability, performance, scalability.
-
-* **SDE/SWE/DevTools:** API design, API versioning, CLI tools, [CircleCI], [Docker], [GitHub Actions], [Git], [GraphQL], [JWT], [NFS], [REST], [Redis], [Subversion], [Vagrant], [WordPress], [XSLT], [ffmpeg], [twelve-factor applications], automation, building platforms, code generation, defensive cybersecurity, multi-platform development, performance, scalability, software library design, software testing, technical documentation.
-
-* **PM/TPM:** [Confluence], [Jira], building platforms, collaboration, coordination with downstream services, cross-collaboration (dozens of teams, hundreds of services), organization of complex projects, product development, product roadmap management, project documentation, project management, technical documentation.
+TLS and cipher suites, [ARM64], [AWS Control Tower], [AWS Elastic Beanstalk], [AWS Identity Center], [AWS Lambda], [AWS RDS Aurora], [AWS SDKs], [AWS Secrets Manager], [AWS Well-Architected], [Alpine Linux], [Amazon ACM], [Amazon CloudFront], [Amazon EC2], [Amazon ECS], [Amazon Linux], [Amazon Route 53], [Amazon S3], [Ansible], [Artifactory], [Bash], [CIS], [CentOS], [CentOS], [Docker], [EC2 Image Builder], [GCP], [GitHub Actions], [GitHub Enterprise], [Go], [Nginx], [PHP] (modern), [Packer], [Python], [Redis], [Terraform], [Ubuntu], [kubectl], automation, cloud configuration security, multi-platform development, operational reliability, performance, scalability.
 
 ## Groups and Accomplishments
 

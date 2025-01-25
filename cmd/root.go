@@ -11,9 +11,8 @@ import (
 var (
 	fileNames = map[string]string{
 		"all":   "ryanparman-general-cv",
-		"cloud": "ryanparman-cloud-engineer",
-		"sde":   "ryanparman-software-engineer",
-		"sre":   "ryanparman-devops-sre",
+		"cloud": "ryanparman-cloud-devops-sre",
+		"sde":   "ryanparman-software-eng-devtools",
 		"tpm":   "ryanparman-tpm",
 	}
 

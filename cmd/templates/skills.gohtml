@@ -1,0 +1,132 @@
+{{ define "skills" -}}
+## Keywords and Skills
+
+{{- $languages := list
+    "[Bash]"
+    "[Go]"
+    "[PHP] (modern)"
+    "[Python]"
+}}
+{{- $linuxes := list
+    "[Alpine Linux]"
+    "[Amazon Linux]"
+    "[CentOS]"
+    "[Ubuntu]"
+}}
+{{- $cloudSkills := list
+    "[Amazon ACM]"
+    "[Amazon CloudFront]"
+    "[Amazon EC2]"
+    "[Amazon ECS]"
+    "[Amazon Route 53]"
+    "[Amazon S3]"
+    "[Ansible]"
+    "[ARM64]"
+    "[Artifactory]"
+    "[AWS Control Tower]"
+    "[AWS Elastic Beanstalk]"
+    "[AWS Identity Center]"
+    "[AWS Lambda]"
+    "[AWS RDS Aurora]"
+    "[AWS SDKs]"
+    "[AWS Secrets Manager]"
+    "[AWS Well-Architected]"
+    "[CentOS]"
+    "[CIS]"
+    "[Docker]"
+    "[EC2 Image Builder]"
+    "[GCP]"
+    "[GitHub Actions]"
+    "[GitHub Enterprise]"
+    "[kubectl]"
+    "[Nginx]"
+    "[Packer]"
+    "[Redis]"
+    "[Terraform]"
+    "automation"
+    "cloud configuration security"
+    "multi-platform development"
+    "operational reliability"
+    "performance"
+    "scalability"
+    "TLS and cipher suites"
+}}
+{{- $sdeSkills := list
+    "[CircleCI]"
+    "[Docker]"
+    "[ffmpeg]"
+    "[Git]"
+    "[GitHub Actions]"
+    "[GraphQL]"
+    "[JWT]"
+    "[NFS]"
+    "[Redis]"
+    "[REST]"
+    "[Subversion]"
+    "[twelve-factor applications]"
+    "[Vagrant]"
+    "[WordPress]"
+    "[XSLT]"
+    "API design"
+    "API versioning"
+    "automation"
+    "building platforms"
+    "CLI tools"
+    "code generation"
+    "defensive cybersecurity"
+    "multi-platform development"
+    "performance"
+    "scalability"
+    "software library design"
+    "software testing"
+    "technical documentation"
+}}
+{{- $tpmSkills := list
+    "[Confluence]"
+    "[Jira]"
+    "building platforms"
+    "collaboration"
+    "coordination with downstream services"
+    "cross-collaboration (dozens of teams, hundreds of services)"
+    "organization of complex projects"
+    "product development"
+    "product roadmap management"
+    "project documentation"
+    "project management"
+    "technical documentation"
+}}
+
+{{ if .IsAll -}}
+* **Languages:** {{ $languages | sortAlpha | join ", " }}.
+
+* **Linuxes:** {{ $linuxes | sortAlpha | join ", " }}.
+
+* **Cloud/DevOps/SRE:** {{ $cloudSkills | sortAlpha | join ", " }}.
+
+* **SDE/SWE/DevTools:** {{ $sdeSkills | sortAlpha | join ", " }}.
+
+* **PM/TPM:** {{ $tpmSkills | sortAlpha | join ", " }}.
+
+{{ end -}}
+
+{{ if .IsCloud -}}
+This list is not exhaustive, but is targeted toward the skills most relevant to Cloud Engineering, DevOps, and Site Reliability Engineering roles.
+
+{{ (concat $languages $linuxes $cloudSkills) | sortAlpha | join ", " }}.
+
+{{ end -}}
+
+{{ if .IsSDE -}}
+This list is not exhaustive, but is targeted toward the skills most relevant to Software Engineering and DevTools roles.
+
+{{ (concat $languages $sdeSkills) | sortAlpha | join ", " }}.
+
+{{ end -}}
+
+{{ if .IsTPM -}}
+This list is not exhaustive, but is targeted toward the skills most relevant to <abbr title="Project Manager">PM</abbr>, <abbr title="Technical Program Manager">TPM</abbr>, and <abbr title="Product Manager">Product</abbr> roles.
+
+{{ (concat $tpmSkills) | sortAlpha | join ", " }}.
+
+{{ end -}}
+{{- end -}}

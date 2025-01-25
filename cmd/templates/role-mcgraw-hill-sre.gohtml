@@ -11,30 +11,12 @@
 
 * Formed and led a leadership group to establish a process maintaining reusable Terraform modules which could be composed together according to a service’s needs.
 
-* Led initiatives to better integrate our Seattle office with the expanding SRE practice across all U.S. offices.
-
-* Implemented a more collaborative approach by closely integrating with development teams, and minimizing the practice of siloed hand-offs to operations teams.
-
 {{ if not .IsTPM -}}
 * Customized the Amazon Linux AMIs to comply with Level-2 [CIS] Guidelines for both Amazon Linux and [Docker]. Collaborated closely with cybersecurity, operations, and various business units to ensure compliance.
 
 * Developed custom security and operational tooling where off-the-shelf tools wouldn't give us what we needed, to understand the current posture of ±200 AWS accounts.
 
 * Reduced the time to deploy a new service from dozens of weeks to a single meeting by implementing a _Monitoring-as-Code_ methodology, and defining broad-use [Service Level Objectives][SLO] (SLOs).
-
-{{- end }}
-
-{{ if .IsAll -}}
-* **Skills:** [Alpine Linux], [Amazon ACM], [Amazon EC2], [Amazon ECS], [Amazon Linux 2], [Amazon Route 53], [Amazon S3], [AWS Lambda], [AWS RDS Aurora], [AWS SDKs], [AWS], [Bash], [Circle CI Enterprise], [CIS], [Docker], [GitHub Enterprise], [Packer], [Python], [Go], [Terraform], [Jira], [Confluence], cross-collaboration with ~10 engineering teams and ~20–25 services, project management, documentation.
-
-{{- else if .IsSDE -}}
-* **SDE/SWE skills:** [AWS], [AWS SDKs], [Circle CI Enterprise], [Docker], [GitHub Enterprise], [Python], [Go].
-
-{{- else if or .IsSRE .IsCloud -}}
-* **DevOps/Cloud skills:** [Alpine Linux], [Amazon ACM], [Amazon EC2], [Amazon ECS], [Amazon Linux 2], [Amazon Route 53], [Amazon S3], [AWS Lambda], [AWS RDS Aurora], [AWS SDKs], [AWS], [Bash], [Circle CI Enterprise], [CIS], [Docker], [GitHub Enterprise], [Packer], [Python], [Go], [Terraform].
-
-{{- else if .IsTPM -}}
-* **TPM/PM skills:** [Jira], [Confluence], cross-collaboration with ~10 engineering teams and ~20–25 services, project management, documentation.
 
 {{- end -}}
 {{- end }}
