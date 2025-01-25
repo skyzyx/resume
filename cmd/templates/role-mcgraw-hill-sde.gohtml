@@ -1,0 +1,29 @@
+{{ define "role-mcgraw-hill-sde" -}}
+#### Staff Software Engineer (October 2016—October 2018)
+
+* Led the development of multiple Tier-1 services within the educational content authoring pipeline, leveraging technologies such as [REST], [GraphQL], API design, [Amazon ECS], [Docker], [Terraform], [ePubs][EPUB], and security best practices.
+
+* Provided the technical direction of these projects, promoted their adoption across the organization, provided comprehensive documentation, and offered ongoing guidance on adoption.
+
+* Led the development of the authoring component of [McGraw Hill’s SmartBook 2.0 product][SB2], and the internal system which indexes authored content, builds ePubs, and encodes images/video for McGraw Hill’s ePub CDN.
+
+* Introduced the adoption of continuous integration (CI), continuous delivery (CD), rapid deployment practices, and Docker containers.
+
+* Introduced a more hands-on monitoring approach, enabling development teams to actively engage in their own operations. Achieved significantly lower _Mean Time to Recovery_ (MTTR).
+
+* Served as a core resource in adopting _Infrastructure-as-Code_ (IaC) tools such as [Terraform] and [Packer].
+
+{{ if .IsAll -}}
+* **Skills:** [Alpine Linux], [Amazon ACM], [Amazon CloudFront], [Amazon EC2], [Amazon ECS], [Amazon Linux 1], [Amazon Route 53], [Amazon S3], [AWS RDS Aurora], [AWS SDKs], [AWS], [Bash], [Circle CI Enterprise], [Confluence], [Docker], [ffmpeg], [GitHub Enterprise], [GraphQL], [Jira], [Packer], [PHP], [REST], [Terraform], coordination with downstream services, project management, documentation.
+
+{{- else if .IsSDE -}}
+* **SDE/SWE skills:** [Alpine Linux], [Amazon CloudFront], [Amazon ECS], [Amazon Linux 1], [Amazon Route 53], [Amazon S3], [AWS RDS Aurora], [AWS], [Circle CI Enterprise], [Docker], [ffmpeg], [GitHub Enterprise], [GraphQL], [PHP], [REST].
+
+{{- else if or .IsSRE .IsCloud -}}
+* **DevOps/Cloud skills:** [Alpine Linux], [Amazon ACM], [Amazon CloudFront], [Amazon EC2], [Amazon ECS], [Amazon Linux 1], [Amazon Route 53], [Amazon S3], [AWS RDS Aurora], [AWS], [Bash], [Circle CI Enterprise], [Docker], [GitHub Enterprise], [Packer], [Terraform].
+
+{{- else if .IsTPM -}}
+* **TPM/PM skills:** [Confluence], [Jira], coordination with downstream services, project management, documentation.
+
+{{- end -}}
+{{- end }}

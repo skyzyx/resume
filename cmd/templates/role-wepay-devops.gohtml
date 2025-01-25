@@ -1,0 +1,16 @@
+{{ define "role-wepay-devops" -}}
+#### DevOps Engineer (April 2015—September 2016)
+
+* Led a cross-company initiative to upgrade the monolithic application from PHP 5.4 to PHP 5.6 (the latest at the time). Facilitated cross-team collaboration among all major engineering teams and QA departments in order to achieve results.
+
+* Initiated a program to automate the creation of base server images for our cloud servers. They allowed new servers to boot and begin serving traffic ~75% faster.
+
+* Began investigating ways to implement _configuration-as-code_ for our cloud infrastructure.
+
+{{ if not .IsTPM -}}
+* **Technology skills:** [PHP], [Python], [Vagrant], [CentOS Linux], [Google Cloud Platform][GCP], [Redis], [Network File System (NFS)][NFS], [Docker], [JWT], [WordPress], [Nginx], [Ansible], [Terraform], TLS, documentation.
+{{- else -}}
+* **TPM/PM skills:** [Jira], [Confluence], cross-collaboration, project management, prolific documentation.
+{{- end }}
+
+{{- end }}

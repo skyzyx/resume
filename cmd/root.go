@@ -8,12 +8,22 @@ import (
 )
 
 // rootCmd represents the base command when called without any subcommands
-var rootCmd = &cobra.Command{
-	Use:   "main",
-	Short: "Generates multiple formats of my résumé from a series of templates.",
-	Long: clihelpers.LongHelpText(`
-    Generates multiple formats of my résumé from a series of templates.`),
-}
+var (
+	fileNames = map[string]string{
+		"all":   "ryanparman-general-cv",
+		"cloud": "ryanparman-cloud-engineer",
+		"sde":   "ryanparman-software-engineer",
+		"sre":   "ryanparman-devops-sre",
+		"tpm":   "ryanparman-tpm",
+	}
+
+	rootCmd = &cobra.Command{
+		Use:   "main",
+		Short: "Generates multiple formats of my résumé from a series of templates.",
+		Long: clihelpers.LongHelpText(`
+        Generates multiple formats of my résumé from a series of templates.`),
+	}
+)
 
 func Execute() {
 	err := rootCmd.Execute()

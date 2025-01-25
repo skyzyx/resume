@@ -1,0 +1,40 @@
+{{ define "role-mcgraw-hill-sre" -}}
+#### Engineering Manager, Site Reliability (October 2018—June 2020)
+
+* Managed a team of four, while working to level-up the team's technical skills and leadership capabilities. Conducted regular 1:1s, performance reviews, and career development discussions.
+
+* Led the [_Site Reliability Engineering_][SRE] (SRE) team in addressing macro-oriented problems affecting decentralized, heterogeneous engineering teams across the company. Empowered greater self-service for engineering teams.
+
+* Revamped the Seattle SRE interview process to prioritize a 70/30 focus on software engineering (Dev) and systems operations (Ops). Emphasized leadership qualities, bias for action, and high curiosity.
+
+* Owned and served as the key decision-maker in development of a core platform for company-wide, reliability-focused projects.
+
+* Formed and led a leadership group to establish a process maintaining reusable Terraform modules which could be composed together according to a service’s needs.
+
+* Led initiatives to better integrate our Seattle office with the expanding SRE practice across all U.S. offices.
+
+* Implemented a more collaborative approach by closely integrating with development teams, and minimizing the practice of siloed hand-offs to operations teams.
+
+{{ if not .IsTPM -}}
+* Customized the Amazon Linux AMIs to comply with Level-2 [CIS] Guidelines for both Amazon Linux and [Docker]. Collaborated closely with cybersecurity, operations, and various business units to ensure compliance.
+
+* Developed custom security and operational tooling where off-the-shelf tools wouldn't give us what we needed, to understand the current posture of ±200 AWS accounts.
+
+* Reduced the time to deploy a new service from dozens of weeks to a single meeting by implementing a _Monitoring-as-Code_ methodology, and defining broad-use [Service Level Objectives][SLO] (SLOs).
+
+{{- end }}
+
+{{ if .IsAll -}}
+* **Skills:** [Alpine Linux], [Amazon ACM], [Amazon EC2], [Amazon ECS], [Amazon Linux 2], [Amazon Route 53], [Amazon S3], [AWS Lambda], [AWS RDS Aurora], [AWS SDKs], [AWS], [Bash], [Circle CI Enterprise], [CIS], [Docker], [GitHub Enterprise], [Packer], [Python], [Go], [Terraform], [Jira], [Confluence], cross-collaboration with ~10 engineering teams and ~20–25 services, project management, documentation.
+
+{{- else if .IsSDE -}}
+* **SDE/SWE skills:** [AWS], [AWS SDKs], [Circle CI Enterprise], [Docker], [GitHub Enterprise], [Python], [Go].
+
+{{- else if or .IsSRE .IsCloud -}}
+* **DevOps/Cloud skills:** [Alpine Linux], [Amazon ACM], [Amazon EC2], [Amazon ECS], [Amazon Linux 2], [Amazon Route 53], [Amazon S3], [AWS Lambda], [AWS RDS Aurora], [AWS SDKs], [AWS], [Bash], [Circle CI Enterprise], [CIS], [Docker], [GitHub Enterprise], [Packer], [Python], [Go], [Terraform].
+
+{{- else if .IsTPM -}}
+* **TPM/PM skills:** [Jira], [Confluence], cross-collaboration with ~10 engineering teams and ~20–25 services, project management, documentation.
+
+{{- end -}}
+{{- end }}

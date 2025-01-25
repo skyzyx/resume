@@ -1,6 +1,7 @@
 package cmd
 
 import (
+	"bytes"
 	"embed"
 	"fmt"
 	"html/template"
@@ -16,15 +17,15 @@ import (
 )
 
 type TemplateVars struct {
-    IsEverything bool
-    IsSDE       bool
-    IsSRE       bool
-    IsCloud     bool
-    IsTPM       bool
+	IsAll   bool
+	IsSDE   bool
+	IsSRE   bool
+	IsCloud bool
+	IsTPM   bool
 }
 
 var (
-	jobRoles = []string{"everything", "sde", "sre", "cloud", "tpm"}
+	jobRoles = []string{"all", "sde", "sre", "cloud", "tpm"}
 
 	fRoles []string
 
@@ -41,7 +42,7 @@ var (
 		"join": strings.Join,
 	}
 
-    // generateCmd represents the generate command
+	// generateCmd represents the generate command
 	generateCmd = &cobra.Command{
 		Use:   "generate",
 		Short: "Performs the generation step, producing multiple formats.",
@@ -67,27 +68,75 @@ var (
 				logger.Fatal(fmt.Errorf("error parsing templates: %w", err))
 			}
 
-            for _, role := range fRoles {
-                var vars TemplateVars
+			resumeDir, err := filepath.Abs(
+				filepath.Join(".", "resumes"),
+			)
+			if err != nil {
+				logger.Fatal(fmt.Errorf("error determining absolute path for `%s`: %w", "../resumes", err))
+			}
 
-                switch role {
-                case "everything":
-                    vars.IsEverything = true
-                case "sde":
-                    vars.IsSDE = true
-                case "sre":
-                    vars.IsSRE = true
-                case "cloud":
-                    vars.IsCloud = true
-                case "tpm":
-                    vars.IsTPM = true
-                }
+			err = os.MkdirAll(resumeDir, 0o0777)
+			if err != nil {
+				logger.Fatal(fmt.Errorf("error creating `resumes` directory: %w", err))
+			}
 
-                err = templates.ExecuteTemplate(os.Stdout, "frame.gohtml", vars)
-                if err != nil {
-                    logger.Fatal(fmt.Errorf("error executing templates: %w", err))
-                }
-            }
+			if _, err := os.Stat(resumeDir); !os.IsNotExist(err) {
+				logger.Infof("created %s", resumeDir)
+			} else {
+				logger.Fatal(fmt.Errorf("error creating `resumes` directory: %w", err))
+			}
+
+			for _, role := range fRoles {
+				var vars TemplateVars
+
+				switch role {
+				case "all":
+					vars.IsAll = true
+				case "sde":
+					vars.IsSDE = true
+				case "sre":
+					vars.IsSRE = true
+				case "cloud":
+					vars.IsCloud = true
+				case "tpm":
+					vars.IsTPM = true
+				}
+
+				absPathMd, err := filepath.Abs(
+					filepath.Join(resumeDir, fileNames[role]+".md"),
+				)
+				if err != nil {
+					logger.Fatal(fmt.Errorf("error determining absolute path for `%s`: %w", fileNames[role]+".md", err))
+				}
+
+				w, err := os.Create(absPathMd)
+				if err != nil {
+					logger.Fatal(fmt.Errorf("error creating `%s`: %w", fileNames[role]+".md", err))
+				}
+
+				defer w.Close()
+
+				bufIn := new(bytes.Buffer)
+
+				err = templates.ExecuteTemplate(bufIn, "frame.gohtml", vars)
+				if err != nil {
+					logger.Fatal(fmt.Errorf("error executing templates: %w", err))
+				}
+
+				// Cleanup
+				reTooManyLinebreaks := regexp.MustCompile(`\n{3,}`)
+				bufOut := strings.NewReader(
+					reTooManyLinebreaks.ReplaceAllString(bufIn.String(), "\n\n"),
+				)
+
+				_, err = bufOut.WriteTo(w)
+				if err != nil {
+					logger.Fatal(fmt.Errorf("error writing buffer to file: %w", err))
+				}
+
+				logger.Infof("wrote %s", absPathMd)
+
+			}
 		},
 	}
 )

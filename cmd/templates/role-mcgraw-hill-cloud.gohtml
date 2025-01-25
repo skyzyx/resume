@@ -1,0 +1,58 @@
+{{ define "role-mcgraw-hill-cloud" -}}
+#### Principal Cloud and Platform Engineer (June 2020—January 2024)
+
+* Transitioned from Engineering Manager to a strategic technical leadership role.
+
+{{ if or .IsAll .IsTPM -}}
+* Prolific documentarian. Documentation is worth 50% of your grade.
+
+{{ end -}}
+
+{{ if or .IsAll .IsSRE .IsCloud -}}
+* Either directly or collaboratively designed and maintained [AWS Control Tower], [Artifactory], [GitHub Enterprise], [GitHub Actions], [Circle CI Enterprise], [Jenkins], and more.
+
+{{ end -}}
+
+{{ if or .IsAll .IsSRE .IsCloud .IsTPM -}}
+* Partnered with McGraw Hill Enterprise Architecture and [AWS Professional Services] to deploy [AWS Control Tower] and [AWS Identity Center]. Lowered costs and increased control over account guardrails.
+
+{{ end -}}
+
+* Managed the program for building and maintaining base AMIs for all of McGraw Hill.{{ if or .IsAll .IsSRE .IsCloud }} Leveraged insights from the [Center of Internet Security][CIS], security patching, and the specific needs of internal customers to develop a unified build pipeline integrating best practices.{{- end -}}
+
+{{ if or .IsAll .IsSRE .IsSDE .IsCloud -}}
+* Using [AWS SDKs], conducted comprehensive scans of Route 53 to obtain a mapping of thousands of active websites owned by McGraw Hill. Focused on identifying and remediating misconfigurations, rotating certificates, and more.
+
+{{- end }}
+
+{{ if or .IsAll .IsSRE .IsCloud -}}
+* Co-implemented self-hosted runners for GitHub Actions. Focused on the Linux runtime environment.
+
+{{ end -}}
+
+* Rebuilt our [Artifactory] cluster with a “cattle, not pets” approach. Ran the project from inception to completion, including the majority of development. Worked across dozens of teams and hundreds of services to complete the project.
+
+{{- if or .IsAll .IsSRE .IsCloud -}}
+* Enabled continuous token and password rotation for our engineering teams by building a _Token Vending Machine_, providing a "push-button, receive-token" solution.
+
+{{- end }}
+
+{{ if or .IsAll .IsSRE .IsCloud .IsTPM -}}
+* Proactively added support for lower-cost ARM64 CPUs, opening the door for ~$450k/year in cost savings.
+
+{{- end }}
+
+{{ if .IsAll -}}
+* **Skills:** [Alpine Linux], [Amazon ACM], [Amazon EC2], [Amazon ECS], [Amazon Linux 2], [Amazon Linux 2023], [Amazon Route 53], [Amazon S3], [ARM64], [Artifactory], [AWS Control Tower], [AWS Identity Center], [AWS Lambda], [AWS RDS Aurora], [AWS SDKs], [AWS Secrets Manager], [AWS], [Bash], [CentOS Linux], [Circle CI Enterprise], [CIS], [Confluence], [Docker], [EC2 Image Builder], [GitHub Actions], [GitHub Enterprise], [Go], [Jira], [kubectl], [Packer], [Python], [Terraform], [Ubuntu Linux], cross-collaboration across dozens of engineering teams and hundreds of services, organization of complex projects, project management, product development, product roadmap management, prolific documentation.
+
+{{- else if .IsSDE -}}
+* **SDE/SWE skills:** [ARM64], [Artifactory], [AWS Lambda], [AWS SDKs], [Bash], [CIS], [Docker], [GitHub Actions], [GitHub Enterprise], [Go], [Python].
+
+{{- else if or .IsSRE .IsCloud -}}
+* **DevOps/Cloud skills:** [Alpine Linux], [Amazon ACM], [Amazon EC2], [Amazon ECS], [Amazon Linux 2], [Amazon Linux 2023], [Amazon Route 53], [Amazon S3], [ARM64], [Artifactory], [AWS Control Tower], [AWS Identity Center], [AWS Lambda], [AWS RDS Aurora], [AWS SDKs], [AWS Secrets Manager], [AWS], [Bash], [CentOS Linux], [Circle CI Enterprise], [CIS], [Docker], [EC2 Image Builder], [GitHub Actions], [GitHub Enterprise], [Go], [kubectl], [Packer], [Python], [Terraform], [Ubuntu Linux].
+
+{{- else if .IsTPM -}}
+* **TPM/PM skills:** [Jira], [Confluence], cross-collaboration across dozens of engineering teams and hundreds of services, organization of complex projects, project management, product development, product roadmap management, prolific documentation.
+
+{{- end -}}
+{{- end }}
