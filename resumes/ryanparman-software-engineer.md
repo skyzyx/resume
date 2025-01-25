@@ -4,7 +4,7 @@
 
 **Most-Recently:** Principal Engineer, Cloud Center of Excellence at McGraw Hill.
 
-[GitHub (personal)](https://github.com/skyzyx) • [GitHub (side project)](https://github.com/northwood-labs/) • [LinkedIn](https://www.linkedin.com/in/rparman/) • [Stack Overflow](https://stackoverflow.com/users/228514/ryan-parman) • [Web résumé](https://github.com/skyzyx/resume/blob/master/README.md) • [PDF résumé](https://github.com/skyzyx/resume/raw/master/ryanparman-cv.pdf) • [Word résumé](https://github.com/skyzyx/resume/raw/master/ryanparman-cv.docx)
+[GitHub (personal)](https://github.com/skyzyx) • [GitHub (side project)](https://github.com/northwood-labs/) • [LinkedIn](https://www.linkedin.com/in/rparman/) • [Stack Overflow](https://stackoverflow.com/users/228514/ryan-parman) • [Web résumé](https://github.com/skyzyx/resume/blob/master/README.md)
 
 ## Summary
 
@@ -124,7 +124,7 @@ Ryan Parman is a cloud-native engineering leader with over 25 years of experienc
 * **Technology skills:** [PHP], [Git], [Subversion], [XSLT], [AWS SDKs], [AWS Elastic Beanstalk], API modeling, code generation.
 
 > [!NOTE]
-> Older roles are truncated for brevity. If interested, details can be found [on GitHub](#).
+> Older roles are truncated for brevity. If interested, details can be found [on GitHub](https://github.com/skyzyx/resume/blob/master/ryanparman-previously.md).
 
 ## Projects
 
@@ -148,13 +148,17 @@ Proof that I can code, call APIs, interact with SDKs, and build user-facing soft
 
 ## Recommendations
 
-See a [selective list of recommendations](#) from co-workers and peers.
+See a [selective list of recommendations](https://github.com/skyzyx/resume/blob/master/selected-recommendations.md) from co-workers and peers.
 
 ## Groups and Accomplishments
 
-* Voting Representative for AWS, [PHP Framework Interoperability Group][PHP-FIG] (2012–2013)
-* U.S. Patent filing, [“Hive-based Peer-to-Peer Network”][US8103870B2] (US8103870B2)
-* U.S. Patent filing, [“System and Methods for User Authentication across Multiple Domains”][US15042104] (US15042104)
+* Founded [Northwood Labs], a software consultancy (2024–present).
+* Co-founded _Perimeter of Wisdom_, a vanity book publisher for a single author (2015–2018). _Defunct_.
+* Co-founded [WarpShare] (née _Foleeo, Inc._), a peer-to-peer file sharing network (2006–2011). _Defunct_.
+* U.S. patent filing, [“System and Methods for User Authentication across Multiple Domains”][US15042104] (US15042104) (2016)
+* U.S. patent filing, [“Hive-based Peer-to-Peer Network”][US8103870B2] (US8103870B2) (2007)
+* Voting representative for AWS, [PHP Framework Interoperability Group][PHP-FIG] (2012–2013)
+* Member of the RSS Advisory Board (2009).
 
 ## Education
 
@@ -213,6 +217,7 @@ See a [selective list of recommendations](#) from co-workers and peers.
 [McGraw Hill]: https://www.crunchbase.com/organization/mcgraw-hill-education
 [NFS]: https://en.wikipedia.org/wiki/Network_File_System
 [Nginx]: https://www.nginx.com
+[Northwood Labs]: https://www.crunchbase.com/organization/northwood-labs
 [Packer]: https://packer.io
 [PHP-FIG]: http://www.php-fig.org
 [PHP]: https://www.php.net
@@ -228,6 +233,7 @@ See a [selective list of recommendations](#) from co-workers and peers.
 [US15042104]: https://patents.google.com/patent/US20160241536A1/en?inventor=Ryan+Parman
 [US8103870B2]: https://patents.google.com/patent/US8103870B2/en?inventor=Ryan+Parman
 [Vagrant]: https://www.vagrantup.com
+[WarpShare]: https://www.crunchbase.com/organization/warpshare
 [WePay]: https://www.crunchbase.com/organization/wepay
 [WordPress]: https://wordpress.org
 [XSLT]: https://developer.mozilla.org/en-US/docs/Web/XSLT
