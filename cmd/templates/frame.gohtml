@@ -8,13 +8,15 @@
 
 {{ template "experience" . }}
 
+{{ if not .IsATS -}}
 {{ template "projects" . }}
 
 {{ template "recommendations" . }}
 
-{{ template "skills" . }}
-
 {{ template "accomplishments" . }}
+
+{{ end -}}
+{{ template "skills" . }}
 
 {{ template "education" . }}
 

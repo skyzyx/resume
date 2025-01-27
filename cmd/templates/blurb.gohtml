@@ -1,3 +1,9 @@
 {{ define "blurb" -}}
+{{ if .IsTPM -}}
+**Cloud-native engineering leader, looking to pivot into project, product, and program management roles.**
+
+{{ else -}}
 **Cloud-native engineering leader with a focus on reliability, scalability, and security for the modern web.**
+
+{{- end -}}
 {{- end }}

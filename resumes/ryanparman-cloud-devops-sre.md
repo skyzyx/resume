@@ -133,17 +133,17 @@ Proof that I can code, call APIs, interact with SDKs, and build user-facing soft
 
 See a [selective list of recommendations](https://github.com/skyzyx/resume/blob/master/selected-recommendations.md) from co-workers and peers.
 
-## Keywords and Skills
-
-This list is not exhaustive, but is targeted toward the skills most relevant to Cloud Engineering, DevOps, and Site Reliability Engineering roles.
-
-TLS and cipher suites, [ARM64], [AWS Control Tower], [AWS Elastic Beanstalk], [AWS Identity Center], [AWS Lambda], [AWS RDS Aurora], [AWS SDKs], [AWS Secrets Manager], [AWS Well-Architected], [Alpine Linux], [Amazon ACM], [Amazon CloudFront], [Amazon EC2], [Amazon ECS], [Amazon Linux], [Amazon Route 53], [Amazon S3], [Ansible], [Artifactory], [Bash], [CIS], [CentOS], [CentOS], [Docker], [EC2 Image Builder], [GCP], [GitHub Actions], [GitHub Enterprise], [Go], [Nginx], [PHP] (modern), [Packer], [Python], [Redis], [Terraform], [Ubuntu], [kubectl], automation, cloud configuration security, multi-platform development, operational reliability, performance, scalability.
-
 ## Groups and Accomplishments
 
 * U.S. patent filing, [“System and Methods for User Authentication across Multiple Domains”][US15042104] (US15042104) (2016)
 * U.S. patent filing, [“Hive-based Peer-to-Peer Network”][US8103870B2] (US8103870B2) (2007)
 * Voting representative for AWS, [PHP Framework Interoperability Group][PHP-FIG] (2012–2013)
+
+## Keywords and Skills
+
+This list is not exhaustive, but is targeted toward the skills most relevant to Cloud Engineering, DevOps, and Site Reliability Engineering roles.
+
+TLS and cipher suites, [ARM64], [AWS Control Tower], [AWS Elastic Beanstalk], [AWS Identity Center], [AWS Lambda], [AWS RDS Aurora], [AWS SDKs], [AWS Secrets Manager], [AWS Well-Architected], [Alpine Linux], [Amazon ACM], [Amazon CloudFront], [Amazon EC2], [Amazon ECS], [Amazon Linux], [Amazon Route 53], [Amazon S3], [Ansible], [Artifactory], [Bash], [CIS], [CentOS], [CentOS], [Docker], [EC2 Image Builder], [GCP], [GitHub Actions], [GitHub Enterprise], [Go], [Nginx], [PHP] (modern), [Packer], [Python], [Redis], [Terraform], [Ubuntu], [kubectl], automation, cloud configuration security, multi-platform development, operational reliability, performance, scalability.
 
 ## Education
 
@@ -156,6 +156,7 @@ Graduated in _November 2003_ with a **3.84** GPA.
 [Amazon CloudFront]: https://aws.amazon.com/cloudfront/
 [Amazon EC2]: https://aws.amazon.com/ec2/
 [Amazon ECS]: https://aws.amazon.com/ecs/
+[Amazon IAM]: https://aws.amazon.com/iam/
 [Amazon Linux]: https://aws.amazon.com/linux/
 [Amazon Route 53]: https://aws.amazon.com/route53/
 [Amazon S3]: https://aws.amazon.com/s3/
@@ -163,6 +164,7 @@ Graduated in _November 2003_ with a **3.84** GPA.
 [Ansible]: https://www.redhat.com/en/technologies/management/ansible
 [ARM64]: https://aws.amazon.com/ec2/graviton/
 [Artifactory]: https://jfrog.com/artifactory/
+[AWS CloudFormation]: https://aws.amazon.com/cloudformation/
 [AWS Control Tower]: https://aws.amazon.com/controltower/
 [AWS Elastic Beanstalk]: http://aws.amazon.com/elasticbeanstalk/
 [AWS Identity Center]: https://aws.amazon.com/iam/identity-center/
@@ -202,6 +204,7 @@ Graduated in _November 2003_ with a **3.84** GPA.
 [NFS]: https://en.wikipedia.org/wiki/Network_File_System
 [Nginx]: https://www.nginx.com
 [Northwood Labs]: https://www.crunchbase.com/organization/northwood-labs
+[OpenTofu]: https://opentofu.org
 [Packer]: https://packer.io
 [PHP-FIG]: http://www.php-fig.org
 [PHP]: https://www.php.net

@@ -1,9 +1,10 @@
 {{ define "links" -}}
-**Links:** [GitHub (personal)] • [GitHub (side project)] • [LinkedIn] • [Stack Overflow] • [Role-targeted résumés]({{ .ResumeDir }}) \
-**Format:** [Web]({{ .Resume }}.md) • [PDF]({{ .Resume }}.pdf) • [Word]({{ .Resume }}.docx) • [OpenDocument]({{ .Resume }}.odt) • [Raw Markdown]({{ .ResumeRaw }}.md)
-
 {{ if .IsATS -}}
 **IMPORTANT:** This copy of my résumé is optimized for ATS (Applicant Tracking System) compatibility. Follow one of the links above for one that is intended for interviewers.
+
+{{- else -}}
+**Links:** [GitHub (personal)] • [GitHub (side project)] • [LinkedIn] • [Stack Overflow] • [Role-targeted résumés]({{ .ResumeDir }}) \
+**Format:** [Web]({{ .Resume }}.md) • [PDF]({{ .Resume }}.pdf) • [Word]({{ .Resume }}.docx) • [OpenDocument]({{ .Resume }}.odt) • [Raw Markdown]({{ .ResumeRaw }}.md)
 
 {{- end -}}
 {{- end }}

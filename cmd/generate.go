@@ -3,8 +3,10 @@ package cmd
 import (
 	"bytes"
 	"embed"
+	"errors"
 	"fmt"
 	"html/template"
+	"net/http"
 	"os"
 	"os/exec"
 	"path/filepath"
@@ -14,9 +16,10 @@ import (
 
 	"github.com/Masterminds/sprig/v3"
 	"github.com/charmbracelet/log"
+	"github.com/spf13/cobra"
+
 	clihelpers "github.com/northwood-labs/cli-helpers"
 	"github.com/northwood-labs/debug"
-	"github.com/spf13/cobra"
 )
 
 type TemplateVars struct {
@@ -29,9 +32,12 @@ type TemplateVars struct {
 	IsCloud bool
 	IsSDE   bool
 	IsTPM   bool
+
+	IsGoPDF bool
 }
 
 var (
+	// Roles
 	jobRoles = []string{
 		"all",
 		"cloud",
@@ -39,16 +45,22 @@ var (
 		"tpm",
 	}
 
+	// Flags
 	fRoles []string
 
 	//go:embed templates/*.gohtml
 	embeds embed.FS
+
+	// Global vars
+	pdfDescription string
+	pdfKeywords    string
 
 	// Instantiate a logger.
 	logger = log.NewWithOptions(os.Stderr, log.Options{
 		ReportCaller:    true,
 		ReportTimestamp: true,
 		TimeFormat:      time.Kitchen,
+		Level:           log.DebugLevel,
 	})
 
 	funcMap = sprig.FuncMap()
@@ -88,7 +100,7 @@ var (
 				filepath.Join(".", "resumes"),
 			)
 			if err != nil {
-				logger.Fatal(fmt.Errorf("error determining absolute path for `%s`: %w", "../resumes", err))
+				logger.Fatal(fmt.Errorf("error determining absolute path for `%s`: %w", "./resumes", err))
 			}
 
 			// Make sure the directory exists.
@@ -97,50 +109,38 @@ var (
 				logger.Fatal(fmt.Errorf("error creating `resumes` directory: %w", err))
 			}
 
+			// Start a local web server.
+			server := &http.Server{
+				Addr: ":11235",
+			}
+
+			http.Handle("/", http.FileServer(http.Dir("./render")))
+			logger.Debug("Starting HTTP server on :11235")
+
+			go func() {
+				if err := server.ListenAndServe(); !errors.Is(err, http.ErrServerClosed) {
+					log.Fatalf("HTTP server error: %v", err)
+				}
+			}()
+
 			// For each role, write the Markdown content to a file.
 			for _, role := range fRoles {
 				for _, isATS := range []bool{false, true} {
-					generateMarkdown(templates, role, resumeDir, isATS)
-
-					filename := fileNames[role] + ".docx"
+					audience := ""
 					if isATS {
-						filename = fileNames[role] + ".ats.docx"
+						audience = ".ats"
 					}
 
-					// Convert the Markdown to DOCX.
-					docx := exec.Command(
-						"pandoc",
-						"-r", "gfm",
-						"-w", "docx",
-						"--reference-doc="+filepath.Join("render", "reference.docx"),
-						"--output="+filepath.Join("resumes", filename),
-						filepath.Join("resumes", fileNames[role]+".md"),
-					)
-					err := docx.Run()
-					if err != nil {
-						logger.Fatal(fmt.Errorf("error creating `%s`: %w", fileNames[role]+".docx", err))
-					}
-
-					filename = fileNames[role] + ".odt"
-					if isATS {
-						filename = fileNames[role] + ".ats.odt"
-					}
-
-					// Convert the Markdown to ODT.
-					odt := exec.Command(
-						"pandoc",
-						"-r", "gfm",
-						"-w", "odt",
-						"--reference-doc="+filepath.Join("render", "reference.odt"),
-						"--output="+filepath.Join("resumes", filename),
-						filepath.Join("resumes", fileNames[role]+".md"),
-					)
-					err = odt.Run()
-					if err != nil {
-						logger.Fatal(fmt.Errorf("error creating `%s`: %w", fileNames[role]+".odt", err))
-					}
+					generateMarkdown(templates, role, resumeDir, audience, isATS)
+					generateWord(role, resumeDir, audience, "docx")
+					generateWord(role, resumeDir, audience, "odt")
+					generatePDF(role, resumeDir, audience)
 				}
 			}
+
+			// Terminate the web server.
+			server.Close()
+			logger.Debug("Stopped HTTP server")
 		},
 	}
 )
@@ -151,7 +151,7 @@ func init() {
 	generateCmd.Flags().StringArrayVarP(&fRoles, "roles", "r", jobRoles, "Versions (roles) of the résumé to generate.")
 }
 
-func generateMarkdown(templates *template.Template, role, resumeDir string, isATS bool) {
+func generateMarkdown(templates *template.Template, role, resumeDir, audience string, isATS bool) {
 	vars := TemplateVars{
 		Resume:    "https://github.com/skyzyx/resume/blob/master/resumes/" + fileNames[role],
 		ResumeDir: "https://github.com/skyzyx/resume/blob/master/resumes/",
@@ -174,10 +174,7 @@ func generateMarkdown(templates *template.Template, role, resumeDir string, isAT
 		vars.IsTPM = true
 	}
 
-	absPathMd := filepath.Join(resumeDir, fileNames[role]+".md")
-	if isATS {
-		absPathMd = filepath.Join(resumeDir, fileNames[role]+".ats.md")
-	}
+	absPathMd := filepath.Join(resumeDir, fileNames[role]+audience+".md")
 
 	// Create the Markdown file.
 	w, err := os.Create(absPathMd)
@@ -211,4 +208,174 @@ func generateMarkdown(templates *template.Template, role, resumeDir string, isAT
 
 	// Log the success.
 	logger.Infof("wrote %s", absPathMd)
+
+	// -------------------------------------------------------------------------
+
+	// We will be collecting the output in a buffer, so that we can
+	// clean it before writing it to the file.
+	blurbIn := new(bytes.Buffer)
+
+	// Execute the templates.
+	err = templates.ExecuteTemplate(blurbIn, "blurb-only.gohtml", vars)
+	if err != nil {
+		logger.Fatal(fmt.Errorf("error executing templates: %w", err))
+	}
+
+	// Cleanup the contents of the buffer.
+	blurbOut := strings.ReplaceAll(blurbIn.String(), "*", "")
+	blurbOut = strings.ReplaceAll(blurbOut, "\n", "")
+
+	// Save to global variables for PDF metadata.
+	pdfDescription = blurbOut
+
+	// -------------------------------------------------------------------------
+
+	// We will be collecting the output in a buffer, so that we can
+	// clean it before writing it to the file.
+	skillsIn := new(bytes.Buffer)
+	skillsOut := new(bytes.Buffer)
+
+	vars.IsGoPDF = true
+
+	// Execute the templates.
+	err = templates.ExecuteTemplate(skillsIn, "skills-only.gohtml", vars)
+	if err != nil {
+		logger.Fatal(fmt.Errorf("error executing templates: %w", err))
+	}
+
+	// Cleanup the contents of the buffer.
+	reMarkdownLinks := regexp.MustCompile(`\[([^\]]+)\](\[([^\]]+)\])?`)
+	skillsTmp := strings.NewReader(
+		reMarkdownLinks.ReplaceAllString(skillsIn.String(), "${1}"),
+	)
+
+	_, err = skillsTmp.WriteTo(skillsOut)
+	if err != nil {
+		logger.Fatal(fmt.Errorf("error writing buffer to file: %w", err))
+	}
+
+	// Save to global variables for PDF metadata.
+	pdfKeywords = strings.TrimSpace(skillsOut.String())
+	pdfKeywords = strings.ReplaceAll(pdfKeywords, "Amazon Web Services", "Amazon+Web+Services")
+	pdfKeywords = strings.ReplaceAll(pdfKeywords, "Amazon Linux", "Amazon+Linux")
+	pdfKeywords = strings.ReplaceAll(pdfKeywords, "Amazon ", "")
+	pdfKeywords = strings.ReplaceAll(pdfKeywords, "Amazon+Web+Services", "Amazon Web Services")
+	pdfKeywords = strings.ReplaceAll(pdfKeywords, "Amazon+Linux", "Amazon Linux")
+
+	pdfKeywords = strings.ReplaceAll(pdfKeywords, "AWS ", "")
+	pdfKeywords = strings.ReplaceAll(pdfKeywords, " (modern)", "")
+}
+
+func generateWord(role, resumeDir, audience, format string) {
+	docx := exec.Command(
+		"pandoc",
+		"-r", "gfm",
+		"-w", format,
+		"--reference-doc="+filepath.Join("render", "reference."+format),
+		"--output="+filepath.Join(resumeDir, fileNames[role]+audience+"."+format),
+		filepath.Join(resumeDir, fileNames[role]+audience+".md"),
+	)
+	err := docx.Run()
+	if err != nil {
+		logger.Fatal(fmt.Errorf("error creating `%s`: %w", fileNames[role]+audience+"."+format, err))
+	}
+
+	fpAbs, err := filepath.Abs(
+		filepath.Join(resumeDir, fileNames[role]+audience+"."+format),
+	)
+	if err != nil {
+		logger.Fatal(fmt.Errorf("error determining absolute path for `%s`: %w", "./resumes", err))
+	}
+
+	// Log the success.
+	logger.Infof("wrote %s", fpAbs)
+}
+
+func generatePDF(role, resumeDir, audience string) {
+	// Convert the Markdown to HTML.
+	html := exec.Command(
+		"pandoc",
+		"-r", "gfm",
+		"-w", "html5+ascii_identifiers+auto_identifiers+gfm_auto_identifiers+smart+task_lists",
+		"--columns=20000",
+		"--eol=lf",
+		"--template=cmd/templates/pdf.tmpl.html",
+		"--output="+filepath.Join("render", fileNames[role]+audience+".html"),
+		filepath.Join(resumeDir, fileNames[role]+audience+".md"),
+	)
+	err := html.Run()
+	if err != nil {
+		logger.Fatal(fmt.Errorf("error creating `%s`: %w", fileNames[role]+audience+".html", err))
+	}
+
+	// Convert the HTML to PDF.
+	pdf := exec.Command(
+		"/Applications/Google Chrome.app/Contents/MacOS/Google Chrome",
+		"--headless",
+		"--virtual-time-budget=5000",
+		"--no-pdf-header-footer",
+		`--print-to-pdf=`+filepath.Join(resumeDir, fileNames[role]+audience+".pdf"),
+		"http://0.0.0.0:11235/"+fileNames[role]+audience+".html",
+	)
+	err = pdf.Run()
+	if err != nil {
+		logger.Fatal(fmt.Errorf("error creating `%s`: %w", fileNames[role]+audience+".pdf", err))
+	}
+
+	fpAbs, err := filepath.Abs(
+		filepath.Join(resumeDir, fileNames[role]+audience+".pdf"),
+	)
+	if err != nil {
+		logger.Fatal(fmt.Errorf("error determining absolute path for `%s`: %w", "./resumes", err))
+	}
+
+	// Log the success.
+	logger.Infof("wrote %s", fpAbs)
+
+	// -------------------------------------------------------------------------
+
+	// Strip PDF metadata
+	exiftoolStrip := exec.Command(
+		"exiftool",
+		"-all:all=",
+		filepath.Join(resumeDir, fileNames[role]+audience+".pdf"),
+		"-overwrite_original",
+	)
+	err = exiftoolStrip.Run()
+	if err != nil {
+		logger.Fatal(fmt.Errorf("error stripping metadata from `%s`: %w", fileNames[role]+audience+".pdf", err))
+	}
+
+	logger.Debugf("stripped metadata from %s", filepath.Join(resumeDir, fileNames[role]+audience+".pdf"))
+
+	time.Sleep(100 * time.Millisecond)
+
+	var pdfRoles string
+	switch role {
+	case "all":
+		pdfRoles = "Software Engineer, DevTools, Cloud, SRE, DevOps, PM, TPM"
+	case "cloud":
+		pdfRoles = "Cloud, SRE, DevOps, DevTools"
+	case "sde":
+		pdfRoles = "Software Engineer, DevTools"
+	case "tpm":
+		pdfRoles = "PM, TPM"
+	}
+
+	// Write correct PDF metadata
+	exiftoolUpdate := exec.Command(
+		"exiftool",
+		`-title="Ryan Parman (`+pdfRoles+`)"`,
+		`-author="Ryan Parman"`,
+		`-subject="`+pdfDescription+`"`,
+		`-sep ", "`,
+		`-keywords="`+pdfKeywords+`"`,
+		filepath.Join(resumeDir, fileNames[role]+audience+".pdf"),
+	)
+	err = exiftoolUpdate.Run()
+	if err != nil {
+		logger.Fatal(fmt.Errorf("error updating metadata from `%s`: %w", fileNames[role]+audience+".pdf", err))
+	}
+
+	logger.Debugf("updated metadata for %s", filepath.Join(resumeDir, fileNames[role]+audience+".pdf"))
 }

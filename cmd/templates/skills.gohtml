@@ -1,6 +1,4 @@
 {{ define "skills" -}}
-## Keywords and Skills
-
 {{- $languages := list
     "[Bash]"
     "[Go]"
@@ -51,6 +49,33 @@
     "scalability"
     "TLS and cipher suites"
 }}
+{{- $cloudSkillsATS := list
+    "[Amazon ECS]"
+    "[Amazon IAM]"
+    "[Amazon Web Services][AWS]"
+    "[AWS CloudFormation]"
+    "[AWS]"
+    "[Bash]"
+    "[Elastic Container Service][Amazon ECS]"
+    "[Git]"
+    "[OpenTofu]"
+    "[Terraform]"
+    "cloud computing"
+    "collaboration"
+    "communication"
+    "computer science"
+    "database"
+    "deployment"
+    "devops"
+    "innovation"
+    "linux"
+    "platform"
+    "scaling"
+    "scripting"
+    "technical"
+    "troubleshooting"
+    "virtualization"
+}}
 {{- $sdeSkills := list
     "[CircleCI]"
     "[Docker]"
@@ -81,11 +106,41 @@
     "software testing"
     "technical documentation"
 }}
+{{- $sdeSkillsATS := list
+    "agile"
+    "analysis"
+    "architecture"
+    "authentication"
+    "authorization"
+    "automation"
+    "aws"
+    "ci/cd"
+    "cloud"
+    "code"
+    "containerization"
+    "continuous delivery"
+    "continuous deployment"
+    "continuous integration"
+    "debugging"
+    "design"
+    "development"
+    "distributed"
+    "integration"
+    "microservices"
+    "optimization"
+    "refactoring"
+    "scrum"
+    "security"
+    "standards"
+    "tdd"
+    "test-driven development"
+    "testing"
+
+}}
 {{- $tpmSkills := list
     "[Confluence]"
     "[Jira]"
     "building platforms"
-    "collaboration"
     "coordination with downstream services"
     "cross-collaboration (dozens of teams, hundreds of services)"
     "organization of complex projects"
@@ -93,40 +148,94 @@
     "product roadmap management"
     "project documentation"
     "project management"
+    "risk mitigation"
+    "stakeholder management"
     "technical documentation"
+    "vendor management"
 }}
+{{- $tpmSkillsATS := list
+    "adaptability"
+    "agile"
+    "building platforms"
+    "collaboration"
+    "coordination"
+    "flexibility"
+    "innovation"
+    "kanban"
+    "prioritization"
+    "scrum"
+}}
+
+{{ if not .IsGoPDF -}}
+## Keywords and Skills
 
 {{ if .IsAll -}}
 * **Languages:** {{ $languages | sortAlpha | join ", " }}.
 
 * **Linuxes:** {{ $linuxes | sortAlpha | join ", " }}.
 
+{{ if .IsATS -}}
+* **Cloud/DevOps/SRE:** {{ (concat $cloudSkills $cloudSkillsATS) | sortAlpha | join ", " }}.
+
+* **SDE/SWE/DevTools:** {{ (concat $sdeSkills $sdeSkillsATS) | sortAlpha | join ", " }}.
+
+* **PM/TPM:** {{ (concat $tpmSkills $tpmSkillsATS) | sortAlpha | join ", " }}.
+
+{{- else -}}
 * **Cloud/DevOps/SRE:** {{ $cloudSkills | sortAlpha | join ", " }}.
 
 * **SDE/SWE/DevTools:** {{ $sdeSkills | sortAlpha | join ", " }}.
 
 * **PM/TPM:** {{ $tpmSkills | sortAlpha | join ", " }}.
 
+{{- end -}}
 {{ end -}}
 
 {{ if .IsCloud -}}
 This list is not exhaustive, but is targeted toward the skills most relevant to Cloud Engineering, DevOps, and Site Reliability Engineering roles.
 
+{{ if .IsATS -}}
+{{ (concat $languages $linuxes $cloudSkills $cloudSkillsATS) | sortAlpha | join ", " }}.
+
+{{- else -}}
 {{ (concat $languages $linuxes $cloudSkills) | sortAlpha | join ", " }}.
 
+{{- end -}}
 {{ end -}}
 
 {{ if .IsSDE -}}
 This list is not exhaustive, but is targeted toward the skills most relevant to Software Engineering and DevTools roles.
 
+{{ if .IsATS -}}
+{{ (concat $languages $sdeSkills $sdeSkillsATS) | sortAlpha | join ", " }}.
+
+{{- else -}}
 {{ (concat $languages $sdeSkills) | sortAlpha | join ", " }}.
 
+{{- end -}}
 {{ end -}}
 
 {{ if .IsTPM -}}
 This list is not exhaustive, but is targeted toward the skills most relevant to <abbr title="Project Manager">PM</abbr>, <abbr title="Technical Program Manager">TPM</abbr>, and <abbr title="Product Manager">Product</abbr> roles.
 
+{{ if .IsATS -}}
+{{ (concat $tpmSkills $tpmSkillsATS) | sortAlpha | join ", " }}.
+
+{{- else -}}
 {{ (concat $tpmSkills) | sortAlpha | join ", " }}.
 
+{{- end -}}
+{{ end -}}
+
+{{- else -}} {{/* Generate when we're just trying to get keywords */}}
+{{ if .IsAll -}}
+    {{- (concat $languages $linuxes $cloudSkills $cloudSkillsATS $sdeSkills $sdeSkillsATS $tpmSkills $tpmSkillsATS) | sortAlpha | uniq | join ", " -}}
+{{ else if .IsCloud -}}
+    {{- (concat $languages $linuxes $cloudSkills $cloudSkillsATS) | sortAlpha | uniq | join ", " -}}
+{{ else if .IsSDE -}}
+    {{- (concat $languages $sdeSkills $sdeSkillsATS) | sortAlpha | uniq | join ", " -}}
+{{ else if .IsTPM -}}
+    {{- (concat $tpmSkills $tpmSkillsATS) | sortAlpha | uniq | join ", " -}}
 {{ end -}}
 {{- end -}}
+{{ end -}}

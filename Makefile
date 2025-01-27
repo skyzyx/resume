@@ -52,9 +52,21 @@ clean-ds:
 	@ $(HEADER) "=====> Cleaning .DS_Store files..."
 	find . -type f -name ".DS_Store" | xargs -I% rm -fv "%"
 
+.PHONY: clean-resume
+## clean-resume: [clean] Clean resumes directory.
+clean-resume:
+	@ $(HEADER) "=====> Cleaning resumes directory..."
+	rm -Rfv ./resumes
+
+.PHONY: clean-html
+## clean-html: [clean] Clean resumes directory.
+clean-html:
+	@ $(HEADER) "=====> Cleaning HTML render files..."
+	rm -fv ./render/*.html
+
 .PHONY: clean
 ## clean: [clean]* Run cleaning tasks.
-clean: clean-ds
+clean: clean-ds clean-resume clean-html
 
 #-------------------------------------------------------------------------------
 
@@ -63,30 +75,3 @@ clean: clean-ds
 build:
 	@ $(GO) run main.go generate
 	@ cp -fv ./resumes/ryanparman-general-cv.md ./README.md
-
-# 	pandoc -r gfm -w html5+smart --columns=20000 --eol=lf --output=body.html README.processed.md
-
-# .PHONY: pdf
-# pdf:
-# 	"/Applications/Google Chrome.app/Contents/MacOS/Google Chrome" \
-# 		--headless \
-# 		--virtual-time-budget=5000 \
-# 		--no-pdf-header-footer \
-# 		--print-to-pdf="./ryanparman-cv.pdf" \
-# 		http://0.0.0.0:4000/resume.html
-
-# 	"/Applications/Google Chrome.app/Contents/MacOS/Google Chrome" \
-# 		--headless \
-# 		--virtual-time-budget=5000 \
-# 		--no-pdf-header-footer \
-# 		--print-to-pdf="./ryanparman-resume-short.pdf" \
-# 		http://0.0.0.0:4000/resume-short.html
-
-# 	exiftool -all:all= ryanparman-*.pdf -overwrite_original
-
-# 	exiftool \
-# 		-Title="Ryan Parman résumé" \
-# 		-Author="Ryan Parman" \
-# 		-Subject="Cloud-native engineering leader with a focus on reliability, scalability, and security for the modern web." \
-# 		-Keywords="cloud, engineer, devops, devsecops, director, principal, linux, go, golang, python, bash, javascript, aws, amazon web services" \
-# 		ryanparman-*.pdf

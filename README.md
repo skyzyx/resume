@@ -135,6 +135,12 @@ Proof that I can code, call APIs, interact with SDKs, and build user-facing soft
 
 See a [selective list of recommendations](https://github.com/skyzyx/resume/blob/master/selected-recommendations.md) from co-workers and peers.
 
+## Groups and Accomplishments
+
+* U.S. patent filing, [“System and Methods for User Authentication across Multiple Domains”][US15042104] (US15042104) (2016)
+* U.S. patent filing, [“Hive-based Peer-to-Peer Network”][US8103870B2] (US8103870B2) (2007)
+* Voting representative for AWS, [PHP Framework Interoperability Group][PHP-FIG] (2012–2013)
+
 ## Keywords and Skills
 
 * **Languages:** [Bash], [Go], [PHP] (modern), [Python].
@@ -145,13 +151,7 @@ See a [selective list of recommendations](https://github.com/skyzyx/resume/blob/
 
 * **SDE/SWE/DevTools:** API design, API versioning, CLI tools, [CircleCI], [Docker], [GitHub Actions], [Git], [GraphQL], [JWT], [NFS], [REST], [Redis], [Subversion], [Vagrant], [WordPress], [XSLT], [ffmpeg], [twelve-factor applications], automation, building platforms, code generation, defensive cybersecurity, multi-platform development, performance, scalability, software library design, software testing, technical documentation.
 
-* **PM/TPM:** [Confluence], [Jira], building platforms, collaboration, coordination with downstream services, cross-collaboration (dozens of teams, hundreds of services), organization of complex projects, product development, product roadmap management, project documentation, project management, technical documentation.
-
-## Groups and Accomplishments
-
-* U.S. patent filing, [“System and Methods for User Authentication across Multiple Domains”][US15042104] (US15042104) (2016)
-* U.S. patent filing, [“Hive-based Peer-to-Peer Network”][US8103870B2] (US8103870B2) (2007)
-* Voting representative for AWS, [PHP Framework Interoperability Group][PHP-FIG] (2012–2013)
+* **PM/TPM:** [Confluence], [Jira], building platforms, coordination with downstream services, cross-collaboration (dozens of teams, hundreds of services), organization of complex projects, product development, product roadmap management, project documentation, project management, risk mitigation, stakeholder management, technical documentation, vendor management.
 
 ## Education
 
@@ -164,6 +164,7 @@ Graduated in _November 2003_ with a **3.84** GPA.
 [Amazon CloudFront]: https://aws.amazon.com/cloudfront/
 [Amazon EC2]: https://aws.amazon.com/ec2/
 [Amazon ECS]: https://aws.amazon.com/ecs/
+[Amazon IAM]: https://aws.amazon.com/iam/
 [Amazon Linux]: https://aws.amazon.com/linux/
 [Amazon Route 53]: https://aws.amazon.com/route53/
 [Amazon S3]: https://aws.amazon.com/s3/
@@ -171,6 +172,7 @@ Graduated in _November 2003_ with a **3.84** GPA.
 [Ansible]: https://www.redhat.com/en/technologies/management/ansible
 [ARM64]: https://aws.amazon.com/ec2/graviton/
 [Artifactory]: https://jfrog.com/artifactory/
+[AWS CloudFormation]: https://aws.amazon.com/cloudformation/
 [AWS Control Tower]: https://aws.amazon.com/controltower/
 [AWS Elastic Beanstalk]: http://aws.amazon.com/elasticbeanstalk/
 [AWS Identity Center]: https://aws.amazon.com/iam/identity-center/
@@ -210,6 +212,7 @@ Graduated in _November 2003_ with a **3.84** GPA.
 [NFS]: https://en.wikipedia.org/wiki/Network_File_System
 [Nginx]: https://www.nginx.com
 [Northwood Labs]: https://www.crunchbase.com/organization/northwood-labs
+[OpenTofu]: https://opentofu.org
 [Packer]: https://packer.io
 [PHP-FIG]: http://www.php-fig.org
 [PHP]: https://www.php.net

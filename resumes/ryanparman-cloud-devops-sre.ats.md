@@ -2,9 +2,6 @@
 
 **Cloud-native engineering leader with a focus on reliability, scalability, and security for the modern web.**
 
-**Links:** [GitHub (personal)] • [GitHub (side project)] • [LinkedIn] • [Stack Overflow] • [Role-targeted résumés](https://github.com/skyzyx/resume/blob/master/resumes/) \
-**Format:** [Web](https://github.com/skyzyx/resume/blob/master/resumes/ryanparman-cloud-devops-sre.md) • [PDF](https://github.com/skyzyx/resume/blob/master/resumes/ryanparman-cloud-devops-sre.pdf) • [Word](https://github.com/skyzyx/resume/blob/master/resumes/ryanparman-cloud-devops-sre.docx) • [OpenDocument](https://github.com/skyzyx/resume/blob/master/resumes/ryanparman-cloud-devops-sre.odt) • [Raw Markdown](https://github.com/skyzyx/resume/raw/master/resumes/ryanparman-cloud-devops-sre.md)
-
 **IMPORTANT:** This copy of my résumé is optimized for ATS (Applicant Tracking System) compatibility. Follow one of the links above for one that is intended for interviewers.
 
 ## Summary
@@ -12,8 +9,6 @@
 Ryan Parman is a cloud-native engineering leader with over 25 years of experience, who specializes in technical leadership, software development, site reliability engineering, and cybersecurity for the modern web. A seasoned problem-solver who excels at listening, adapting, and driving continuous improvement. Committed to delivering exceptional work, building impactful solutions, and elevating team performance.
 
 ## Work Experience
-
-Older roles are truncated for brevity. If interested, details can be found [on GitHub](https://github.com/skyzyx/resume/blob/master/ryanparman-previously.md).
 
 ### [McGraw Hill] — Remote (since COVID), previously Seattle, WA
 
@@ -111,41 +106,11 @@ Older roles are truncated for brevity. If interested, details can be found [on G
 
 * Focusing on Amazon’s _Customer Obsession_ leadership principle, I successfully pushed for being better stewards of our community. Included increased transparency, better communication, and improved tooling for developers. [[Examples](#)]
 
-## Projects
-
-Proof that I can code, call APIs, interact with SDKs, and build user-facing software. I have live-coding anxiety, so live-coding interviews will always present me at my worst, not my best.
-
-* **DevSec Tools:** Building a [website](https://github.com/northwood-labs/devsec-ui), [CLI tool, and Go library](https://github.com/northwood-labs/devsec-tools) for helping developers identify potential web security configuration issues (in-progress).
-
-* **Custom Linux Packages:** Building a [repository of custom Linux packages](https://github.com/northwood-labs/package-building/wiki) (in-progress).
-
-* **CSP Evaluator:** Building a [parser and evaluator for Content Security Policy (CSP) directives](https://github.com/northwood-labs/csp-parser) in Go (in-progress).
-
-* **Terraform Provider:** Built a [custom provider](https://github.com/northwood-labs/terraform-provider-corefunc) which provides a set of utility functions for use in Terraform/OpenTofu.
-
-* **Multi-Platform Docker:** Built a [downloader for GitHub release assets](https://github.com/northwood-labs/download-asset) which simplifies building multi-platform images.
-
-* **AWS Organization Security:** Built a [library + CLI tool](https://github.com/northwood-labs/assume-spoke-role) which simplifies the AWS pattern for multi-account organizations which they call “hub and spoke.”
-
-* **AWS Session Manager:** The terminal is the right tool for shell sessions. Built a [TUI](https://en.wikipedia.org/wiki/Text-based_user_interface) for [simplifying connections to SSM-enabled EC2 instances](https://github.com/northwood-labs/ssm-shell) using your Terminal.
-
-* **Configuration for `tflint`:** Built a [tool for generating up-to-date configurations for AWS/GCP/Azure](https://github.com/northwood-labs/tflint-config-generator) for use with [tflint](https://github.com/terraform-linters/tflint).
-
-## Recommendations
-
-See a [selective list of recommendations](https://github.com/skyzyx/resume/blob/master/selected-recommendations.md) from co-workers and peers.
-
 ## Keywords and Skills
 
 This list is not exhaustive, but is targeted toward the skills most relevant to Cloud Engineering, DevOps, and Site Reliability Engineering roles.
 
-TLS and cipher suites, [ARM64], [AWS Control Tower], [AWS Elastic Beanstalk], [AWS Identity Center], [AWS Lambda], [AWS RDS Aurora], [AWS SDKs], [AWS Secrets Manager], [AWS Well-Architected], [Alpine Linux], [Amazon ACM], [Amazon CloudFront], [Amazon EC2], [Amazon ECS], [Amazon Linux], [Amazon Route 53], [Amazon S3], [Ansible], [Artifactory], [Bash], [CIS], [CentOS], [CentOS], [Docker], [EC2 Image Builder], [GCP], [GitHub Actions], [GitHub Enterprise], [Go], [Nginx], [PHP] (modern), [Packer], [Python], [Redis], [Terraform], [Ubuntu], [kubectl], automation, cloud configuration security, multi-platform development, operational reliability, performance, scalability.
-
-## Groups and Accomplishments
-
-* U.S. patent filing, [“System and Methods for User Authentication across Multiple Domains”][US15042104] (US15042104) (2016)
-* U.S. patent filing, [“Hive-based Peer-to-Peer Network”][US8103870B2] (US8103870B2) (2007)
-* Voting representative for AWS, [PHP Framework Interoperability Group][PHP-FIG] (2012–2013)
+TLS and cipher suites, [ARM64], [AWS CloudFormation], [AWS Control Tower], [AWS Elastic Beanstalk], [AWS Identity Center], [AWS Lambda], [AWS RDS Aurora], [AWS SDKs], [AWS Secrets Manager], [AWS Well-Architected], [AWS], [Alpine Linux], [Amazon ACM], [Amazon CloudFront], [Amazon EC2], [Amazon ECS], [Amazon ECS], [Amazon IAM], [Amazon Linux], [Amazon Route 53], [Amazon S3], [Amazon Web Services][AWS], [Ansible], [Artifactory], [Bash], [Bash], [CIS], [CentOS], [CentOS], [Docker], [EC2 Image Builder], [Elastic Container Service][Amazon ECS], [GCP], [GitHub Actions], [GitHub Enterprise], [Git], [Go], [Nginx], [OpenTofu], [PHP] (modern), [Packer], [Python], [Redis], [Terraform], [Terraform], [Ubuntu], [kubectl], automation, cloud computing, cloud configuration security, collaboration, communication, computer science, database, deployment, devops, innovation, linux, multi-platform development, operational reliability, performance, platform, scalability, scaling, scripting, technical, troubleshooting, virtualization.
 
 ## Education
 
@@ -158,6 +123,7 @@ Graduated in _November 2003_ with a **3.84** GPA.
 [Amazon CloudFront]: https://aws.amazon.com/cloudfront/
 [Amazon EC2]: https://aws.amazon.com/ec2/
 [Amazon ECS]: https://aws.amazon.com/ecs/
+[Amazon IAM]: https://aws.amazon.com/iam/
 [Amazon Linux]: https://aws.amazon.com/linux/
 [Amazon Route 53]: https://aws.amazon.com/route53/
 [Amazon S3]: https://aws.amazon.com/s3/
@@ -165,6 +131,7 @@ Graduated in _November 2003_ with a **3.84** GPA.
 [Ansible]: https://www.redhat.com/en/technologies/management/ansible
 [ARM64]: https://aws.amazon.com/ec2/graviton/
 [Artifactory]: https://jfrog.com/artifactory/
+[AWS CloudFormation]: https://aws.amazon.com/cloudformation/
 [AWS Control Tower]: https://aws.amazon.com/controltower/
 [AWS Elastic Beanstalk]: http://aws.amazon.com/elasticbeanstalk/
 [AWS Identity Center]: https://aws.amazon.com/iam/identity-center/
@@ -204,6 +171,7 @@ Graduated in _November 2003_ with a **3.84** GPA.
 [NFS]: https://en.wikipedia.org/wiki/Network_File_System
 [Nginx]: https://www.nginx.com
 [Northwood Labs]: https://www.crunchbase.com/organization/northwood-labs
+[OpenTofu]: https://opentofu.org
 [Packer]: https://packer.io
 [PHP-FIG]: http://www.php-fig.org
 [PHP]: https://www.php.net

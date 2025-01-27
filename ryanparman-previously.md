@@ -62,8 +62,6 @@ This is the work experience which has been _retired_ from my active résumé.
 
 * Ryan is the creator, evangelist, and co-developer of the SimplePie project — a PHP library that enables web developers to simply and easily integrate news feeds into their websites and web applications.
 
-<div class="page-break"></div>
-
 * After recruiting additional development resources in June 2005, Ryan began to shift from a primarily development-focused role to a primarily people-focused role, where he currently works to ensure that people are aware of, and can easily use SimplePie through support, documentation, tutorials, plugins, and evangelism.
 
 * SimplePie was integrated into WordPress, Drupal, MODx, and several other large projects written in PHP. If you've ever used WordPress since 2006, you've used SimplePie with or without knowing it.
