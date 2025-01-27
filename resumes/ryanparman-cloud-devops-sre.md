@@ -2,7 +2,7 @@
 
 **Cloud-native engineering leader with a focus on reliability, scalability, and security for the modern web.**
 
-**Links:** [GitHub (personal)] • [GitHub (side project)] • [LinkedIn] • [Stack Overflow] • [Role-targeted résumés](https://github.com/skyzyx/resume/blob/master/resumes/) \
+**Links:** [GitHub (personal)] • [GitHub (side project)] • [LinkedIn] • [Stack Overflow] • [Role-targeted résumés](https://github.com/skyzyx/resume/blob/master/resumes/#readme) \
 **Format:** [Web](https://github.com/skyzyx/resume/blob/master/resumes/ryanparman-cloud-devops-sre.md) • [PDF](https://github.com/skyzyx/resume/raw/master/resumes/ryanparman-cloud-devops-sre.pdf) • [Word](https://github.com/skyzyx/resume/raw/master/resumes/ryanparman-cloud-devops-sre.docx) • [OpenDocument](https://github.com/skyzyx/resume/raw/master/resumes/ryanparman-cloud-devops-sre.odt) • [Raw Markdown](https://github.com/skyzyx/resume/raw/master/resumes/ryanparman-cloud-devops-sre.md)
 
 ## Summary
@@ -107,7 +107,7 @@ Older roles are truncated for brevity. If interested, details can be found [on G
 
 * Collaborated with the AWS Design team on the [AWS Management Console], to build a robust and user-friendly console. Led one of the first teams to provide reusable UI building blocks at AWS.
 
-* Focusing on Amazon’s _Customer Obsession_ leadership principle, I successfully pushed for being better stewards of our community. Included increased transparency, better communication, and improved tooling for developers. [[Examples](#)]
+* Focusing on Amazon’s _Customer Obsession_ leadership principle, I successfully pushed for being better stewards of our community. Included increased transparency, better communication, and improved tooling for developers. [[Examples](https://github.com/skyzyx/resume/blob/master/amazon-specifics.md)]
 
 ## Projects
 

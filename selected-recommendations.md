@@ -1,6 +1,6 @@
 # Selected Recommendations
 
-These are some of my favorite recommendations from peers. A full list of recommendations can be found on my [LinkedIn profile](https://www.linkedin.com/in/rparman/details/recommendations/).
+These are some of my favorite recommendations from colleagues. A full list of recommendations can be found on my [LinkedIn profile](https://www.linkedin.com/in/rparman/details/recommendations/).
 
 ## [Ed Koegler](https://www.linkedin.com/in/ed-koegler-a810b33/)
 

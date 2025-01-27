@@ -94,7 +94,7 @@ Looking to pivot from a technical leadership role into a product/program managem
 
 * Collaborated with the AWS Design team on the [AWS Management Console], to build a robust and user-friendly console. Led one of the first teams to provide reusable UI building blocks at AWS.
 
-* Focusing on Amazon’s _Customer Obsession_ leadership principle, I successfully pushed for being better stewards of our community. Included increased transparency, better communication, and improved tooling for developers. [[Examples](#)]
+* Focusing on Amazon’s _Customer Obsession_ leadership principle, I successfully pushed for being better stewards of our community. Included increased transparency, better communication, and improved tooling for developers. [[Examples](https://github.com/skyzyx/resume/blob/master/amazon-specifics.md)]
 
 ## Keywords and Skills
 
