@@ -3,7 +3,7 @@
 **Cloud-native engineering leader with a focus on reliability, scalability, and security for the modern web.**
 
 **Links:** [GitHub (personal)] • [GitHub (side project)] • [LinkedIn] • [Stack Overflow] • [Role-targeted résumés](https://github.com/skyzyx/resume/blob/master/resumes/) \
-**Format:** [Web](https://github.com/skyzyx/resume/blob/master/resumes/ryanparman-software-eng-devtools.md) • [PDF](https://github.com/skyzyx/resume/blob/master/resumes/ryanparman-software-eng-devtools.pdf) • [Word](https://github.com/skyzyx/resume/blob/master/resumes/ryanparman-software-eng-devtools.docx) • [OpenDocument](https://github.com/skyzyx/resume/blob/master/resumes/ryanparman-software-eng-devtools.odt) • [Raw Markdown](https://github.com/skyzyx/resume/raw/master/resumes/ryanparman-software-eng-devtools.md)
+**Format:** [Web](https://github.com/skyzyx/resume/blob/master/resumes/ryanparman-software-eng-devtools.md) • [PDF](https://github.com/skyzyx/resume/raw/master/resumes/ryanparman-software-eng-devtools.pdf) • [Word](https://github.com/skyzyx/resume/raw/master/resumes/ryanparman-software-eng-devtools.docx) • [OpenDocument](https://github.com/skyzyx/resume/raw/master/resumes/ryanparman-software-eng-devtools.odt) • [Raw Markdown](https://github.com/skyzyx/resume/raw/master/resumes/ryanparman-software-eng-devtools.md)
 
 ## Summary
 

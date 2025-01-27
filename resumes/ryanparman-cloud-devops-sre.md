@@ -3,7 +3,7 @@
 **Cloud-native engineering leader with a focus on reliability, scalability, and security for the modern web.**
 
 **Links:** [GitHub (personal)] • [GitHub (side project)] • [LinkedIn] • [Stack Overflow] • [Role-targeted résumés](https://github.com/skyzyx/resume/blob/master/resumes/) \
-**Format:** [Web](https://github.com/skyzyx/resume/blob/master/resumes/ryanparman-cloud-devops-sre.md) • [PDF](https://github.com/skyzyx/resume/blob/master/resumes/ryanparman-cloud-devops-sre.pdf) • [Word](https://github.com/skyzyx/resume/blob/master/resumes/ryanparman-cloud-devops-sre.docx) • [OpenDocument](https://github.com/skyzyx/resume/blob/master/resumes/ryanparman-cloud-devops-sre.odt) • [Raw Markdown](https://github.com/skyzyx/resume/raw/master/resumes/ryanparman-cloud-devops-sre.md)
+**Format:** [Web](https://github.com/skyzyx/resume/blob/master/resumes/ryanparman-cloud-devops-sre.md) • [PDF](https://github.com/skyzyx/resume/raw/master/resumes/ryanparman-cloud-devops-sre.pdf) • [Word](https://github.com/skyzyx/resume/raw/master/resumes/ryanparman-cloud-devops-sre.docx) • [OpenDocument](https://github.com/skyzyx/resume/raw/master/resumes/ryanparman-cloud-devops-sre.odt) • [Raw Markdown](https://github.com/skyzyx/resume/raw/master/resumes/ryanparman-cloud-devops-sre.md)
 
 ## Summary
 

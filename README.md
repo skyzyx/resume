@@ -3,7 +3,7 @@
 **Cloud-native engineering leader with a focus on reliability, scalability, and security for the modern web.**
 
 **Links:** [GitHub (personal)] • [GitHub (side project)] • [LinkedIn] • [Stack Overflow] • [Role-targeted résumés](https://github.com/skyzyx/resume/blob/master/resumes/) \
-**Format:** [Web](https://github.com/skyzyx/resume/blob/master/resumes/ryanparman-general-cv.md) • [PDF](https://github.com/skyzyx/resume/blob/master/resumes/ryanparman-general-cv.pdf) • [Word](https://github.com/skyzyx/resume/blob/master/resumes/ryanparman-general-cv.docx) • [OpenDocument](https://github.com/skyzyx/resume/blob/master/resumes/ryanparman-general-cv.odt) • [Raw Markdown](https://github.com/skyzyx/resume/raw/master/resumes/ryanparman-general-cv.md)
+**Format:** [Web](https://github.com/skyzyx/resume/blob/master/resumes/ryanparman-general-cv.md) • [PDF](https://github.com/skyzyx/resume/raw/master/resumes/ryanparman-general-cv.pdf) • [Word](https://github.com/skyzyx/resume/raw/master/resumes/ryanparman-general-cv.docx) • [OpenDocument](https://github.com/skyzyx/resume/raw/master/resumes/ryanparman-general-cv.odt) • [Raw Markdown](https://github.com/skyzyx/resume/raw/master/resumes/ryanparman-general-cv.md)
 
 ## Summary
 
