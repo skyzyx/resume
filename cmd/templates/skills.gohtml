@@ -2,44 +2,39 @@
 {{- $languages := list
     "[Bash]"
     "[Go]"
-    "[PHP] (modern)"
+    "[PHP]"
     "[Python]"
 }}
-{{- $linuxes := list
-    "[Alpine Linux]"
-    "[Amazon Linux]"
-    "[CentOS]"
-    "[Ubuntu]"
-}}
 {{- $cloudSkills := list
-    "[Amazon ACM]"
-    "[Amazon CloudFront]"
-    "[Amazon EC2]"
-    "[Amazon ECS]"
-    "[Amazon Route 53]"
-    "[Amazon S3]"
+    "[ACM][Amazon ACM]"
     "[Ansible]"
     "[ARM64]"
     "[Artifactory]"
-    "[AWS Control Tower]"
-    "[AWS Elastic Beanstalk]"
-    "[AWS Identity Center]"
-    "[AWS Lambda]"
-    "[AWS RDS Aurora]"
-    "[AWS SDKs]"
-    "[AWS Secrets Manager]"
     "[AWS Well-Architected]"
+    "[Bash]"
     "[CentOS]"
     "[CIS]"
+    "[CloudFront][Amazon CloudFront]"
+    "[Control Tower][AWS Control Tower]"
     "[Docker]"
-    "[EC2 Image Builder]"
+    "[EC2][Amazon EC2]"
+    "[ECS][Amazon ECS]"
     "[GCP]"
+    "[Git]"
     "[GitHub Actions]"
     "[GitHub Enterprise]"
-    "[kubectl]"
+    "[Identity Center][AWS Identity Center]"
+    "[Image Builder][EC2 Image Builder]"
+    "[Lambda][AWS Lambda]"
     "[Nginx]"
+    "[OpenTofu]"
     "[Packer]"
+    "[RDS Aurora][AWS RDS Aurora]"
     "[Redis]"
+    "[Route 53][Amazon Route 53]"
+    "[S3][Amazon S3]"
+    "[SDKs][AWS SDKs]"
+    "[Secrets Manager][AWS Secrets Manager]"
     "[Terraform]"
     "automation"
     "cloud configuration security"
@@ -50,29 +45,19 @@
     "TLS and cipher suites"
 }}
 {{- $cloudSkillsATS := list
-    "[Amazon ECS]"
-    "[Amazon IAM]"
     "[Amazon Web Services][AWS]"
-    "[AWS CloudFormation]"
     "[AWS]"
-    "[Bash]"
-    "[Elastic Container Service][Amazon ECS]"
-    "[Git]"
-    "[OpenTofu]"
-    "[Terraform]"
+    "[CloudFormation][AWS CloudFormation]"
+    "[IAM][Amazon IAM]"
     "cloud computing"
-    "collaboration"
-    "communication"
     "computer science"
     "database"
     "deployment"
-    "devops"
-    "innovation"
-    "linux"
+    "DevOps"
+    "DevSecOps"
     "platform"
     "scaling"
     "scripting"
-    "technical"
     "troubleshooting"
     "virtualization"
 }}
@@ -107,16 +92,14 @@
     "technical documentation"
 }}
 {{- $sdeSkillsATS := list
+    "[AWS]"
     "agile"
-    "analysis"
     "architecture"
     "authentication"
     "authorization"
     "automation"
-    "aws"
-    "ci/cd"
+    "CI/CD"
     "cloud"
-    "code"
     "containerization"
     "continuous delivery"
     "continuous deployment"
@@ -135,7 +118,6 @@
     "tdd"
     "test-driven development"
     "testing"
-
 }}
 {{- $tpmSkills := list
     "[Confluence]"
@@ -154,25 +136,16 @@
     "vendor management"
 }}
 {{- $tpmSkillsATS := list
-    "adaptability"
     "agile"
-    "building platforms"
-    "collaboration"
-    "coordination"
-    "flexibility"
-    "innovation"
     "kanban"
-    "prioritization"
     "scrum"
 }}
 
 {{ if not .IsGoPDF -}}
-## Keywords and Skills
+## Skills
 
 {{ if .IsAll -}}
 * **Languages:** {{ $languages | sortAlpha | join ", " }}.
-
-* **Linuxes:** {{ $linuxes | sortAlpha | join ", " }}.
 
 {{ if .IsATS -}}
 * **Cloud/DevOps/SRE:** {{ (concat $cloudSkills $cloudSkillsATS) | sortAlpha | join ", " }}.
@@ -192,36 +165,36 @@
 {{ end -}}
 
 {{ if .IsCloud -}}
-This list is not exhaustive, but is targeted toward the skills most relevant to Cloud Engineering, DevOps, and Site Reliability Engineering roles.
-
 {{ if .IsATS -}}
-{{ (concat $languages $linuxes $cloudSkills $cloudSkillsATS) | sortAlpha | join ", " }}.
+{{ (concat $languages $cloudSkills $cloudSkillsATS) | sortAlpha | join ", " }}.
 
 {{- else -}}
-{{ (concat $languages $linuxes $cloudSkills) | sortAlpha | join ", " }}.
+This list is not exhaustive, but these are software and skills I leveraged in the roles above which are most relevant to Cloud Engineering, DevOps, and Site Reliability Engineering roles.
+
+{{ (concat $languages $cloudSkills) | sortAlpha | join ", " }}.
 
 {{- end -}}
 {{ end -}}
 
 {{ if .IsSDE -}}
-This list is not exhaustive, but is targeted toward the skills most relevant to Software Engineering and DevTools roles.
-
 {{ if .IsATS -}}
 {{ (concat $languages $sdeSkills $sdeSkillsATS) | sortAlpha | join ", " }}.
 
 {{- else -}}
+This list is not exhaustive, but these are software and skills I leveraged in the roles above which are most relevant to Software Engineering and DevTools roles.
+
 {{ (concat $languages $sdeSkills) | sortAlpha | join ", " }}.
 
 {{- end -}}
 {{ end -}}
 
 {{ if .IsTPM -}}
-This list is not exhaustive, but is targeted toward the skills most relevant to <abbr title="Project Manager">PM</abbr>, <abbr title="Technical Program Manager">TPM</abbr>, and <abbr title="Product Manager">Product</abbr> roles.
-
 {{ if .IsATS -}}
 {{ (concat $tpmSkills $tpmSkillsATS) | sortAlpha | join ", " }}.
 
 {{- else -}}
+This list is not exhaustive, but these are software and skills I leveraged in the roles above which are most relevant to <abbr title="Project Manager">PM</abbr>, <abbr title="Technical Program Manager">TPM</abbr>, and <abbr title="Product Manager">Product</abbr> roles.
+
 {{ (concat $tpmSkills) | sortAlpha | join ", " }}.
 
 {{- end -}}
@@ -229,9 +202,9 @@ This list is not exhaustive, but is targeted toward the skills most relevant to 
 
 {{- else -}} {{/* Generate when we're just trying to get keywords */}}
 {{ if .IsAll -}}
-    {{- (concat $languages $linuxes $cloudSkills $cloudSkillsATS $sdeSkills $sdeSkillsATS $tpmSkills $tpmSkillsATS) | sortAlpha | uniq | join ", " -}}
+    {{- (concat $languages $cloudSkills $cloudSkillsATS $sdeSkills $sdeSkillsATS $tpmSkills $tpmSkillsATS) | sortAlpha | uniq | join ", " -}}
 {{ else if .IsCloud -}}
-    {{- (concat $languages $linuxes $cloudSkills $cloudSkillsATS) | sortAlpha | uniq | join ", " -}}
+    {{- (concat $languages $cloudSkills $cloudSkillsATS) | sortAlpha | uniq | join ", " -}}
 {{ else if .IsSDE -}}
     {{- (concat $languages $sdeSkills $sdeSkillsATS) | sortAlpha | uniq | join ", " -}}
 {{ else if .IsTPM -}}

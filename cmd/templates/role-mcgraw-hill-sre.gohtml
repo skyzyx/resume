@@ -1,20 +1,20 @@
 {{ define "role-mcgraw-hill-sre" -}}
 #### Engineering Manager, Site Reliability (October 2018—June 2020)
 
+{{ if or .IsAll .IsTPM -}}
 * Managed a team of four, while working to level-up the team's technical skills and leadership capabilities. Conducted regular 1:1s, performance reviews, and career development discussions.
 
-* Led the [_Site Reliability Engineering_][SRE] (SRE) team in addressing macro-oriented problems affecting decentralized, heterogeneous engineering teams across the company. Empowered greater self-service for engineering teams.
+* Revamped the SRE interview process to prioritize a 70/30 focus on software engineering (Dev) and systems operations (Ops). Emphasized leadership qualities, bias for action, and high curiosity.
 
-* Revamped the Seattle SRE interview process to prioritize a 70/30 focus on software engineering (Dev) and systems operations (Ops). Emphasized leadership qualities, bias for action, and high curiosity.
+{{ end -}}
+* Led the [_Site Reliability Engineering_][SRE] (SRE) team in addressing macro-oriented problems affecting engineering teams, empowering greater self-service.
 
-* Owned and served as the key decision-maker in development of a core platform for company-wide, reliability-focused projects.
+* Established a process for maintaining reusable [Terraform] modules which teams leveraged to compose infrastructure with minimal effort.
 
-* Formed and led a leadership group to establish a process maintaining reusable Terraform modules which could be composed together according to a service’s needs.
+{{ if or .IsAll (not .IsTPM) -}}
+* Customized the [Amazon Linux] AMIs to comply with Level-2 [CIS] Guidelines for both Amazon Linux and [Docker]. Liaised with cybersecurity, operations, and business units to ensure compliance.
 
-{{ if not .IsTPM -}}
-* Customized the Amazon Linux AMIs to comply with Level-2 [CIS] Guidelines for both Amazon Linux and [Docker]. Collaborated closely with cybersecurity, operations, and various business units to ensure compliance.
-
-* Developed custom security and operational tooling where off-the-shelf tools wouldn't give us what we needed, to understand the current posture of ±200 AWS accounts.
+* Invented custom security and operational tooling to understand the current posture of ~200 AWS accounts where off-the-shelf tools did not meet the needs of the organization.
 
 * Reduced the time to deploy a new service from dozens of weeks to a single meeting by implementing a _Monitoring-as-Code_ methodology, and defining broad-use [Service Level Objectives][SLO] (SLOs).
 

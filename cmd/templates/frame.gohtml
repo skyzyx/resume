@@ -4,8 +4,10 @@
 
 {{ template "links" . }}
 
+{{ if not .IsATS -}}
 {{ template "summary" . }}
 
+{{ end -}}
 {{ template "experience" . }}
 
 {{ if not .IsATS -}}

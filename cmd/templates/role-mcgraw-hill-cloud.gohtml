@@ -1,44 +1,40 @@
 {{ define "role-mcgraw-hill-cloud" -}}
 #### Principal Cloud and Platform Engineer (June 2020—January 2024)
 
-* Transitioned from Engineering Manager to a strategic technical leadership role.
-
 {{ if or .IsAll .IsTPM -}}
-* Prolific documentarian. Documentation is worth 50% of your grade.
-
-{{ end -}}
-
-{{ if or .IsAll .IsCloud -}}
-* Either directly or collaboratively designed and maintained [AWS Control Tower], [Artifactory], [GitHub Enterprise], [GitHub Actions], [CircleCI], [Jenkins], and more.
+* Authored or edited over 1,800 [Confluence] documents.
 
 {{ end -}}
 
 {{ if or .IsAll .IsCloud .IsTPM -}}
-* Partnered with McGraw Hill Enterprise Architecture and [AWS Professional Services] to deploy [AWS Control Tower] and [AWS Identity Center]. Lowered costs and increased control over account guardrails.
+* Partnered with Enterprise Architecture and [AWS Professional Services] to deploy [Control Tower][AWS Control Tower] and [Identity Center][AWS Identity Center], resulting in lowered costs and increased control over account guardrails.
 
 {{ end -}}
 
-* Managed the program for building and maintaining base AMIs for all of McGraw Hill.{{ if or .IsAll .IsCloud }} Leveraged insights from the [Center of Internet Security][CIS], security patching, and the specific needs of internal customers to develop a unified build pipeline integrating best practices.{{- end }}
+* Managed the Base [AMI] program. Leveraged insights from [CIS], security patching, and internal needs to develop a unified build pipeline integrating best practices.
 
 {{ if or .IsAll .IsSDE .IsCloud -}}
-* Using [AWS SDKs], conducted comprehensive scans of Route 53 to obtain a mapping of thousands of active websites owned by McGraw Hill. Focused on identifying and remediating misconfigurations, rotating certificates, and more.
+* Conducted comprehensive scans of [Route 53][Amazon Route 53] to obtain a mapping of the company’s thousands of active websites. Prioritized identifying and remediating misconfigurations, rotating certificates, and increasing visibility.
 
 {{- end }}
 
 {{ if or .IsAll .IsCloud -}}
-* Co-implemented self-hosted runners for GitHub Actions. Focused on the Linux runtime environment.
+* Implemented the Linux runtime environment used by self-hosted [GitHub Actions] runners.
 
 {{ end -}}
 
-* Rebuilt our [Artifactory] cluster with a “cattle, not pets” approach. Ran the project from inception to completion, including the majority of development. Worked across dozens of teams and hundreds of services to complete the project.
+* Spearheaded the [Artifactory] Rebuild project. Ran the project from inception to completion, including the majority of development. Directed effort across ~80 teams and ~300 services to complete the project.
 
 {{ if or .IsAll .IsCloud -}}
-* Enabled continuous token and password rotation for our engineering teams by building a _Token Vending Machine_, providing a "push-button, receive-token" solution.
+* Improved security by enabling continuous token and password rotation for engineering teams by building a _Token Vending Machine_.
 
-{{- end }}
+{{ end -}}
 
 {{ if or .IsAll .IsCloud .IsTPM -}}
-* Proactively added support for lower-cost ARM64 CPUs, opening the door for ~$450k/year in cost savings.
+* Resolved all technology blockers preventing migration lower-cost [ARM64] CPUs, opening the door for ~$450k/year in cost savings.
 
-{{- end -}}
+{{ end -}}
+
+* Led dozens of smaller projects, offered guidance to engineers on best practices, and documented knowledge.
+
 {{- end }}

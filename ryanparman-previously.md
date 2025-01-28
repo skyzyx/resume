@@ -1,19 +1,53 @@
 # Ryan Parman
 
-This is the work experience which has been _retired_ from my active résumé.
+This is the work experience which has been _retired_ from my active résumé (or has not been added yet for one reason or another).
 
-## Work Experience (Older)
+## Work Experience and “Side Hustles”
 
-### CloudFusion (née Tarzan) — Open-Source Project
+### [Northwood Labs](https://github.com/northwood-labs) — Colorado
+
+#### Owner (January 2024—Present)
+
+Northwood Labs is an incubator for security and reliability tooling.
+
+It is a tiny company based in Colorado who thinks that software engineering, site reliability, operations, and cybersecurity are all parts of the same whole. We want to empower teams to build quality software and reliable services, teach where there are knowledge gaps, and make it possible for every user to have access to the best in security.
+
+Historically, most of the tools built to address these areas have done a poor job of integrating across all relevant disciplines, and can also cost a small fortune in order to help teams ensure their products and services are well-built, reliable, and secure.
+
+### PCR Publishing — Side-Project (defunct)
+
+#### Editor, Typesetter, Publisher, Book Producer (April 2021–April 2022)
+
+Worked with author E.M. Baird on the book [Federal Probation Bible](https://www.amazon.com/dp/0578992698/) (ISBN: `978-0-578-99269-3`). Spent hundreds of hours over the course of a year performing multiple, deep-level revisions and rewrites of content, grammar, and voice.
+
+* Performed all of the production work for the book.
+* Typesetting, typography, creation of all graphs and images used in the book.
+* Integrated changes from several reviewers.
+* Worked with printer candidates on formatting of the print-ready file.
+* Adapted cover art designed for screen for print production using [Adobe Illustrator](https://www.adobe.com/products/illustrator.html).
+* Proofed a physical copy of the book, and provided approval to the printer.
+
+**Skills:** Custom Software, Resolving Issues, Leadership, Software Projects, Functionality, Communication, Typography, Desktop Publishing, [Affinity Publisher](https://affinity.serif.com/en-us/publisher/).
+
+### Perimeter of Wisdom, LLC (defunct)
+
+#### Co-Owner, CTO, Producer (February 2015—2018)
+
+Developed the entire website for “The First-Time Offender’s Guide to Freedom,” managing all technical aspects from inception to deployment. Also performed all production work on the eBook authored by E. M. Baird.
+
+* Utilized then-modern front-end technologies — including [Bootstrap](https://getbootstrap.com), [LESS](https://lesscss.org), JavaScript, [Gulp.js](https://gulpjs.com), npm, and [Bower](https://bower.io) — to build the website's front end. Developed the back end using PHP 5.6 with [HHVM](https://hhvm.com) and [Nginx](https://nginx.org/en/), integrating MySQL, [Redis](http://redis.io), [Slim Framework](https://www.slimframework.com), [Monolog](https://seldaek.github.io/monolog/), [Pimple](https://github.com/silexphp/Pimple), [Twig](https://twig.symfony.com), [Guzzle](https://github.com/guzzle), [Doctrine](https://www.doctrine-project.org), [Phinx](https://phinx.org), and [Symfony components](https://symfony.com/components). Deployed the application using [Ansible](https://www.ansible.com) and developed within a [Vagrant](https://www.vagrantup.com) environment running Ubuntu.
+
+* Conducted unit, integration, and functional testing using [PHPUnit](https://phpunit.de), [Behat](https://behat.org), [Mink](https://mink.behat.org), and [Selenium](https://www.selenium.dev). Leveraged Amazon SES for email delivery, Amazon S3 for static file storage, Stripe for payment processing, Linode for web hosting, and MaxMind for IP-based geolocation. Integrated Google Books and Dropbox to ensure customers always had access to the latest errata fixes.
+
+**Skills:** Custom Software, Software Projects, Functionality, Communication, Desktop Publishing, ePub, Kindle format.
+
+### CloudFusion (née Tarzan) — Open-Source Project (defunct)
 
 #### Creator and Developer (Early 2005—March 2010)
 
 * Developed CloudFusion, a fast and powerful PHP toolkit for rapidly building cloud-based web applications.
-
 * Prioritized design decisions that enhanced performance, ease of use, and overall usability.
-
 * Aimed to provide a high-performance developer toolkit for leveraging Amazon's cloud infrastructure, fostering community growth, and building useful, user-centric applications based on the toolkit.
-
 * Amazon Web Services hired me and hard-forked this project in 2010. It became the AWS SDK for PHP.
 
 ### Rearden Commerce (now [Deem](https://www.crunchbase.com/organization/deem)) — Foster City, CA
@@ -26,7 +60,7 @@ This is the work experience which has been _retired_ from my active résumé.
 
 * Educated teams on the value of high-quality front-end code, placing a strong emphasis on writing code with better performance, faster load times, and improved accessibility across all projects.
 
-### [WarpShare](https://www.crunchbase.com/organization/warpshare) — Morgan Hill, CA
+### [WarpShare](https://www.crunchbase.com/organization/warpshare) — Morgan Hill, CA (defunct)
 
 #### Co-Founder and Chief Information Officer (September 2006—March 2010)
 

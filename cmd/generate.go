@@ -196,9 +196,16 @@ func generateMarkdown(templates *template.Template, role, resumeDir, audience st
 
 	// Cleanup the contents of the buffer.
 	reTooManyLinebreaks := regexp.MustCompile(`\n{3,}`)
-	bufOut := strings.NewReader(
-		reTooManyLinebreaks.ReplaceAllString(bufIn.String(), "\n\n"),
-	)
+	strOut := reTooManyLinebreaks.ReplaceAllString(bufIn.String(), "\n\n")
+
+	if isATS {
+		// Reduce line breaks between bullets.
+		reReduceLinebreaks := regexp.MustCompile(`\*\s([^\n]+)\n{2}\*`)
+		strOut = reReduceLinebreaks.ReplaceAllString(strOut, "* ${1}\n*")
+		strOut = reReduceLinebreaks.ReplaceAllString(strOut, "* ${1}\n*")
+	}
+
+	bufOut := strings.NewReader(strOut)
 
 	// Write the buffer to the file.
 	_, err = bufOut.WriteTo(w)
@@ -378,4 +385,9 @@ func generatePDF(role, resumeDir, audience string) {
 	}
 
 	logger.Debugf("updated metadata for %s", filepath.Join(resumeDir, fileNames[role]+audience+".pdf"))
+
+	err = os.Remove(filepath.Join(resumeDir, fileNames[role]+audience+".pdf_original"))
+	if err != nil {
+		logger.Fatal(fmt.Errorf("error removing `%s`: %w", fileNames[role]+audience+".pdf_original", err))
+	}
 }

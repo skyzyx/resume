@@ -1,13 +1,13 @@
-# Ryan Parman
+# Ryan Parman • [jobs@ryanparman.com](mailto:jobs@ryanparman.com)
 
 **Cloud-native engineering leader with a focus on reliability, scalability, and security for the modern web.**
 
 **Links:** [GitHub (personal)] • [GitHub (side project)] • [LinkedIn] • [Stack Overflow] • [Role-targeted résumés](https://github.com/skyzyx/resume/blob/master/resumes/#readme) \
-**Format:** [Web](https://github.com/skyzyx/resume/blob/master/resumes/ryanparman-software-eng-devtools.md) • [PDF](https://github.com/skyzyx/resume/raw/master/resumes/ryanparman-software-eng-devtools.pdf) • [Word](https://github.com/skyzyx/resume/raw/master/resumes/ryanparman-software-eng-devtools.docx) • [OpenDocument](https://github.com/skyzyx/resume/raw/master/resumes/ryanparman-software-eng-devtools.odt) • [Raw Markdown](https://github.com/skyzyx/resume/raw/master/resumes/ryanparman-software-eng-devtools.md)
+**Format:** [Web](https://github.com/skyzyx/resume/blob/master/resumes/ryanparman-software-eng-devtools.md) • [PDF](https://github.com/skyzyx/resume/raw/master/resumes/ryanparman-software-eng-devtools.pdf) • [Word](https://github.com/skyzyx/resume/raw/master/resumes/ryanparman-software-eng-devtools.docx) • [OpenDocument](https://github.com/skyzyx/resume/raw/master/resumes/ryanparman-software-eng-devtools.odt)
 
 ## Summary
 
-Ryan Parman is a cloud-native engineering leader with over 25 years of experience, who specializes in technical leadership, software development, site reliability engineering, and cybersecurity for the modern web. A seasoned problem-solver who excels at listening, adapting, and driving continuous improvement. Committed to delivering exceptional work, building impactful solutions, and elevating team performance.
+Ryan Parman is a cloud-native engineering leader with over 25 years of experience, who specializes in technical leadership, software development, site reliability engineering, and cybersecurity for the modern web. Excels at listening, adapting, and driving continuous improvement. Delivers exceptional work, builds impactful solutions, and elevates team performance.
 
 ## Work Experience
 
@@ -17,87 +17,73 @@ Older roles are truncated for brevity. If interested, details can be found [on G
 
 #### Principal Engineer, Cloud Center of Excellence (January 2024—October 2024)
 
-* Assumed a role influencing the technical direction of the entire organization. Ensured a focus on real-world, actionable feedback and provided strategic direction aligned with practical needs.
+* Joined a team whose mission was to provide guidance and support in the cloud journey of the entire organization.
 
-* Continued to be involved in the oversight and direction of our AWS stack, security, guardrails, and more.
+* Proposed best practices, guardrails, and security measures to ensure a secure and efficient cloud environment.
 
-* Identified opportunities to extend the security measures and guardrails developed for AWS to other cloud platforms.
+* Identified opportunities to extend the security measures and guardrails devised for AWS to other cloud platforms.
 
 #### Principal Cloud and Platform Engineer (June 2020—January 2024)
 
-* Transitioned from Engineering Manager to a strategic technical leadership role.
+* Managed the Base [AMI] program. Leveraged insights from [CIS], security patching, and internal needs to develop a unified build pipeline integrating best practices.
 
-* Managed the program for building and maintaining base AMIs for all of McGraw Hill.
+* Conducted comprehensive scans of [Route 53][Amazon Route 53] to obtain a mapping of the company’s thousands of active websites. Prioritized identifying and remediating misconfigurations, rotating certificates, and increasing visibility.
 
-* Using [AWS SDKs], conducted comprehensive scans of Route 53 to obtain a mapping of thousands of active websites owned by McGraw Hill. Focused on identifying and remediating misconfigurations, rotating certificates, and more.
+* Spearheaded the [Artifactory] Rebuild project. Ran the project from inception to completion, including the majority of development. Directed effort across ~80 teams and ~300 services to complete the project.
 
-* Rebuilt our [Artifactory] cluster with a “cattle, not pets” approach. Ran the project from inception to completion, including the majority of development. Worked across dozens of teams and hundreds of services to complete the project.
+* Led dozens of smaller projects, offered guidance to engineers on best practices, and documented knowledge.
 
 #### Engineering Manager, Site Reliability (October 2018—June 2020)
 
-* Managed a team of four, while working to level-up the team's technical skills and leadership capabilities. Conducted regular 1:1s, performance reviews, and career development discussions.
+* Led the [_Site Reliability Engineering_][SRE] (SRE) team in addressing macro-oriented problems affecting engineering teams, empowering greater self-service.
 
-* Led the [_Site Reliability Engineering_][SRE] (SRE) team in addressing macro-oriented problems affecting decentralized, heterogeneous engineering teams across the company. Empowered greater self-service for engineering teams.
+* Established a process for maintaining reusable [Terraform] modules which teams leveraged to compose infrastructure with minimal effort.
 
-* Revamped the Seattle SRE interview process to prioritize a 70/30 focus on software engineering (Dev) and systems operations (Ops). Emphasized leadership qualities, bias for action, and high curiosity.
+* Customized the [Amazon Linux] AMIs to comply with Level-2 [CIS] Guidelines for both Amazon Linux and [Docker]. Liaised with cybersecurity, operations, and business units to ensure compliance.
 
-* Owned and served as the key decision-maker in development of a core platform for company-wide, reliability-focused projects.
-
-* Formed and led a leadership group to establish a process maintaining reusable Terraform modules which could be composed together according to a service’s needs.
-
-* Customized the Amazon Linux AMIs to comply with Level-2 [CIS] Guidelines for both Amazon Linux and [Docker]. Collaborated closely with cybersecurity, operations, and various business units to ensure compliance.
-
-* Developed custom security and operational tooling where off-the-shelf tools wouldn't give us what we needed, to understand the current posture of ±200 AWS accounts.
+* Invented custom security and operational tooling to understand the current posture of ~200 AWS accounts where off-the-shelf tools did not meet the needs of the organization.
 
 * Reduced the time to deploy a new service from dozens of weeks to a single meeting by implementing a _Monitoring-as-Code_ methodology, and defining broad-use [Service Level Objectives][SLO] (SLOs).
 
 #### Staff Software Engineer (October 2016—October 2018)
 
-* Led the development of multiple Tier-1 services within the educational content authoring pipeline, leveraging technologies such as [REST], [GraphQL], API design, [Amazon ECS], [Docker], [Terraform], [ePubs][EPUB], and security best practices.
+* Led the development of Tier-1 services within the educational content authoring pipeline, leveraging technologies such as [REST], [GraphQL], API design, [Amazon ECS] (similar to [Kubernetes]), [Docker], [Terraform], [ePubs][EPUB], and security best practices.
 
-* Provided the technical direction of these projects, promoted their adoption across the organization, provided comprehensive documentation, and offered ongoing guidance on adoption.
+* Led the development of the authoring component of the [SmartBook 2.0 product][SB2], and the internal system which indexes authored content, builds ePubs, and encodes images/video for the ePub CDN using [ffmpeg].
 
-* Led the development of the authoring component of [McGraw Hill’s SmartBook 2.0 product][SB2], and the internal system which indexes authored content, builds ePubs, and encodes images/video for McGraw Hill’s ePub CDN.
+* Established the technical direction of these projects, promoted adoption across the organization, published comprehensive documentation, and offered ongoing integration guidance.
 
-* Introduced the adoption of continuous integration (CI), continuous delivery (CD), rapid deployment practices, and Docker containers.
-
-* Introduced a more hands-on monitoring approach, enabling development teams to actively engage in their own operations. Achieved significantly lower _Mean Time to Recovery_ (MTTR).
-
-* Served as a core resource in adopting _Infrastructure-as-Code_ (IaC) tools such as [Terraform] and [Packer].
+* Accelerated the adoption of CI/CD, rapid deployment practices, and Docker containers, shortening the feedback loop for developers and increasing the reliability of deployments.
 
 ### [WePay] — Redwood City, CA
 
 #### DevOps Engineer (April 2015—September 2016)
 
-* Led a cross-company initiative to upgrade the monolithic application from PHP 5.4 to PHP 5.6 (the latest at the time). Facilitated cross-team collaboration among all major engineering teams and QA departments in order to achieve results.
+* Led a cross-company initiative to upgrade the monolithic application from [PHP] 5.4 to PHP 5.6 (the latest at the time). Facilitated cross-team collaboration among all major engineering teams and QA departments to achieve results.
 
-* Initiated a program to automate the creation of base server images for our cloud servers. They allowed new servers to boot and begin serving traffic ~75% faster.
+* Initiated a program to automate the creation of base server images for cloud servers. This allowed new servers to boot and begin serving traffic ~75% faster.
 
-* Began investigating ways to implement _configuration-as-code_ for our cloud infrastructure.
+* Invested in monitoring and alerting systems to prevent customer-facing issues.
 
 #### Senior API Engineer (April 2014—April 2015)
 
-* Took the lead on the company’s [HackerOne](https://www.hackerone.com) program, coordinating across teams to address security issues.
+* Led the company’s [HackerOne](https://www.hackerone.com) program, coordinating across teams to address security issues.
 
-* Built a development environment for engineering teams. Reduced new engineer onboarding time from 2 weeks → 1 day.
+* Built a development environment for engineering teams. Reduced new engineer onboarding time from 2 weeks to 1 day.
 
-* Instrumental in designing WePay’s MFA-as-a-Service offering. (U.S. patent filing [US15042104])
-
-* Developed new API endpoints to help expand WePay’s business and support its partners.
+* Expanded WePay’s payment security offerings by designing MFA-as-a-Service (U.S. patent filing [US15042104]).
 
 ### [Amazon Web Services] — Seattle, WA
 
 #### Web Development Engineer II (March 2010—April 2014)
 
-* AWS hard-forked my open-source _CloudFusion_ project into the [AWS SDK for PHP], then hired me to work on it.
+* Created the [AWS SDK for PHP], enabled AWS to reach the largest developer group — [PHP].
 
-* Collaborated with the [AWS Elastic Beanstalk] team to provide PHP support for the platform, which launched in March 2012.
+* Initiated the creation of [AWS SDK for PHP] v2 to address changes in the PHP language and growth of AWS services.
 
-* Played a key role in the creation and development of the [AWS SDK for PHP] v2, incorporating significant changes in the PHP language and community since CloudFusion was first written in 2005.
+* Led one of the first teams to provide reusable UI building blocks for the [AWS Management Console], by collaborating directly with the AWS Design team.
 
-* Collaborated with the AWS Design team on the [AWS Management Console], to build a robust and user-friendly console. Led one of the first teams to provide reusable UI building blocks at AWS.
-
-* Focusing on Amazon’s _Customer Obsession_ leadership principle, I successfully pushed for being better stewards of our community. Included increased transparency, better communication, and improved tooling for developers. [[Examples](https://github.com/skyzyx/resume/blob/master/amazon-specifics.md)]
+* Invested in increased transparency, better communication, and improved tooling for developers. [[Examples](https://github.com/skyzyx/resume/blob/master/amazon-specifics.md)]
 
 ## Projects
 
@@ -129,17 +115,15 @@ See a [selective list of recommendations](https://github.com/skyzyx/resume/blob/
 * U.S. patent filing, [“Hive-based Peer-to-Peer Network”][US8103870B2] (US8103870B2) (2007)
 * Voting representative for AWS, [PHP Framework Interoperability Group][PHP-FIG] (2012–2013)
 
-## Keywords and Skills
+## Skills
 
-This list is not exhaustive, but is targeted toward the skills most relevant to Software Engineering and DevTools roles.
+This list is not exhaustive, but these are software and skills I leveraged in the roles above which are most relevant to Software Engineering and DevTools roles.
 
-API design, API versioning, CLI tools, [Bash], [CircleCI], [Docker], [GitHub Actions], [Git], [Go], [GraphQL], [JWT], [NFS], [PHP] (modern), [Python], [REST], [Redis], [Subversion], [Vagrant], [WordPress], [XSLT], [ffmpeg], [twelve-factor applications], automation, building platforms, code generation, defensive cybersecurity, multi-platform development, performance, scalability, software library design, software testing, technical documentation.
+API design, API versioning, CLI tools, [Bash], [CircleCI], [Docker], [GitHub Actions], [Git], [Go], [GraphQL], [JWT], [NFS], [PHP], [Python], [REST], [Redis], [Subversion], [Vagrant], [WordPress], [XSLT], [ffmpeg], [twelve-factor applications], automation, building platforms, code generation, defensive cybersecurity, multi-platform development, performance, scalability, software library design, software testing, technical documentation.
 
 ## Education
 
-Obtained a **Bachelor of Arts** degree in _Design and Visualization_ from _Silicon Valley College_ (now [Carrington College]) in San Jose, CA.
-
-Graduated in _November 2003_ with a **3.84** GPA.
+_Silicon Valley College_ (now [Carrington College]), San Jose, CA. Bachelor of Arts, _Design and Visualization_
 
 [Alpine Linux]: https://alpinelinux.org
 [Amazon ACM]: https://aws.amazon.com/certificate-manager/
@@ -151,6 +135,7 @@ Graduated in _November 2003_ with a **3.84** GPA.
 [Amazon Route 53]: https://aws.amazon.com/route53/
 [Amazon S3]: https://aws.amazon.com/s3/
 [Amazon Web Services]: https://www.crunchbase.com/organization/amazon-web-services
+[AMI]: https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/AMIs.html
 [Ansible]: https://www.redhat.com/en/technologies/management/ansible
 [ARM64]: https://aws.amazon.com/ec2/graviton/
 [Artifactory]: https://jfrog.com/artifactory/
@@ -189,6 +174,7 @@ Graduated in _November 2003_ with a **3.84** GPA.
 [Jira]: https://www.atlassian.com/software/jira
 [JWT]: https://jwt.io
 [kubectl]: https://github.com/kubernetes/kubectl
+[Kubernetes]: https://kubernetes.io
 [LinkedIn]: https://www.linkedin.com/in/rparman/
 [McGraw Hill]: https://www.crunchbase.com/organization/mcgraw-hill-education
 [NFS]: https://en.wikipedia.org/wiki/Network_File_System
