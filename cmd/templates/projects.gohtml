@@ -1,5 +1,9 @@
 {{ define "projects" -}}
 {{ if not .IsTPM -}}
+{{ if .IsCloud }}
+<div class="page-break"></div>
+
+{{ end -}}
 ## Projects
 
 Proof that I can code, call APIs, interact with SDKs, and build user-facing software. I have live-coding anxiety, so live-coding interviews will always present me at my worst, not my best.

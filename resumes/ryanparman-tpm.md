@@ -17,6 +17,8 @@ Older roles are truncated for brevity. If interested, details can be found [on G
 
 ### [McGraw Hill] — Remote (since COVID), previously Seattle, WA
 
+> McGraw Hill is a _learning science_ company which produces textbooks, digital learning tools, and adaptive technology to enhance learning. It is one of the “big three” educational publishers in the U.S, and was acquired by Platinum Equity 2021.
+
 #### Principal Engineer, Cloud Center of Excellence (January 2024—October 2024)
 
 * Joined a team whose mission was to provide guidance and support in the cloud journey of the entire organization.
@@ -26,6 +28,8 @@ Older roles are truncated for brevity. If interested, details can be found [on G
 * Identified opportunities to extend the security measures and guardrails devised for AWS to other cloud platforms.
 
 #### Principal Cloud and Platform Engineer (June 2020—January 2024)
+
+* As every school in America transitioned to online learning during the COVID-19 lockdowns, I was the technical/development lead on the team who supported all SRE and product engineering teams, working on core platforms and services.
 
 * Authored or edited over 1,800 [Confluence] documents.
 
@@ -61,6 +65,8 @@ Older roles are truncated for brevity. If interested, details can be found [on G
 
 ### [WePay] — Redwood City, CA
 
+> WePay is an online payment service provider which provides “payments for platforms”, where examples of platforms are GoFundMe, Care.com, and Xbox. It was acquired by JPMorgan Chase in October 2017.
+
 #### DevOps Engineer (April 2015—September 2016)
 
 * Led a cross-company initiative to upgrade the monolithic application from [PHP] 5.4 to PHP 5.6 (the latest at the time). Facilitated cross-team collaboration among all major engineering teams and QA departments to achieve results.
@@ -78,6 +84,8 @@ Older roles are truncated for brevity. If interested, details can be found [on G
 * Expanded WePay’s payment security offerings by designing MFA-as-a-Service (U.S. patent filing [US15042104]).
 
 ### [Amazon Web Services] — Seattle, WA
+
+> Amazon Web Services provides on-demand cloud computing platforms and APIs to individuals, companies, and governments, on a metered, pay-as-you-go basis.
 
 #### Web Development Engineer II (March 2010—April 2014)
 

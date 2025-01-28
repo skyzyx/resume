@@ -7,13 +7,17 @@
 
 ## Summary
 
-Ryan Parman is a cloud-native engineering leader with over 25 years of experience, who specializes in technical leadership, software development, site reliability engineering, and cybersecurity for the modern web. Excels at listening, adapting, and driving continuous improvement. Delivers exceptional work, builds impactful solutions, and elevates team performance.
+Ryan Parman is a cloud-native engineering leader, who specializes in technical leadership, software development, site reliability engineering, and cybersecurity for the modern web. Excels at listening, adapting, and driving continuous improvement.
+
+Small business owner, two-time startup founder, and creator of two open-source projects with millions of users each. Ryan has a proven track record of building high-quality software, delivering impactful solutions, and elevating team performance.
 
 ## Work Experience
 
 Older roles are truncated for brevity. If interested, details can be found [on GitHub](https://github.com/skyzyx/resume/blob/master/ryanparman-previously.md).
 
 ### [McGraw Hill] — Remote (since COVID), previously Seattle, WA
+
+> McGraw Hill is a _learning science_ company which produces textbooks, digital learning tools, and adaptive technology to enhance learning. It is one of the “big three” educational publishers in the U.S, and was acquired by Platinum Equity 2021.
 
 #### Principal Engineer, Cloud Center of Excellence (January 2024—October 2024)
 
@@ -24,6 +28,8 @@ Older roles are truncated for brevity. If interested, details can be found [on G
 * Identified opportunities to extend the security measures and guardrails devised for AWS to other cloud platforms.
 
 #### Principal Cloud and Platform Engineer (June 2020—January 2024)
+
+* As every school in America transitioned to online learning during the COVID-19 lockdowns, I was the technical/development lead on the team who supported all SRE and product engineering teams, working on core platforms and services.
 
 * Partnered with Enterprise Architecture and [AWS Professional Services] to deploy [Control Tower][AWS Control Tower] and [Identity Center][AWS Identity Center], resulting in lowered costs and increased control over account guardrails.
 
@@ -67,6 +73,8 @@ Older roles are truncated for brevity. If interested, details can be found [on G
 
 ### [WePay] — Redwood City, CA
 
+> WePay is an online payment service provider which provides “payments for platforms”, where examples of platforms are GoFundMe, Care.com, and Xbox. It was acquired by JPMorgan Chase in October 2017.
+
 #### DevOps Engineer (April 2015—September 2016)
 
 * Led a cross-company initiative to upgrade the monolithic application from [PHP] 5.4 to PHP 5.6 (the latest at the time). Facilitated cross-team collaboration among all major engineering teams and QA departments to achieve results.
@@ -87,6 +95,8 @@ Older roles are truncated for brevity. If interested, details can be found [on G
 
 ### [Amazon Web Services] — Seattle, WA
 
+> Amazon Web Services provides on-demand cloud computing platforms and APIs to individuals, companies, and governments, on a metered, pay-as-you-go basis.
+
 #### Web Development Engineer II (March 2010—April 2014)
 
 * Created the [AWS SDK for PHP], enabled AWS to reach the largest developer group — [PHP].
@@ -96,6 +106,8 @@ Older roles are truncated for brevity. If interested, details can be found [on G
 * Led one of the first teams to provide reusable UI building blocks for the [AWS Management Console], by collaborating directly with the AWS Design team.
 
 * Invested in increased transparency, better communication, and improved tooling for developers. [[Examples](https://github.com/skyzyx/resume/blob/master/amazon-specifics.md)]
+
+<div class="page-break"></div>
 
 ## Projects
 
