@@ -29,7 +29,7 @@ Older roles are truncated for brevity. If interested, details can be found [on G
 
 #### Principal Cloud and Platform Engineer (June 2020—January 2024)
 
-* As every school in America transitioned to online learning during the COVID-19 lockdowns, I was the technical/development lead on the team who supported all SRE and product engineering teams, working on core platforms and services.
+* Led the team who supported all SRE and product engineering teams, working on core platforms and services, as every school in America transitioned to online learning during the COVID-19 lockdowns.
 
 * Authored or edited over 1,800 [Confluence] documents.
 

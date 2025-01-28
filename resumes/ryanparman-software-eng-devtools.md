@@ -29,7 +29,7 @@ Older roles are truncated for brevity. If interested, details can be found [on G
 
 #### Principal Cloud and Platform Engineer (June 2020—January 2024)
 
-* As every school in America transitioned to online learning during the COVID-19 lockdowns, I was the technical/development lead on the team who supported all SRE and product engineering teams, working on core platforms and services.
+* Led the team who supported all SRE and product engineering teams, working on core platforms and services, as every school in America transitioned to online learning during the COVID-19 lockdowns.
 
 * Managed the Base [AMI] program. Leveraged insights from [CIS], security patching, and internal needs to develop a unified build pipeline integrating best practices.
 
@@ -101,21 +101,13 @@ Older roles are truncated for brevity. If interested, details can be found [on G
 
 Proof that I can code, call APIs, interact with SDKs, and build user-facing software. I have live-coding anxiety, so live-coding interviews will always present me at my worst, not my best.
 
-* **DevSec Tools:** Building a [website](https://github.com/northwood-labs/devsec-ui), [CLI tool, and Go library](https://github.com/northwood-labs/devsec-tools) for helping developers identify potential web security configuration issues (in-progress).
-
+* **DevSec Tools:** Building a [website](https://github.com/northwood-labs/devsec-ui), [CLI tool, and Go library](https://github.com/northwood-labs/devsec-tools) for identifying potential security configuration issues (in-progress).
 * **Custom Linux Packages:** Building a [repository of custom Linux packages](https://github.com/northwood-labs/package-building/wiki) (in-progress).
-
 * **CSP Evaluator:** Building a [parser and evaluator for Content Security Policy (CSP) directives](https://github.com/northwood-labs/csp-parser) in Go (in-progress).
-
 * **Terraform Provider:** Built a [custom provider](https://github.com/northwood-labs/terraform-provider-corefunc) which provides a set of utility functions for use in Terraform/OpenTofu.
-
 * **Multi-Platform Docker:** Built a [downloader for GitHub release assets](https://github.com/northwood-labs/download-asset) which simplifies building multi-platform images.
-
-* **AWS Organization Security:** Built a [library + CLI tool](https://github.com/northwood-labs/assume-spoke-role) which simplifies the AWS pattern for multi-account organizations which they call “hub and spoke.”
-
-* **AWS Session Manager:** The terminal is the right tool for shell sessions. Built a [TUI](https://en.wikipedia.org/wiki/Text-based_user_interface) for [simplifying connections to SSM-enabled EC2 instances](https://github.com/northwood-labs/ssm-shell) using your Terminal.
-
-* **Configuration for `tflint`:** Built a [tool for generating up-to-date configurations for AWS/GCP/Azure](https://github.com/northwood-labs/tflint-config-generator) for use with [tflint](https://github.com/terraform-linters/tflint).
+* **AWS Organization Security:** Built a [library + CLI tool](https://github.com/northwood-labs/assume-spoke-role) which simplifies the hub-and-spoke pattern for multi-account orgs.
+* **AWS Session Manager:** Built a [TUI](https://en.wikipedia.org/wiki/Text-based_user_interface) for [simplifying connections to SSM-enabled EC2 instances](https://github.com/northwood-labs/ssm-shell) using your Terminal.
 
 ## Recommendations
 

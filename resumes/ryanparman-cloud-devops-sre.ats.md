@@ -16,7 +16,7 @@
 
 #### Principal Cloud and Platform Engineer (June 2020—January 2024)
 
-* As every school in America transitioned to online learning during the COVID-19 lockdowns, I was the technical/development lead on the team who supported all SRE and product engineering teams, working on core platforms and services.
+* Led the team who supported all SRE and product engineering teams, working on core platforms and services, as every school in America transitioned to online learning during the COVID-19 lockdowns.
 * Partnered with Enterprise Architecture and [AWS Professional Services] to deploy [Control Tower][AWS Control Tower] and [Identity Center][AWS Identity Center], resulting in lowered costs and increased control over account guardrails.
 * Managed the Base [AMI] program. Leveraged insights from [CIS], security patching, and internal needs to develop a unified build pipeline integrating best practices.
 * Conducted comprehensive scans of [Route 53][Amazon Route 53] to obtain a mapping of the company’s thousands of active websites. Prioritized identifying and remediating misconfigurations, rotating certificates, and increasing visibility.
