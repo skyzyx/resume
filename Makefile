@@ -76,3 +76,30 @@ build:
 	@ $(GO) run main.go generate
 	@ cp -fv ./resumes/ryanparman-general-cv.md ./README.md
 	@ cp -fv ./RESUMES-README.md ./resumes/README.md
+
+
+.PHONY: coverletter
+## coverletter: [coverletter]* Generate a coverletter.
+coverletter:
+	@ FILENAME=$(shell gum input --placeholder "Company name or role?" --prompt "> " --width 80 \
+		| tr '[:upper:]' '[:lower:]' \
+		| sed -E 's,\s,-,g' \
+		| xargs -I% bash -c "echo coverletters/%.md") && \
+	GUM_WRITE_HEIGHT=20 gum write --char-limit=0 --show-line-numbers --prompt="> " \
+		--placeholder="Write your coverletter. GitHub-Flavored Markdown is supported." \
+		< coverletters/_template.md \
+		> $FILENAME
+
+pdf:
+	@ FILENAME=$(shell gum file ./coverletters --cursor=">" --file --height=20) \
+	pandoc \
+		-r gfm \
+		-w html5+ascii_identifiers+auto_identifiers+gfm_auto_identifiers+smart+task_lists \
+		--columns=20000 \
+		--eol=lf \
+		--template=cmd/templates/pdf.tmpl.html \
+		--output=render/coverletter.html \
+		$$FILENAME && \
+	$(GO) run main.go serve \
+		--load-file=coverletter.html \
+		--write-pdf=coverletters/ryanparman-coverletter-$(shell basename $$FILENAME).pdf
