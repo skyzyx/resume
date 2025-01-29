@@ -1,0 +1,37 @@
+search_engine = "https://kagi.com/search?q="
+
+search_domains = [
+  "applytojob.com",
+  "ats.rippling.com",
+  "dejobs.org",
+  "icims.com",
+  "inflightcloud.com",
+  "job-boards.greenhouse.io",
+  "jobs.ashbyhq.com",
+  "jobs.jobvite.com",
+  "jobs.lever.co",
+  "jobs.smartrecruiters.com",
+  "myworkdayjobs.com",
+  "remote.co",
+  "remote.com",
+  "remote.io",
+  "remotejobs.com",
+  "remotejobs.io",
+  "weworkremotely.com",
+  "ziprecruiter.com",
+]
+
+job_roles = [
+  "cloud engineer",
+  "cybersecurity",
+  "devops",
+  "devsecops",
+  "observability",
+  "project manager",
+  "site reliability engineer",
+  "software engineer",
+  "sre",
+  "technical product manager",
+  "technical program manager",
+  "tpm",
+]

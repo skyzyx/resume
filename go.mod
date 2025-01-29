@@ -37,6 +37,7 @@ require (
 	github.com/northwood-labs/archstring v0.0.0-20240514202917-e9357b4b91c8 // indirect
 	github.com/northwood-labs/cli-helpers v0.0.0-20241111201136-8e7d54066157 // indirect
 	github.com/northwood-labs/debug v0.0.0-20240514204655-f938e2fa11e9 // indirect
+	github.com/pelletier/go-toml/v2 v2.2.3 // indirect
 	github.com/rivo/uniseg v0.4.7 // indirect
 	github.com/shopspring/decimal v1.4.0 // indirect
 	github.com/spf13/cast v1.7.1 // indirect

@@ -57,7 +57,7 @@ Older roles are truncated for brevity. If interested, details can be found [on G
 
 * Invented custom security and operational tooling to understand the current posture of ~200 AWS accounts where off-the-shelf tools did not meet the needs of the organization.
 
-* Reduced the time to deploy a new service from dozens of weeks to a single meeting by implementing a _Monitoring-as-Code_ methodology, and defining broad-use [Service Level Objectives][SLO] (SLOs).
+* Reduced the time to deploy a new service from dozens of weeks to a single meeting by implementing a _Monitoring-as-Code_ methodology, and defining broad-use [Service Level Objectives][SLO] (SLOs) ([New Relic], [Datadog]).
 
 #### Staff Software Engineer (October 2016—October 2018)
 
@@ -81,7 +81,7 @@ Older roles are truncated for brevity. If interested, details can be found [on G
 
 * Initiated a program to automate the creation of base server images for cloud servers. This allowed new servers to boot and begin serving traffic ~75% faster.
 
-* Invested in monitoring and alerting systems to prevent customer-facing issues.
+* Invested in monitoring and alerting systems to prevent customer-facing issues ([New Relic], [Grafana]).
 
 * Increased reliability and efficiency by implementing _configuration-as-code_ for cloud infrastructure in [GCP].
 
@@ -174,6 +174,7 @@ _Silicon Valley College_ (now [Carrington College]), San Jose, CA. Bachelor of A
 [CircleCI]: https://circleci.com/enterprise/
 [CIS]: https://www.cisecurity.org
 [Confluence]: https://www.atlassian.com/software/confluence
+[Datadog]: https://www.datadoghq.com
 [Docker]: https://www.docker.com
 [EC2 Image Builder]: https://aws.amazon.com/image-builder/
 [EPUB]: https://www.w3.org/publishing/epub3/
@@ -185,6 +186,7 @@ _Silicon Valley College_ (now [Carrington College]), San Jose, CA. Bachelor of A
 [GitHub Actions]: https://github.com/features/actions
 [GitHub Enterprise]: https://github.com/enterprise
 [Go]: https://go.dev
+[Grafana]: https://grafana.com
 [GraphQL]: https://graphql.org
 [Jenkins]: https://www.jenkins.io
 [Jira]: https://www.atlassian.com/software/jira
@@ -193,6 +195,7 @@ _Silicon Valley College_ (now [Carrington College]), San Jose, CA. Bachelor of A
 [Kubernetes]: https://kubernetes.io
 [LinkedIn]: https://www.linkedin.com/in/rparman/
 [McGraw Hill]: https://www.crunchbase.com/organization/mcgraw-hill-education
+[New Relic]: https://newrelic.com
 [NFS]: https://en.wikipedia.org/wiki/Network_File_System
 [Nginx]: https://www.nginx.com
 [Northwood Labs]: https://www.crunchbase.com/organization/northwood-labs
