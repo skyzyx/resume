@@ -28,7 +28,6 @@ type TemplateVars struct {
 	ResumeDir string
 
 	IsAll   bool
-	IsATS   bool
 	IsCloud bool
 	IsSDE   bool
 	IsTPM   bool
@@ -125,17 +124,12 @@ var (
 
 			// For each role, write the Markdown content to a file.
 			for _, role := range fRoles {
-				for _, isATS := range []bool{false, true} {
-					audience := ""
-					if isATS {
-						audience = ".ats"
-					}
+				audience := ""
 
-					generateMarkdown(templates, role, resumeDir, audience, isATS)
-					generateWord(role, resumeDir, audience, "docx")
-					generateWord(role, resumeDir, audience, "odt")
-					generatePDF(role, resumeDir, audience)
-				}
+				generateMarkdown(templates, role, resumeDir, audience)
+				generateWord(role, resumeDir, audience, "docx")
+				generateWord(role, resumeDir, audience, "odt")
+				generatePDF(role, resumeDir, audience)
 			}
 
 			// Terminate the web server.
@@ -151,15 +145,11 @@ func init() {
 	generateCmd.Flags().StringArrayVarP(&fRoles, "roles", "r", jobRoles, "Versions (roles) of the résumé to generate.")
 }
 
-func generateMarkdown(templates *template.Template, role, resumeDir, audience string, isATS bool) {
+func generateMarkdown(templates *template.Template, role, resumeDir, audience string) {
 	vars := TemplateVars{
 		Resume:    "https://github.com/skyzyx/resume/blob/master/resumes/" + fileNames[role],
 		ResumeDir: "https://github.com/skyzyx/resume/blob/master/resumes/",
 		ResumeRaw: "https://github.com/skyzyx/resume/raw/master/resumes/" + fileNames[role],
-	}
-
-	if isATS {
-		vars.IsATS = true
 	}
 
 	// Pass an identifier to the template, so that we can switch on it.
@@ -198,12 +188,10 @@ func generateMarkdown(templates *template.Template, role, resumeDir, audience st
 	reTooManyLinebreaks := regexp.MustCompile(`\n{3,}`)
 	strOut := reTooManyLinebreaks.ReplaceAllString(bufIn.String(), "\n\n")
 
-	if isATS {
-		// Reduce line breaks between bullets.
-		reReduceLinebreaks := regexp.MustCompile(`\*\s([^\n]+)\n{2}\*`)
-		strOut = reReduceLinebreaks.ReplaceAllString(strOut, "* ${1}\n*")
-		strOut = reReduceLinebreaks.ReplaceAllString(strOut, "* ${1}\n*")
-	}
+	// Reduce line breaks between bullets.
+	reReduceLinebreaks := regexp.MustCompile(`\*\s([^\n]+)\n{2}\*`)
+	strOut = reReduceLinebreaks.ReplaceAllString(strOut, "* ${1}\n*")
+	strOut = reReduceLinebreaks.ReplaceAllString(strOut, "* ${1}\n*")
 
 	bufOut := strings.NewReader(strOut)
 

@@ -88,10 +88,11 @@ coverletter:
 	GUM_WRITE_HEIGHT=20 gum write --char-limit=0 --show-line-numbers --prompt="> " \
 		--placeholder="Write your coverletter. GitHub-Flavored Markdown is supported." \
 		< coverletters/_template.md \
-		> $FILENAME
+		> $$FILENAME
 
+## pdf: [coverletter]* Generate a PDF version of a coverletter.
 pdf:
-	@ FILENAME=$(shell gum file ./coverletters --cursor=">" --file --height=20) \
+	FILENAME=$(shell gum file ./coverletters --cursor=">" --file --height=20) && \
 	pandoc \
 		-r gfm \
 		-w html5+ascii_identifiers+auto_identifiers+gfm_auto_identifiers+smart+task_lists \

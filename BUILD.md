@@ -41,12 +41,6 @@ These live in `cmd/templates/`. There are a few boolean variables that can be us
 * `.IsSDE` — This is for the Software Engineering and DevTools roles.
 * `.IsTPM` — This is for the PM/TPM roles.
 
-### ATS
-
-There is another boolean variable called `.IsATS`. Each of the ones above are executed with `.IsATS=true` and `.IsATS=false`.
-
-The ATS versions of my résumé are simpler, and focus more on keywords and phrases. They provide a link for interviewers to download one that has a bit more detail for interviewers.
-
 ### Steps
 
 1. Looping over each role, the appropriate templates are executed to produce the Markdown-formatted résumé for that role.

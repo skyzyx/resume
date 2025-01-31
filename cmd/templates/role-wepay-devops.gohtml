@@ -7,8 +7,8 @@
 
 * Invested in monitoring and alerting systems to prevent customer-facing issues ([New Relic], [Grafana]).
 
-{{ if or .IsAll .IsCloud -}}
-* Increased reliability and efficiency by implementing _configuration-as-code_ for cloud infrastructure in [GCP].
+{{ if not .IsTPM -}}
+* Explored _configuration-as-code_ for cloud infrastructure in [Google Cloud Platform][GCP] in order to improve reliability and efficiency.
 
 {{ end -}}
 {{- end }}

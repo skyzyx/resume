@@ -3,7 +3,7 @@
 <div class="page-break"></div>
 
 {{ end -}}
-{{ if or .IsAll (not .IsTPM) -}}
+{{ if not .IsTPM -}}
 ## Projects
 
 Proof that I can code, call APIs, interact with SDKs, and build user-facing software. I have live-coding anxiety, so live-coding interviews will always present me at my worst, not my best.
@@ -15,13 +15,11 @@ Proof that I can code, call APIs, interact with SDKs, and build user-facing soft
 * **Multi-Platform Docker:** Built a [downloader for GitHub release assets](https://github.com/northwood-labs/download-asset) which simplifies building multi-platform images.
 * **AWS Organization Security:** Built a [library + CLI tool](https://github.com/northwood-labs/assume-spoke-role) which simplifies the hub-and-spoke pattern for multi-account orgs.
 * **AWS Session Manager:** Built a [TUI](https://en.wikipedia.org/wiki/Text-based_user_interface) for [simplifying connections to SSM-enabled EC2 instances](https://github.com/northwood-labs/ssm-shell) using your Terminal.
-{{/* * **Configuration for `tflint`:** Built a [tool for generating up-to-date configurations for AWS/GCP/Azure](https://github.com/northwood-labs/tflint-config-generator) for use with [tflint](https://github.com/terraform-linters/tflint). */}}
 
 {{ end -}}
-{{ if or .IsAll .IsTPM -}}
 ## Examples of Technical Documentation
 
-Much of my other work is published inside of corporate Confluence/wikis. Here are some examples of my public-facing documentation:
+Much of my other work is published inside of corporate Confluence/wikis. Here are examples of my public-facing documentation:
 
 * [Setting up macOS for development](https://github.com/northwood-labs/macos-for-development/wiki)
 * [Local AWS Lambda environments (with Go)](https://github.com/northwood-labs/local-lambda-environments-with-go)
@@ -30,5 +28,4 @@ Much of my other work is published inside of corporate Confluence/wikis. Here ar
 * Diagrams of Artifactory [infrastructure](https://whimsical.com/artifactory-infrastructure-diagram-5MbWJd8BJfMbRWhfZwtHhQ) and [software](https://whimsical.com/artifactory-software-configuration-and-data-flow-QWZnvbv4SXTX2qkmKGZAqp) configuration.
 * Diagram of a [secrets-rotation system](https://whimsical.com/tokengen-infrastructure-diagram-and-data-flow-5ZphqPDP826AaPZHKxCKSr).
 
-{{ end -}}
 {{- end }}

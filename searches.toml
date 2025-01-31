@@ -30,8 +30,6 @@ job_roles = [
   "project manager",
   "site reliability engineer",
   "software engineer",
-  "sre",
-  "technical product manager",
+  "product manager",
   "technical program manager",
-  "tpm",
 ]

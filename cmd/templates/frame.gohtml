@@ -4,20 +4,16 @@
 
 {{ template "links" . }}
 
-{{ if not .IsATS -}}
 {{ template "summary" . }}
 
-{{ end -}}
 {{ template "experience" . }}
 
-{{ if not .IsATS -}}
 {{ template "projects" . }}
 
 {{ template "recommendations" . }}
 
 {{ template "accomplishments" . }}
 
-{{ end -}}
 {{ template "skills" . }}
 
 {{ template "education" . }}

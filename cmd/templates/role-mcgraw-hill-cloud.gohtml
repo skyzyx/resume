@@ -1,37 +1,43 @@
 {{ define "role-mcgraw-hill-cloud" -}}
 #### Principal Cloud and Platform Engineer (June 2020—January 2024)
 
-* Led the team who supported all SRE and product engineering teams, working on core platforms and services, as every school in America transitioned to online learning during the COVID-19 lockdowns.
+* Led the team who supported all SRE and product engineering teams, scaling core platforms and services as every school in America transitioned to online learning during the COVID-19 lockdowns.
 
 {{ if or .IsAll .IsTPM -}}
-* Authored or edited over 1,800 [Confluence] documents.
+* Authored/edited over 1,800 [Confluence] documents with the goal of reducing _tribal knowledge_.
 
 {{ end -}}
 
 {{ if or .IsAll .IsCloud .IsTPM -}}
-* Partnered with Enterprise Architecture and [AWS Professional Services] to deploy [Control Tower][AWS Control Tower] and [Identity Center][AWS Identity Center], resulting in lowered costs and increased control over account guardrails.
+* Partnered with Enterprise Architecture and [AWS Professional Services] to deploy [Control Tower][AWS Control Tower] and [Identity Center][AWS Identity Center], resulting in lowered costs and improved control over account guardrails.
 
 {{ end -}}
 
-* Managed the Base [AMI] program. Leveraged insights from [CIS], security patching, and internal needs to develop a unified build pipeline integrating best practices.
+* Managed the Base [AMI] program (server disk images). Leveraged insights from [CIS], security patching, and internal needs to develop a unified build pipeline integrating best practices. Reduced time-to-boot, and eliminated engineering toil (1 → 10).
 
 {{ if or .IsAll .IsSDE .IsCloud -}}
 * Conducted comprehensive scans of [Route 53][Amazon Route 53] to obtain a mapping of the company’s thousands of active websites. Prioritized identifying and remediating misconfigurations, rotating certificates, and increasing visibility.
 
+* Grew and ran a project which scanned ~200 AWS accounts for high-priority misconfigurations and vulnerabilities. Included a high-level score (friendly competition), explanations of the issues (security education), and instructions for fixing (driving forward). Became a trusted tool across the organization (1 → 10).
+
 {{- end }}
 
 {{ if or .IsAll .IsCloud -}}
-* Implemented the Linux runtime environment used by self-hosted [GitHub Actions] runners.
+* Implemented the custom Linux runtime environment used by self-hosted [GitHub Actions] runners.
 
 {{ end -}}
 
 * Spearheaded the [Artifactory] Rebuild project. Ran the project from inception to completion, including the majority of development. Directed effort across ~80 teams and ~300 services to complete the project.
 
 {{ if or .IsAll .IsCloud -}}
-* Improved security by enabling continuous token and password rotation for engineering teams by building a _Token Vending Machine_.
+* Enabled continuous token and password rotation for engineering teams by designing and deploying a _Token Vending Machine_, improving security.
 
 {{ end -}}
 
+{{ if or .IsAll (not .IsTPM) -}}
+* Adapted the _Monitoring-as-Code_ tooling/methodology to abstract-away the underlying vendor, streamlining a vendor migration ([New Relic], [Datadog]) (1 → 10).
+
+{{ end -}}
 {{ if or .IsAll .IsCloud .IsTPM -}}
 * Resolved all technology blockers preventing migration lower-cost [ARM64] CPUs, opening the door for ~$450k/year in cost savings.
 

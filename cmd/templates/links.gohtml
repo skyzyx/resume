@@ -1,10 +1,5 @@
 {{ define "links" -}}
-{{ if .IsATS -}}
-**IMPORTANT:** This résumé is optimized for _Applicant Tracking Systems_. **For interviewers:** [Web]({{ .Resume }}.md) • [PDF]({{ .ResumeRaw }}.pdf) • [Word]({{ .ResumeRaw }}.docx)
-
-{{- else -}}
 **Links:** [GitHub (personal)] • [GitHub (side project)] • [LinkedIn] • [Stack Overflow] • [Role-targeted résumés]({{ .ResumeDir }}#readme) \
 **Format:** [Web]({{ .Resume }}.md) • [PDF]({{ .ResumeRaw }}.pdf) • [Word]({{ .ResumeRaw }}.docx) • [OpenDocument]({{ .ResumeRaw }}.odt)
 
-{{- end -}}
 {{- end }}
