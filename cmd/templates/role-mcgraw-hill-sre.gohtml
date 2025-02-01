@@ -1,11 +1,11 @@
 {{ define "role-mcgraw-hill-sre" -}}
-{{ if or .IsAll .IsCloud -}}
+{{ if or .IsAll .IsCloud .IsEM -}}
 <div class="page-break"></div>
 
 {{ end -}}
 #### Engineering Manager, Site Reliability (October 2018—June 2020)
 
-{{ if or .IsAll .IsTPM -}}
+{{ if or .IsAll .IsEM .IsTPM -}}
 * Managed a team of four, while working to level-up the team's technical skills and leadership capabilities. Conducted regular 1:1s, performance reviews, and career development discussions.
 
 * Revamped the SRE interview process to prioritize a 70/30 focus on software engineering (Dev) and systems operations (Ops). Emphasized leadership qualities, bias for action, and high curiosity.
@@ -15,7 +15,7 @@
 
 * Established a process for maintaining reusable [Terraform] modules which teams leveraged to compose infrastructure.
 
-{{ if or .IsAll (not .IsTPM) -}}
+{{ if not .IsTPM -}}
 * Customized the [Amazon Linux] AMIs to comply with Level-2 [CIS] Guidelines for both Amazon Linux and [Docker]. Liaised with cybersecurity, operations, and business units to ensure compliance (0 → 1).
 
 * Invented custom security and operational tooling to understand the current posture of AWS accounts where off-the-shelf tools did not meet the needs of the organization (0 → 1).

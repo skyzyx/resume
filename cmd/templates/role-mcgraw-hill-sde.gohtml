@@ -1,4 +1,8 @@
 {{ define "role-mcgraw-hill-sde" -}}
+{{ if or .IsSDE -}}
+<div class="page-break"></div>
+
+{{ end -}}
 #### Staff Software Engineer (October 2016—October 2018)
 
 * Led the development of Tier-1 services within the educational content authoring pipeline, leveraging technologies such as [REST], [GraphQL], API design, [Amazon ECS] (similar to [Kubernetes]), [Docker], [Terraform], [ePubs][EPUB], and security best practices.
@@ -9,7 +13,7 @@
 
 * Accelerated the adoption of CI/CD, rapid deployment practices, and Docker containers, shortening the feedback loop for developers and increasing the reliability of deployments.
 
-{{ if or .IsAll .IsCloud -}}
+{{ if or .IsAll .IsCloud .IsEM -}}
 * Served as a core resource in adopting _Infrastructure-as-Code_ (IaC) tools such as [Terraform] and [Packer].
 
 {{ end -}}

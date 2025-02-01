@@ -7,7 +7,7 @@
 
 ## Summary
 
-Dynamic cloud engineering leader with a diverse background spanning design, development, security, and innovation. Proven expertise in building scalable infrastructure, driving efficiency, and enhancing user experience. Adept at leading teams, streamlining complex processes, and fostering knowledge-sharing cultures. Passionate about solving real-world problems through technology, security, and strategic thinking.
+Cloud engineering leader with a diverse background spanning design, development, security, and innovation. Proven expertise in building scalable infrastructure, driving efficiency, and enhancing user experience. Adept at leading teams, streamlining complex processes, and fostering knowledge-sharing cultures. Passionate about solving real-world problems through technology, security, and strategic thinking.
 
 ### Key Skills
 
@@ -53,13 +53,24 @@ Dynamic cloud engineering leader with a diverse background spanning design, deve
 #### Principal Cloud and Platform Engineer (June 2020—January 2024)
 
 * Led the team who supported all SRE and product engineering teams, scaling core platforms and services as every school in America transitioned to online learning during the COVID-19 lockdowns.
+* Authored/edited over 1,800 [Confluence] documents with the goal of reducing _tribal knowledge_.
+* Partnered with Enterprise Architecture and [AWS Professional Services] to deploy [Control Tower][AWS Control Tower] and [Identity Center][AWS Identity Center], resulting in lowered costs and improved control over account guardrails.
 * Managed the Base [AMI] program (server disk images). Leveraged insights from [CIS], security patching, and internal needs to develop a unified build pipeline integrating best practices. Reduced time-to-boot, and eliminated engineering toil (1 → 10).
+* Conducted comprehensive scans of [Route 53][Amazon Route 53] to obtain a mapping of the company’s thousands of active websites. Prioritized identifying and remediating misconfigurations, rotating certificates, and increasing visibility.
+* Grew and ran a project which evaluated AWS accounts for high-priority misconfigurations and vulnerabilities. Included a high-level score (friendly competition), explanations of the issues (security education), and instructions for fixing (driving forward). Became a trusted tool across the organization (1 → 10).
+* Implemented the custom Linux runtime environment used by self-hosted [GitHub Actions] runners.
 * Spearheaded the [Artifactory] Rebuild project. Ran the project from inception to completion, including the majority of development. Directed effort across ~80 teams and ~300 services to complete the project.
+* Enabled continuous token and password rotation for engineering teams by designing and deploying a _Token Vending Machine_, improving security.
 * Adapted the _Monitoring-as-Code_ tooling/methodology to abstract-away the underlying vendor, streamlining a vendor migration ([New Relic], [Datadog]) (1 → 10).
+* Resolved all technology blockers preventing migration lower-cost [ARM64] CPUs, opening the door for ~$450k/year in cost savings.
 * Led dozens of smaller projects, offered guidance to engineers on best practices, and documented knowledge.
+
+<div class="page-break"></div>
 
 #### Engineering Manager, Site Reliability (October 2018—June 2020)
 
+* Managed a team of four, while working to level-up the team's technical skills and leadership capabilities. Conducted regular 1:1s, performance reviews, and career development discussions.
+* Revamped the SRE interview process to prioritize a 70/30 focus on software engineering (Dev) and systems operations (Ops). Emphasized leadership qualities, bias for action, and high curiosity.
 * Led the [_Site Reliability Engineering_][SRE] (SRE) team in addressing macro problems affecting engineering, empowering self-service.
 * Established a process for maintaining reusable [Terraform] modules which teams leveraged to compose infrastructure.
 * Customized the [Amazon Linux] AMIs to comply with Level-2 [CIS] Guidelines for both Amazon Linux and [Docker]. Liaised with cybersecurity, operations, and business units to ensure compliance (0 → 1).
@@ -72,6 +83,7 @@ Dynamic cloud engineering leader with a diverse background spanning design, deve
 * Led the development of the authoring component of the [SmartBook 2.0 product][SB2], and the internal system which indexes authored content, builds ePubs, and encodes images/video for the ePub CDN using [ffmpeg].
 * Established the technical direction of these projects, promoted adoption across the organization, published comprehensive documentation, and offered ongoing integration guidance.
 * Accelerated the adoption of CI/CD, rapid deployment practices, and Docker containers, shortening the feedback loop for developers and increasing the reliability of deployments.
+* Served as a core resource in adopting _Infrastructure-as-Code_ (IaC) tools such as [Terraform] and [Packer].
 
 ### [WePay] — Redwood City, CA
 
@@ -100,6 +112,8 @@ Dynamic cloud engineering leader with a diverse background spanning design, deve
 * Initiated the creation of [AWS SDK for PHP] v2 to address changes in the PHP language and growth of AWS services.
 * Led one of the first teams to provide reusable UI building blocks for the [AWS Management Console], by collaborating directly with the AWS Design team.
 * Invested in increased transparency, better communication, and improved tooling for developers. [[Examples](https://github.com/skyzyx/resume/blob/master/amazon-specifics.md)]
+
+<div class="page-break"></div>
 
 ### Older roles, side projects
 
@@ -149,6 +163,10 @@ See a [selective list of recommendations](https://github.com/skyzyx/resume/blob/
 * [CloudFusion][AWS SDK for PHP] — A PHP SDK for AWS; founded in 2005; later became the official [AWS SDK for PHP]. Millions of global users.
 
 ## Skills
+
+This list is not exhaustive, but these are software and hard skills I leveraged in the roles above.
+
+CI/CD, DevOps, DevSecOps, [ARM64], [AWS Well-Architected], [AWS], [Amazon Web Services][AWS], [Ansible], [Artifactory], [Bash], [CIS], [CentOS], [CircleCI], [CloudFormation][AWS CloudFormation], [CloudWatch][Amazon CloudWatch], [Confluence], [Control Tower][AWS Control Tower], [Docker], [ECS][Amazon ECS], [GitHub Actions], [GitHub Enterprise], [Git], [Go], [GraphQL], [JWT], [JavaScript], [Jira], [Lambda][AWS Lambda], [Nginx], [OpenTelemetry], [OpenTofu], [PHP], [Packer], [Python], [Redis], [SDKs][AWS SDKs], [Terraform], [Traefik], [Vagrant], [twelve-factor applications], agile, architecture, automation, code generation, containerization, coordination, debugging, disaster recovery, distributed, documentation, error budget, kanban, microservices, multi-platform, optimization, organization, performance, platforms, project management, refactoring, reliability, risk mitigation, roadmap management, scalability, scripting, scrum, security, stakeholder management, test-driven development, testing, troubleshooting, uptime, vendor management.
 
 ## Education
 

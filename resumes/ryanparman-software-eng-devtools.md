@@ -7,7 +7,7 @@
 
 ## Summary
 
-Dynamic cloud engineering leader with a diverse background spanning design, development, security, and innovation. Proven expertise in building scalable infrastructure, driving efficiency, and enhancing user experience. Adept at leading teams, streamlining complex processes, and fostering knowledge-sharing cultures. Passionate about solving real-world problems through technology, security, and strategic thinking.
+Cloud engineering leader with a diverse background spanning design, development, security, and innovation. Proven expertise in building scalable infrastructure, driving efficiency, and enhancing user experience. Adept at leading teams, streamlining complex processes, and fostering knowledge-sharing cultures. Passionate about solving real-world problems through technology, security, and strategic thinking.
 
 ### Key Skills
 
@@ -67,6 +67,8 @@ Dynamic cloud engineering leader with a diverse background spanning design, deve
 * Customized the [Amazon Linux] AMIs to comply with Level-2 [CIS] Guidelines for both Amazon Linux and [Docker]. Liaised with cybersecurity, operations, and business units to ensure compliance (0 → 1).
 * Invented custom security and operational tooling to understand the current posture of AWS accounts where off-the-shelf tools did not meet the needs of the organization (0 → 1).
 * Reduced the time to deploy a new service from dozens of weeks to a single meeting by implementing a _Monitoring-as-Code_ methodology, and defining broad-use [Service Level Objectives][SLO] (SLOs) ([New Relic], [Datadog]) (0 → 1).
+
+<div class="page-break"></div>
 
 #### Staff Software Engineer (October 2016—October 2018)
 
@@ -152,7 +154,7 @@ See a [selective list of recommendations](https://github.com/skyzyx/resume/blob/
 
 ## Skills
 
-This list is not exhaustive, but these are software and skills I leveraged in the roles above which are most relevant to Software Engineering and DevTools roles.
+This list is not exhaustive, but these are software and hard skills I leveraged in the roles above which are most relevant to Software Engineering and DevTools roles.
 
 CI/CD, [AWS], [Bash], [CircleCI], [Docker], [GitHub Actions], [Git], [Go], [GraphQL], [JWT], [JavaScript], [PHP], [Python], [Redis], [Vagrant], [twelve-factor applications], automation, code generation, containerization, debugging, distributed, documentation, microservices, multi-platform, optimization, performance, platforms, refactoring, scalability, security, test-driven development, testing.
 

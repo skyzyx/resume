@@ -96,29 +96,29 @@
 {{ if not .IsGoPDF -}}
 ## Skills
 
-{{ if .IsAll -}}
-This list is not exhaustive, but these are software and skills I leveraged in the roles above.
+{{ if or .IsAll .IsEM -}}
+This list is not exhaustive, but these are software and hard skills I leveraged in the roles above.
 
 {{ (concat $languages $cloudSkills $sdeSkills $tpmSkills) | sortAlpha | uniq | join ", " }}.
 
 {{ end -}}
 
 {{ if .IsCloud -}}
-This list is not exhaustive, but these are software and skills I leveraged in the roles above which are most relevant to Cloud Engineering, DevOps, and Site Reliability Engineering roles.
+This list is not exhaustive, but these are software and hard skills I leveraged in the roles above which are most relevant to Cloud Engineering, DevOps, and Site Reliability Engineering roles.
 
 {{ (concat $languages $cloudSkills) | sortAlpha | uniq | join ", " }}.
 
 {{ end -}}
 
 {{ if .IsSDE -}}
-This list is not exhaustive, but these are software and skills I leveraged in the roles above which are most relevant to Software Engineering and DevTools roles.
+This list is not exhaustive, but these are software and hard skills I leveraged in the roles above which are most relevant to Software Engineering and DevTools roles.
 
 {{ (concat $languages $sdeSkills) | sortAlpha | uniq | join ", " }}.
 
 {{ end -}}
 
 {{ if .IsTPM -}}
-This list is not exhaustive, but these are software and skills I leveraged in the roles above which are most relevant to <abbr title="Project Manager">PM</abbr>, <abbr title="Technical Program Manager">TPM</abbr>, and <abbr title="Product Manager">Product</abbr> roles.
+This list is not exhaustive, but these are software and hard skills I leveraged in the roles above which are most relevant to <abbr title="Project Manager">PM</abbr>, <abbr title="Technical Program Manager">TPM</abbr>, and <abbr title="Product Manager">Product</abbr> roles.
 
 {{ (concat $tpmSkills) | sortAlpha | uniq | join ", " }}.
 
