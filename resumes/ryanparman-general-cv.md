@@ -1,26 +1,52 @@
 # Ryan Parman • [jobs@ryanparman.com](mailto:jobs@ryanparman.com)
 
-**Cloud-native engineering leader with a focus on reliability, scalability, and security for the modern web.**
+**Cloud Engineering Leader • Innovator • Problem Solver; looking for roles in technical leadership and engineering management.**
 
 **Links:** [GitHub (personal)] • [GitHub (side project)] • [LinkedIn] • [Stack Overflow] • [Role-targeted résumés](https://github.com/skyzyx/resume/blob/master/resumes/#readme) \
 **Format:** [Web](https://github.com/skyzyx/resume/blob/master/resumes/ryanparman-general-cv.md) • [PDF](https://github.com/skyzyx/resume/raw/master/resumes/ryanparman-general-cv.pdf) • [Word](https://github.com/skyzyx/resume/raw/master/resumes/ryanparman-general-cv.docx) • [OpenDocument](https://github.com/skyzyx/resume/raw/master/resumes/ryanparman-general-cv.odt)
 
 ## Summary
 
-Ryan Parman is a cloud-native engineering leader, who specializes in technical leadership, software development, site reliability engineering, and cybersecurity for the modern web. Excels at listening, adapting, and driving continuous improvement.
+Dynamic cloud engineering leader with a diverse background spanning design, development, security, and innovation. Proven expertise in building scalable infrastructure, driving efficiency, and enhancing user experience. Adept at leading teams, streamlining complex processes, and fostering knowledge-sharing cultures. Passionate about solving real-world problems through technology, security, and strategic thinking.
 
-Small business owner, two-time startup founder, and creator of two open-source projects with millions of users each. Ryan has a proven track record of building high-quality software, delivering impactful solutions, and elevating team performance.
+### Key Skills
+
+<table width="100%">
+<tbody>
+<tr>
+<td>
+
+* Cloud Engineering and Infrastructure
+* Security and Compliance
+
+</td>
+<td>
+
+* Technical Leadership and Team Building
+* Documentation and Knowledge Sharing
+
+</td>
+<td>
+
+* Cost Optimization and Strategic Planning
+* Open Source Development
+
+</td>
+</tr>
+</tbody>
+</table>
 
 ## Work Experience
 
 ### [McGraw Hill] — Remote (since COVID), previously Seattle, WA
 
-> McGraw Hill is a _learning science_ company which produces textbooks, digital learning tools, and adaptive technology to enhance learning. It is one of the “big three” educational publishers in the U.S, and was acquired by Platinum Equity 2021.
+> McGraw Hill is a _learning science_ company which produces textbooks, digital learning tools, and adaptive technology to enhance learning. It is one of the “big three” educational publishers in the U.S.
 
 #### Principal Engineer, Cloud Center of Excellence (January 2024—October 2024)
 
 * Joined a team whose mission was to provide guidance and support in the cloud journey of the entire organization.
-* Started development on v2 of a project which scanned ~200 AWS accounts for misconfigurations and vulnerabilities. Goal was to reduce an [AWS Well-Architected] review from 2 weeks to 2 hours with automated scans, enabling more reviews annually (10 → 100).
+* Started development on v2 of a project which scanned AWS accounts for misconfigurations and vulnerabilities. Goal was to reduce an [AWS Well-Architected] review from 2 weeks to 2 hours with automated scans, enabling more reviews annually (10 → 100).
+* Managed the migration from [CentOS] to [Amazon Linux] before the CentOS end-of-life date.
 * Proposed best practices, guardrails, and security measures to ensure a secure and efficient cloud environment.
 * Identified opportunities to extend the security measures and guardrails devised for AWS to other cloud platforms.
 
@@ -31,7 +57,7 @@ Small business owner, two-time startup founder, and creator of two open-source p
 * Partnered with Enterprise Architecture and [AWS Professional Services] to deploy [Control Tower][AWS Control Tower] and [Identity Center][AWS Identity Center], resulting in lowered costs and improved control over account guardrails.
 * Managed the Base [AMI] program (server disk images). Leveraged insights from [CIS], security patching, and internal needs to develop a unified build pipeline integrating best practices. Reduced time-to-boot, and eliminated engineering toil (1 → 10).
 * Conducted comprehensive scans of [Route 53][Amazon Route 53] to obtain a mapping of the company’s thousands of active websites. Prioritized identifying and remediating misconfigurations, rotating certificates, and increasing visibility.
-* Grew and ran a project which scanned ~200 AWS accounts for high-priority misconfigurations and vulnerabilities. Included a high-level score (friendly competition), explanations of the issues (security education), and instructions for fixing (driving forward). Became a trusted tool across the organization (1 → 10).
+* Grew and ran a project which evaluated AWS accounts for high-priority misconfigurations and vulnerabilities. Included a high-level score (friendly competition), explanations of the issues (security education), and instructions for fixing (driving forward). Became a trusted tool across the organization (1 → 10).
 * Implemented the custom Linux runtime environment used by self-hosted [GitHub Actions] runners.
 * Spearheaded the [Artifactory] Rebuild project. Ran the project from inception to completion, including the majority of development. Directed effort across ~80 teams and ~300 services to complete the project.
 * Enabled continuous token and password rotation for engineering teams by designing and deploying a _Token Vending Machine_, improving security.
@@ -39,12 +65,14 @@ Small business owner, two-time startup founder, and creator of two open-source p
 * Resolved all technology blockers preventing migration lower-cost [ARM64] CPUs, opening the door for ~$450k/year in cost savings.
 * Led dozens of smaller projects, offered guidance to engineers on best practices, and documented knowledge.
 
+<div class="page-break"></div>
+
 #### Engineering Manager, Site Reliability (October 2018—June 2020)
 
 * Managed a team of four, while working to level-up the team's technical skills and leadership capabilities. Conducted regular 1:1s, performance reviews, and career development discussions.
 * Revamped the SRE interview process to prioritize a 70/30 focus on software engineering (Dev) and systems operations (Ops). Emphasized leadership qualities, bias for action, and high curiosity.
-* Led the [_Site Reliability Engineering_][SRE] (SRE) team in addressing macro-oriented problems affecting engineering teams, empowering greater self-service.
-* Established a process for maintaining reusable [Terraform] modules which teams leveraged to compose infrastructure with minimal effort.
+* Led the [_Site Reliability Engineering_][SRE] (SRE) team in addressing macro problems affecting engineering, empowering self-service.
+* Established a process for maintaining reusable [Terraform] modules which teams leveraged to compose infrastructure.
 * Customized the [Amazon Linux] AMIs to comply with Level-2 [CIS] Guidelines for both Amazon Linux and [Docker]. Liaised with cybersecurity, operations, and business units to ensure compliance (0 → 1).
 * Invented custom security and operational tooling to understand the current posture of AWS accounts where off-the-shelf tools did not meet the needs of the organization (0 → 1).
 * Reduced the time to deploy a new service from dozens of weeks to a single meeting by implementing a _Monitoring-as-Code_ methodology, and defining broad-use [Service Level Objectives][SLO] (SLOs) ([New Relic], [Datadog]) (0 → 1).
@@ -59,19 +87,19 @@ Small business owner, two-time startup founder, and creator of two open-source p
 
 ### [WePay] — Redwood City, CA
 
-> WePay is an online payment service provider which provides “payments for platforms”, where examples of platforms are GoFundMe, Care.com, and Xbox. It was acquired by JPMorgan Chase in October 2017.
+> WePay is an online payment service provider which provides “payments for platforms”, where examples of platforms are GoFundMe, Care.com, and Xbox. JPMorgan Chase acquired WePay in October 2017.
 
 #### DevOps Engineer (April 2015—September 2016)
 
 * Led a cross-company initiative to upgrade the monolithic application from [PHP] 5.4 to PHP 5.6 (the latest at the time). Facilitated cross-team collaboration among all major engineering teams and QA departments to achieve results.
 * Initiated a program to automate the creation of base server images for cloud servers. This allowed new servers to boot and begin serving traffic ~75% faster.
 * Invested in monitoring and alerting systems to prevent customer-facing issues ([New Relic], [Grafana]).
-* Explored _configuration-as-code_ for cloud infrastructure in [Google Cloud Platform][GCP] in order to improve reliability and efficiency.
+* Explored _configuration-as-code_ for cloud infrastructure in [Google Cloud Platform][GCP] to improve reliability and efficiency.
 
 #### Senior API Engineer (April 2014—April 2015)
 
-* Led the company’s [HackerOne](https://www.hackerone.com) program, coordinating across teams to address security issues.
-* Built a development environment for engineering teams. Reduced new engineer onboarding time from 2 weeks to 1 day.
+* Led the company’s [HackerOne](https://www.hackerone.com) security program, coordinating across teams to address security issues.
+* Built a local development environment for engineering teams using [Vagrant]. Eliminated "works on my machine", and reduced new engineer onboarding time from 2 weeks to 1 day (measured by when a new employee could make their first commit).
 * Expanded WePay’s payment security offerings by designing MFA-as-a-Service (U.S. patent filing [US15042104]).
 
 ### [Amazon Web Services] — Seattle, WA
@@ -80,22 +108,22 @@ Small business owner, two-time startup founder, and creator of two open-source p
 
 #### Web Development Engineer II (March 2010—April 2014)
 
-* Created the [AWS SDK for PHP], enabled AWS to reach the largest developer group — [PHP].
+* Created the [AWS SDK for PHP], enabling AWS to reach millions of new developers.
 * Initiated the creation of [AWS SDK for PHP] v2 to address changes in the PHP language and growth of AWS services.
 * Led one of the first teams to provide reusable UI building blocks for the [AWS Management Console], by collaborating directly with the AWS Design team.
 * Invested in increased transparency, better communication, and improved tooling for developers. [[Examples](https://github.com/skyzyx/resume/blob/master/amazon-specifics.md)]
 
-### Older roles and side projects
+<div class="page-break"></div>
 
-Older roles and side projects are truncated for brevity. If interested, _details_ can be found [on GitHub](https://github.com/skyzyx/resume/blob/master/ryanparman-previously.md).
+### Older roles, side projects
+
+See “[Previous experience, side projects](https://github.com/skyzyx/resume/blob/master/ryanparman-previously.md)” for additional details.
 
 * [Northwood Labs](https://github.com/northwood-labs) — Owner (January 2024—Present)
 * PCR Publishing (Side-Project) — Editor, Typesetter, Publisher, Book Producer (April 2021–April 2022)
 * Perimeter of Wisdom, LLC (defunct) — Co-Owner, CTO, Producer (February 2015—2018)
-* CloudFusion (Open-Source Project) — Creator and Developer (Early 2005—March 2010)
 * Rearden Commerce (now [Deem](https://www.crunchbase.com/organization/deem)) — Senior User Experience Developer (July 2008—March 2010)
 * [WarpShare](https://www.crunchbase.com/organization/warpshare) (defunct) — Co-Founder and Chief Information Officer (September 2006—March 2010)
-* [SimplePie](http://simplepie.org) (Open-Source Project) — Creator and Co-Developer (July 2004—October 2009)
 * [Yahoo!](https://www.crunchbase.com/organization/yahoo) — Front-end Developer (Contract), Yahoo! Messenger (November 2007—January 2008)
 * [Stryker](https://www.crunchbase.com/organization/stryker) — User Interface Developer (Contract) (May 2005—September 2006)
 * [Digital Impact](https://www.crunchbase.com/organization/digital-impact-2) (now part of [Axciom](https://www.crunchbase.com/organization/acxiom-digital-inc)) — Production Specialist (March 2004—April 2005)
@@ -114,7 +142,7 @@ Proof that I can code, call APIs, interact with SDKs, and build user-facing soft
 
 ## Examples of Technical Documentation
 
-Much of my other work is published inside of corporate Confluence/wikis. Here are examples of my public-facing documentation:
+Here are examples of my public-facing documentation:
 
 * [Setting up macOS for development](https://github.com/northwood-labs/macos-for-development/wiki)
 * [Local AWS Lambda environments (with Go)](https://github.com/northwood-labs/local-lambda-environments-with-go)
@@ -127,17 +155,18 @@ Much of my other work is published inside of corporate Confluence/wikis. Here ar
 
 See a [selective list of recommendations](https://github.com/skyzyx/resume/blob/master/selected-recommendations.md) from co-workers and peers.
 
-## Groups and Accomplishments
+## Patents and Notable Open-Source
 
 * U.S. patent filing, [“System and Methods for User Authentication across Multiple Domains”][US15042104] (US15042104) (2016)
 * U.S. patent filing, [“Hive-based Peer-to-Peer Network”][US8103870B2] (US8103870B2) (2007)
+* [SimplePie] — An RSS parser for PHP; founded in 2004; integrated into [WordPress] core since 2009. Millions of global users.
+* [CloudFusion][AWS SDK for PHP] — A PHP SDK for AWS; founded in 2005; later became the official [AWS SDK for PHP]. Millions of global users.
 
 ## Skills
 
-* **Languages:** [Bash], [Go], [JavaScript], [PHP], [Python].
-* **Cloud/DevOps/SRE:** DevOps, DevSecOps, [ARM64], [AWS Well-Architected], [Amazon Web Services][AWS], [Ansible], [Artifactory], [Bash], [CIS], [CentOS], [CloudFormation][AWS CloudFormation], [CloudWatch][Amazon CloudWatch], [Control Tower][AWS Control Tower], [Docker], [ECS][Amazon ECS], [GitHub Actions], [GitHub Enterprise], [Git], [Lambda][AWS Lambda], [Nginx], [OpenTelemetry], [OpenTofu], [Packer], [Redis], [SDKs][AWS SDKs], [Terraform], [Traefik], architecture, automation, cloud computing, disaster recovery, error budget, multi-platform, performance, platform, reliability, scalability, scripting, security, troubleshooting, uptime.
-* **SDE/SWE/DevTools:** CI/CD, CLI tools, [AWS], [CircleCI], [Docker], [GitHub Actions], [Git], [GraphQL], [JWT], [Redis], [Vagrant], [XSLT], [twelve-factor applications], automation, code generation, containerization, debugging, development, distributed, documentation, integration, microservices, multi-platform, optimization, performance, platforms, refactoring, scalability, security, standards, test-driven development, testing.
-* **PM/TPM:** [Confluence], [Jira], agile, collaboration, coordination, documentation, kanban, organization, platforms, project documentation, project management, risk mitigation, roadmap management, scrum, stakeholder management, vendor management.
+This list is not exhaustive, but these are software and skills I leveraged in the roles above.
+
+CI/CD, DevOps, DevSecOps, [ARM64], [AWS Well-Architected], [AWS], [Amazon Web Services][AWS], [Ansible], [Artifactory], [Bash], [CIS], [CentOS], [CircleCI], [CloudFormation][AWS CloudFormation], [CloudWatch][Amazon CloudWatch], [Confluence], [Control Tower][AWS Control Tower], [Docker], [ECS][Amazon ECS], [GitHub Actions], [GitHub Enterprise], [Git], [Go], [GraphQL], [JWT], [JavaScript], [Jira], [Lambda][AWS Lambda], [Nginx], [OpenTelemetry], [OpenTofu], [PHP], [Packer], [Python], [Redis], [SDKs][AWS SDKs], [Terraform], [Traefik], [Vagrant], [twelve-factor applications], agile, architecture, automation, code generation, containerization, coordination, debugging, disaster recovery, distributed, documentation, error budget, kanban, microservices, multi-platform, optimization, organization, performance, platforms, project management, refactoring, reliability, risk mitigation, roadmap management, scalability, scripting, scrum, security, stakeholder management, test-driven development, testing, troubleshooting, uptime, vendor management.
 
 ## Education
 
@@ -212,6 +241,7 @@ _Silicon Valley College_ (now [Carrington College]), San Jose, CA. Bachelor of A
 [Redis]: https://redis.io
 [REST]: https://martinfowler.com/articles/richardsonMaturityModel.html
 [SB2]: https://www.mheducation.com/news-media/press-releases/mcgraw-hill-connect-unveils-smartbook.html
+[SimplePie]: http://simplepie.org
 [SLO]: https://sre.google/sre-book/service-level-objectives/
 [SRE]: https://sre.google/in-conversation/
 [Stack Overflow]: https://stackoverflow.com/users/228514/ryan-parman

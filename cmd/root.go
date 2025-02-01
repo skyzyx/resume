@@ -12,6 +12,7 @@ var (
 	fileNames = map[string]string{
 		"all":   "ryanparman-general-cv",
 		"cloud": "ryanparman-cloud-devops-sre",
+		"em":    "ryanparman-engineering-manager",
 		"sde":   "ryanparman-software-eng-devtools",
 		"tpm":   "ryanparman-tpm",
 	}

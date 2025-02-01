@@ -1,8 +1,4 @@
 {{ define "projects" -}}
-{{ if .IsCloud -}}
-<div class="page-break"></div>
-
-{{ end -}}
 {{ if not .IsTPM -}}
 ## Projects
 
@@ -19,7 +15,7 @@ Proof that I can code, call APIs, interact with SDKs, and build user-facing soft
 {{ end -}}
 ## Examples of Technical Documentation
 
-Much of my other work is published inside of corporate Confluence/wikis. Here are examples of my public-facing documentation:
+Here are examples of my public-facing documentation:
 
 * [Setting up macOS for development](https://github.com/northwood-labs/macos-for-development/wiki)
 * [Local AWS Lambda environments (with Go)](https://github.com/northwood-labs/local-lambda-environments-with-go)

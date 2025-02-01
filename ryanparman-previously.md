@@ -1,8 +1,8 @@
-# Ryan Parman
+# Previous experience, side projects
 
 This is the work experience which has been _retired_ from my active résumé (or has not been added yet for one reason or another).
 
-## Work Experience and “Side Hustles”
+## Work Experience
 
 ### [Northwood Labs](https://github.com/northwood-labs) — Colorado
 

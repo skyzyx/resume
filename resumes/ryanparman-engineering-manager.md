@@ -1,9 +1,9 @@
 # Ryan Parman • [jobs@ryanparman.com](mailto:jobs@ryanparman.com)
 
-**Cloud Engineering Leader • Innovator • Problem Solver; looking for roles in technical leadership and engineering management.**
+**Cloud Engineering Leader • Innovator • Problem Solver; looking to pivot into engineering management roles.**
 
 **Links:** [GitHub (personal)] • [GitHub (side project)] • [LinkedIn] • [Stack Overflow] • [Role-targeted résumés](https://github.com/skyzyx/resume/blob/master/resumes/#readme) \
-**Format:** [Web](https://github.com/skyzyx/resume/blob/master/resumes/ryanparman-software-eng-devtools.md) • [PDF](https://github.com/skyzyx/resume/raw/master/resumes/ryanparman-software-eng-devtools.pdf) • [Word](https://github.com/skyzyx/resume/raw/master/resumes/ryanparman-software-eng-devtools.docx) • [OpenDocument](https://github.com/skyzyx/resume/raw/master/resumes/ryanparman-software-eng-devtools.odt)
+**Format:** [Web](https://github.com/skyzyx/resume/blob/master/resumes/ryanparman-engineering-manager.md) • [PDF](https://github.com/skyzyx/resume/raw/master/resumes/ryanparman-engineering-manager.pdf) • [Word](https://github.com/skyzyx/resume/raw/master/resumes/ryanparman-engineering-manager.docx) • [OpenDocument](https://github.com/skyzyx/resume/raw/master/resumes/ryanparman-engineering-manager.odt)
 
 ## Summary
 
@@ -54,8 +54,6 @@ Dynamic cloud engineering leader with a diverse background spanning design, deve
 
 * Led the team who supported all SRE and product engineering teams, scaling core platforms and services as every school in America transitioned to online learning during the COVID-19 lockdowns.
 * Managed the Base [AMI] program (server disk images). Leveraged insights from [CIS], security patching, and internal needs to develop a unified build pipeline integrating best practices. Reduced time-to-boot, and eliminated engineering toil (1 → 10).
-* Conducted comprehensive scans of [Route 53][Amazon Route 53] to obtain a mapping of the company’s thousands of active websites. Prioritized identifying and remediating misconfigurations, rotating certificates, and increasing visibility.
-* Grew and ran a project which evaluated AWS accounts for high-priority misconfigurations and vulnerabilities. Included a high-level score (friendly competition), explanations of the issues (security education), and instructions for fixing (driving forward). Became a trusted tool across the organization (1 → 10).
 * Spearheaded the [Artifactory] Rebuild project. Ran the project from inception to completion, including the majority of development. Directed effort across ~80 teams and ~300 services to complete the project.
 * Adapted the _Monitoring-as-Code_ tooling/methodology to abstract-away the underlying vendor, streamlining a vendor migration ([New Relic], [Datadog]) (1 → 10).
 * Led dozens of smaller projects, offered guidance to engineers on best practices, and documented knowledge.
@@ -151,10 +149,6 @@ See a [selective list of recommendations](https://github.com/skyzyx/resume/blob/
 * [CloudFusion][AWS SDK for PHP] — A PHP SDK for AWS; founded in 2005; later became the official [AWS SDK for PHP]. Millions of global users.
 
 ## Skills
-
-This list is not exhaustive, but these are software and skills I leveraged in the roles above which are most relevant to Software Engineering and DevTools roles.
-
-CI/CD, [AWS], [Bash], [CircleCI], [Docker], [GitHub Actions], [Git], [Go], [GraphQL], [JWT], [JavaScript], [PHP], [Python], [Redis], [Vagrant], [twelve-factor applications], automation, code generation, containerization, debugging, distributed, documentation, microservices, multi-platform, optimization, performance, platforms, refactoring, scalability, security, test-driven development, testing.
 
 ## Education
 

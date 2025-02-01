@@ -34,14 +34,12 @@
     "[Traefik]"
     "architecture"
     "automation"
-    "cloud computing"
     "DevOps"
     "DevSecOps"
     "disaster recovery"
     "error budget"
     "multi-platform"
     "performance"
-    "platform"
     "reliability"
     "scalability"
     "scripting"
@@ -60,17 +58,13 @@
     "[Redis]"
     "[twelve-factor applications]"
     "[Vagrant]"
-    "[XSLT]"
     "automation"
     "CI/CD"
-    "CLI tools"
     "code generation"
     "containerization"
     "debugging"
-    "development"
     "distributed"
     "documentation"
-    "integration"
     "microservices"
     "multi-platform"
     "optimization"
@@ -79,7 +73,6 @@
     "refactoring"
     "scalability"
     "security"
-    "standards"
     "test-driven development"
     "testing"
 }}
@@ -87,13 +80,11 @@
     "[Confluence]"
     "[Jira]"
     "agile"
-    "collaboration"
     "coordination"
     "documentation"
     "kanban"
     "organization"
     "platforms"
-    "project documentation"
     "project management"
     "risk mitigation"
     "roadmap management"
@@ -106,34 +97,30 @@
 ## Skills
 
 {{ if .IsAll -}}
-* **Languages:** {{ $languages | sortAlpha | join ", " }}.
+This list is not exhaustive, but these are software and skills I leveraged in the roles above.
 
-* **Cloud/DevOps/SRE:** {{ $cloudSkills | sortAlpha | join ", " }}.
-
-* **SDE/SWE/DevTools:** {{ $sdeSkills | sortAlpha | join ", " }}.
-
-* **PM/TPM:** {{ $tpmSkills | sortAlpha | join ", " }}.
+{{ (concat $languages $cloudSkills $sdeSkills $tpmSkills) | sortAlpha | uniq | join ", " }}.
 
 {{ end -}}
 
 {{ if .IsCloud -}}
 This list is not exhaustive, but these are software and skills I leveraged in the roles above which are most relevant to Cloud Engineering, DevOps, and Site Reliability Engineering roles.
 
-{{ (concat $languages $cloudSkills) | sortAlpha | join ", " }}.
+{{ (concat $languages $cloudSkills) | sortAlpha | uniq | join ", " }}.
 
 {{ end -}}
 
 {{ if .IsSDE -}}
 This list is not exhaustive, but these are software and skills I leveraged in the roles above which are most relevant to Software Engineering and DevTools roles.
 
-{{ (concat $languages $sdeSkills) | sortAlpha | join ", " }}.
+{{ (concat $languages $sdeSkills) | sortAlpha | uniq | join ", " }}.
 
 {{ end -}}
 
 {{ if .IsTPM -}}
 This list is not exhaustive, but these are software and skills I leveraged in the roles above which are most relevant to <abbr title="Project Manager">PM</abbr>, <abbr title="Technical Program Manager">TPM</abbr>, and <abbr title="Product Manager">Product</abbr> roles.
 
-{{ (concat $tpmSkills) | sortAlpha | join ", " }}.
+{{ (concat $tpmSkills) | sortAlpha | uniq | join ", " }}.
 
 {{ end -}}
 

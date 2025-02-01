@@ -29,6 +29,7 @@ type TemplateVars struct {
 
 	IsAll   bool
 	IsCloud bool
+	IsEM    bool
 	IsSDE   bool
 	IsTPM   bool
 
@@ -40,6 +41,7 @@ var (
 	jobRoles = []string{
 		"all",
 		"cloud",
+		"em",
 		"sde",
 		"tpm",
 	}
@@ -158,6 +160,8 @@ func generateMarkdown(templates *template.Template, role, resumeDir, audience st
 		vars.IsAll = true
 	case "cloud":
 		vars.IsCloud = true
+	case "em":
+		vars.IsEM = true
 	case "sde":
 		vars.IsSDE = true
 	case "tpm":
@@ -348,9 +352,11 @@ func generatePDF(role, resumeDir, audience string) {
 	var pdfRoles string
 	switch role {
 	case "all":
-		pdfRoles = "Software Engineer, DevTools, Cloud, SRE, DevOps, PM, TPM"
+		pdfRoles = "Software Engineer, DevTools, Cloud, SRE, DevOps, PM, TPM, Manager"
 	case "cloud":
 		pdfRoles = "Cloud, SRE, DevOps, DevTools"
+	case "em":
+		pdfRoles = "Engineering Manager"
 	case "sde":
 		pdfRoles = "Software Engineer, DevTools"
 	case "tpm":
