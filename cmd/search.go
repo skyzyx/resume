@@ -4,6 +4,8 @@ import (
 	"fmt"
 	"net/url"
 	"os"
+	"slices"
+	"strings"
 
 	"github.com/pelletier/go-toml/v2"
 	"github.com/spf13/cobra"
@@ -12,9 +14,10 @@ import (
 )
 
 type SearchTOML struct {
-	SearchEngine  string   `toml:"search_engine"`
-	SearchDomains []string `toml:"search_domains"`
-	JobRoles      []string `toml:"job_roles"`
+	SearchEngine     string   `toml:"search_engine"`
+	SearchDomains    []string `toml:"search_domains"`
+	JobRoles         []string `toml:"job_roles"`
+	ExcludedKeywords []string `toml:"excluded_keywords"`
 }
 
 // searchCmd represents the search command
@@ -39,8 +42,26 @@ var searchCmd = &cobra.Command{
 		}
 
 		for _, role := range cfg.JobRoles {
-			for _, domain := range cfg.SearchDomains {
-				fmt.Println(cfg.SearchEngine + url.QueryEscape(fmt.Sprintf("%s site:%s", role, domain)))
+			i := 0
+
+			for sDomains := range slices.Chunk(cfg.SearchDomains, 4) {
+				domains := []string{}
+				i++
+
+				for _, domain := range sDomains {
+					domains = append(domains, fmt.Sprintf("site:%s", domain))
+				}
+
+				searchURL := cfg.SearchEngine + url.QueryEscape(
+					fmt.Sprintf(
+						`%s "%s" AND "remote" -%s`,
+						strings.Join(domains, " | "),
+						role,
+						strings.Join(cfg.ExcludedKeywords, ` -`),
+					),
+				)
+
+				fmt.Printf("* [%s %d](%s)\n", role, i, searchURL)
 			}
 		}
 	},

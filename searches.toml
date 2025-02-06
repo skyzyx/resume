@@ -1,9 +1,8 @@
-search_engine = "https://kagi.com/search?q="
+# `dr=2` means updated in the last week
+search_engine = "https://kagi.com/search?dr=2&q="
 
 search_domains = [
-  "applytojob.com",
-  "ats.rippling.com",
-  "dejobs.org",
+  "applytojob.com/apply/",
   "icims.com",
   "inflightcloud.com",
   "job-boards.greenhouse.io",
@@ -15,10 +14,9 @@ search_domains = [
   "remote.co",
   "remote.com",
   "remote.io",
-  "remotejobs.com",
-  "remotejobs.io",
-  "weworkremotely.com",
-  "ziprecruiter.com",
+  "remotejobs.com/job/",
+  "weworkremotely.com/remote-jobs/",
+  "ziprecruiter.com/c/",
 ]
 
 job_roles = [
@@ -33,3 +31,5 @@ job_roles = [
   "product manager",
   "technical program manager",
 ]
+
+excluded_keywords = ["clearance", "dod", "expired", "intern", "sales"]

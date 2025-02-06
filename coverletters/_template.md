@@ -5,12 +5,10 @@
 
 Dear Hiring Manager,
 
-{Reasons for interest in the role}
+{Why them?}
 
-{What I bring to the role}
+{Why you? Make it about how your skills solve their problems... not a recap of your resume.}
 
-Thank you for your consideration.
+{Highlight how you can solve a specific problem the company is facing. It shows you're thinking like a problem-solver.}
 
----
-
-While I know that live coding is a popular approach for evaluating engineers, I have pretty significant live coding anxiety. Live coding will always present me at my worst, not my best. My hope is that you will be willing to evaluate my coding and project ability by reviewing the list of projects in my résumé, giving me a take-home test (with coding assistants disabled, of course), or having me walk through I project I ran or wrote.
+I’m excited to bring [specific skills] to your team and look forward to discussing how I can help [specific goal].

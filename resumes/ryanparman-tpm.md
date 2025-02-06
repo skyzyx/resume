@@ -42,27 +42,27 @@ Cloud engineering leader with a diverse background spanning design, development,
 
 > McGraw Hill is a _learning science_ company which produces textbooks, digital learning tools, and adaptive technology to enhance learning. It is one of the “big three” educational publishers in the U.S.
 
-#### Principal Engineer, Cloud Center of Excellence (January 2024—October 2024)
+#### Principal Engineer, Cloud Architecture (January 2024—October 2024)
 
 * Joined a team whose mission was to provide guidance and support in the cloud journey of the entire organization.
 * Started development on v2 of a project which scanned AWS accounts for misconfigurations and vulnerabilities. Goal was to reduce an [AWS Well-Architected] review from 2 weeks to 2 hours with automated scans, enabling more reviews annually (10 → 100).
-* Managed the migration from [CentOS] to [Amazon Linux] before the CentOS end-of-life date.
+* Managed the migration from [CentOS] to [Amazon Linux] before the CentOS end-of-life date, which elevated our security posture.
 * Proposed best practices, guardrails, and security measures to ensure a secure and efficient cloud environment.
-* Identified opportunities to extend the security measures and guardrails devised for AWS to other cloud platforms.
+* Identified opportunities to extend the security measures and guardrails devised for AWS to other cloud platforms (Microsoft Azure, Oracle Cloud).
 
 #### Principal Cloud and Platform Engineer (June 2020—January 2024)
 
 * Led the team who supported all SRE and product engineering teams, scaling core platforms and services as every school in America transitioned to online learning during the COVID-19 lockdowns.
 * Authored/edited over 1,800 [Confluence] documents with the goal of reducing _tribal knowledge_.
-* Partnered with Enterprise Architecture and [AWS Professional Services] to deploy [Control Tower][AWS Control Tower] and [Identity Center][AWS Identity Center], resulting in lowered costs and improved control over account guardrails.
+* Partnered with Enterprise Architecture and [AWS Professional Services] to deploy [Control Tower][AWS Control Tower] and [Identity Center][AWS Identity Center], resulting in lowered costs and improved control over security guardrails.
 * Managed the Base [AMI] program (server disk images). Leveraged insights from [CIS], security patching, and internal needs to develop a unified build pipeline integrating best practices. Reduced time-to-boot, and eliminated engineering toil (1 → 10).
 * Spearheaded the [Artifactory] Rebuild project. Ran the project from inception to completion, including the majority of development. Directed effort across ~80 teams and ~300 services to complete the project.
 * Resolved all technology blockers preventing migration lower-cost [ARM64] CPUs, opening the door for ~$450k/year in cost savings.
 * Led dozens of smaller projects, offered guidance to engineers on best practices, and documented knowledge.
 
-#### Engineering Manager, Site Reliability (October 2018—June 2020)
+#### Site Reliability Engineering Manager (October 2018—June 2020)
 
-* Managed a team of four, while working to level-up the team's technical skills and leadership capabilities. Conducted regular 1:1s, performance reviews, and career development discussions.
+* Managed a team of four, while working to mentor and level-up the team's technical skills and leadership capabilities. Conducted regular 1:1s, performance reviews, and career development discussions.
 * Revamped the SRE interview process to prioritize a 70/30 focus on software engineering (Dev) and systems operations (Ops). Emphasized leadership qualities, bias for action, and high curiosity.
 * Led the [_Site Reliability Engineering_][SRE] (SRE) team in addressing macro problems affecting engineering, empowering self-service.
 * Established a process for maintaining reusable [Terraform] modules which teams leveraged to compose infrastructure.
@@ -78,7 +78,7 @@ Cloud engineering leader with a diverse background spanning design, development,
 
 > WePay is an online payment service provider which provides “payments for platforms”, where examples of platforms are GoFundMe, Care.com, and Xbox. JPMorgan Chase acquired WePay in October 2017.
 
-#### DevOps Engineer (April 2015—September 2016)
+#### Senior DevOps Engineer (April 2015—September 2016)
 
 * Led a cross-company initiative to upgrade the monolithic application from [PHP] 5.4 to PHP 5.6 (the latest at the time). Facilitated cross-team collaboration among all major engineering teams and QA departments to achieve results.
 * Initiated a program to automate the creation of base server images for cloud servers. This allowed new servers to boot and begin serving traffic ~75% faster.
@@ -94,7 +94,7 @@ Cloud engineering leader with a diverse background spanning design, development,
 
 > Amazon Web Services provides on-demand cloud computing platforms and APIs to individuals, companies, and governments, on a metered, pay-as-you-go basis.
 
-#### Web Development Engineer II (March 2010—April 2014)
+#### AWS SDK Developer (March 2010—April 2014)
 
 * Created the [AWS SDK for PHP], enabling AWS to reach millions of new developers.
 * Initiated the creation of [AWS SDK for PHP] v2 to address changes in the PHP language and growth of AWS services.
