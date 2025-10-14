@@ -41,9 +41,9 @@ var (
 	jobRoles = []string{
 		"all",
 		"cloud",
-		"em",
+		// "em",
 		"sde",
-		"tpm",
+		// "tpm",
 	}
 
 	// Flags
@@ -130,7 +130,7 @@ var (
 
 				generateMarkdown(templates, role, resumeDir, audience)
 				generateWord(role, resumeDir, audience, "docx")
-				generateWord(role, resumeDir, audience, "odt")
+				// generateWord(role, resumeDir, audience, "odt")
 				generatePDF(role, resumeDir, audience)
 			}
 

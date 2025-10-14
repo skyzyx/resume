@@ -156,3 +156,5 @@ div.note div.title {
     content: "📓 ";
   }
 }
+
+table{max-width:100%;margin:1em 0;background-color:transparent;border-collapse:collapse;border-spacing:0;border:1px solid #ccc}table tr th{background-color:#ccc}table tr td,table tr th{border:1px solid #ccc;padding:10px}table tr td>p:first-child,table tr th>p:first-child{margin-top:0}

@@ -3,7 +3,7 @@
 **Cloud Engineering Leader • Innovator • Problem Solver; looking for roles in technical leadership and engineering management.**
 
 **Links:** [GitHub (personal)] • [GitHub (side project)] • [LinkedIn] • [Stack Overflow] • [Role-targeted résumés](https://github.com/skyzyx/resume/blob/master/resumes/#readme) \
-**Format:** [Web](https://github.com/skyzyx/resume/blob/master/resumes/ryanparman-software-eng-devtools.md) • [PDF](https://github.com/skyzyx/resume/raw/master/resumes/ryanparman-software-eng-devtools.pdf) • [Word](https://github.com/skyzyx/resume/raw/master/resumes/ryanparman-software-eng-devtools.docx) • [OpenDocument](https://github.com/skyzyx/resume/raw/master/resumes/ryanparman-software-eng-devtools.odt)
+**Format:** [Web](https://github.com/skyzyx/resume/blob/master/resumes/ryanparman-software-eng-devtools.md) • [PDF](https://github.com/skyzyx/resume/raw/master/resumes/ryanparman-software-eng-devtools.pdf) • [Word](https://github.com/skyzyx/resume/raw/master/resumes/ryanparman-software-eng-devtools.docx)
 
 ## Summary
 
@@ -29,7 +29,7 @@ Cloud engineering leader with a diverse background spanning design, development,
 <td>
 
 * Cost Optimization and Strategic Planning
-* Open Source Development
+* Developer Productivity and Tooling
 
 </td>
 </tr>
@@ -37,6 +37,16 @@ Cloud engineering leader with a diverse background spanning design, development,
 </table>
 
 ## Work Experience
+
+### [Stripe] — Remote
+
+> Stripe provides a fully integrated suite of financial and payments products.
+
+#### Senior Technical Program Manager, Databases (March 2025—Present)
+
+* Managed weekly, monthly, and quarterly budgets for the Databases organization, on the order of millions of dollars per month, keeping the budget "in the green" and diving deeply into erroneus spending.
+* Managed multiple internal migration projects, including tracking progress and relevant metrics, working across several teams to achieve the goal, and reducing how much work our infrastructure teams pushed out to product teams to perform by focusing on automation solutions and understanding the ROI/impact of the ask.
+* Managed and performed the work to migrate all internal-user facing documentation from multiple systems/locations into a singular system. Performed technical editing, and leveraged a [Diátaxis](https://diataxis.fr)-like approach to content organization.
 
 ### [McGraw Hill] — Remote (since COVID), previously Seattle, WA
 
@@ -68,8 +78,6 @@ Cloud engineering leader with a diverse background spanning design, development,
 * Invented custom security and operational tooling to understand the current posture of AWS accounts where off-the-shelf tools did not meet the needs of the organization (0 → 1).
 * Reduced the time to deploy a new service from dozens of weeks to a single meeting by implementing a _Monitoring-as-Code_ methodology, and defining broad-use [Service Level Objectives][SLO] (SLOs) ([New Relic], [Datadog]) (0 → 1).
 
-<div class="page-break"></div>
-
 #### Staff Software Engineer (October 2016—October 2018)
 
 * Led the development of Tier-1 services within the educational content authoring pipeline, leveraging technologies such as [REST], [GraphQL], API design, [Amazon ECS] (similar to [Kubernetes]), [Docker], [Terraform], [ePubs][EPUB], and security best practices.
@@ -94,17 +102,6 @@ Cloud engineering leader with a diverse background spanning design, development,
 * Built a local development environment for engineering teams using [Vagrant]. Eliminated "works on my machine", and reduced new engineer onboarding time from 2 weeks to 1 day (measured by when a new employee could make their first commit).
 * Expanded WePay’s payment security offerings by designing MFA-as-a-Service (U.S. patent filing [US15042104]).
 
-### [Amazon Web Services] — Seattle, WA
-
-> Amazon Web Services provides on-demand cloud computing platforms and APIs to individuals, companies, and governments, on a metered, pay-as-you-go basis.
-
-#### AWS SDK Developer (March 2010—April 2014)
-
-* Created the [AWS SDK for PHP], enabling AWS to reach millions of new developers.
-* Initiated the creation of [AWS SDK for PHP] v2 to address changes in the PHP language and growth of AWS services.
-* Led one of the first teams to provide reusable UI building blocks for the [AWS Management Console], by collaborating directly with the AWS Design team.
-* Invested in increased transparency, better communication, and improved tooling for developers. [[Examples](https://github.com/skyzyx/resume/blob/master/amazon-specifics.md)]
-
 ### Older roles, side projects
 
 See “[Previous experience, side projects](https://github.com/skyzyx/resume/blob/master/ryanparman-previously.md)” for additional details.
@@ -112,6 +109,7 @@ See “[Previous experience, side projects](https://github.com/skyzyx/resume/blo
 * [Northwood Labs](https://github.com/northwood-labs) — Owner (January 2024—Present)
 * PCR Publishing (Side-Project) — Editor, Typesetter, Publisher, Book Producer (April 2021–April 2022)
 * Perimeter of Wisdom, LLC (defunct) — Co-Owner, CTO, Producer (February 2015—2018)
+* [Amazon Web Services] — AWS SDK Developer (March 2010—April 2014)
 * Rearden Commerce (now [Deem](https://www.crunchbase.com/organization/deem)) — Senior User Experience Developer (July 2008—March 2010)
 * [WarpShare](https://www.crunchbase.com/organization/warpshare) (defunct) — Co-Founder and Chief Information Officer (September 2006—March 2010)
 * [Yahoo!](https://www.crunchbase.com/organization/yahoo) — Front-end Developer (Contract), Yahoo! Messenger (November 2007—January 2008)
@@ -124,7 +122,6 @@ Proof that I can code, call APIs, interact with SDKs, and build user-facing soft
 
 * **DevSec Tools:** Building a [website](https://github.com/northwood-labs/devsec-ui), [CLI tool, and Go library](https://github.com/northwood-labs/devsec-tools) for identifying potential security configuration issues (in-progress).
 * **Custom Linux Packages:** Building a [repository of custom Linux packages](https://github.com/northwood-labs/package-building/wiki) (in-progress).
-* **CSP Evaluator:** Building a [parser and evaluator for Content Security Policy (CSP) directives](https://github.com/northwood-labs/csp-parser) in Go (in-progress).
 * **Terraform Provider:** Built a [custom provider](https://github.com/northwood-labs/terraform-provider-corefunc) which provides a set of utility functions for use in Terraform/OpenTofu.
 * **Multi-Platform Docker:** Built a [downloader for GitHub release assets](https://github.com/northwood-labs/download-asset) which simplifies building multi-platform images.
 * **AWS Organization Security:** Built a [library + CLI tool](https://github.com/northwood-labs/assume-spoke-role) which simplifies the hub-and-spoke pattern for multi-account orgs.
@@ -235,6 +232,7 @@ _Silicon Valley College_ (now [Carrington College]), San Jose, CA. Bachelor of A
 [SLO]: https://sre.google/sre-book/service-level-objectives/
 [SRE]: https://sre.google/in-conversation/
 [Stack Overflow]: https://stackoverflow.com/users/228514/ryan-parman
+[Stripe]: https://stripe.com
 [Subversion]: https://subversion.apache.org
 [Terraform]: https://www.terraform.io
 [Traefik]: https://traefik.io

@@ -85,7 +85,7 @@ coverletter:
 		| tr '[:upper:]' '[:lower:]' \
 		| sed -E 's,\s,-,g' \
 		| xargs -I% bash -c "echo coverletters/%.md") && \
-	GUM_WRITE_HEIGHT=20 gum write --char-limit=0 --show-line-numbers --prompt="> " \
+	GUM_WRITE_HEIGHT=50 gum write --char-limit=0 --show-line-numbers --prompt="> " \
 		--placeholder="Write your coverletter. GitHub-Flavored Markdown is supported." \
 		< coverletters/_template.md \
 		> $$FILENAME
