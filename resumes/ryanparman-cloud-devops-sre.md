@@ -1,6 +1,6 @@
 # Ryan Parman • [jobs@ryanparman.com](mailto:jobs@ryanparman.com)
 
-**Cloud Engineering Leader • Innovator • Problem Solver; looking for roles in technical leadership and engineering management.**
+**Cloud Engineering Leader • Innovator • Problem Solver; looking for roles in technical leadership.**
 
 **Links:** [GitHub (personal)] • [GitHub (side project)] • [LinkedIn] • [Stack Overflow] • [Role-targeted résumés](https://github.com/skyzyx/resume/blob/master/resumes/#readme) \
 **Format:** [Web](https://github.com/skyzyx/resume/blob/master/resumes/ryanparman-cloud-devops-sre.md) • [PDF](https://github.com/skyzyx/resume/raw/master/resumes/ryanparman-cloud-devops-sre.pdf) • [Word](https://github.com/skyzyx/resume/raw/master/resumes/ryanparman-cloud-devops-sre.docx)
