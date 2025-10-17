@@ -160,7 +160,7 @@ See a [selective list of recommendations](https://github.com/skyzyx/resume/blob/
 
 This list is not exhaustive, but these are software and hard skills I leveraged in the roles above which are most relevant to Cloud Engineering, DevOps, and Site Reliability Engineering roles.
 
-DevOps, DevSecOps, [ARM64], [AWS Well-Architected], [Amazon Web Services][AWS], [Ansible], [Artifactory], [Bash], [CIS], [CentOS], [CloudFormation][AWS CloudFormation], [CloudWatch][Amazon CloudWatch], [Control Tower][AWS Control Tower], [Docker], [ECS][Amazon ECS], [GitHub Actions], [GitHub Enterprise], [Git], [Go], [JavaScript], [Lambda][AWS Lambda], [Nginx], [OpenTelemetry], [OpenTofu], [PHP], [Packer], [Python], [Redis], [SDKs][AWS SDKs], [Terraform], [Traefik], architecture, automation, disaster recovery, error budget, multi-platform, performance, reliability, scalability, scripting, security, troubleshooting, uptime.
+Cloud Engineering, DevOps, DevSecOps, Platform Engineering, Site Reliability Engineering, [ARM64], [AWS Well-Architected], [Amazon Web Services][AWS], [Ansible], [Artifactory], [Bash], [CIS], [CentOS], [CloudFormation][AWS CloudFormation], [CloudWatch][Amazon CloudWatch], [Control Tower][AWS Control Tower], [Docker], [ECS][Amazon ECS], [GitHub Actions], [GitHub Enterprise], [Git], [Go], [JavaScript], [Lambda][AWS Lambda], [Nginx], [OpenTelemetry], [OpenTofu], [PHP], [Packer], [Python], [Redis], [SDKs][AWS SDKs], [Terraform], [Traefik], architecture, automation, disaster recovery, error budget, multi-platform, performance, reliability, scalability, scripting, security, troubleshooting, uptime.
 
 ## Education
 

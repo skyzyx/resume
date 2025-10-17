@@ -34,16 +34,19 @@
     "[Traefik]"
     "architecture"
     "automation"
+    "Cloud Engineering"
     "DevOps"
     "DevSecOps"
     "disaster recovery"
     "error budget"
     "multi-platform"
     "performance"
+    "Platform Engineering"
     "reliability"
     "scalability"
     "scripting"
     "security"
+    "Site Reliability Engineering"
     "troubleshooting"
     "uptime"
 }}
@@ -99,7 +102,7 @@
 {{ if or .IsAll .IsEM -}}
 This list is not exhaustive, but these are software and hard skills I leveraged in the roles above.
 
-{{ (concat $languages $cloudSkills $sdeSkills $tpmSkills) | sortAlpha | uniq | join ", " }}.
+{{ (concat $languages $cloudSkills $sdeSkills) | sortAlpha | uniq | join ", " }}.
 
 {{ end -}}
 
@@ -126,13 +129,13 @@ This list is not exhaustive, but these are software and hard skills I leveraged 
 
 {{- else -}} {{/* Generate when we're just trying to get keywords */}}
 {{ if .IsAll -}}
-    {{- (concat $languages $cloudSkills $sdeSkills $tpmSkills) | sortAlpha | uniq | join ", " -}}
+    {{- (concat $languages $cloudSkills $sdeSkills) | sortAlpha | uniq | join ", " -}}
 {{ else if .IsCloud -}}
     {{- (concat $languages $cloudSkills) | sortAlpha | uniq | join ", " -}}
 {{ else if .IsSDE -}}
     {{- (concat $languages $sdeSkills) | sortAlpha | uniq | join ", " -}}
-{{ else if .IsTPM -}}
-    {{- (concat $tpmSkills) | sortAlpha | uniq | join ", " -}}
+{{/* {{ else if .IsTPM -}}
+    {{- (concat $tpmSkills) | sortAlpha | uniq | join ", " -}} */}}
 {{ end -}}
 {{- end -}}
 {{ end -}}

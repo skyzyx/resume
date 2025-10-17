@@ -4,7 +4,7 @@ This is the work experience which has been _retired_ from my active résumé (or
 
 ## Work Experience
 
-### [Northwood Labs](https://github.com/northwood-labs) — Colorado
+### [Northwood Labs](https://northwood-labs.com) — Colorado
 
 #### Owner (January 2024—Present)
 
@@ -41,7 +41,7 @@ Developed the entire website for “The First-Time Offender’s Guide to Freedom
 
 **Skills:** Custom Software, Software Projects, Functionality, Communication, Desktop Publishing, ePub, Kindle format.
 
-### [Amazon Web Services] — Seattle, WA
+### [Amazon Web Services](https://www.crunchbase.com/organization/amazon-web-services) — Seattle, WA
 
 #### AWS SDK Developer (March 2010—April 2014)
 
