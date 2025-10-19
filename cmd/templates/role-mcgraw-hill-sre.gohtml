@@ -1,22 +1,21 @@
 {{ define "role-mcgraw-hill-sre" -}}
 #### Site Reliability Engineering Manager (October 2018—June 2020)
 
-{{ if or .IsAll .IsEM .IsTPM -}}
-* Managed a team of four, while working to mentor and level-up the team's technical skills and leadership capabilities. Conducted regular 1:1s, performance reviews, and career development discussions.
+* Led the [_Site Reliability Engineering_][SRE] (SRE) team, focusing on macro-oriented reliability/availability problems and platform engineering principles, improving our ability to scale our human resources ([Docker], [Amazon ECS], [Terraform], [New Relic], [Datadog]).
 
-* Revamped the SRE interview process to prioritize a 70/30 focus on software engineering (Dev) and systems operations (Ops). Emphasized leadership qualities, bias for action, and high curiosity.
+* Established a process for maintaining reusable Terraform modules (designed as _LEGO blocks_), enhancing infrastructure management and deployment efficiency significantly ([Docker], [Terraform], [GitHub Enterprise]).
 
-{{ end -}}
-* Led the [_Site Reliability Engineering_][SRE] (SRE) team in addressing macro problems affecting engineering, empowering self-service.
+* Reduced time to deploy a new service from several weeks of weeks to under 20m by implementing an observability-as-code methodology and defining broad-use [Service Level Objectives][SLO] (SLOs) ([New Relic], [Datadog], [Go], [Python], [Node.js], [Docker]).
 
-* Established a process for maintaining reusable [Terraform] modules which teams leveraged to compose infrastructure.
+* Customized the [Amazon Linux] AMIs to comply with Level-2 [CIS] Guidelines for both Amazon Linux and [Docker], increasing security and preventing breaches ([Bash], [Python], [Docker]).
 
-{{ if not .IsTPM -}}
+* Invented operational tooling to understand the current posture of AWS accounts where off-the-shelf tools did not meet the needs of the organization ([Go], [async programming], [Terraform]).
+
+{{/*
+* Led the [_Site Reliability Engineering_][SRE] (SRE) team in focusing on macro-oriented reliability/availability problems and toil, and empowering greater self-service for engineering teams.
+* Established a community working group which created a series of reusable [Terraform] modules which teams were able to use for composing their service infrastructure.
 * Customized the [Amazon Linux] AMIs to comply with Level-2 [CIS] Guidelines for both Amazon Linux and [Docker]. Liaised with cybersecurity, operations, and business units to ensure compliance (0 → 1).
-
 * Invented custom security and operational tooling to understand the current posture of AWS accounts where off-the-shelf tools did not meet the needs of the organization (0 → 1).
-
-* Reduced the time to deploy a new service from dozens of weeks to a single meeting by implementing a _Monitoring-as-Code_ methodology, and defining broad-use [Service Level Objectives][SLO] (SLOs) ([New Relic], [Datadog]) (0 → 1).
-
-{{- end -}}
+* Observability was traditionally an afterthought. Developed a framework which deployed monitors, alerts, and on-call rotations for broad-use [Service Level Objectives][SLO] (SLOs) in under 20m ([New Relic], [Datadog]) (0 → 1).
+*/}}
 {{- end }}

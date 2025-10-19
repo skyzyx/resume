@@ -1,48 +1,40 @@
 {{ define "role-mcgraw-hill-cloud" -}}
 #### Principal Cloud and Platform Engineer (June 2020—January 2024)
 
-* Led the team who supported all SRE and product engineering teams, scaling core platforms and services as every school in America transitioned to online learning during the COVID-19 lockdowns.
+* Led the team supporting all SRE and product engineering teams, scaling core platforms and services during the COVID-19 lockdowns, improving system reliability and scalability, and investing in platform engineering.
 
-{{ if or .IsAll .IsEM .IsTPM -}}
-* Authored/edited over 1,800 [Confluence] documents with the goal of reducing _tribal knowledge_.
-
-{{ end -}}
-
-{{ if or .IsAll .IsCloud .IsEM  .IsTPM -}}
-* Partnered with Enterprise Architecture and [AWS Professional Services] to deploy [Control Tower][AWS Control Tower] and [Identity Center][AWS Identity Center], resulting in lowered costs and improved control over security guardrails.
+{{ if or .IsAll .IsCloud -}}
+* Partnered with Enterprise Architecture and [AWS Professional Services] to deploy [Control Tower][AWS Control Tower] and [Identity Center][AWS Identity Center], lowering costs and enhancing security guardrails ([Python], [Cloudformation], [IAM], [Terraform]).
 
 {{ end -}}
 
-* Managed the Base [AMI] program (server disk images). Leveraged insights from [CIS], security patching, and internal needs to develop a unified build pipeline integrating best practices. Reduced time-to-boot, and eliminated engineering toil (1 → 10).
+* Managed the Base [AMI] program, integrating best practices from [CIS] and security patching, reducing time-to-boot from 4m30s (avg) to 20s (avg) and eliminating engineering toil ([Packer], [Bash], [AWS ImageBuilder], [Terraform]).
 
-{{ if not .IsTPM -}}
-* Conducted comprehensive scans of [Route 53][Amazon Route 53] to obtain a mapping of the company’s thousands of active websites. Prioritized identifying and remediating misconfigurations, rotating certificates, and increasing visibility.
+* Conducted scans of our domains and DNS records to obtain a mapping of the company’s thousands of active websites, remediating misconfigurations, rotating certificates, and increasing understanding ([Go], [async programming], [AWS Lambda], [PostgreSQL], [Terraform], [Docker]).
 
-* Grew and ran a project which evaluated AWS accounts for high-priority misconfigurations and vulnerabilities. Included a high-level score (friendly competition), explanations of the issues (security education), and instructions for fixing (driving forward). Became a trusted tool across the organization (1 → 10).
+* Scanned ~200 AWS accounts for high-priority misconfigurations, vulnerabilities, and cost-savings opportunities ([Go], [async programming], [AWS Lambda], [PostgreSQL], [Terraform], [Docker]).
 
-{{- end }}
-
-{{ if or .IsAll .IsCloud .IsEM -}}
-* Implemented the custom Linux runtime environment used by self-hosted [GitHub Actions] runners.
+{{ if or .IsAll .IsCloud -}}
+* Implemented the custom Linux runtime environment used by self-hosted [GitHub Actions] runners ([Ubuntu], [Python], [Bash], [Terraform], [Amazon EKS], `kubectl`, [Docker]).
 
 {{ end -}}
 
-* Spearheaded the [Artifactory] Rebuild project. Ran the project from inception to completion, including the majority of development. Directed effort across ~80 teams and ~300 services to complete the project.
+* Spearheaded a project to modernize [Artifactory], which significantly improved reliability and ability to detect/mirigate supply chain vulnerabilities. Directed effort across ~80 teams and ~300 services to complete the project ([Go], [Python], [Node.js], [Bash], [Maven], [Gradle], [Terraform], [Docker], cybersecurity, project management).
 
-{{ if or .IsAll .IsCloud .IsEM -}}
-* Enabled continuous token and password rotation for engineering teams by designing and deploying a _Token Vending Machine_, improving security.
-
-{{ end -}}
-
-{{ if not .IsTPM -}}
-* Adapted the _Monitoring-as-Code_ tooling/methodology to abstract-away the underlying vendor, streamlining a vendor migration ([New Relic], [Datadog]) (1 → 10).
-
-{{ end -}}
-{{ if or .IsAll .IsCloud .IsEM .IsTPM -}}
-* Resolved all technology blockers preventing migration lower-cost [ARM64] CPUs, opening the door for ~$450k/year in cost savings.
+{{ if or .IsAll .IsCloud -}}
+* Designed and deployed a _Token Vending Machine_, empowering continuous token and password rotation, improving security ([Go], [IAM], [AWS Lambda], [AWS Secrets Manager], [Terraform]).
 
 {{ end -}}
 
-* Led dozens of smaller projects, offered guidance to engineers on best practices, and documented knowledge.
+* Adapted our internal observability-as-code framework to abstract-away the underlying vendor, streamlining vendor migrations and preventing vendor lock-in ([New Relic], [Datadog], [Terraform], [Go], [Python], [Terraform]).
+
+{{ if or .IsAll .IsCloud -}}
+* Resolved all technical blockers preventing migration to lower-cost [ARM64] CPUs, enabling ~$450k/year in cost savings ([Bash], Linux packaging, [Terraform]).
+
+{{ end -}}
+
+* Led dozens of smaller projects, offered guidance to engineers on best practices, and authored/edited over 1,800 [Confluence] documents with the goal of reducing _tribal knowledge_.
+
+* Regularly helped teams leveraging [Amazon ECS] scale their systems and improve their reliability and scalability, while reducing their toil.
 
 {{- end }}

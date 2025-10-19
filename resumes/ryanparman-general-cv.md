@@ -44,9 +44,9 @@ Cloud engineering leader with a diverse background spanning design, development,
 
 #### Senior Technical Program Manager, Databases (March 2025—Present)
 
-* Managed weekly, monthly, and quarterly budgets for the Databases organization, on the order of millions of dollars per month, keeping the budget "in the green" and diving deeply into erroneus spending.
-* Managed multiple internal migration projects, including tracking progress and relevant metrics, working across several teams to achieve the goal, and reducing how much work our infrastructure teams pushed out to product teams to perform by focusing on automation solutions and understanding the ROI/impact of the ask.
-* Managed and performed the work to migrate all internal-user facing documentation from multiple systems/locations into a singular system. Performed technical editing, and leveraged a [Diátaxis](https://diataxis.fr)-like approach to content organization.
+* Managed budgets for the Databases organization, ensuring millions of dollars per month were kept "in the green" by diving deeply into erroneous spending.
+* Led internal migration projects, tracking progress and metrics, reducing infrastructure team workload by focusing on automation solutions.
+* Streamlined internal-user facing documentation by migrating from multiple systems into a singular system, performing technical editing and leveraging a [Diátaxis](https://diataxis.fr)-like approach.
 
 ### [McGraw Hill] — Remote (since COVID), previously Seattle, WA
 
@@ -54,42 +54,38 @@ Cloud engineering leader with a diverse background spanning design, development,
 
 #### Principal Engineer, Cloud Architecture (January 2024—October 2024)
 
-* Joined a team whose mission was to provide guidance and support in the cloud journey of the entire organization.
-* Started development on v2 of a project which scanned AWS accounts for misconfigurations and vulnerabilities. Goal was to reduce an [AWS Well-Architected] review from 2 weeks to 2 hours with automated scans, enabling more reviews annually (10 → 100).
-* Managed the migration from [CentOS] to [Amazon Linux] before the CentOS end-of-life date, which elevated our security posture.
-* Proposed best practices, guardrails, and security measures to ensure a secure and efficient cloud environment.
-* Identified opportunities to extend the security measures and guardrails devised for AWS to other cloud platforms (Microsoft Azure, Oracle Cloud).
+* Developed v2 of a project to scan AWS accounts for misconfigurations and vulnerabilities, reducing [AWS Well-Architected] review time from 2 weeks to 2 hours, increasing reviews annually ([Go], [AWS], [S3], [CloudFront], [Lambda], [EC2], [ECS], [EKS], [IAM], [Docker]).
+* Managed the migration from [CentOS] to [Amazon Linux] before the CentOS end-of-life date, ensuring a supported security posture ([Docker], [Terraform], [ECS], [EKS]).
+* Proposed and implemented best practices, guardrails, and security measures to ensure a secure and efficient cloud environment, extending these measures to other cloud platforms (Microsoft Azure, Oracle Cloud).
 
 #### Principal Cloud and Platform Engineer (June 2020—January 2024)
 
-* Led the team who supported all SRE and product engineering teams, scaling core platforms and services as every school in America transitioned to online learning during the COVID-19 lockdowns.
-* Authored/edited over 1,800 [Confluence] documents with the goal of reducing _tribal knowledge_.
-* Partnered with Enterprise Architecture and [AWS Professional Services] to deploy [Control Tower][AWS Control Tower] and [Identity Center][AWS Identity Center], resulting in lowered costs and improved control over security guardrails.
-* Managed the Base [AMI] program (server disk images). Leveraged insights from [CIS], security patching, and internal needs to develop a unified build pipeline integrating best practices. Reduced time-to-boot, and eliminated engineering toil (1 → 10).
-* Conducted comprehensive scans of [Route 53][Amazon Route 53] to obtain a mapping of the company’s thousands of active websites. Prioritized identifying and remediating misconfigurations, rotating certificates, and increasing visibility.
-* Grew and ran a project which evaluated AWS accounts for high-priority misconfigurations and vulnerabilities. Included a high-level score (friendly competition), explanations of the issues (security education), and instructions for fixing (driving forward). Became a trusted tool across the organization (1 → 10).
-* Implemented the custom Linux runtime environment used by self-hosted [GitHub Actions] runners.
-* Spearheaded the [Artifactory] Rebuild project. Ran the project from inception to completion, including the majority of development. Directed effort across ~80 teams and ~300 services to complete the project.
-* Enabled continuous token and password rotation for engineering teams by designing and deploying a _Token Vending Machine_, improving security.
-* Adapted the _Monitoring-as-Code_ tooling/methodology to abstract-away the underlying vendor, streamlining a vendor migration ([New Relic], [Datadog]) (1 → 10).
-* Resolved all technology blockers preventing migration lower-cost [ARM64] CPUs, opening the door for ~$450k/year in cost savings.
-* Led dozens of smaller projects, offered guidance to engineers on best practices, and documented knowledge.
+* Led the team supporting all SRE and product engineering teams, scaling core platforms and services during the COVID-19 lockdowns, improving system reliability and scalability.
+* Partnered with Enterprise Architecture and [AWS Professional Services] to deploy [Control Tower][AWS Control Tower] and [Identity Center][AWS Identity Center], lowering costs and enhancing security guardrails ([Python], [Cloudformation], [IAM], [Terraform]).
+* Managed the Base [AMI] program, integrating best practices from [CIS] and security patching, reducing time-to-boot from 4m30s (avg) to 20s (avg) and eliminating engineering toil ([Packer], [Bash], [AWS ImageBuilder], [Terraform]).
+* Conducted scans of our domains and DNS records to obtain a mapping of the company’s thousands of active websites, remediating misconfigurations, rotating certificates, and increasing understanding ([Go], [async programming], [AWS Lambda], [PostgreSQL], [Terraform], [Docker]).
+* Scanned ~200 AWS accounts for high-priority misconfigurations, vulnerabilities, and cost-savings opportunities ([Go], [async programming], [AWS Lambda], [PostgreSQL], [Terraform], [Docker]).
+* Implemented the custom Linux runtime environment used by self-hosted [GitHub Actions] runners ([Ubuntu], [Python], [Bash], [Terraform], [Amazon EKS], `kubectl`, [Docker]).
+* Spearheaded a project to modernize [Artifactory], which significantly improved reliability and ability to detect/mirigate supply chain vulnerabilities. Directed effort across ~80 teams and ~300 services to complete the project ([Go], [Python], [Node.js], [Bash], [Maven], [Gradle], [Terraform], [Docker], cybersecurity, project management).
+* Designed and deployed a _Token Vending Machine_, empowering continuous token and password rotation, improving security ([Go], [IAM], [AWS Lambda], [AWS Secrets Manager], [Terraform]).
+* Adapted our internal observability-as-code framework to abstract-away the underlying vendor, streamlining vendor migrations and preventing vendor lock-in ([New Relic], [Datadog], [Terraform], [Go], [Python], [Terraform]).
+* Resolved all technical blockers preventing migration to lower-cost [ARM64] CPUs, enabling ~$450k/year in cost savings ([Bash], Linux packaging, [Terraform]).
+* Led dozens of smaller projects, offered guidance to engineers on best practices, and authored/edited over 1,800 [Confluence] documents with the goal of reducing _tribal knowledge_.
+* Regularly helped teams leveraging [Amazon ECS] scale their systems and improve their reliability and scalability, while reducing their toil.
 
 #### Site Reliability Engineering Manager (October 2018—June 2020)
 
-* Managed a team of four, while working to mentor and level-up the team's technical skills and leadership capabilities. Conducted regular 1:1s, performance reviews, and career development discussions.
-* Revamped the SRE interview process to prioritize a 70/30 focus on software engineering (Dev) and systems operations (Ops). Emphasized leadership qualities, bias for action, and high curiosity.
-* Led the [_Site Reliability Engineering_][SRE] (SRE) team in addressing macro problems affecting engineering, empowering self-service.
-* Established a process for maintaining reusable [Terraform] modules which teams leveraged to compose infrastructure.
-* Customized the [Amazon Linux] AMIs to comply with Level-2 [CIS] Guidelines for both Amazon Linux and [Docker]. Liaised with cybersecurity, operations, and business units to ensure compliance (0 → 1).
-* Invented custom security and operational tooling to understand the current posture of AWS accounts where off-the-shelf tools did not meet the needs of the organization (0 → 1).
-* Reduced the time to deploy a new service from dozens of weeks to a single meeting by implementing a _Monitoring-as-Code_ methodology, and defining broad-use [Service Level Objectives][SLO] (SLOs) ([New Relic], [Datadog]) (0 → 1).
+* Led the [_Site Reliability Engineering_][SRE] (SRE) team, addressing macro-oriented reliability/availability problems and empowering self-service, improving our ability to scale our human resources ([Docker], [Amazon ECS], [Terraform], [New Relic], [Datadog]).
+* Established a process for maintaining reusable Terraform modules (designed as _LEGO blocks_), enhancing infrastructure management and deployment efficiency significantly ([Docker], [Terraform], [GitHub Enterprise]).
+* Reduced time to deploy a new service from several weeks of weeks to under 20m by implementing an observability-as-code methodology and defining broad-use [Service Level Objectives][SLO] (SLOs) ([New Relic], [Datadog], [Go], [Python], [Node.js], [Docker]).
+* Customized the [Amazon Linux] AMIs to comply with Level-2 [CIS] Guidelines for both Amazon Linux and [Docker], increasing security and preventing breaches ([Bash], [Python], [Docker]).
+* Invented operational tooling to understand the current posture of AWS accounts where off-the-shelf tools did not meet the needs of the organization ([Go], [async programming], [Terraform]).
 
 #### Staff Software Engineer (October 2016—October 2018)
 
 * Led the development of Tier-1 services within the educational content authoring pipeline, leveraging technologies such as [REST], [GraphQL], API design, [Amazon ECS] (similar to [Kubernetes]), [Docker], [Terraform], [ePubs][EPUB], and security best practices.
-* Led the development of the authoring component of the [SmartBook 2.0 product][SB2], and the internal system which indexes authored content, builds ePubs, and encodes images/video for the ePub CDN using [ffmpeg].
-* Established the technical direction of these projects, promoted adoption across the organization, published comprehensive documentation, and offered ongoing integration guidance.
+* Led the development of the authoring component of the [SmartBook 2.0 product][SB2], and the internal system which indexes authored content, builds ePubs, and encodes images/video for the ePub CDN using [ffmpeg] ([ffmpeg], [Amazon ECS], [Docker]).
+* Established the technical direction of these projects, promoted adoption across the organization, published comprehensive documentation, and offered ongoing integration guidance (technical leadership, technical writing).
 * Accelerated the adoption of CI/CD, rapid deployment practices, and Docker containers, shortening the feedback loop for developers and increasing the reliability of deployments.
 * Served as a core resource in adopting _Infrastructure-as-Code_ (IaC) tools such as [Terraform] and [Packer].
 
@@ -99,15 +95,16 @@ Cloud engineering leader with a diverse background spanning design, development,
 
 #### Senior DevOps Engineer (April 2015—September 2016)
 
-* Led a cross-company initiative to upgrade the monolithic application from [PHP] 5.4 to PHP 5.6 (the latest at the time). Facilitated cross-team collaboration among all major engineering teams and QA departments to achieve results.
-* Initiated a program to automate the creation of base server images for cloud servers. This allowed new servers to boot and begin serving traffic ~75% faster.
-* Invested in monitoring and alerting systems to prevent customer-facing issues ([New Relic], [Grafana]).
-* Explored _configuration-as-code_ for cloud infrastructure in [Google Cloud Platform][GCP] to improve reliability and efficiency.
+* Led a cross-company initiative to upgrade the monolithic application from [PHP] 5.4 to PHP 5.6 (the latest at the time). Facilitated cross-team collaboration among all major engineering teams and QA departments to achieve results ([PHP], project management).
+* Initiated a program to automate the creation of base server images for cloud servers. This allowed new servers to boot and begin serving traffic ~75% faster ([GCP], [Python], [Ansible]).
+* Invested in observability systems to prevent customer-facing issues ([New Relic], [Grafana]).
+* Explored _configuration-as-code_ for cloud infrastructure in [Google Cloud Platform][GCP] to improve reliability and efficiency ([Python], [Terraform]).
 
 #### Senior API Engineer (April 2014—April 2015)
 
 * Led the company’s [HackerOne](https://www.hackerone.com) security program, coordinating across teams to address security issues.
-* Built a local development environment for engineering teams using [Vagrant]. Eliminated "works on my machine", and reduced new engineer onboarding time from 2 weeks to 1 day (measured by when a new employee could make their first commit).
+* Brought performance improvements, new features, improved testing processes, and new QA tooling to WePay ([PHP], [BDD], [TDD]).
+* Built a local development environment for engineering teams using [Vagrant] and [VMWare Fusion]. Eliminated "works on my machine", and reduced new engineer onboarding time from 2 weeks to 1 day (measured by when a new employee could make their first commit).
 * Expanded WePay’s payment security offerings by designing MFA-as-a-Service (U.S. patent filing [US15042104]).
 
 <div class="page-break"></div>

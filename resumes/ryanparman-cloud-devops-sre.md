@@ -62,25 +62,25 @@ Cloud engineering leader with a diverse background spanning design, development,
 
 #### Principal Cloud and Platform Engineer (June 2020—January 2024)
 
-* Led the team who supported all SRE and product engineering teams, scaling core platforms and services as every school in America transitioned to online learning during the COVID-19 lockdowns.
-* Partnered with Enterprise Architecture and [AWS Professional Services] to deploy [Control Tower][AWS Control Tower] and [Identity Center][AWS Identity Center], resulting in lowered costs and improved control over security guardrails.
-* Managed the Base [AMI] program (server disk images). Leveraged insights from [CIS], security patching, and internal needs to develop a unified build pipeline integrating best practices. Reduced time-to-boot, and eliminated engineering toil (1 → 10).
-* Conducted comprehensive scans of [Route 53][Amazon Route 53] to obtain a mapping of the company’s thousands of active websites. Prioritized identifying and remediating misconfigurations, rotating certificates, and increasing visibility.
-* Grew and ran a project which evaluated AWS accounts for high-priority misconfigurations and vulnerabilities. Included a high-level score (friendly competition), explanations of the issues (security education), and instructions for fixing (driving forward). Became a trusted tool across the organization (1 → 10).
-* Implemented the custom Linux runtime environment used by self-hosted [GitHub Actions] runners.
-* Spearheaded the [Artifactory] Rebuild project. Ran the project from inception to completion, including the majority of development. Directed effort across ~80 teams and ~300 services to complete the project.
-* Enabled continuous token and password rotation for engineering teams by designing and deploying a _Token Vending Machine_, improving security.
-* Adapted the _Monitoring-as-Code_ tooling/methodology to abstract-away the underlying vendor, streamlining a vendor migration ([New Relic], [Datadog]) (1 → 10).
-* Resolved all technology blockers preventing migration lower-cost [ARM64] CPUs, opening the door for ~$450k/year in cost savings.
-* Led dozens of smaller projects, offered guidance to engineers on best practices, and documented knowledge.
+* Led the team which supported all SRE and product engineering teams, scaling core platforms and services as every school in America transitioned to online learning during the COVID-19 lockdowns.
+* Partnered with Enterprise Architecture and [AWS Professional Services] to deploy [Control Tower][AWS Control Tower] and [Identity Center][AWS Identity Center], resulting in lowered costs and improved control over security guardrails ([Python], [Cloudformation]).
+* Managed the Base [AMI] program (server disk images). Leveraged insights from [CIS], security patching, and internal needs to develop a unified build pipeline integrating best practices. Reduced time-to-boot, increased security, and eliminated engineering toil ([Packer], [Bash], [AWS ImageBuilder]) (1 → 10).
+* Conducted comprehensive scans of [Route 53][Amazon Route 53] to obtain a mapping of the company’s thousands of active websites. Prioritized identifying and remediating misconfigurations, rotating certificates, and increasing visibility ([Go], [async programming], [AWS Lambda], [PostgreSQL]).
+* Ran a project which scanned AWS accounts for high-priority misconfigurations, vulnerabilities, and cost-savings opportunities. Became a trusted tool across the organization ([Go], [async programming], [AWS Lambda], [PostgreSQL]) (1 → 10).
+* Implemented the custom Linux runtime environment used by self-hosted [GitHub Actions] runners ([Ubuntu]).
+* Spearheaded the [Artifactory] Rebuild project, which significantly improved reliability and ability to detect/mirigate supply chain vulnerabilities. Directed effort across ~80 teams and ~300 services to complete the project ([Go], [Python], [Bash], cybersecurity, project management).
+* Enabled continuous token and password rotation by designing and deploying a _Token Vending Machine_, improving security ([Go], [IAM], [AWS Lambda], [AWS Secrets Manager]).
+* Adapted our internal observability-as-code framework to abstract-away the underlying vendor, streamlining vendor migrations and preventing vendor lock-in ([New Relic], [Datadog], [Terraform], [Go], [Python]) (1 → 10).
+* Resolved all technology blockers preventing migration lower-cost [ARM64] CPUs, opening the door for ~$450k/year in cost savings ([Bash], Linux packaging).
+* Led dozens of smaller projects, offered guidance to engineers on best practices, and authored/edited over 1,800 [Confluence] documents with the goal of reducing _tribal knowledge_.
 
 #### Site Reliability Engineering Manager (October 2018—June 2020)
 
-* Led the [_Site Reliability Engineering_][SRE] (SRE) team in addressing macro problems affecting engineering, empowering self-service.
-* Established a process for maintaining reusable [Terraform] modules which teams leveraged to compose infrastructure.
+* Led the [_Site Reliability Engineering_][SRE] (SRE) team in focusing on macro-oriented reliability/availability problems and toil, and empowering greater self-service for engineering teams.
+* Established a community working group which created a series of reusable [Terraform] modules which teams were able to use for composing their service infrastructure.
 * Customized the [Amazon Linux] AMIs to comply with Level-2 [CIS] Guidelines for both Amazon Linux and [Docker]. Liaised with cybersecurity, operations, and business units to ensure compliance (0 → 1).
 * Invented custom security and operational tooling to understand the current posture of AWS accounts where off-the-shelf tools did not meet the needs of the organization (0 → 1).
-* Reduced the time to deploy a new service from dozens of weeks to a single meeting by implementing a _Monitoring-as-Code_ methodology, and defining broad-use [Service Level Objectives][SLO] (SLOs) ([New Relic], [Datadog]) (0 → 1).
+* Observability was traditionally an afterthought. Developed a framework which deployed monitors, alerts, and on-call rotations for broad-use [Service Level Objectives][SLO] (SLOs) in under 20m ([New Relic], [Datadog]) (0 → 1).
 
 #### Staff Software Engineer (October 2016—October 2018)
 
@@ -103,7 +103,7 @@ Cloud engineering leader with a diverse background spanning design, development,
 
 #### Senior API Engineer (April 2014—April 2015)
 
-* Led the company’s [HackerOne](https://www.hackerone.com) security program, coordinating across teams to address security issues.
+* Led the company’s  security program, coordinating across teams to address security issues.
 * Built a local development environment for engineering teams using [Vagrant]. Eliminated "works on my machine", and reduced new engineer onboarding time from 2 weeks to 1 day (measured by when a new employee could make their first commit).
 * Expanded WePay’s payment security offerings by designing MFA-as-a-Service (U.S. patent filing [US15042104]).
 
