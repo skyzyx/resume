@@ -44,9 +44,9 @@ Cloud engineering leader with a diverse background spanning design, development,
 
 #### Senior Technical Program Manager, Databases (March 2025—Present)
 
-* Managed budgets for the Databases organization, ensuring millions of dollars per month were kept "in the green" by diving deeply into erroneous spending.
-* Led internal migration projects, tracking progress and metrics, reducing infrastructure team workload by focusing on automation solutions.
-* Streamlined internal-user facing documentation by migrating from multiple systems into a singular system, performing technical editing and leveraging a [Diátaxis](https://diataxis.fr)-like approach.
+* Managed budgets for the Databases organization, ensuring millions of dollars per month were kept "in the green" by diving deeply into erroneous spending (budgeting, business accounting).
+* Led internal migration projects, tracking progress and metrics, reducing infrastructure team workload by focusing on automation solutions (project management).
+* Streamlined internal-user facing documentation by migrating from multiple systems into a singular system, performing technical editing and leveraging a [Diátaxis](https://diataxis.fr)-like approach (project management, technical writing).
 
 ### [McGraw Hill] — Remote (since COVID), previously Seattle, WA
 
@@ -60,7 +60,7 @@ Cloud engineering leader with a diverse background spanning design, development,
 
 #### Principal Cloud and Platform Engineer (June 2020—January 2024)
 
-* Led the team supporting all SRE and product engineering teams, scaling core platforms and services during the COVID-19 lockdowns, improving system reliability and scalability.
+* Led the team supporting all SRE and product engineering teams, scaling core platforms and services during the COVID-19 lockdowns, improving system reliability and scalability, and investing in platform engineering.
 * Partnered with Enterprise Architecture and [AWS Professional Services] to deploy [Control Tower][AWS Control Tower] and [Identity Center][AWS Identity Center], lowering costs and enhancing security guardrails ([Python], [Cloudformation], [IAM], [Terraform]).
 * Managed the Base [AMI] program, integrating best practices from [CIS] and security patching, reducing time-to-boot from 4m30s (avg) to 20s (avg) and eliminating engineering toil ([Packer], [Bash], [AWS ImageBuilder], [Terraform]).
 * Conducted scans of our domains and DNS records to obtain a mapping of the company’s thousands of active websites, remediating misconfigurations, rotating certificates, and increasing understanding ([Go], [async programming], [AWS Lambda], [PostgreSQL], [Terraform], [Docker]).
@@ -75,7 +75,7 @@ Cloud engineering leader with a diverse background spanning design, development,
 
 #### Site Reliability Engineering Manager (October 2018—June 2020)
 
-* Led the [_Site Reliability Engineering_][SRE] (SRE) team, addressing macro-oriented reliability/availability problems and empowering self-service, improving our ability to scale our human resources ([Docker], [Amazon ECS], [Terraform], [New Relic], [Datadog]).
+* Led the [_Site Reliability Engineering_][SRE] (SRE) team, focusing on macro-oriented reliability/availability problems and platform engineering principles, improving our ability to scale our human resources ([Docker], [Amazon ECS], [Terraform], [New Relic], [Datadog]).
 * Established a process for maintaining reusable Terraform modules (designed as _LEGO blocks_), enhancing infrastructure management and deployment efficiency significantly ([Docker], [Terraform], [GitHub Enterprise]).
 * Reduced time to deploy a new service from several weeks of weeks to under 20m by implementing an observability-as-code methodology and defining broad-use [Service Level Objectives][SLO] (SLOs) ([New Relic], [Datadog], [Go], [Python], [Node.js], [Docker]).
 * Customized the [Amazon Linux] AMIs to comply with Level-2 [CIS] Guidelines for both Amazon Linux and [Docker], increasing security and preventing breaches ([Bash], [Python], [Docker]).
