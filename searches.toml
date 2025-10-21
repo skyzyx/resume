@@ -28,8 +28,6 @@ job_roles = [
   "project manager",
   "site reliability engineer",
   "software engineer",
-  "product manager",
-  "technical program manager",
 ]
 
 excluded_keywords = ["clearance", "dod", "expired", "intern", "sales"]
