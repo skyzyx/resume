@@ -3,6 +3,7 @@ search_engine = "https://kagi.com/search?dr=2&q="
 
 search_domains = [
   "applytojob.com/apply/",
+  "breezy.hr",
   "icims.com",
   "inflightcloud.com",
   "job-boards.greenhouse.io",
@@ -22,12 +23,18 @@ search_domains = [
 job_roles = [
   "cloud engineer",
   "cybersecurity",
+  "developer productivity",
+  "devex",
   "devops",
+  "devprod",
   "devsecops",
+  "infrastructure engineer",
   "observability",
-  "project manager",
+  "platform engineer",
   "site reliability engineer",
   "software engineer",
+  "sre",
+  "tools engineer",
 ]
 
 excluded_keywords = ["clearance", "dod", "expired", "intern", "sales"]
