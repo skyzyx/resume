@@ -54,7 +54,7 @@ var searchCmd = &cobra.Command{
 
 				searchURL := cfg.SearchEngine + url.QueryEscape(
 					fmt.Sprintf(
-						`%s "%s" AND "remote" -%s`,
+						`%s "%s" AND "remote" AND ("united states" OR "canada") -%s`,
 						strings.Join(domains, " | "),
 						role,
 						strings.Join(cfg.ExcludedKeywords, ` -`),
