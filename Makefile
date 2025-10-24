@@ -92,7 +92,7 @@ coverletter:
 
 ## pdf: [coverletter]* Generate a PDF version of a coverletter.
 pdf:
-	FILENAME=$(shell gum file ./coverletters --cursor=">" --file --height=20) && \
+	FILENAME_IN=$(shell gum file ./coverletters --cursor=">" --file --height=20) && \
 	pandoc \
 		-r gfm \
 		-w html5+ascii_identifiers+auto_identifiers+gfm_auto_identifiers+smart+task_lists \
@@ -100,7 +100,7 @@ pdf:
 		--eol=lf \
 		--template=cmd/templates/pdf.tmpl.html \
 		--output=render/coverletter.html \
-		$$FILENAME && \
+		$$FILENAME_IN && \
 	$(GO) run main.go serve \
 		--load-file=coverletter.html \
-		--write-pdf=coverletters/ryanparman-coverletter-$(shell basename $$FILENAME).pdf
+		--write-pdf=coverletters/ryanparman-coverletter-$$(bash ./strip-filename.sh "$$FILENAME_IN").pdf

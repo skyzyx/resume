@@ -17,6 +17,11 @@ Dear Hiring Manager,
 
 I’m excited to bring [specific skills] to your team and look forward to discussing how I can help [specific goal].
 
+Best regards, \
+Ryan Parman
+
+(Written by a human; lightly edited by AI.)
+
 ----------------------------------------
 JOB DESCRIPTION FOR THE ROLE AND COMPANY
 ----------------------------------------

@@ -84,7 +84,7 @@ Cloud engineering leader with a diverse background spanning design, development,
 #### Staff Software Engineer (October 2016—October 2018)
 
 * Led the development of Tier-1 services within the educational content authoring pipeline, leveraging technologies such as [REST], [GraphQL], API design, [Amazon ECS] (similar to [Kubernetes]), [Docker], [Terraform], [ePubs][EPUB], and security best practices.
-* Led the development of the authoring component of the [SmartBook 2.0 product][SB2], and the internal system which indexes authored content, builds ePubs, and encodes images/video for the ePub CDN using [ffmpeg].
+* Led the development of the authoring component of the [SmartBook 2.0 product][SB2], and the internal system which indexes authored content, builds ePubs, and encodes images/video for the ePub CDN using [ffmpeg] and [HLS] streaming.
 * Established the technical direction of these projects, promoted adoption across the organization, published comprehensive documentation, and offered ongoing integration guidance.
 * Accelerated the adoption of CI/CD, rapid deployment practices, and Docker containers, shortening the feedback loop for developers and increasing the reliability of deployments.
 * Skills: [Amazon ECS], [Docker], [ePubs][EPUB], [ffmpeg], [GraphQL], [Packer], [PHP], [REST], [Terraform], observability, technical leadership, technical writing.
@@ -229,6 +229,7 @@ _Silicon Valley College_ (now [Carrington College]), San Jose, CA. Bachelor of A
 [Gradle]: https://gradle.org
 [Grafana]: https://grafana.com
 [GraphQL]: https://graphql.org
+[HLS]: https://www.cloudflare.com/learning/video/what-is-mpeg-dash/
 [IAM]: https://aws.amazon.com/iam/
 [Identity Center]: https://aws.amazon.com/iam/identity-center/
 [ImageBuilder]: https://docs.aws.amazon.com/imagebuilder/

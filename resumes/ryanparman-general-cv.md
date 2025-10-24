@@ -88,7 +88,7 @@ Cloud engineering leader with a diverse background spanning design, development,
 #### Staff Software Engineer (October 2016—October 2018)
 
 * Led the development of Tier-1 services within the educational content authoring pipeline, leveraging technologies such as [REST], [GraphQL], API design, [Amazon ECS] (similar to [Kubernetes]), [Docker], [Terraform], [ePubs][EPUB], and security best practices.
-* Led the development of the authoring component of the [SmartBook 2.0 product][SB2], and the internal system which indexes authored content, builds ePubs, and encodes images/video for the ePub CDN using [ffmpeg].
+* Led the development of the authoring component of the [SmartBook 2.0 product][SB2], and the internal system which indexes authored content, builds ePubs, and encodes images/video for the ePub CDN using [ffmpeg] and [HLS] streaming.
 * Established the technical direction of these projects, promoted adoption across the organization, published comprehensive documentation, and offered ongoing integration guidance.
 * Accelerated the adoption of CI/CD, rapid deployment practices, and Docker containers, shortening the feedback loop for developers and increasing the reliability of deployments.
 * Served as a core resource in adopting _Infrastructure-as-Code_ (IaC) tools such as [Terraform] and [Packer].
@@ -164,7 +164,7 @@ See a [selective list of recommendations](https://github.com/skyzyx/resume/blob/
 
 This list is not exhaustive, but these are software and hard skills I leveraged in the roles above.
 
-CI/CD, Cloud Engineering, DevOps, DevSecOps, Platform Engineering, Site Reliability Engineering, [ARM64], [AWS Well-Architected], [AWS], [Amazon Web Services][AWS], [Ansible], [Artifactory], [Bash], [CIS], [CentOS], [CircleCI], [CloudFormation][AWS CloudFormation], [CloudWatch][Amazon CloudWatch], [Control Tower][AWS Control Tower], [Docker], [ECS][Amazon ECS], [GitHub Actions], [GitHub Enterprise], [GitOps], [Git], [Go], [GraphQL], [JWT], [JavaScript], [Lambda][AWS Lambda], [Nginx], [OpenTelemetry], [OpenTofu], [PHP], [Packer], [Python], [Redis], [SDKs][AWS SDKs], [Terraform], [Traefik], [Vagrant], [twelve-factor applications], architecture, automation, code generation, concurrency, containerization, debugging, disaster recovery, distributed systems, documentation, error budget, fault tolerance, microservices, multi-platform, optimization, performance, platforms, refactoring, reliability, scalability, scripting, security, test-driven development, testing, troubleshooting, uptime.
+CI/CD, Cloud Engineering, DevOps, DevSecOps, Platform Engineering, Site Reliability Engineering, [ARM64], [AWS Well-Architected], [AWS], [Amazon Web Services][AWS], [Ansible], [Artifactory], [Bash], [CIS], [CentOS], [CircleCI], [CloudFormation], [CloudWatch], [Control Tower], [Datadog], [Docker], [ECS], [GitHub Actions], [GitHub Enterprise], [GitOps], [Git], [Go], [GraphQL], [JWT], [JavaScript], [Lambda][AWS Lambda], [New Relic], [Nginx], [OpenTelemetry], [OpenTofu], [PHP], [Packer], [Python], [Redis], [SDKs][AWS SDKs], [Terraform], [Traefik], [Vagrant], [twelve-factor applications], architecture, automation, code generation, concurrency, containerization, debugging, disaster recovery, distributed systems, documentation, encryption at rest, error budget, fault tolerance, microservices, multi-platform, optimization, performance, platforms, refactoring, reliability, scalability, scripting, security, test-driven development, testing, troubleshooting, uptime.
 
 ## Education
 
@@ -233,6 +233,7 @@ _Silicon Valley College_ (now [Carrington College]), San Jose, CA. Bachelor of A
 [Gradle]: https://gradle.org
 [Grafana]: https://grafana.com
 [GraphQL]: https://graphql.org
+[HLS]: https://www.cloudflare.com/learning/video/what-is-mpeg-dash/
 [IAM]: https://aws.amazon.com/iam/
 [Identity Center]: https://aws.amazon.com/iam/identity-center/
 [ImageBuilder]: https://docs.aws.amazon.com/imagebuilder/
