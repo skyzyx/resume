@@ -160,7 +160,7 @@ See a [selective list of recommendations](https://github.com/skyzyx/resume/blob/
 
 This list is not exhaustive, but these are software and hard skills I leveraged in the roles above which are most relevant to Software Engineering and DevTools roles.
 
-CI/CD, [AWS], [Bash], [CircleCI], [Docker], [GitHub Actions], [Git], [Go], [GraphQL], [JWT], [JavaScript], [PHP], [Python], [Redis], [Vagrant], [twelve-factor applications], automation, code generation, concurrency, containerization, debugging, documentation, microservices, multi-platform, optimization, performance, platforms, refactoring, scalability, security, test-driven development, testing.
+CI/CD, [AWS], [Bash], [CircleCI], [Docker], [GitHub Actions], [Git], [Go], [GraphQL], [HLS], [JWT], [JavaScript], [PHP], [Python], [Redis], [Vagrant], [ffmpeg], [twelve-factor applications], automation, code generation, concurrency, containerization, debugging, documentation, microservices, multi-platform, optimization, performance, platforms, refactoring, scalability, security, test-driven development, testing.
 
 ## Education
 
