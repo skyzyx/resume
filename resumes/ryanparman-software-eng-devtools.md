@@ -87,7 +87,7 @@ Cloud engineering leader with a diverse background spanning design, development,
 * Led the development of the authoring component of the [SmartBook 2.0 product][SB2], and the internal system which indexes authored content, builds ePubs, and encodes images/video for the ePub CDN using [ffmpeg] and [HLS] streaming.
 * Established the technical direction of these projects, promoted adoption across the organization, published comprehensive documentation, and offered ongoing integration guidance.
 * Accelerated the adoption of CI/CD, rapid deployment practices, and Docker containers, shortening the feedback loop for developers and increasing the reliability of deployments.
-* Skills: [Amazon ECS], [Docker], [ePubs][EPUB], [ffmpeg], [GraphQL], [Packer], [PHP], [REST], [Terraform], observability, technical leadership, technical writing.
+* Skills: [Amazon ECS], [Docker], [ePubs][EPUB], [ffmpeg], [GraphQL], [HLS], [Packer], [PHP], [REST], [Terraform], observability, technical leadership, technical writing.
 
 ### [WePay] — Redwood City, CA
 
@@ -204,6 +204,7 @@ _Silicon Valley College_ (now [Carrington College]), San Jose, CA. Bachelor of A
 [CentOS]: https://en.wikipedia.org/wiki/CentOS
 [CircleCI]: https://circleci.com/enterprise/
 [CIS]: https://www.cisecurity.org
+[cloud-init]: https://cloud-init.io
 [CloudFormation]: https://aws.amazon.com/cloudformation/
 [CloudFront]: https://aws.amazon.com/cloudfront/
 [CloudWatch]: https://aws.amazon.com/cloudwatch/

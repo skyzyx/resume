@@ -92,7 +92,7 @@ Cloud engineering leader with a diverse background spanning design, development,
 * Established the technical direction of these projects, promoted adoption across the organization, published comprehensive documentation, and offered ongoing integration guidance.
 * Accelerated the adoption of CI/CD, rapid deployment practices, and Docker containers, shortening the feedback loop for developers and increasing the reliability of deployments.
 * Served as a core resource in adopting _Infrastructure-as-Code_ (IaC) tools such as [Terraform] and [Packer].
-* Skills: [Amazon ECS], [Docker], [ePubs][EPUB], [ffmpeg], [GraphQL], [Packer], [PHP], [REST], [Terraform], observability, technical leadership, technical writing.
+* Skills: [Amazon ECS], [Docker], [ePubs][EPUB], [ffmpeg], [GraphQL], [HLS], [Packer], [PHP], [REST], [Terraform], observability, technical leadership, technical writing.
 
 ### [WePay] — Redwood City, CA
 
@@ -164,7 +164,7 @@ See a [selective list of recommendations](https://github.com/skyzyx/resume/blob/
 
 This list is not exhaustive, but these are software and hard skills I leveraged in the roles above.
 
-CI/CD, Cloud Engineering, DevOps, DevSecOps, Platform Engineering, Site Reliability Engineering, [ARM64], [AWS Well-Architected], [AWS], [Amazon Web Services][AWS], [Ansible], [Artifactory], [Bash], [CIS], [CentOS], [CircleCI], [CloudFormation], [CloudWatch], [Control Tower], [Datadog], [Docker], [ECS], [GitHub Actions], [GitHub Enterprise], [GitOps], [Git], [Go], [GraphQL], [HLS], [JWT], [JavaScript], [Lambda][AWS Lambda], [New Relic], [Nginx], [OpenTelemetry], [OpenTofu], [PHP], [Packer], [Python], [Redis], [SDKs][AWS SDKs], [Terraform], [Traefik], [Vagrant], [ffmpeg], [twelve-factor applications], architecture, automation, code generation, concurrency, containerization, debugging, disaster recovery, distributed systems, documentation, encryption at rest, error budget, fault tolerance, microservices, multi-platform, optimization, performance, platforms, refactoring, reliability, scalability, scripting, security, test-driven development, testing, troubleshooting, uptime.
+CI/CD, Cloud Engineering, DevOps, DevSecOps, Platform Engineering, Site Reliability Engineering, [ARM64], [AWS Well-Architected], [AWS], [Amazon Linux], [Amazon Web Services][AWS], [Ansible], [Artifactory], [Bash], [CIS], [CentOS], [CircleCI], [CloudFormation], [CloudWatch], [Control Tower], [Datadog], [Docker], [ECS], [GitHub Actions], [GitHub Enterprise], [GitOps], [Git], [Go], [GraphQL], [HLS], [JWT], [JavaScript], [Lambda][AWS Lambda], [New Relic], [Nginx], [OpenTelemetry], [OpenTofu], [PHP], [Packer], [Python], [Redis], [SDKs][AWS SDKs], [Terraform], [Traefik], [Ubuntu], [Vagrant], [cloud-init], [ffmpeg], [twelve-factor applications], architecture, automation, code generation, concurrency, containerization, debugging, disaster recovery, distributed systems, documentation, encryption at rest, error budget, fault tolerance, microservices, multi-platform, optimization, performance, platforms, refactoring, reliability, scalability, scripting, security, test-driven development, testing, troubleshooting, uptime.
 
 ## Education
 
@@ -208,6 +208,7 @@ _Silicon Valley College_ (now [Carrington College]), San Jose, CA. Bachelor of A
 [CentOS]: https://en.wikipedia.org/wiki/CentOS
 [CircleCI]: https://circleci.com/enterprise/
 [CIS]: https://www.cisecurity.org
+[cloud-init]: https://cloud-init.io
 [CloudFormation]: https://aws.amazon.com/cloudformation/
 [CloudFront]: https://aws.amazon.com/cloudfront/
 [CloudWatch]: https://aws.amazon.com/cloudwatch/
