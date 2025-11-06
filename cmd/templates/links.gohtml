@@ -1,5 +1,13 @@
 {{ define "links" -}}
+{{ if not .IsWorkday -}}
 **Links:** [GitHub (personal)] • [GitHub (side project)] • [LinkedIn] • [Stack Overflow] • [Role-targeted résumés]({{ .ResumeDir }}#readme) \
 **Format:** [Web]({{ .Resume }}.md) • [PDF]({{ .ResumeRaw }}.pdf) • [Word]({{ .ResumeRaw }}.docx)
 
+{{ else }}
+https://www.linkedin.com/in/rparman/ \
+https://github.com/skyzyx/ \
+https://github.com/northwood-labs/ \
+https://stackoverflow.com/users/228514/ryan-parman
+
+{{- end }}
 {{- end }}

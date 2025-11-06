@@ -1,8 +1,10 @@
 {{ define "exp-mcgraw-hill" -}}
+{{ if not .IsWorkday -}}
 ### [McGraw Hill] — Remote (since COVID), previously Seattle, WA
 
 > McGraw Hill is a _learning science_ company which produces textbooks, digital learning tools, and adaptive technology to enhance learning. It is one of the “big three” educational publishers in the U.S.
 
+{{ end }}
 {{ template "role-mcgraw-hill-architecture" . }}
 
 {{ template "role-mcgraw-hill-cloud" . }}

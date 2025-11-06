@@ -1,5 +1,18 @@
 {{ define "role-mcgraw-hill-sde" -}}
+{{ if not .IsWorkday -}}
 #### Staff Software Engineer (October 2016—October 2018)
+{{ else }}
+### Staff Software Engineer
+
+{{ workdayJobDescription
+    "Staff Software Engineer"
+    "McGraw Hill"
+    "Seattle, WA"
+    "10/2016"
+    "10/2018"
+}}
+
+{{ end }}
 
 * Led the development of Tier-1 services within the educational content authoring pipeline, leveraging technologies such as [REST], [GraphQL], API design, [Amazon ECS] (similar to [Kubernetes]), [Docker], [Terraform], [ePubs][EPUB], and security best practices.
 

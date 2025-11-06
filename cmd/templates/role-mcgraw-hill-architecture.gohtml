@@ -1,5 +1,18 @@
 {{ define "role-mcgraw-hill-architecture" -}}
+{{ if not .IsWorkday -}}
 #### Principal Engineer, Cloud Architecture (January 2024—October 2024)
+{{ else }}
+### Principal Engineer, Cloud Architecture
+
+{{ workdayJobDescription
+    "Principal Engineer, Cloud Architecture"
+    "McGraw Hill"
+    "Remote"
+    "01/2024"
+    "10/2024"
+}}
+
+{{ end }}
 
 * Developed v2 of a project to scan AWS accounts for misconfigurations and vulnerabilities, reducing [AWS Well-Architected] review time from 2 weeks to 2 hours, increasing reviews annually.
 

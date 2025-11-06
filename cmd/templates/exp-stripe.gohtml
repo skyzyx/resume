@@ -1,8 +1,10 @@
 {{ define "exp-stripe" -}}
+{{ if not .IsWorkday -}}
 ### [Stripe] — Remote
 
 > Stripe provides a fully integrated suite of financial and payments products.
 
+{{ end }}
 {{ template "role-stripe-tpm" . }}
 
 {{- end }}

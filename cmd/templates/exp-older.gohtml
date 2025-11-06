@@ -1,4 +1,5 @@
 {{ define "exp-older" -}}
+{{ if not .IsWorkday -}}
 {{ if or .IsAll .IsCloud .IsSDE -}}
 <div class="page-break"></div>
 
@@ -25,4 +26,5 @@ See “[Previous experience, side projects](https://github.com/skyzyx/resume/blo
 
 * [Digital Impact](https://www.crunchbase.com/organization/digital-impact-2) (now part of [Axciom](https://www.crunchbase.com/organization/acxiom-digital-inc)) — Production Specialist (March 2004—April 2005)
 
+{{- end }}
 {{- end }}

@@ -16,6 +16,7 @@ import (
 
 	"github.com/Masterminds/sprig/v3"
 	"github.com/charmbracelet/log"
+	"github.com/lithammer/dedent"
 	"github.com/spf13/cobra"
 
 	clihelpers "github.com/northwood-labs/cli-helpers"
@@ -29,11 +30,12 @@ type TemplateVars struct {
 
 	IsAll   bool
 	IsCloud bool
-	IsEM    bool
 	IsSDE   bool
-	IsTPM   bool
 
-	IsGoPDF bool
+	IsGoPDF   bool
+	IsWorkday bool
+
+	Counter int
 }
 
 var (
@@ -71,10 +73,10 @@ var (
 		Use:   "generate",
 		Short: "Performs the generation step, producing multiple formats.",
 		Long: clihelpers.LongHelpText(`
-        Performs the generation step, producing multiple formats.
+		Performs the generation step, producing multiple formats.
 
-        Reads Markdown content from templates, then passes the content to Pandoc
-        for transformation to other formats.`),
+		Reads Markdown content from templates, then passes the content to Pandoc
+		for transformation to other formats.`),
 		Run: func(cmd *cobra.Command, args []string) {
 			reJobRoles := regexp.MustCompile(`^(` + strings.Join(jobRoles, "|") + `)$`)
 
@@ -87,6 +89,15 @@ var (
 
 			pp := debug.GetSpew()
 			funcMap["debug"] = pp.Sdump
+			funcMap["workdayJobDescription"] = func(jobTitle, company, location, from, to string) string {
+				return strings.TrimSpace(dedent.Dedent(`
+				Job Title: ` + jobTitle + ` \
+				Company: ` + company + ` \
+				Location: ` + location + ` \
+				From: ` + from + ` \
+				To: ` + to + `
+				`))
+			}
 
 			pattern := filepath.Join("templates", "*.gohtml")
 
@@ -129,7 +140,8 @@ var (
 				audience := ""
 
 				generateMarkdown(templates, role, resumeDir, audience)
-				generateWord(role, resumeDir, audience, "docx")
+				generateWord(role, resumeDir, audience, "docx", false)
+				generateWord(role, resumeDir, audience, "docx", true)
 				// generateWord(role, resumeDir, audience, "odt")
 				generatePDF(role, resumeDir, audience)
 			}
@@ -160,13 +172,12 @@ func generateMarkdown(templates *template.Template, role, resumeDir, audience st
 		vars.IsAll = true
 	case "cloud":
 		vars.IsCloud = true
-	case "em":
-		vars.IsEM = true
 	case "sde":
 		vars.IsSDE = true
-	case "tpm":
-		vars.IsTPM = true
 	}
+
+	// -------------------------------------------------------------------------
+	// Generate the full Markdown resume.
 
 	absPathMd := filepath.Join(resumeDir, fileNames[role]+audience+".md")
 
@@ -209,6 +220,68 @@ func generateMarkdown(templates *template.Template, role, resumeDir, audience st
 	logger.Infof("wrote %s", absPathMd)
 
 	// -------------------------------------------------------------------------
+	// Generate the Workday version
+
+	absPathMdWd := filepath.Join(resumeDir, fileNames[role]+audience+"-workday.md")
+
+	// Create the Markdown file.
+	wd, err := os.Create(absPathMdWd)
+	if err != nil {
+		logger.Fatal(fmt.Errorf("error creating `%s`: %w", filepath.Base(absPathMdWd), err))
+	}
+
+	defer wd.Close()
+
+	// We will be collecting the output in a buffer, so that we can
+	// clean it before writing it to the file.
+	workdayIn := new(bytes.Buffer)
+
+	vars.IsWorkday = true
+
+	// Execute the templates.
+	err = templates.ExecuteTemplate(workdayIn, "frame-workday.gohtml", vars)
+	if err != nil {
+		logger.Fatal(fmt.Errorf("error executing templates: %w", err))
+	}
+
+	// Cleanup the contents of the buffer.
+	reTooManyLinebreaks = regexp.MustCompile(`\n{3,}`)
+	strOut = reTooManyLinebreaks.ReplaceAllString(workdayIn.String(), "\n\n")
+
+	// Adjustments
+	strOut = strings.ReplaceAll(strOut, "á", "a")
+	strOut = strings.ReplaceAll(strOut, "_", "")
+	strOut = strings.ReplaceAll(strOut, "`", "")
+	strOut = strings.ReplaceAll(strOut, "’", "'")
+	strOut = strings.ReplaceAll(strOut, "“", "")
+	strOut = strings.ReplaceAll(strOut, "”", "")
+	strOut = strings.ReplaceAll(strOut, `"`, "")
+
+	// Reduce line breaks between bullets.
+	reReduceLinebreaks = regexp.MustCompile(`\*\s([^\n]+)\n{2}\*`)
+	strOut = reReduceLinebreaks.ReplaceAllString(strOut, "* ${1}\n*")
+	strOut = reReduceLinebreaks.ReplaceAllString(strOut, "* ${1}\n*")
+
+	// Strip links
+	strOut = regexp.MustCompile(`\[([^\]]+)\]\((?:[^\)]+)\)`).ReplaceAllString(strOut, "${1}")
+	strOut = regexp.MustCompile(`\[([^\]]+)\]\[(?:[A-Za-z0-9\.\s]+)\]`).ReplaceAllString(strOut, "${1}")
+	strOut = regexp.MustCompile(`\[([^\]]+)\]`).ReplaceAllString(strOut, "${1}")
+
+	workdayOut := strings.NewReader(strOut)
+
+	// Write the buffer to the file.
+	_, err = workdayOut.WriteTo(wd)
+	if err != nil {
+		logger.Fatal(fmt.Errorf("error writing buffer to file: %w", err))
+	}
+
+	// Log the success.
+	logger.Infof("wrote %s", absPathMdWd)
+
+	vars.IsWorkday = false
+
+	// -------------------------------------------------------------------------
+	// Blurb ONLY (PDF metadata)
 
 	// We will be collecting the output in a buffer, so that we can
 	// clean it before writing it to the file.
@@ -228,6 +301,7 @@ func generateMarkdown(templates *template.Template, role, resumeDir, audience st
 	pdfDescription = blurbOut
 
 	// -------------------------------------------------------------------------
+	// Skills ONLY (PDF metadata)
 
 	// We will be collecting the output in a buffer, so that we can
 	// clean it before writing it to the file.
@@ -265,22 +339,27 @@ func generateMarkdown(templates *template.Template, role, resumeDir, audience st
 	pdfKeywords = strings.ReplaceAll(pdfKeywords, " (modern)", "")
 }
 
-func generateWord(role, resumeDir, audience, format string) {
+func generateWord(role, resumeDir, audience, format string, isWorkday bool) {
+	workdayFilename := ""
+	if isWorkday {
+		workdayFilename = "-workday"
+	}
+
 	docx := exec.Command(
 		"pandoc",
 		"-r", "gfm",
 		"-w", format,
 		"--reference-doc="+filepath.Join("render", "reference."+format),
-		"--output="+filepath.Join(resumeDir, fileNames[role]+audience+"."+format),
-		filepath.Join(resumeDir, fileNames[role]+audience+".md"),
+		"--output="+filepath.Join(resumeDir, fileNames[role]+audience+workdayFilename+"."+format),
+		filepath.Join(resumeDir, fileNames[role]+audience+workdayFilename+".md"),
 	)
 	err := docx.Run()
 	if err != nil {
-		logger.Fatal(fmt.Errorf("error creating `%s`: %w", fileNames[role]+audience+"."+format, err))
+		logger.Fatal(fmt.Errorf("error creating `%s`: %w", fileNames[role]+audience+workdayFilename+"."+format, err))
 	}
 
 	fpAbs, err := filepath.Abs(
-		filepath.Join(resumeDir, fileNames[role]+audience+"."+format),
+		filepath.Join(resumeDir, fileNames[role]+audience+workdayFilename+"."+format),
 	)
 	if err != nil {
 		logger.Fatal(fmt.Errorf("error determining absolute path for `%s`: %w", "./resumes", err))
@@ -352,15 +431,11 @@ func generatePDF(role, resumeDir, audience string) {
 	var pdfRoles string
 	switch role {
 	case "all":
-		pdfRoles = "Software Engineer, DevTools, Cloud, SRE, DevOps, PM, TPM, Manager"
+		pdfRoles = "Software Engineer, DevEx, Cloud, SRE, Platform, Infrastructure"
 	case "cloud":
-		pdfRoles = "Cloud, SRE, DevOps, DevTools"
-	case "em":
-		pdfRoles = "Engineering Manager"
+		pdfRoles = "Cloud, SRE, Site Reliability, DevOps, DevSecOps, DevTools, Infrastructure, Platform Engineering"
 	case "sde":
-		pdfRoles = "Software Engineer, DevTools"
-	case "tpm":
-		pdfRoles = "PM, TPM"
+		pdfRoles = "Software Engineer, DevTools, Internal Tools, Developer Productivity, Developer Experience, DevEx"
 	}
 
 	// Write correct PDF metadata

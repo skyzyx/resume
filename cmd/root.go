@@ -12,9 +12,7 @@ var (
 	fileNames = map[string]string{
 		"all":   "ryanparman-general-cv",
 		"cloud": "ryanparman-cloud-platform-devops-sre-infra",
-		// "em":    "ryanparman-engineering-manager",
-		"sde":   "ryanparman-software-eng-devtools",
-		// "tpm":   "ryanparman-tpm",
+		"sde":   "ryanparman-software-engineer-devtools-devex",
 	}
 
 	rootCmd = &cobra.Command{

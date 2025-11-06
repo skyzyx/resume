@@ -1,8 +1,10 @@
 {{ define "exp-wepay" -}}
+{{ if not .IsWorkday -}}
 ### [WePay] — Redwood City, CA
 
 > WePay is an online payment service provider which provides “payments for platforms”, where examples of platforms were GoFundMe, Care.com, and Xbox. JPMorgan Chase acquired WePay in October 2017.
 
+{{ end }}
 {{ template "role-wepay-devops" . }}
 
 {{ template "role-wepay-api" . }}

@@ -1,5 +1,18 @@
 {{ define "role-mcgraw-hill-cloud" -}}
+{{ if not .IsWorkday -}}
 #### Principal Cloud and Platform Engineer (June 2020—January 2024)
+{{ else }}
+### Principal Cloud and Platform Engineer
+
+{{ workdayJobDescription
+    "Principal Cloud and Platform Engineer"
+    "McGraw Hill"
+    "Remote"
+    "06/2020"
+    "01/2024"
+}}
+
+{{ end }}
 
 * Led the team supporting all SRE and product engineering teams, scaling core platforms and services during the COVID-19 lockdowns, improving system reliability and scalability, and investing in platform engineering.
 

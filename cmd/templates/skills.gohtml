@@ -112,7 +112,7 @@
 {{ if not .IsGoPDF -}}
 ## Skills
 
-{{ if or .IsAll .IsEM -}}
+{{ if .IsAll -}}
 This list is not exhaustive, but these are software and hard skills I leveraged in the roles above.
 
 {{ (concat $languages $cloudSkills $sdeSkills) | sortAlpha | uniq | join ", " }}.
@@ -133,13 +133,6 @@ This list is not exhaustive, but these are software and hard skills I leveraged 
 
 {{ end -}}
 
-{{ if .IsTPM -}}
-This list is not exhaustive, but these are software and hard skills I leveraged in the roles above which are most relevant to <abbr title="Project Manager">PM</abbr>, <abbr title="Technical Program Manager">TPM</abbr>, and <abbr title="Product Manager">Product</abbr> roles.
-
-{{ (concat $tpmSkills) | sortAlpha | uniq | join ", " }}.
-
-{{ end -}}
-
 {{- else -}} {{/* Generate when we're just trying to get keywords */}}
 {{ if .IsAll -}}
     {{- (concat $languages $cloudSkills $sdeSkills) | sortAlpha | uniq | join ", " -}}
@@ -147,8 +140,6 @@ This list is not exhaustive, but these are software and hard skills I leveraged 
     {{- (concat $languages $cloudSkills) | sortAlpha | uniq | join ", " -}}
 {{ else if .IsSDE -}}
     {{- (concat $languages $sdeSkills) | sortAlpha | uniq | join ", " -}}
-{{/* {{ else if .IsTPM -}}
-    {{- (concat $tpmSkills) | sortAlpha | uniq | join ", " -}} */}}
 {{ end -}}
 {{- end -}}
 {{ end -}}

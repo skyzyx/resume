@@ -1,5 +1,18 @@
 {{ define "role-wepay-api" -}}
+{{ if not .IsWorkday -}}
 #### Senior API Engineer (April 2014—April 2015)
+{{ else }}
+### Senior API Engineer
+
+{{ workdayJobDescription
+    "Senior API Engineer"
+    "WePay"
+    "Palo Alto, CA"
+    "04/2014"
+    "04/2015"
+}}
+
+{{ end }}
 
 * Led the company’s [HackerOne](https://www.hackerone.com) security program, coordinating across teams to address security issues.
 
@@ -11,5 +24,4 @@
 * Expanded WePay’s payment security offerings by designing MFA-as-a-Service (U.S. patent filing [US15042104]).
 
 {{ end -}}
-
 {{- end }}

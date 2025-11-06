@@ -37,15 +37,14 @@ The text content of the résumé is written using Go template files.
 These live in `cmd/templates/`. There are a few boolean variables that can be used in these templates:
 
 * `.IsAll` — This is for the general-purpose (not targeted) roles.
-* `.IsCloud` — This is for the Cloud Engineering, DevOps, and Site Reliability Engineering roles.
-* `.IsSDE` — This is for the Software Engineering and DevTools roles.
-* `.IsTPM` — This is for the PM/TPM roles.
+* `.IsCloud` — This is for the Cloud Engineering, DevOps, Site Reliability Engineering, Infrastructure Engineering, or Platform Engineering roles.
+* `.IsSDE` — This is for the Software Engineering, DevTools, Developer Productivity, Developer Experience, and DevEx roles.
 
 ### Steps
 
 1. Looping over each role, the appropriate templates are executed to produce the Markdown-formatted résumé for that role.
 
-1. Once we have the Markdown, we pass it to Pandoc to generate versions in Microsoft Word, OpenDocument, and HTML formats.
+1. Once we have the Markdown, we pass it to Pandoc to generate versions in Microsoft Word, and HTML formats.
 
 1. Once we have the HTML versions, we launch a local web server, load the local web URL in a headless Chrome process, generate a PDF, then terminate the local web server.
 

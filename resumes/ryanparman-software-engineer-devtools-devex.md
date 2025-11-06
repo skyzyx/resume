@@ -3,11 +3,11 @@
 **Cloud Engineering Leader • Innovator • Problem Solver; looking for roles in technical leadership.**
 
 **Links:** [GitHub (personal)] • [GitHub (side project)] • [LinkedIn] • [Stack Overflow] • [Role-targeted résumés](https://github.com/skyzyx/resume/blob/master/resumes/#readme) \
-**Format:** [Web](https://github.com/skyzyx/resume/blob/master/resumes/ryanparman-software-eng-devtools.md) • [PDF](https://github.com/skyzyx/resume/raw/master/resumes/ryanparman-software-eng-devtools.pdf) • [Word](https://github.com/skyzyx/resume/raw/master/resumes/ryanparman-software-eng-devtools.docx)
+**Format:** [Web](https://github.com/skyzyx/resume/blob/master/resumes/ryanparman-software-engineer-devtools-devex.md) • [PDF](https://github.com/skyzyx/resume/raw/master/resumes/ryanparman-software-engineer-devtools-devex.pdf) • [Word](https://github.com/skyzyx/resume/raw/master/resumes/ryanparman-software-engineer-devtools-devex.docx)
 
 ## Summary
 
-Cloud engineering leader with a diverse background spanning design, development, security, and innovation. Proven expertise in building scalable infrastructure, driving efficiency, and enhancing user experience. Adept at leading teams, streamlining complex processes, and fostering knowledge-sharing cultures. Passionate about solving real-world problems through technology, security, and strategic thinking.
+Cloud and Platform engineering leader with a diverse background spanning design, development, security, and innovation. Proven expertise in building scalable infrastructure, driving efficiency, and enhancing user experience. Adept at leading teams, streamlining complex processes, and fostering knowledge-sharing cultures. Passionate about solving real-world problems through technology, security, and strategic thinking.
 
 ### Key Skills
 
@@ -78,7 +78,7 @@ Cloud engineering leader with a diverse background spanning design, development,
 * Established a process for maintaining reusable Terraform modules (designed as _LEGO blocks_), enhancing infrastructure management and deployment efficiency significantly.
 * Reduced time to deploy a new service from several weeks of weeks to under 20m by implementing an observability-as-code methodology and defining broad-use [Service Level Objectives][SLO] (SLOs).
 * Customized the [Amazon Linux] AMIs to comply with Level-2 [CIS] Guidelines for both Amazon Linux and [Docker], increasing security and preventing breaches.
-* Invented operational tooling to understand the current posture of AWS accounts where off-the-shelf tools did not meet the needs of the organization.
+* Invented operational tooling to understand the current posture of AWS accounts where off-the-shelf tools did not meet our needs.
 * Skills: [AWS], [Bash], [CIS], [CloudFront], [Datadog], [Docker], [EC2], [ECS], [GitHub Actions], [GitOps], [Go], [IAM], [Lambda], [New Relic], [Packer], [PostgreSQL], [Python], [S3], [Secrets Manager], [Terraform], async/concurrency, cybersecurity, observability, platform engineering.
 
 #### Staff Software Engineer (October 2016—October 2018)

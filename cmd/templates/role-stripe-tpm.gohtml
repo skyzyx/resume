@@ -1,5 +1,18 @@
 {{ define "role-stripe-tpm" -}}
+{{ if not .IsWorkday -}}
 #### Senior Technical Program Manager, Databases (March 2025—Present)
+{{ else }}
+### Senior Technical Program Manager
+
+{{ workdayJobDescription
+    "Senior Technical Program Manager"
+    "Stripe"
+    "Remote"
+    "03/2025"
+    "Present"
+}}
+
+{{ end }}
 
 * Managed budgets for the Databases organization, ensuring millions of dollars per month were kept "in the green" by diving deeply into erroneous spending (budgeting, business accounting).
 

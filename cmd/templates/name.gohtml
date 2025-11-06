@@ -1,4 +1,9 @@
 {{ define "name" -}}
+{{ if not .IsWorkday -}}
 # Ryan Parman • [jobs@ryanparman.com](mailto:jobs@ryanparman.com)
+{{ else -}}
+# Ryan Parman
 
+Email: jobs@ryanparman.com
+{{- end }}
 {{- end }}
