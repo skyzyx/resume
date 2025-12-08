@@ -9,13 +9,23 @@ https://stackoverflow.com/users/228514/ryan-parman
 
 ## Work Experience
 
+### Cloud Architect
+
+Job Title: Cloud Architect \
+Company: Rackspace \
+Location: Remote \
+From: 12/2025 \
+To: Present
+
+* TBD
+
 ### Senior Technical Program Manager
 
 Job Title: Senior Technical Program Manager \
 Company: Stripe \
 Location: Remote \
 From: 03/2025 \
-To: Present
+To: 10/2025
 
 * Managed budgets for the Databases organization, ensuring millions of dollars per month were kept in the green by diving deeply into erroneous spending (budgeting, business accounting).
 * Led internal migration projects, tracking progress and metrics, reducing infrastructure team workload by focusing on automation solutions (project management).

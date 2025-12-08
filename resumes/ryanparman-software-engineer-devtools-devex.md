@@ -39,11 +39,19 @@ Cloud and Platform engineering leader with a diverse background spanning design,
 
 ## Work Experience
 
+### [Rackspace] — Remote
+
+> Trusted partner in cloud solutions, offering management and support services across private, hybrid, and public cloud.
+
+#### Cloud Architect (December 2025—Present)
+
+* TBD
+
 ### [Stripe] — Remote
 
 > Stripe provides a fully integrated suite of financial and payments products.
 
-#### Senior Technical Program Manager, Databases (March 2025—Present)
+#### Senior Technical Program Manager, Databases (March 2025—October 2025)
 
 * Managed budgets for the Databases organization, ensuring millions of dollars per month were kept "in the green" by diving deeply into erroneous spending (budgeting, business accounting).
 * Led internal migration projects, tracking progress and metrics, reducing infrastructure team workload by focusing on automation solutions (project management).
@@ -107,8 +115,6 @@ Cloud and Platform engineering leader with a diverse background spanning design,
 * Built a local development environment for engineering teams using [Vagrant] and [VMWare Fusion]. Eliminated "works on my machine", and reduced new engineer onboarding time from 2 weeks to 1 day (measured by when a new employee could make their first commit).
 * Expanded WePay’s payment security offerings by designing MFA-as-a-Service (U.S. patent filing [US15042104]).
 
-<div class="page-break"></div>
-
 ### Older roles, side projects
 
 See “[Previous experience, side projects](https://github.com/skyzyx/resume/blob/master/ryanparman-previously.md)” for additional details.
@@ -127,10 +133,7 @@ See “[Previous experience, side projects](https://github.com/skyzyx/resume/blo
 
 Proof that I can code, call APIs, interact with SDKs, and build user-facing software.
 
-* **DevSec Tools:** Building a [website](https://github.com/northwood-labs/devsec-ui), [CLI tool, and Go library](https://github.com/northwood-labs/devsec-tools) for identifying potential security configuration issues (in-progress).
-* **Custom Linux Packages:** Building a [repository of custom Linux packages](https://github.com/northwood-labs/package-building/wiki) (in-progress).
 * **Terraform Provider:** Built a [custom provider](https://github.com/northwood-labs/terraform-provider-corefunc) which provides a set of utility functions for use in Terraform/OpenTofu.
-* **Multi-Platform Docker:** Built a [downloader for GitHub release assets](https://github.com/northwood-labs/download-asset) which simplifies building multi-platform images.
 * **AWS Organization Security:** Built a [library + CLI tool](https://github.com/northwood-labs/assume-spoke-role) which simplifies the hub-and-spoke pattern for multi-account orgs.
 * **AWS Session Manager:** Built a [TUI](https://en.wikipedia.org/wiki/Text-based_user_interface) for [simplifying connections to SSM-enabled EC2 instances](https://github.com/northwood-labs/ssm-shell) using your Terminal.
 
@@ -138,12 +141,9 @@ Proof that I can code, call APIs, interact with SDKs, and build user-facing soft
 
 Here are examples of my public-facing documentation:
 
-* [Setting up macOS for development](https://github.com/northwood-labs/macos-for-development/wiki)
-* [Local AWS Lambda environments (with Go)](https://github.com/northwood-labs/local-lambda-environments-with-go)
 * [Local development environment (devsec-tools)](https://github.com/northwood-labs/devsec-tools/blob/main/docs/localdev.md)
 * [Configuring DataGrip for Valkey (devsec-tools)](https://github.com/northwood-labs/devsec-tools/blob/main/docs/configuring-datagrip-for-valkey.md)
 * Diagrams of Artifactory [infrastructure](https://whimsical.com/artifactory-infrastructure-diagram-5MbWJd8BJfMbRWhfZwtHhQ) and [software](https://whimsical.com/artifactory-software-configuration-and-data-flow-QWZnvbv4SXTX2qkmKGZAqp) configuration.
-* Diagram of a [secrets-rotation system](https://whimsical.com/tokengen-infrastructure-diagram-and-data-flow-5ZphqPDP826AaPZHKxCKSr).
 
 ## Recommendations
 
@@ -257,6 +257,7 @@ _Silicon Valley College_ (now [Carrington College]), San Jose, CA. Bachelor of A
 [PHP]: https://www.php.net
 [PostgreSQL]: https://www.postgresql.org
 [Python]: https://www.python.org
+[Rackspace]: https://rackspace.com
 [RDS Aurora]: https://aws.amazon.com/rds/aurora/
 [Redis]: https://redis.io
 [REST]: https://martinfowler.com/articles/richardsonMaturityModel.html

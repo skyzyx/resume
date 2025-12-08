@@ -1,0 +1,10 @@
+{{ define "exp-rackspace" -}}
+{{ if not .IsWorkday -}}
+### [Rackspace] — Remote
+
+> Trusted partner in cloud solutions, offering management and support services across private, hybrid, and public cloud.
+
+{{ end }}
+{{ template "role-rackspace-cloud-architect" . }}
+
+{{- end }}
