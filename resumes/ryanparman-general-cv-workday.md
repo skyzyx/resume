@@ -9,9 +9,9 @@ https://stackoverflow.com/users/228514/ryan-parman
 
 ## Work Experience
 
-### Cloud Architect
+### Cloud Solutions Architect
 
-Job Title: Cloud Architect \
+Job Title: Cloud Solutions Architect \
 Company: Rackspace \
 Location: Remote \
 From: 12/2025 \

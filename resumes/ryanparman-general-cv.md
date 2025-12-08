@@ -43,7 +43,7 @@ Cloud and Platform engineering leader with a diverse background spanning design,
 
 > Trusted partner in cloud solutions, offering management and support services across private, hybrid, and public cloud.
 
-#### Cloud Architect (December 2025—Present)
+#### Cloud Solutions Architect (December 2025—Present)
 
 * TBD
 
