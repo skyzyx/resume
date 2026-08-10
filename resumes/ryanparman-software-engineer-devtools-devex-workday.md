@@ -17,7 +17,9 @@ Location: Remote \
 From: 12/2025 \
 To: Present
 
-* TBD
+* Worked with a variety of clients in different industries.
+* Invested in approaches to get agentic development agents to provide high-quality results (e.g., spec-driven development, steering files, determinate validation of agentic results, custom MCP servers, token management).
+* Terraform, AWS, and Go development (odds and ends).
 
 ### Senior Technical Program Manager
 
@@ -90,32 +92,6 @@ To: 10/2018
 * Established the technical direction of these projects, promoted adoption across the organization, published comprehensive documentation, and offered ongoing integration guidance.
 * Accelerated the adoption of CI/CD, rapid deployment practices, and Docker containers, shortening the feedback loop for developers and increasing the reliability of deployments.
 * Skills: Amazon ECS, Docker, ePubs, ffmpeg, GraphQL, HLS, Packer, PHP, REST, Terraform, observability, technical leadership, technical writing.
-
-### Senior DevOps Engineer
-
-Job Title: Senior DevOps Engineer \
-Company: WePay \
-Location: Redwood City, CA \
-From: 04/2015 \
-To: 09/2016
-
-* Led a cross-company initiative to upgrade the monolithic application from PHP 5.4 to PHP 5.6 (the latest at the time). Facilitated cross-team collaboration among all major engineering teams and QA departments to achieve results (PHP, project management).
-* Initiated a program to automate the creation of base server images for cloud servers. This allowed new servers to boot and begin serving traffic ~75% faster (GCP, Python, Ansible).
-* Invested in observability systems to prevent customer-facing issues (New Relic, Grafana).
-* Explored configuration-as-code for cloud infrastructure in Google Cloud to improve reliability and efficiency (Python, Terraform).
-
-### Senior API Engineer
-
-Job Title: Senior API Engineer \
-Company: WePay \
-Location: Palo Alto, CA \
-From: 04/2014 \
-To: 04/2015
-
-* Led the company's HackerOne security program, coordinating across teams to address security issues.
-* Brought performance improvements, new features, improved testing processes, and new QA tooling to WePay (PHP, BDD, TDD).
-* Built a local development environment for engineering teams using Vagrant and VMWare Fusion. Eliminated works on my machine, and reduced new engineer onboarding time from 2 weeks to 1 day (measured by when a new employee could make their first commit).
-* Expanded WePay's payment security offerings by designing MFA-as-a-Service (U.S. patent filing US15042104).
 
 ## Skills
 

@@ -45,7 +45,9 @@ Cloud and Platform engineering leader with a diverse background spanning design,
 
 #### Cloud Solutions Architect (December 2025—Present)
 
-* TBD
+* Worked with a variety of clients in different industries.
+* Invested in approaches to get agentic development agents to provide high-quality results (e.g., spec-driven development, steering files, determinate validation of agentic results, custom MCP servers, token management).
+* Terraform, AWS, and Go development (odds and ends).
 
 ### [Stripe] — Remote
 
@@ -102,36 +104,22 @@ Cloud and Platform engineering leader with a diverse background spanning design,
 * Served as a core resource in adopting _Infrastructure-as-Code_ (IaC) tools such as [Terraform] and [Packer].
 * Skills: [Amazon ECS], [Docker], [ePubs][EPUB], [ffmpeg], [GraphQL], [HLS], [Packer], [PHP], [REST], [Terraform], observability, technical leadership, technical writing.
 
-### [WePay] — Redwood City, CA
-
-> WePay is an online payment service provider which provides “payments for platforms”, where examples of platforms were GoFundMe, Care.com, and Xbox. JPMorgan Chase acquired WePay in October 2017.
-
-#### Senior DevOps Engineer (April 2015—September 2016)
-
-* Led a cross-company initiative to upgrade the monolithic application from [PHP] 5.4 to PHP 5.6 (the latest at the time). Facilitated cross-team collaboration among all major engineering teams and QA departments to achieve results ([PHP], project management).
-* Initiated a program to automate the creation of base server images for cloud servers. This allowed new servers to boot and begin serving traffic ~75% faster ([GCP], [Python], [Ansible]).
-* Invested in observability systems to prevent customer-facing issues ([New Relic], [Grafana]).
-* Explored _configuration-as-code_ for cloud infrastructure in [Google Cloud][GCP] to improve reliability and efficiency ([Python], [Terraform]).
-
-#### Senior API Engineer (April 2014—April 2015)
-
-* Led the company’s [HackerOne](https://www.hackerone.com) security program, coordinating across teams to address security issues.
-* Brought performance improvements, new features, improved testing processes, and new QA tooling to WePay ([PHP], [BDD], [TDD]).
-* Built a local development environment for engineering teams using [Vagrant] and [VMWare Fusion]. Eliminated "works on my machine", and reduced new engineer onboarding time from 2 weeks to 1 day (measured by when a new employee could make their first commit).
+<div class="page-break"></div>
 
 ### Older roles, side projects
 
 See “[Previous experience, side projects](https://github.com/skyzyx/resume/blob/master/ryanparman-previously.md)” for additional details.
 
-* [Northwood Labs](https://github.com/northwood-labs) — Owner (January 2024—Present)
-* PCR Publishing (Side-Project) — Editor, Typesetter, Publisher, Book Producer (April 2021–April 2022)
-* Perimeter of Wisdom, LLC (defunct) — Co-Owner, CTO, Producer (February 2015—2018)
-* [Amazon Web Services] — AWS SDK Developer (March 2010—April 2014)
-* Rearden Commerce (now [Deem](https://www.crunchbase.com/organization/deem)) — Senior User Experience Developer (July 2008—March 2010)
-* [WarpShare](https://www.crunchbase.com/organization/warpshare) (defunct) — Co-Founder and Chief Information Officer (September 2006—March 2010)
-* [Yahoo!](https://www.crunchbase.com/organization/yahoo) — Front-end Developer (Contract), Yahoo! Messenger (November 2007—January 2008)
-* [Stryker](https://www.crunchbase.com/organization/stryker) — User Interface Developer (Contract) (May 2005—September 2006)
-* [Digital Impact](https://www.crunchbase.com/organization/digital-impact-2) (now part of [Axciom](https://www.crunchbase.com/organization/acxiom-digital-inc)) — Production Specialist (March 2004—April 2005)
+* [Northwood Labs](https://github.com/northwood-labs) — Owner
+* PCR Publishing (Side-Project) — Editor, Typesetter, Publisher, Book Producer
+* Perimeter of Wisdom, LLC (defunct) — Co-Owner, CTO, Producer
+* [WePay] — Senior API/DevOps Engineer
+* [Amazon Web Services] — AWS SDK Developer
+* Rearden Commerce (now [Deem](https://www.crunchbase.com/organization/deem)) — Senior User Experience Developer
+* [WarpShare](https://www.crunchbase.com/organization/warpshare) (defunct) — Co-Founder and Chief Information Officer
+* [Yahoo!](https://www.crunchbase.com/organization/yahoo) — Front-end Developer (Contract), Yahoo! Messenger
+* [Stryker](https://www.crunchbase.com/organization/stryker) — User Interface Developer (Contract)
+* [Digital Impact](https://www.crunchbase.com/organization/digital-impact-2) (now part of [Axciom](https://www.crunchbase.com/organization/acxiom-digital-inc)) — Production Specialist
 
 ## Projects
 

@@ -41,6 +41,22 @@ Developed the entire website for “The First-Time Offender’s Guide to Freedom
 
 **Skills:** Custom Software, Software Projects, Functionality, Communication, Desktop Publishing, ePub, Kindle format.
 
+### [WePay](https://www.crunchbase.com/organization/wepay) — Palo Alto, CA
+
+#### Senior DevOps Engineer (April 2015—September 2016)
+
+* Led a cross-company initiative to upgrade the monolithic application from [PHP](https://www.php.net) 5.4 to PHP 5.6 (the latest at the time). Facilitated cross-team collaboration among all major engineering teams and QA departments to achieve results ([PHP](https://www.php.net), project management).
+* Initiated a program to automate the creation of base server images for cloud servers. This allowed new servers to boot and begin serving traffic ~75% faster ([GCP](https://cloud.google.com), [Python](https://www.python.org), [Ansible](https://www.redhat.com/en/technologies/management/ansible)).
+* Invested in observability systems to prevent customer-facing issues ([New Relic](https://newrelic.com), [Grafana](https://grafana.com)).
+* Explored _configuration-as-code_ for cloud infrastructure in [Google Cloud](https://cloud.google.com) to improve reliability and efficiency ([Python](https://www.python.org), [Terraform](https://www.terraform.io)).
+
+#### Senior API Engineer (April 2014—April 2015)
+
+* Led the company’s [HackerOne](https://www.hackerone.com) security program, coordinating across teams to address security issues.
+* Brought performance improvements, new features, improved testing processes, and new QA tooling to WePay ([PHP](https://www.php.net), [BDD](https://en.wikipedia.org/wiki/Behavior-driven_development), [TDD](https://en.wikipedia.org/wiki/Test-driven_development)).
+* Built a local development environment for engineering teams using [Vagrant](https://www.vagrantup.com) and [VMWare Fusion](https://www.vmware.com/products/desktop-hypervisor/workstation-and-fusion). Eliminated "works on my machine", and reduced new engineer onboarding time from 2 weeks to 1 day (measured by when a new employee could make their first commit).
+* Expanded WePay’s payment security offerings by designing MFA-as-a-Service (U.S. patent filing [US15042104](https://patents.google.com/patent/US20160241536A1/en?inventor=Ryan+Parman)).
+
 ### [Amazon Web Services](https://www.crunchbase.com/organization/amazon-web-services) — Seattle, WA
 
 #### AWS SDK Developer (March 2010—April 2014)
